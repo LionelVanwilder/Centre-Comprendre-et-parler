@@ -34,6 +34,7 @@
                 <li><a href="#" class="activelangburger">FR</a></li>
                 <li><a href="#">NL</a></li>
                 <li><a href="#">EN</a></li>
+                <li><a href="#">LDS</a></li>
             </ul>
 
             </ul>
