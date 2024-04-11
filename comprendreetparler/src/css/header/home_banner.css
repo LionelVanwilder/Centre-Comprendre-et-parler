@@ -1,0 +1,77 @@
+.home-banner{
+    background-image: url('../../../images/banner2.png');
+    min-height: 75vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.home-banner h1{
+    font-size: 3rem;
+    text-align: left;
+    color: #ffffff;
+    animation-duration: 1s;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.button-banner-container{
+    display: flex;
+    padding: 2rem 0;
+    min-width: 380px;
+    justify-content: space-between;
+}
+
+.fade-appear{
+    animation-name: fade-appear;
+}
+
+.home-banner button{
+    animation-duration: 1s;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transition: transform .3s ease-in-out;
+}
+
+.home-banner button:hover{
+    transform: translateY(-8px);
+    transition: .3s ease-in-out;
+}
+
+.special-font{
+    font-weight: 400;
+}
+
+@keyframes fade-appear{
+    0%{
+            opacity: 0;
+            transform: translateY(50px);
+         }
+         100% {
+            opacity: 1;
+            transform: translateY(0);
+         }
+}
+
+@media all and (max-width: 769px){
+    .home-banner h1{
+        font-size: 2.5rem;
+    }
+    .home-banner{
+        min-height: 40vh;
+    }
+}
+
+@media all and (max-width: 600px){
+    .home-banner h1{
+        font-size: 2rem;
+    }
+
+    
+}
+

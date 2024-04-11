@@ -1,0 +1,55 @@
+.navinfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 4rem !important;
+    background-color: #FF4D00;
+}
+
+.navinfo a{
+    font-size: 0.85rem;
+    color: #ffffff;
+}
+
+.navinfo a:hover{
+    text-decoration: underline;
+    
+}
+
+.langnavinfo li{
+    margin: 0 0.5rem !important;
+}
+
+.activelang{
+    color: #ffffff !important;
+   background-color: #FF4D00;
+   padding: .3rem;
+   border-radius: 2px;
+}
+
+.icon-navinfo{
+    height: 0.8rem;
+    
+}
+
+.navinfo-media img{
+    height: 0.9rem !important;
+    transition: transform .2s ease-in-out;
+}
+
+.navinfo-media img:hover{
+    transform: translateY(2px);
+}
+
+.navinfo-media li{
+    margin: 0 0.6rem !important;
+}
+
+@media all and (max-width: 1366px){
+   .navinfo{
+    display: none;
+   }
+}
+
+@media all and (max-width: 769px){
+   
+}

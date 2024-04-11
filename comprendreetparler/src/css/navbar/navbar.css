@@ -1,0 +1,109 @@
+nav{
+    display: flex;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav > ul{
+    display: flex;
+}
+
+nav ul > li{
+    margin: 0 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 1rem;
+    color: #222222;
+    font-family: "komet", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-links-ul-li > a:after{
+    content: url('../../../icons/chevron-down-solid-black.svg');
+    height: .8rem;
+    width: .8rem;
+    display: inline-block;
+    margin-left: .6rem;
+}
+
+.nav-links-ul-li > a:hover:after{
+    content: url('../../../icons/chevron-down-solid-black-180.svg');
+    height: .8rem;
+    width: .8rem;
+    display: inline-block;
+    margin-left: .6rem;
+}
+
+
+.nav-hover:hover{
+    color: #FF4D00;
+}
+
+nav img{
+    height: 4.5rem;
+}
+
+
+.nav-links-ul-li:hover > a{
+    color: #FF4D00;
+}
+
+
+
+.dropdown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    top: 30px;
+    background-color: #FF4D00;
+    border-radius: 6px;
+    z-index: 999;
+    animation-duration: .6s;
+    padding-right: 20px;
+}
+
+.dropdown li{
+    margin: 0.5rem 0.5rem;
+}
+
+.dropdown a{
+   white-space: nowrap;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #ffffff;
+   font-size: 0.8rem;
+    cursor: pointer;
+   
+}
+
+.dropdown a:hover{
+    /*margin-left: 0.5rem;*/
+    transition: all .2s ease-out;
+    text-decoration: underline;
+}
+
+.fadein{
+    animation-name: fadein;
+}
+
+
+
+
+@keyframes fadein{
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+

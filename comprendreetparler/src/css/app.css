@@ -1,0 +1,13 @@
+@import "./settings.css";
+@import "./navbar/navbar.css";
+@import "./navbar/navbutton.css";
+@import "./header/buttonorange.css";
+@import "./languages.css";
+@import "./footer/footer.css";
+@import "./header/home_banner.css";
+@import "./pages/Home/News.css";
+@import "./pages/Home/aboutus.css";
+@import "./pages/Home/bloc_flex.css";
+@import "./pages/Home/flex-row.css";
+@import "./header/navinfo.css";
+@import "./pages/Home/patients.css"

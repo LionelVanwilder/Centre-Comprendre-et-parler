@@ -1,0 +1,49 @@
+.breadcrumb-nav li:not(:last-child):after{
+    content: url('../../../../../icons/breadcrumb_right.svg');
+    height: 0.4rem;
+    width: 0.4rem;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.breadcrumb-nav li:not(:last-child):before{
+    content: url('../../../../../icons/house-solid.svg');
+    height: 1.1rem;
+    width: 1.1rem;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.breadcrumb-nav a{
+    cursor: pointer;
+}
+
+.breadcrumb-nav a:hover{
+    text-decoration: underline;
+}
+
+.breadcrumb-routerlink{
+    color: #222222;
+}
+
+@media all and (max-width: 600px){
+    .breadcrumb-container{
+        padding: 4rem 4rem;
+    }
+}
+
+@media all and (max-width: 426px){
+    .breadcrumb-container{
+        padding: 4rem 2rem;
+    }
+
+    .breadcrumb-nav li:not(:last-child):before{
+        display: none;
+    }
+}
+
+@media all and (max-width: 376px){
+    .breadcrumb-container{
+        padding: 4rem 1rem;
+    }
+}

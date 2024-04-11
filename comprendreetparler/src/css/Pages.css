@@ -1,0 +1,50 @@
+.Pages-container-content{
+    padding: 1rem 6rem;
+}
+
+.Pages-container-content h2{
+    font-size: 1.8rem;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    color: #005387;
+}
+
+.Pages-container-content h3{
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    font-weight: 600;
+    color: #222222;
+}
+
+.Pages-container-content p{
+    margin: 2rem 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.Pages-container-content span{
+    color: #005387;
+    font-weight: 600;
+}
+
+@media all and (max-width: 600px){
+    .Pages-container-content{
+        padding: 1rem 4rem;
+    }
+
+    .Pages-container-content h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 500px){
+    .Pages-container-content{
+        padding: 1rem 2rem;
+    }
+}
+
+@media all and (max-width: 376px){
+    .Pages-container-content{
+        padding: 1rem 2rem;
+    }
+}

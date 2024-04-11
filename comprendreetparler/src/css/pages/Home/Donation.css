@@ -1,0 +1,121 @@
+.donation-container{
+    background-color: #005387;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    position: relative;
+}
+
+.donation-container .icon-bloc-flex{
+    right: 78px !important;
+    transform: scale(1.2) !important;
+}
+
+.donation-container .donation-row{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+
+.donation-container .donation-image-wrapper{
+    overflow: hidden;
+}
+
+.donation-container .donation-image-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.donation-container .donation-image-wrapper:hover img{
+    transform: scale(1.2);
+}
+
+.donation-row .donation-content-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+.donation-row .donation-content-wrapper span{
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.donation-row .donation-content-wrapper p{
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    width: 80%;
+}
+
+.donation-row .donation-content-wrapper a{
+    padding: 1rem;
+    background-color: #FF4D00;
+    color: #ffffff;
+    margin-top: 2rem;
+    border-radius: 8px;
+    transition: .3s ease-in-out;
+    border:  2px solid #FF4D00;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+.donation-row .donation-content-wrapper a:hover{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transition: .2s ease-in-out;
+}
+
+@media screen and (max-width: 768px){
+    .donation-container .donation-row{
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    .donation-row .donation-content-wrapper p{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .donation-row .donation-content-wrapper span {
+        font-size: 1.7rem;
+        
+    }
+}
+
+@media all and (max-width: 475px){
+    .donation-container .icon-bloc-flex{
+        height: 3.2rem;
+        right: 30px !important;
+    }
+}
+
+@media all and (max-width: 376px){
+    .donation-container .icon-bloc-flex{
+        height: 3.2rem;
+        right: 30px !important;
+    }
+
+    .donation-row .donation-content-wrapper span{
+        font-size: 1.5rem;
+    }
+
+    .donation-row .donation-content-wrapper{
+        padding:  3rem 2rem;
+    }
+}

@@ -1,0 +1,151 @@
+#news{
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBEBEB;
+    margin: 6rem 3rem;
+}
+
+#news h2{
+    font-size: 2.5rem;
+    color: #444444;
+    margin-bottom: 4rem;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.container-news{
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    place-items: center;
+}
+
+.news-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 6px #E4E4E4;
+    
+}
+
+.news-card img{
+    width: 100%;
+}
+
+.news-card h3{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #222222;
+    padding: 0 2rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.news-content{
+    color: #444444;
+    margin: 2rem 0;
+    line-height: 1.2;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.news-date{
+    
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: .3rem .6rem;
+    background-color: #FF4D00;
+    font-size: 0.86rem;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+}
+
+.news-card a{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: auto;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    color: #222222;
+    transition: transform .3s ease-in-out;
+}
+
+.news-card a:hover{
+    text-decoration: underline;
+    transform: translateX(10px);
+
+}
+
+.news-span{
+    font-size: 1rem;
+}
+
+#news .icon-bloc-flex{
+    transform: scale(1.2) !important;
+    right: 30px !important;
+}
+
+@media all and (max-width: 1366px){
+    .container-news{
+        overflow: scroll;
+    }
+}
+
+@media all and (max-width: 769px){
+    #news h2{
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 769px){
+    
+    #news h2{
+        font-size: 1.7rem;
+    }
+}
+@media all and (max-width: 475px){
+    #news{
+        margin: 4rem 0;
+    }
+
+    #news .icon-bloc-flex{
+        height: 3.2rem;
+    }
+}
+
+@media all and (max-width: 600px){
+    #news{
+        padding: 2rem;
+    }
+
+    .container-news{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .news-card{
+        width: inherit;
+    }
+}
+
+@media all and (max-width: 376px){
+    #news{
+        margin: 4rem 0;
+    }
+
+    #news h2{
+        font-size: 1.5rem;
+    }
+
+    #news .icon-bloc-flex{
+        height: 3.2rem;
+    }
+}

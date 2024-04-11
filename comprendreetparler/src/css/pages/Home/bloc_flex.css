@@ -1,0 +1,133 @@
+.bloc-flex-container{
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem;
+}
+
+.bloc-flex-container h2{
+    font-size: 2.5rem;
+    color: #444444;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.grid-bloc-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.bloc-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    border: 2px solid #E4E4E4;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #E4E4E4;
+    margin: 2rem 0;
+    
+}
+
+.bloc-flex p{
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: #444444;
+}
+
+.bloc-flex a{
+    margin-top: auto;
+    text-align: left;
+    width: auto;
+    padding: 0.7rem 0;
+    cursor: pointer;
+    color: #222222;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: transform .3s ease-in-out;
+    display: inline-block;
+}
+
+.bloc-flex a:hover{
+    transform: translateX(10px);
+    text-decoration: underline;
+}
+
+.bloc-flex h3{
+    font-weight: 500;
+    color: #222222;
+    letter-spacing: 1.1px;
+}
+
+.icon-bloc-flex{
+    height: 4rem;
+    position: absolute;
+    top: -30px;
+    right: 10px;
+    transform: scale(1.05);
+}
+
+@media all and (max-width: 1366px){
+    .bloc-flex .icon-bloc-flex{
+        height: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+
+    .bloc-flex-container{
+        padding: 2rem 3rem;
+    }
+
+    .bloc-flex{
+        max-width: 100%;
+    }
+    .grid-bloc-flex{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .grid-bloc-flex{
+        grid-template-columns: 1fr;
+    }
+
+    .bloc-flex-container h2{
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 600px){
+    .bloc-flex-container{
+        margin: 4rem 3rem;
+    }
+
+    .bloc-flex-container h2{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 475px){
+    .bloc-flex-container{
+        margin: 4rem 1rem;
+    }
+}
+
+@media all and (max-width: 376px){
+    .bloc-flex-container{
+        margin: 4rem 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .bloc-flex-container h2{
+        font-size: 1.5rem;
+    }
+
+    
+}

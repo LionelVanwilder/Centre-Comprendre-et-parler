@@ -1,0 +1,16 @@
+.buttonorange{
+    padding: 0.7rem;
+    cursor: pointer;
+    background-color: #FF4D00 !important;
+    border-radius: 8px;
+    border: 2px solid #FF4D00 !important;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.buttonorange:hover{
+    background-color: #FF4D00 !important;
+    border: 2px solid #FF4D00 !important;
+    color: #ffffff !important;
+    transition: all .2s ease-out;
+}
