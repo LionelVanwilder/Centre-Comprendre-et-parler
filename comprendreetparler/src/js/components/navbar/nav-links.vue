@@ -41,7 +41,7 @@
                         {label: 'Accompagnements', url: '/Competences/Accompagnements'},
                         {label: 'Assistance sociale', url: '/Competences/AssistancesSociales'},
                         {label: 'Audiologie', url: '/Competences/Audiologie'},
-                        {label: 'Dépistage', url: '/Competences/Depistage'},
+                        /*{label: 'Dépistage', url: '/Competences/Depistage'},*/
                         {label: 'Formations, évaluation et recherche', url: 'Instagram.com'},
                         {label: 'Aides visuelles à la communication', url: 'Instagram.com'},
                         {label: 'Logopédie', url: '/Competences/Logopedie'},

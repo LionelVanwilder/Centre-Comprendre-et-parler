@@ -4,7 +4,7 @@
         <li><router-link to="/Competences/Accompagnements" @click="selectItemAndCloseBurger('Accompagnements')">Accompagnements</router-link></li>
         <li><router-link to="/Competences/AssistancesSociales" @click="selectItemAndCloseBurger('Assistancesociale')">Assistance sociale</router-link></li>
         <li><router-link to="/Competences/Audiologie" @click="selectItemAndCloseBurger('Audiologie')">Audiologie</router-link></li>
-        <li><router-link to="/Competences/Depistage" @click="selectItemAndCloseBurger('Dépistage')">Dépistage</router-link></li>
+        <!--<li><router-link to="/Competences/Depistage" @click="selectItemAndCloseBurger('Dépistage')">Dépistage</router-link></li>-->
         <li><router-link to="/">Formations, évaluation et recherche</router-link></li>
         <li><router-link to="/">Aides visuelles à la communication</router-link></li>
         <li><router-link to="/Competences/Logopedie" @click="selectItemAndCloseBurger('Logopédie')">Logopédie</router-link></li>

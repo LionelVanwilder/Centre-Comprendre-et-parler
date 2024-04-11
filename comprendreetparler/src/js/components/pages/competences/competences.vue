@@ -5,7 +5,7 @@
                 <li><router-link to="/Competences/Accompagnements">Accompagnements</router-link></li>
                 <li><router-link to="/Competences/AssistancesSociales">Assistance sociale</router-link></li>
                 <li><router-link to="/Competences/Audiologie">Audiologie</router-link></li>
-                <li><router-link to="/Competences/Depistage">Dépistage</router-link></li>
+                <!--<li><router-link to="/Competences/Depistage">Dépistage</router-link></li>-->
                 <li><router-link to="/Programmes/Services">Formations, évaluations <br>et recherche scientifique</router-link></li>
                 <li><router-link to="/Programmes/FormationsExterieures">Aides visuelles à la communication :<br> Interprétation, translittération et transcription</router-link></li>
                 <li><router-link to="/Competences/Logopedie">Logopédie</router-link></li>
