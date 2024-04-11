@@ -24,7 +24,7 @@
 
         data () {
         return {
-            imagepath: require('../../../../images/logoccpl.svg')
+            imagepath: require('../../../../images/logonew.svg')
         }
 }
     }
