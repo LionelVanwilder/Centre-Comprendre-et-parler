@@ -68,7 +68,7 @@
   text-decoration: underline;
 }
 
-@media all and (max-width: 476px){
+@media all and (max-width: 500px){
         
 
         .breadcrumb-first li:first-child:before{
@@ -76,15 +76,24 @@
         }
 
         .breadcrumb-container{
-          margin: 4rem 2rem;
+          margin: 4rem 1.5rem;
+          padding: 1rem;
         }
 
         
     }
 
-@media all and (max-width: 426px){
-      
+@media all and (max-width: 400px){
+      .breadcrumb-container{
+        margin: 4rem 1rem;
+      }
+
+      .breadcrumb-first a{
+        font-size: 0.9rem;
+      }
     }
+
+
 
   </style>
   
