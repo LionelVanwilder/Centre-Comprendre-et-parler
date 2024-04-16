@@ -1,29 +1,11 @@
 import { createI18n } from 'vue-i18n';
+import fr from "./fr.js"
+import nl from "./nl.js"
+import en from "./en.js"
 
-const messages = {
-    fr: {
-      message: {
-          centre: 'Centre',
-          asbl: 'ASBL'
-      }
-    },
+const messages = {fr,nl,en}
 
-    nl: {
-      message: {
-          centre: 'Centrum',
-          asbl: 'VZW'
-      }
-    },
-
-    en: {
-      message: {
-          centre: 'Center',
-          asbl: 'NPO'
-      }
-    },
-  }
-
-  const i18n = createI18n({
+const i18n = createI18n({
     locale: 'fr',
     messages
   })
