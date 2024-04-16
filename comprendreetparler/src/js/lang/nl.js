@@ -23,6 +23,19 @@ export default{
         title: 'Wie zijn <br> onze patiënten?',
     },
 
+    blocflex: {
+        title: 'over het centrum',
+    },
+
+    news: {
+        title: 'Nieuws',
+    },
+
+    homedonation: {
+        title: 'Hoe kunt <br> u ons steunen?',
+        button: 'Doe een donatie'
+    },
+
     navbar: {
         navbutton: 'Steun ons',
         links:{

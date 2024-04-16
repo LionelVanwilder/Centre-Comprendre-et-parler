@@ -31,8 +31,25 @@ export default{
             second: 'personnes aux compétences multidisciplinaires assure l\'accompagnement des enfants et de leurs familles'
         },
 
+        blocflex: {
+            title: 'à propos du centre',
+
+            cards: {
+                vision: 'Statut et vision'
+            }
+        },
+
         patient: {
             title: 'Who Are <br> Our Patients?',
+        },
+
+        news: {
+            title: 'Actualités'
+        },
+
+        homedonation: {
+            title: 'Comment nous<br>soutenir?',
+            button: 'Faire un don',
         }
 
         

@@ -7,7 +7,7 @@
             </div>
             <div class="donation-content-wrapper">
                 
-                <span>Comment nous<br>soutenir?</span>
+                <span v-html="$t('homedonation.title')"></span>
                 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -18,7 +18,7 @@
                     sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
                     mollit anim id est laborum.
                 </p>
-                <router-link to="/Don">Faire un don</router-link>
+                <router-link to="/Don">{{ $t("homedonation.button") }}</router-link>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
     <div class="bloc-flex-container">
         
-        <h2>à propos du centre</h2>
+        <h2>{{ $t("blocflex.title") }}</h2>
         <div class="grid-bloc-flex">
             <div class="bloc-flex" v-for="(item, index) in bloc" :key="index" data-aos="fade-up" data-aos-duration="1000">
                 <img :src="item.source" class="icon-bloc-flex">

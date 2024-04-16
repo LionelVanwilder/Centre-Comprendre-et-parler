@@ -1,6 +1,6 @@
 <template>
     <div id="news" data-aos="fade-up" data-aos-duration="1000">
-        <h2 data-aos="fade-up" data-aos-duration="1000">Actualités</h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000">{{ $t("news.title") }}</h2>
         <div class="container-news">
             <img src="../../../../../../icons/news.svg" class="icon-bloc-flex">
             <article class="news-card" v-for="(item, index) in news" :key="index" 

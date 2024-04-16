@@ -23,6 +23,19 @@ export default{
         title: 'Who Are <br> Our Patients?',
     },
 
+    blocflex: {
+        title: 'about the center',
+    },
+
+    news: {
+        title: 'News'
+    },
+
+    homedonation: {
+        title: 'How can <br>  u support us?',
+        button: 'Make a donation'
+    },
+
     navbar: {
         navbutton: 'Support us',
         links:{
