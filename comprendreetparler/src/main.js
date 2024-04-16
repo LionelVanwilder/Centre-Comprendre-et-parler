@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
-import { createI18n } from 'vue-i18n';
 import axios from 'axios';
+import i18n from './js/lang/lang.js';
 
 import VisionPage from './js/components/pages/Home/vision/visionpage.vue'
 import HomePage from './js/components/pages/Home/Page_home.vue'
@@ -318,33 +318,7 @@ const router = createRouter({
   });
 
   
-  const messages = {
-    fr: {
-      message: {
-          centre: 'Centre',
-          asbl: 'ASBL'
-      }
-    },
-
-    nl: {
-      message: {
-          centre: 'Centrum',
-          asbl: 'VZW'
-      }
-    },
-
-    en: {
-      message: {
-          centre: 'Center',
-          asbl: 'NPO'
-      }
-    },
-  }
-
-  const i18n = createI18n({
-    locale: 'fr',
-    messages
-  })
+  
 
   
 
