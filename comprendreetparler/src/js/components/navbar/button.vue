@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/Don" class="navbuttoncomp">{{ $t("message.navbutton") }}</router-link>
+    <router-link to="/Don" class="navbuttoncomp">{{ $t("navbar.navbutton") }}</router-link>
 </template>
 
 <script>

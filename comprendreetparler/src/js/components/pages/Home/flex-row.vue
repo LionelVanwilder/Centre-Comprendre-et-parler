@@ -3,11 +3,11 @@
         <div class="flex-row">
                 <div class="flex-row-div" data-aos="fade-right" data-aos-duration="1000">
                     <h4>600</h4>
-                    <p>enfants de tous âges et de tous milieux socio-économiques ou culturels</p>
+                    <p>{{ $t("flexrow.first") }}</p>
                 </div>
                 <div class="flex-row-div" data-aos="fade-left" data-aos-duration="1000">
                     <h4>110</h4>
-                    <p>personnes aux compétences multidisciplinaires assure l'accompagnement des enfants et de leurs familles</p>
+                    <p>{{ $t("flexrow.second") }}</p>
                 </div>
             </div>
     </div>

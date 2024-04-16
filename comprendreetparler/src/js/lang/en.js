@@ -1,13 +1,26 @@
 export default{
-    message: {
+    banner: {
         centre: 'Center',
         asbl: 'NPO',
         adress: 'Rue de la Rive 101, 1200 Sint-Lambrechts-Woluwe',
-        navbutton: 'Support us'
+
+    },
+
+    Aboutus: {
+
+        title: 'Who are we?',
+        intro: 'The Center Comprendre et Parler is a non-profit organization founded in 1965 by Doctor Olivier Périer and parents of deaf or hard of hearing children concerned with offering their children a high-level education. Its status is that of “Functional Rehabilitation Center”, “Educational Support Service”, “Specialized Orientation Center”.',
+        button: 'Learn more →'
+
+    },
+
+    flexrow: {
+        first: 'patient in the social and economic environment in cultural environments',
+        second: 'people with multidisciplinary skills provide support to children and their families'
     },
 
     navbar: {
-
+        navbutton: 'Support us',
         links:{
             program: 'Programmes',
         }
