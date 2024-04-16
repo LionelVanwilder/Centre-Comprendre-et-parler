@@ -19,6 +19,10 @@ export default{
         second: 'mensen met multidisciplinaire vaardigheden bieden ondersteuning aan kinderen en hun families'
     },
 
+    patient: {
+        title: 'Wie zijn <br> onze patiënten?',
+    },
+
     navbar: {
         navbutton: 'Steun ons',
         links:{

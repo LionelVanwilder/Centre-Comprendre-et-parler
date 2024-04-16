@@ -19,6 +19,10 @@ export default{
         second: 'people with multidisciplinary skills provide support to children and their families'
     },
 
+    patient: {
+        title: 'Who Are <br> Our Patients?',
+    },
+
     navbar: {
         navbutton: 'Support us',
         links:{

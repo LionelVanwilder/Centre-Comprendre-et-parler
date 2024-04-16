@@ -29,6 +29,10 @@ export default{
         flexrow: {
             first: 'patients de tous âges et de tous milieux socio-économiques ou culturels',
             second: 'personnes aux compétences multidisciplinaires assure l\'accompagnement des enfants et de leurs familles'
+        },
+
+        patient: {
+            title: 'Who Are <br> Our Patients?',
         }
 
         

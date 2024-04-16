@@ -6,7 +6,7 @@
         <div class="content-wrapper">
             <div class="content-wrapper-content"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
                 <img :src="iconpath" alt="" class="icon-bloc-flex">
-                <h2>Qui Sont <br> Nos Patients?</h2>
+                <h2 v-html="$t('patient.title')"></h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
