@@ -19,12 +19,17 @@
     margin: 0 0.5rem !important;
 }
 
+.langnavinfo li a{
+    text-transform: uppercase;
+}
+
 .activelang{
     color: #ffffff !important;
    text-decoration: underline;
    padding: .3rem;
    border-radius: 2px;
 }
+
 
 .icon-navinfo{
     height: 0.8rem;
