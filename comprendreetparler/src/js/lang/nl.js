@@ -1,6 +1,7 @@
 export default{
     message: {
         centre: 'Centrum',
-        asbl: 'VZW'
+        asbl: 'VZW',
+        adress: 'Oeverstraat 101, 1200 Sint-Lambrechts-Woluwe'
     }
 }
