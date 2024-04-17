@@ -50,6 +50,11 @@ export default{
         homedonation: {
             title: 'Comment nous<br>soutenir?',
             button: 'Faire un don',
+        },
+
+        carousel: {
+            title: 'Nos autres pages',
+            
         }
 
         

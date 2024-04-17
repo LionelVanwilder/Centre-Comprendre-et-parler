@@ -36,6 +36,10 @@ export default{
         button: 'Doe een donatie'
     },
 
+    carousel: {
+        title: 'Ons andere paginas',
+    },
+
     navbar: {
         navbutton: 'Steun ons',
         links:{

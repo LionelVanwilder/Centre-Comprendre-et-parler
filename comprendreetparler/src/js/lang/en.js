@@ -36,6 +36,10 @@ export default{
         button: 'Make a donation'
     },
 
+    carousel: {
+        title: 'Our other pages',
+    },
+
     navbar: {
         navbutton: 'Support us',
         links:{

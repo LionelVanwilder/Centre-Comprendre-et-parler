@@ -4,7 +4,7 @@
               data-aos-duration="1000"
               >
               <div class="align-title">
-                <h2>Nos autres pages</h2>
+                <h2>{{ $t("carousel.title") }}</h2>
               </div>
               
     <carousel 
