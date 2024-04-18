@@ -1,14 +1,14 @@
 <template>
     <li class="burger-links" @click="this.showDropdown = !this.showDropdown">{{ $t("navbar.links.program") }}</li>
     <ul v-if="this.showDropdown" class="burger-dropdown-links">
-        <li><router-link to="/Programmes/EducationPrecoce" @click="selectItemAndCloseBurger('Educationprécoce')">Education précoce</router-link></li>
-        <li><router-link to="/Programmes/Specialisation" @click="selectItemAndCloseBurger('Spécialisation')">Spécialisation</router-link></li>
-        <li><router-link to="/Programmes/Integration" @click="selectItemAndCloseBurger('Intégration')">Intégration</router-link></li>
-        <li><router-link to="/Programmes/ImplantsCochleaires" @click="selectItemAndCloseBurger('Implantscochléaire')">Implants cochléaire</router-link></li>
-        <li><router-link to="/Programmes/Services" @click="selectItemAndCloseBurger('Services')">Services</router-link></li>
-        <li><router-link to="/Programmes/FormationsExterieures" @click="selectItemAndCloseBurger('Formationsextérieures')">Formations extérieures</router-link></li>
-        <li><router-link to="/Programmes/Depistage" @click="selectItemAndCloseBurger('Dépistagedelasurdité')">Dépistage de la surdité</router-link></li>
-        <li><router-link to="/Programmes/ServicesExterieurs" @click="selectItemAndCloseBurger('Servicesextérieurs')">Services extérieurs</router-link></li>
+        <li><router-link to="/Programmes/EducationPrecoce" @click="selectItemAndCloseBurger('Educationprécoce')">{{ this.$t('navbar.dropdown.program.education') }}</router-link></li>
+        <li><router-link to="/Programmes/Specialisation" @click="selectItemAndCloseBurger('Spécialisation')">{{ this.$t('navbar.dropdown.program.spec') }}</router-link></li>
+        <li><router-link to="/Programmes/Integration" @click="selectItemAndCloseBurger('Intégration')">{{ this.$t('navbar.dropdown.program.integration') }}</router-link></li>
+        <li><router-link to="/Programmes/ImplantsCochleaires" @click="selectItemAndCloseBurger('Implantscochléaire')">{{ this.$t('navbar.dropdown.program.implants') }}</router-link></li>
+        <li><router-link to="/Programmes/Services" @click="selectItemAndCloseBurger('Services')">{{ this.$t('navbar.dropdown.program.services') }}</router-link></li>
+        <li><router-link to="/Programmes/FormationsExterieures" @click="selectItemAndCloseBurger('Formationsextérieures')">{{ this.$t('navbar.dropdown.program.formations') }}</router-link></li>
+        <li><router-link to="/Programmes/Depistage" @click="selectItemAndCloseBurger('Dépistagedelasurdité')">{{ this.$t('navbar.dropdown.program.screening') }}</router-link></li>
+        <li><router-link to="/Programmes/ServicesExterieurs" @click="selectItemAndCloseBurger('Servicesextérieurs')">{{ this.$t('navbar.dropdown.program.external') }}</router-link></li>
     </ul>
 </template>
 <script>
