@@ -108,5 +108,12 @@ export default{
         }
         
 
+    },
+
+    footer: {
+        follow: 'Volg ons',
+        terms: 'Algemene verkoopvoorwaarden',
+        gdpr: 'AVG',
+        legal: 'wettelijke vermeldingen',
     }
 }

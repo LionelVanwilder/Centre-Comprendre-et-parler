@@ -107,5 +107,12 @@ export default{
         }
         
 
+    },
+
+    footer: {
+        follow: 'Follow us',
+        terms: 'General Conditions of Sales',
+        gdpr: 'GDPR',
+        legal: 'legal notice',
     }
 }

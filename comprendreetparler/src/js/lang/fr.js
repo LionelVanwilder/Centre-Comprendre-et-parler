@@ -114,6 +114,13 @@ export default{
             }
         },
 
+        footer: {
+            follow: 'Suivez nous',
+            terms: 'Conditions générales de vente',
+            gdpr: 'RGPD',
+            legal: 'Mentions légales',
+        }
+
         
       
 }

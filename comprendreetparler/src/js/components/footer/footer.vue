@@ -5,11 +5,11 @@
             <ul>
                 <li><a href="#">02 770 04 40</a></li>
                 <li><a href="#">adresseMail@outlook.com</a></li>
-                <li><a href="#">Rue de la Rive 101, 1200 Woluwe-Saint-Lambert</a></li>
+                <li><a href="#">{{ $t("banner.adress") }}</a></li>
             </ul>
         </div>
         <div class="container-media-footer">
-            <h4>Suivez nous</h4>
+            <h4>{{ $t("footer.follow") }}</h4>
             <div class="media-footer">
                 <a href="#">Facebook</a>
             </div>
@@ -23,9 +23,9 @@
     
         <div class="privacy">
             <ul>
-                <li><a href="#">Conditions générale de vente</a></li>
-                <li><a href="#">RGPD</a></li>
-                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">{{ $t("footer.terms") }}</a></li>
+                <li><a href="#">{{ $t("footer.gdpr") }}</a></li>
+                <li><a href="#">{{ $t("footer.legal") }}</a></li>
                 <li><a href="#">Cookies</a></li>
             </ul>
         </div>
