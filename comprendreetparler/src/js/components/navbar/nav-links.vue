@@ -22,14 +22,14 @@
                     path: '/Programmes',
                     
                     links: [
-                        {label: 'Education précoce', url: '/Programmes/EducationPrecoce'},
-                        {label: 'Spécialisation', url: '/Programmes/Specialisation'},
-                        {label: 'Intégration', url: '/Programmes/Integration'},
-                        {label: 'Implants cochléaire', url: '/Programmes/ImplantsCochleaires'},
-                        {label: 'Services', url: '/Programmes/Services'},
-                        {label: 'Formations extérieures', url: '/Programmes/FormationsExterieures'},
-                        {label: 'Dépistage de la surdité', url: '/Programmes/Depistage'},
-                        {label: 'Services extérieurs', url: '/Programmes/ServicesExterieurs'}
+                        {label: this.$t('navbar.dropdown.program.education'), url: '/Programmes/EducationPrecoce'},
+                        {label: this.$t('navbar.dropdown.program.spec'), url: '/Programmes/Specialisation'},
+                        {label: this.$t('navbar.dropdown.program.integration'), url: '/Programmes/Integration'},
+                        {label: this.$t('navbar.dropdown.program.implants'), url: '/Programmes/ImplantsCochleaires'},
+                        {label: this.$t('navbar.dropdown.program.services'), url: '/Programmes/Services'},
+                        {label: this.$t('navbar.dropdown.program.formations'), url: '/Programmes/FormationsExterieures'},
+                        {label: this.$t('navbar.dropdown.program.screening'), url: '/Programmes/Depistage'},
+                        {label: this.$t('navbar.dropdown.program.external'), url: '/Programmes/ServicesExterieurs'}
                     ] 
                 },
 

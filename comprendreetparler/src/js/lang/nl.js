@@ -58,6 +58,19 @@ export default{
             collab: 'Samenwerkingen',
             doc: 'Documentatie',
             activity: 'Activiteiten'
+        },
+
+        dropdown:{
+            program:{
+                education: 'Vroege scholing',
+                spec: 'Specialisatie',
+                integration: 'Integratie',
+                implants: 'Cochleaire implantaten',
+                services: 'Diensten',
+                formations: 'Externe training',
+                screening: 'Screening op doofheid',
+                external: 'Externe dienstverlening'
+            },
         }
         
 

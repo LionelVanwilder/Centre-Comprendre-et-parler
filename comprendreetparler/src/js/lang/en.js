@@ -57,6 +57,19 @@ export default{
             collab: 'Collaborations',
             doc: 'Documentation',
             activity: 'Activities'
+        },
+
+        dropdown:{
+            program:{
+                education: 'Early education',
+                spec: 'Specialization',
+                integration: 'Integration',
+                implants: 'Cochlear implants',
+                services: 'Services',
+                formations: 'External training',
+                screening: 'Deafness screening',
+                external: 'External services'
+            },
         }
         
 

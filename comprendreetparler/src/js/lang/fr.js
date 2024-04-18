@@ -64,6 +64,19 @@ export default{
                 collab: 'Collaborations',
                 doc: 'Documentations',
                 activity: 'Activités'
+            },
+
+            dropdown:{
+                program:{
+                    education: 'Education précoce',
+                    spec: 'Spécialisation',
+                    integration: 'Intégration',
+                    implants: 'Implants cochléaires',
+                    services: 'Services',
+                    formations: 'Formations extérieures',
+                    screening: 'Dépistage de la surdité',
+                    external: 'Services extérieurs'
+                },
             }
         },
 
