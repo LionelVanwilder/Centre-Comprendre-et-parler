@@ -1,5 +1,5 @@
 <template>
-    <li class="burger-links" @click="this.showDropdown = !this.showDropdown">Collaborations</li>
+    <li class="burger-links" @click="this.showDropdown = !this.showDropdown">{{ $t("navbar.links.collab") }}</li>
     <ul v-if="this.showDropdown" class="burger-dropdown-links">
         <li><router-link to="/Collaborations/Partenaires" @click="selectItemAndCloseBurger('Partenairesprivilégiés')">Partenaires privilégiés</router-link></li>
         <li><router-link to="/Collaborations/Autrescollaborations" @click="selectItemAndCloseBurger('Autrescollaborations')">Autres collaborations</router-link></li>

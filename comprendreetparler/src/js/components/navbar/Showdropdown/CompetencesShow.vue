@@ -1,5 +1,5 @@
 <template>
-    <li class="burger-links" @click="this.showDropdown = !this.showDropdown">Compétences</li>
+    <li class="burger-links" @click="this.showDropdown = !this.showDropdown">{{ $t("navbar.links.skills") }}</li>
     <ul v-if="this.showDropdown" class="burger-dropdown-links">
         <li><router-link to="/Competences/Accompagnements" @click="selectItemAndCloseBurger('Accompagnements')">Accompagnements</router-link></li>
         <li><router-link to="/Competences/AssistancesSociales" @click="selectItemAndCloseBurger('Assistancesociale')">Assistance sociale</router-link></li>
