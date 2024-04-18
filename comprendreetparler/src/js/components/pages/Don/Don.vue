@@ -4,46 +4,21 @@
     
         <img src="../../../../../icons/Donation.svg" class="icon-bloc-flex">
     
-    <h2>Comment soutenir le Centre Comprendre et Parler?</h2>
-    <p>La générosité de nombreuses personnes ou sociétés, les dons, les activités de sponsoring, 
-        le financement de projets ciblés ou encore l'organisation d'évènements caritatifs permettent 
-        de soutenir la réalisation de nombreuses activités de notre ASBL. 
-    </p>
-    <p>
-        Tout don versé au Centre d’un montant supérieur ou égal à 40 € fera l’objet d’une attestation fiscale 
-        qui vous sera envoyée dans le courant du premier semestre qui suit l’année de votre don. 
-        Ainsi, vous pourrez correctement compléter votre déclaration fiscale.
-    </p>
+    <h2>{{ $t("donation.title") }}</h2>
+    <p>{{ $t("donation.intro") }}</p>
+    <p>{{ $t("donation.intro2") }}</p>
     
 </div>
 <div class="don-grid">
         <div class="don-grid-left">
-            <h2>Vous pouvez choisir une domiciliation<br> ou un don à verser sur le compte <span>210-0436107-47</span></h2>
-            <p>
-                Comprendre et Parler ASBL<br>
-                Rue de la Rive, 101<br>
-                1200 Bruxelles<br>
-                IBAN : BE22 2100 4361 0747<br>
-                BIC : GEBABEBB
-            </p>
-            <p>
-                En cliquant sur <span><router-link to="/Competences">ce lien</router-link></span>, vous trouverez un virement bancaire à télécharger.<br> 
-                Merci de le compléter et de le transmettre à votre banque.
-            </p>
+            <h2 v-html="$t('donation.gridleft.title')"></h2>
+            <p v-html="$t('donation.gridleft.info')"></p>
+            <p v-html="$t('donation.gridleft.text')"></p>
         </div>
         <div class="don-grid-right">
-            <h2>Vous pouvez choisir une domiciliation<br> ou un don à verser sur le compte <span>732-0239048-91</span></h2>
-            <p>
-                Comprendre et Parler ASBL<br>
-                Rue de la Rive, 101<br>
-                1200 Bruxelles<br>
-                IBAN : BE23 7320 2390 4891<br>
-                BIC : CREGBEBB
-            </p>
-            <p>
-                En cliquant sur <span><router-link to="/Competences">ce lien</router-link></span>, vous trouverez un virement bancaire à télécharger.<br> 
-                Merci de le compléter et de le transmettre à votre banque.
-            </p>
+            <h2 v-html="$t('donation.gridright.title')"></h2>
+            <p v-html="$t('donation.gridright.info')"></p>
+            <p v-html="$t('donation.gridright.text')"></p>
         </div>
     </div>
 </template>
@@ -58,6 +33,8 @@ export default{
             BreadCrumbCom
         },
 
+        
+
         data(){
             return{
                 breadcrumbs: [
@@ -71,8 +48,8 @@ export default{
 <style scoped>
 
 .don-grid-left h2 span, .don-grid-right h2 span{
-    color: #005387;
-    font-weight: 700;
+    color: #005387 !important;
+    font-weight: 700 !important;
 }
 .Edu-container{
         
