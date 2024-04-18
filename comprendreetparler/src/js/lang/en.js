@@ -52,7 +52,11 @@ export default{
     navbar: {
         navbutton: 'Support us',
         links:{
-            program: 'Programmes',
+            program: 'Programs',
+            skills: 'Skills',
+            collab: 'Collaborations',
+            doc: 'Documentation',
+            activity: 'Activities'
         }
         
 

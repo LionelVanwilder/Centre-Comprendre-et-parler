@@ -19,13 +19,6 @@ export default{
 
         },
 
-        navbar: {
-            navbutton: 'Nous soutenir',
-            links:{
-                program: 'Programmes',
-            }
-        },
-
         flexrow: {
             first: 'patients de tous âges et de tous milieux socio-économiques ou culturels',
             second: 'personnes aux compétences multidisciplinaires assure l\'accompagnement des enfants et de leurs familles'
@@ -61,7 +54,18 @@ export default{
         carousel: {
             title: 'Nos autres pages',
             
-        }
+        },
+
+        navbar: {
+            navbutton: 'Nous soutenir',
+            links:{
+                program: 'Programmes',
+                skills: 'Compétences',
+                collab: 'Collaborations',
+                doc: 'Documentations',
+                activity: 'Activités'
+            }
+        },
 
         
       

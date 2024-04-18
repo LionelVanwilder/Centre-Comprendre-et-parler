@@ -21,7 +21,7 @@
         computed: {
             bloc(){
                 return[
-                {
+                    {
                                 source: require('../../../../../icons/vision.svg'),
                                 title: this.$t('blocflex.cards.vision'),
                                 content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',

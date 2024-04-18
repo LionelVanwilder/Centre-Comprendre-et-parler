@@ -53,7 +53,11 @@ export default{
     navbar: {
         navbutton: 'Steun ons',
         links:{
-            program: 'Programmes',
+            program: 'Programma\'s',
+            skills: 'Vaardigheden',
+            collab: 'Samenwerkingen',
+            doc: 'Documentatie',
+            activity: 'Activiteiten'
         }
         
 
