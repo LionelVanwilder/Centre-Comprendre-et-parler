@@ -132,5 +132,15 @@ export default{
             info: 'Comprendre et Parler NPO<br>Rue de la Rive, 101<br> 1200 Brussels<br>IBAN : BE23 7320 2390 4891<br>BIC : CREGBEBB',
             text: 'By clicking <span><router-link to="/Competences" style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">this link</router-link></span>, you will find a bank transfer to download.<br> Please complete and forward to your bank'
         }
+    },
+
+    breadcrumbs:{
+        home: 'Home',
+        collab:{
+            collab: 'Collaborations',
+            other: 'Other collaborations'
+        },
+
+        donation: 'Support us'
     }
 }

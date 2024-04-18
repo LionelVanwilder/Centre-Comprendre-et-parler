@@ -38,8 +38,8 @@ export default{
         data(){
             return{
                 breadcrumbs: [
-                    {to: '/', label: 'Accueil'},
-                    {to: '/Don', label: 'Nous Soutenir'}
+                    {to: '/', label: this.$t('breadcrumbs.home')},
+                    {to: '/Don', label: this.$t('breadcrumbs.donation')}
                 ]
             }
         }

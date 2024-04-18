@@ -129,9 +129,19 @@ export default{
         },
 
         gridright:{
-            title: 'U kunt een domiciliëring of een donatie <br> kiezen om op de rekening te storten <span style="color: #005387; font-weight: 700;">732-0239048-91</span>',
+            title: 'U kunt een domiciliëring of een donatie <br> kiezen om op de rekening te storten <br><span style="color: #005387; font-weight: 700;">732-0239048-91</span>',
             info: 'Comprendre et Parler VZW<br>Oeverstraat 101<br> 1200 Brussel<br>IBAN : BE23 7320 2390 4891<br>BIC : CREGBEBB',
             text: 'Door te klikken op <span><router-link to="/Competences" style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">deze link</router-link></span>, u zult een bankoverschrijving vinden om te downloaden. <br> Gelieve in te vullen en door te sturen naar uw bank.'
         }
+    },
+
+    breadcrumbs:{
+        home: 'Home',
+        collab:{
+            collab: 'Collaborations',
+            other: 'Autres collaborations'
+        },
+
+        donation: 'Steun ons'
     }
 }

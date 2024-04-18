@@ -138,6 +138,17 @@ export default{
                 info: 'Comprendre et Parler ASBL<br>Rue de la Rive, 101<br> 1200 Bruxelles<br>IBAN : BE23 7320 2390 4891<br>BIC : CREGBEBB',
                 text: 'En cliquant sur <span><router-link to="/Competences"  style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">ce lien</router-link></span>, vous trouverez un virement bancaire à télécharger.<br> Merci de le compléter et de le transmettre à votre banque.'
             }
+        },
+
+        breadcrumbs:{
+            home: 'Accueil',
+            donation: 'Nous soutenir',
+            collab:{
+                collab: 'Collaborations',
+                other: 'Autres collaborations'
+            },
+
+            
         }
 
         
