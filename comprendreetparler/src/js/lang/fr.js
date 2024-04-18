@@ -35,7 +35,13 @@ export default{
             title: 'à propos du centre',
 
             cards: {
-                vision: 'Statut et vision'
+                vision: 'Statut et vision',
+                mission: 'Mission et valeurs',
+                gestion: 'Organes de gestion',
+                organ: 'Organigrammes',
+                activity: 'Rapport d\'activités',
+                history: 'Histoire',
+                more: '→ Voir plus'
             }
         },
 

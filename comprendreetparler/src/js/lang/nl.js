@@ -25,6 +25,16 @@ export default{
 
     blocflex: {
         title: 'over het centrum',
+        cards: {
+            vision: 'Status en visie',
+            mission: 'Missie en waarden',
+            gestion: 'Bestuursorganen',
+            organ: 'Organizatieschema',
+            activity: 'Activiteiten rapport',
+            history: 'Geschiedenis',
+            more: '→ Kom meer te weten'
+            
+        }
     },
 
     news: {

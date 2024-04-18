@@ -25,6 +25,15 @@ export default{
 
     blocflex: {
         title: 'about the center',
+        cards: {
+            vision: 'Status and vision',
+            mission: 'Mission and values',
+            gestion: 'Management bodies',
+            organ: 'Organizational chart',
+            activity: 'Activity report',
+            history: 'History',
+            more: '→ Learn more'
+        }
     },
 
     news: {
