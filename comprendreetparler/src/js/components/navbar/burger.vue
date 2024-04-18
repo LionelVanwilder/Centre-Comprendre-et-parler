@@ -31,10 +31,10 @@
                 </li>
                 
             <ul class="burger-languages">
-                <li><a href="#" class="activelangburger">FR</a></li>
-                <li><a href="#">NL</a></li>
-                <li><a href="#">EN</a></li>
-                <li><a href="#">LDS</a></li>
+                    <li><a href="#" class="activelangburger" @click="$i18n.locale = 'fr'">FR</a></li>
+                    <li><a href="#" @click="$i18n.locale = 'nl'">NL</a></li>
+                    <li><a href="#"  @click="$i18n.locale = 'en'">EN</a></li>
+                    <li><a href="#">LDS</a></li>
             </ul>
 
             </ul>
