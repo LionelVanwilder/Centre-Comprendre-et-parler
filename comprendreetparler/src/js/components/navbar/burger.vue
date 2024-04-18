@@ -20,13 +20,13 @@
                 <li>
                     <a target="_blank" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c3dc9b63dbd941:0xeb71a7aeb16468?sa=X&ved=2ahUKEwjjutrVudGEAxWIm_0HHfJLDe8Q4kB6BAgOEAA">
                         <img src="../../../../icons/location-dot-solid-white.svg" alt="" class="icon-navinfo">
-                        Rue de la Rive 101, 1200 Woluwe-Saint-Lambert
+                        {{ $t("banner.adress") }}
                     </a>
                 </li>
                 <li>
                     <a href="tel: 02 770 04 40">
                         <img src="../../../../icons/phone-solid-white.svg" alt="" class="icon-navinfo">
-                        02 770 04 40
+                        +32 2 770 04 40
                     </a>
                 </li>
                 
