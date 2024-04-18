@@ -89,6 +89,27 @@ export default{
                     psychology: 'Psychologie et neuropsychologie',
                     psychomotor: 'Psychomotricité',
                     financial: 'Services administratifs et financiers'
+                },
+
+                collab:{
+                    partner: 'Partenaires privilégiés',
+                    other: 'Autres collaborations',
+                    influence: 'Rayonnement du centre'
+                },
+
+                doc:{
+                    deafness: 'Surdité',
+                    post: 'Publication',
+                    link: 'Autres liens utiles'
+                },
+
+                activity:{
+                    sign: 'Langue des signes',
+                    speech: 'LPC',
+                    lang: 'Langue en mouvements',
+                    vac: 'Activités vacances',
+                    other: 'Autres activités du Centre',
+                    job: 'Emploi - stage et bénévolat',
                 }
             }
         },

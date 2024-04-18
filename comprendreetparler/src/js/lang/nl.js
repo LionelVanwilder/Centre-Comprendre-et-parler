@@ -83,6 +83,27 @@ export default{
                 psychology: 'Psychologie en neuropsychologie',
                 psychomotor: 'Psychomotoriek',
                 financial: 'Administratieve en financiële diensten'
+            },
+
+            collab:{
+                partner: 'Bevoorrechte partners',
+                other: 'Andere samenwerkingen',
+                influence: 'Centrum straling'
+            },
+
+            doc:{
+                deafness: 'doofheid',
+                post: 'Publicatie',
+                link: 'Andere nuttige links'
+            },
+
+            activity:{
+                sign: 'Gebarentaal',
+                speech: 'LPC',
+                lang: 'Langue en mouvements',
+                vac: 'Vakantie activiteiten',
+                other: 'Andere activiteiten van het Centrum',
+                job: 'Werkgelegenheid - stage en vrijwilligerswerk',
             }
         }
         

@@ -82,6 +82,27 @@ export default{
                 psychology: 'Psychology and neuropsychology',
                 psychomotor: 'Psychomotricity',
                 financial: 'Administrative and financial servicess'
+            },
+
+            collab:{
+                partner: 'key partners',
+                other: 'Other collaborations',
+                influence: 'Influence of the center'
+            },
+
+            doc:{
+                deafness: 'Deafness',
+                post: 'Publication',
+                link: 'Other useful links'
+            },
+
+            activity:{
+                sign: 'Sign language',
+                speech: 'LPC',
+                lang: 'Langue en mouvements',
+                vac: 'Holiday activities',
+                other: 'Other activities of the Center',
+                job: 'Employment - internship and volunteering',
             }
         }
         

@@ -56,9 +56,9 @@
                     path: '',
                     
                     links: [
-                        {label: 'Partenaires privilégiés', url: '/Collaborations/Partenaires'},
-                        {label: 'Autres collaborations', url: '/Collaborations/Autrescollaborations'},
-                        {label: 'Rayonnement du centre', url: '/Collaborations/Rayonnement'}
+                        {label: this.$t('navbar.dropdown.collab.partner'), url: '/Collaborations/Partenaires'},
+                        {label: this.$t('navbar.dropdown.collab.other'), url: '/Collaborations/Autrescollaborations'},
+                        {label: this.$t('navbar.dropdown.collab.influence'), url: '/Collaborations/Rayonnement'}
                     ] 
                 },
 
@@ -67,9 +67,9 @@
                     path: '/Programmes',
                     
                     links: [
-                        {label: 'Surdité', url: '/Documentations/Surdite'},
-                        {label: 'Publication', url: 'Instagram.com'},
-                        {label: 'Autres liens utiles', url: '/'}
+                        {label:  this.$t('navbar.dropdown.doc.deafness'), url: '/Documentations/Surdite'},
+                        {label: this.$t('navbar.dropdown.doc.post'), url: 'Instagram.com'},
+                        {label: this.$t('navbar.dropdown.doc.link'), url: '/'}
                     ] 
                 },
 
@@ -78,12 +78,12 @@
                     path: '/Programmes', 
                     
                     links: [
-                        {label: 'Langue des signes', url: '/'},
-                        {label: 'LPC', url: '/'},
-                        {label: 'Langue en mouvements', url: '/'},
-                        {label: 'Activités vacances', url: '/'},
-                        {label: 'Autres activités du Centre', url: '/'},
-                        {label: 'Emploi - stage et bénévolat', url: '/'}
+                        {label: this.$t('navbar.dropdown.activity.sign'), url: '/'},
+                        {label: this.$t('navbar.dropdown.activity.speech'), url: '/'},
+                        {label: this.$t('navbar.dropdown.activity.lang'), url: '/'},
+                        {label: this.$t('navbar.dropdown.activity.vac'), url: '/'},
+                        {label: this.$t('navbar.dropdown.activity.other'), url: '/'},
+                        {label: this.$t('navbar.dropdown.activity.job'), url: '/'}
                     ] 
                 }
                 ]
