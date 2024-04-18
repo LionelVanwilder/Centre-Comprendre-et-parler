@@ -12,7 +12,7 @@
       :transition="500"
       :breakpoints="breakpoints"
       >
-      <slide v-for="(item, index) in news" :key="index">
+      <slide v-for="(item, index) in pages" :key="index">
         <a :href="'#slide-' + index" class="carousel__item" :class="'slide-' + index">
           <div class="container-news">
             <router-link  :to="item.path" class="news-card" :style="{ backgroundColor: item.color }">
@@ -43,9 +43,62 @@ export default {
     Pagination,
     Navigation
   },
+
+  computed: {
+      pages(){
+        return[
+        {
+          title: this.$t('navbar.links.program'),
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          image: require('../../../../images/program.avif'),
+          color: '#EA3788',
+          path: '/Programmes'
+        },
+        {
+          title: this.$t('navbar.links.skills'),
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          image: require('../../../../images/news/covid.avif'),
+          color: '#004FFF',
+          path: '/Competences'
+        },
+        {
+          title: this.$t('navbar.links.collab'),
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          image: require('../../../../images/collaboration.avif'),
+          color: '#29bf12',
+          path: '/Programmes'
+        },
+
+        {
+          title: this.$t('navbar.links.doc'),
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          image: require('../../../../images/documentation.avif'),
+          color: '#E71D36',
+          path: '/Programmes'
+        },
+
+        {
+          title: this.$t('navbar.links.activity'),
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          image: require('../../../../images/activity.avif'),
+          color: '#FF9F1C',
+          path: '/Programmes'
+        },
+
+        {
+          title: this.$t('navbar.navbutton'),
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+          image: require('../../../../images/donation2.avif'),
+          color: '#2364AA',
+          path: '/Don'
+        },
+        ]
+      }
+  },
+
   data() {
     return {
-      news: [
+     /* pages: [
         {
           title: 'Programmes',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -91,7 +144,7 @@ export default {
           color: '#2364AA',
           path: '/Don'
         },
-      ],
+      ],*/
 
       breakpoints: {
         475: {
