@@ -77,6 +77,19 @@ export default{
                     screening: 'Dépistage de la surdité',
                     external: 'Services extérieurs'
                 },
+
+                skills:{
+                    acc: 'Accompagnements',
+                    assistance: 'Assistance sociale',
+                    audio: 'Audiologie',
+                    research: 'Formations, évaluation et recherche',
+                    help: 'Aides visuelles à la communication',
+                    logo: 'Logopédie',
+                    doctor: 'Médecins - ORL',
+                    psychology: 'Psychologie et neuropsychologie',
+                    psychomotor: 'Psychomotricité',
+                    financial: 'Services administratifs et financiers'
+                }
             }
         },
 

@@ -38,16 +38,16 @@
                     path: '/Competences', 
                     
                     links: [
-                        {label: 'Accompagnements', url: '/Competences/Accompagnements'},
-                        {label: 'Assistance sociale', url: '/Competences/AssistancesSociales'},
-                        {label: 'Audiologie', url: '/Competences/Audiologie'},
-                        {label: 'Formations, évaluation et recherche', url: 'Instagram.com'},
-                        {label: 'Aides visuelles à la communication', url: 'Instagram.com'},
-                        {label: 'Logopédie', url: '/Competences/Logopedie'},
-                        {label: 'Médecins - ORL', url: '/Competences/Medecins'},
-                        {label: 'Psychologie et neuropsychologie', url: 'Instagram.com'},
-                        {label: 'Psychomotricité', url: '/Competences/Psychomotricite'},
-                        {label: 'Services administratifs et financiers', url: 'Instagram.com'}
+                        {label: this.$t('navbar.dropdown.skills.acc'), url: '/Competences/Accompagnements'},
+                        {label: this.$t('navbar.dropdown.skills.assistance'), url: '/Competences/AssistancesSociales'},
+                        {label: this.$t('navbar.dropdown.skills.audio'), url: '/Competences/Audiologie'},
+                        {label: this.$t('navbar.dropdown.skills.research'), url: 'Instagram.com'},
+                        {label: this.$t('navbar.dropdown.skills.help'), url: 'Instagram.com'},
+                        {label: this.$t('navbar.dropdown.skills.logo'), url: '/Competences/Logopedie'},
+                        {label: this.$t('navbar.dropdown.skills.doctor'), url: '/Competences/Medecins'},
+                        {label: this.$t('navbar.dropdown.skills.psychology'), url: 'Instagram.com'},
+                        {label: this.$t('navbar.dropdown.skills.psychomotor'), url: '/Competences/Psychomotricite'},
+                        {label: this.$t('navbar.dropdown.skills.financial'), url: 'Instagram.com'}
                     ] 
                 },
 

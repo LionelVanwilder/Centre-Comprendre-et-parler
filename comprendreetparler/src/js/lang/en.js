@@ -70,6 +70,19 @@ export default{
                 screening: 'Deafness screening',
                 external: 'External services'
             },
+
+            skills:{
+                acc: 'Accompaniement',
+                assistance: 'Social assistance',
+                audio: 'Audiology',
+                research: 'Training, evaluations and research',
+                help: 'Visual aids to communication',
+                logo: 'Speech therapy',
+                doctor: 'Doctors - ENT',
+                psychology: 'Psychology and neuropsychology',
+                psychomotor: 'Psychomotricity',
+                financial: 'Administrative and financial servicess'
+            }
         }
         
 

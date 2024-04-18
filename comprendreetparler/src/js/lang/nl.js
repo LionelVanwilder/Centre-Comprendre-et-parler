@@ -71,6 +71,19 @@ export default{
                 screening: 'Screening op doofheid',
                 external: 'Externe dienstverlening'
             },
+
+            skills:{
+                acc: 'Begeleiding',
+                assistance: 'Sociale bijstand',
+                audio: 'Audiologie',
+                research: 'Training, evaluaties en onderzoek',
+                help: 'Visuele hulpmiddelen voor communicatie',
+                logo: 'Logopedie',
+                doctor: 'Artsen - KNO',
+                psychology: 'Psychologie en neuropsychologie',
+                psychomotor: 'Psychomotoriek',
+                financial: 'Administratieve en financiële diensten'
+            }
         }
         
 
