@@ -143,5 +143,10 @@ export default{
         },
 
         donation: 'Steun ons'
+    },
+
+    program:{
+        heading: 'Programma\'s en bijzonderheden',
+        subheading: 'Algemene presentatie',
     }
 }

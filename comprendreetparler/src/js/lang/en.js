@@ -142,5 +142,11 @@ export default{
         },
 
         donation: 'Support us'
+    },
+
+    program:{
+        heading: 'Programs and Specifics',
+        subheading: 'General presentation'
+
     }
 }

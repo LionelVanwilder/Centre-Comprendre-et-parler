@@ -2,19 +2,19 @@
     <div class="programmes-container">
         <div class="programmes-nav">
             <ul>
-                <li><router-link to="/Programmes/EducationPrecoce">Education précoce</router-link></li>
-                <li><router-link to="/Programmes/Specialisation">Spécialisation</router-link></li>
-                <li><router-link to="/Programmes/Integration">Intégration</router-link></li>
-                <li><router-link to="/Programmes/ImplantsCochleaires">Implants cochléaire</router-link></li>
-                <li><router-link to="/Programmes/Services">Services</router-link></li>
-                <li><router-link to="/Programmes/FormationsExterieures">Formations extérieures</router-link></li>
-                <li><router-link to="/Programmes/Depistage">Dépistage de la surdité</router-link></li>
-                <li><router-link to="/Programmes/ServicesExterieurs">Services extérieurs</router-link></li>
+                <li><router-link to="/Programmes/EducationPrecoce">{{ $t("navbar.dropdown.program.education") }}</router-link></li>
+                <li><router-link to="/Programmes/Specialisation">{{ $t("navbar.dropdown.program.spec") }}</router-link></li>
+                <li><router-link to="/Programmes/Integration">{{ $t("navbar.dropdown.program.integration") }}</router-link></li>
+                <li><router-link to="/Programmes/ImplantsCochleaires">{{ $t("navbar.dropdown.program.implants") }}</router-link></li>
+                <li><router-link to="/Programmes/Services">{{ $t("navbar.dropdown.program.services") }}</router-link></li>
+                <li><router-link to="/Programmes/FormationsExterieures">{{ $t("navbar.dropdown.program.formations") }}</router-link></li>
+                <li><router-link to="/Programmes/Depistage">{{ $t("navbar.dropdown.program.screening") }}</router-link></li>
+                <li><router-link to="/Programmes/ServicesExterieurs">{{ $t("navbar.dropdown.program.external") }}</router-link></li>
             </ul>
         </div>
         <div class="programmes-text">
-        <h2>Programmes et spécificités</h2>
-        <h3>Présentation générale</h3>
+        <h2>{{ $t('program.heading') }}</h2>
+        <h3>{{ $t('program.subheading') }}</h3>
         <p>
             Le Centre Comprendre et Parler, grâce à une équipe dotée de compétences multidisciplinaires, 
             offre une série de programmes et services dans différents domaines d'activités. Ces services 

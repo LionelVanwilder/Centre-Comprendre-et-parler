@@ -149,6 +149,11 @@ export default{
             },
 
             
+        },
+
+        program:{
+            heading: 'Programmes et spécificités',
+            subheading: 'Présentation générale',
         }
 
         
