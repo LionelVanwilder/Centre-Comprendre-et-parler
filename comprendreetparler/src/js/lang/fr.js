@@ -40,7 +40,7 @@ export default{
         },
 
         patient: {
-            title: 'Who Are <br> Our Patients?',
+            title: 'Qui sont <br> nos Patients?',
         },
 
         news: {
