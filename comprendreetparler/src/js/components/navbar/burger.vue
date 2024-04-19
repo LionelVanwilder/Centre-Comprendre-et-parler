@@ -31,9 +31,9 @@
                 </li>
                 
             <ul class="burger-languages">
-                    <li><a href="#" class="activelangburger" @click="$i18n.locale = 'fr'">FR</a></li>
-                    <li><a href="#" @click="$i18n.locale = 'nl'">NL</a></li>
-                    <li><a href="#"  @click="$i18n.locale = 'en'">EN</a></li>
+                    <li><a href="#" :class="{ 'activelangburger' : $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</a></li>
+                    <li><a href="#" :class="{ 'activelangburger' : $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</a></li>
+                    <li><a href="#"  :class="{ 'activelangburger' : $i18n.locale === 'en' }" @click="$i18n.locale = 'en'">EN</a></li>
                     <li><a href="#">LDS</a></li>
             </ul>
 

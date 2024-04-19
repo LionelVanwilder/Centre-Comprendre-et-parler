@@ -35,9 +35,9 @@
                 <!--<li v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale"><a>{{ locale }}</a></li>-->
                 
                 
-                    <li><a href="#" class="activelang" @click="$i18n.locale = 'fr'">FR</a></li>
-                    <li><a href="#" @click="$i18n.locale = 'nl'">NL</a></li>
-                    <li><a href="#"  @click="$i18n.locale = 'en'">EN</a></li>
+                    <li><a href="#" :class="{ 'activelang': $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</a></li>
+                    <li><a href="#" :class="{ 'activelang': $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</a></li>
+                    <li><a href="#"  :class="{ 'activelang': $i18n.locale === 'en' }" @click="$i18n.locale = 'en'">EN</a></li>
                     <li><a href="#">LDS</a></li>
                
                 
