@@ -30,6 +30,7 @@
                         <img src="../../../../icons/media/linkedin.svg" alt="" class="icon-navinfo">
                     </a>
                 </li>
+                <li><a>TEST navbar</a></li>
             </ul>
             <ul class="langnavinfo">
                 <!--<li v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale"><a>{{ locale }}</a></li>-->
