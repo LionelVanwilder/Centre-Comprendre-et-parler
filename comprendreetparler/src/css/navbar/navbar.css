@@ -1,13 +1,44 @@
 .main-nav{
     display: flex;
-    padding: 1rem 3rem;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.navlogo-don{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    padding-top: 0 !important;
+
+}
+
+.logoimgnav{
+    position: absolute;
+    height: 5rem !important;
+}
+
+.nav-links-container{
+    width: 100%;
+    padding: 0 3rem;
+    background-color: #FF4D00;
+}
+
+.nav-links-ul-li{
+    
+    margin: 0 !important;
 }
 
 
 nav > ul{
     display: flex;
+}
+
+.nav-links-ul{
+    display: flex;
+    justify-content: center;
 }
 
 nav ul > li{
@@ -25,33 +56,23 @@ nav ul li a{
 }
 
 .nav-links-ul-li > a:after{
-    content: url('../../../icons/chevron-down-solid-black.svg');
+    content: url('../../../icons/chevron-down-solid.svg');
     height: .8rem;
     width: .8rem;
     display: inline-block;
     margin-left: .6rem;
 }
 
-.nav-links-ul-li > a:hover:after{
+/*.nav-links-ul-li > a:hover:after{
     content: url('../../../icons/chevron-down-solid-black-180.svg');
     height: .8rem;
     width: .8rem;
     display: inline-block;
     margin-left: .6rem;
-}
-
-
-.nav-hover:hover{
-    color: #FF4D00;
-}
+}*/
 
 nav img{
     height: 4.5rem;
-}
-
-
-.nav-links-ul-li:hover > a{
-    color: #FF4D00;
 }
 
 
@@ -60,37 +81,55 @@ nav img{
     position: absolute;
     display: flex;
     flex-direction: column;
-    min-width: 160px;
-    top: 62px;
-    background-color: #ffffff;
-    border: 2px solid lightgray;
+    min-width: 180px;
+    top: 83px;
+    background-color: #FF4D00;
     z-index: 999;
     animation-duration: .6s;
-    padding-right: 20px;
 }
 
-.dropdown li{
-    margin: 0.5rem 0.5rem;
-}
 
 .dropdown a{
    white-space: nowrap;
    text-transform: capitalize;
    letter-spacing: 1px;
-   color: #222222;
+   color: #ffffff;
    font-size: 0.9rem;
     cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    padding: 0.6rem 0.6rem;
+    
    
 }
 
+.dropdown li{
+    margin: inherit;
+}
+
+.nav-hover{
+    color: #ffffff;
+    height: 100%;
+    display: inline-block;
+    padding: 2rem 1rem;
+}
+
+.nav-hover:hover{
+    background-color: #005387;
+}
+
+
+
 .dropdown a:hover{
     /*margin-left: 0.5rem;*/
-    transition: all .2s ease-out;
-    text-decoration: underline;
+    background-color: #df4300;
+    
 }
 
 .fadein{
     animation-name: fadein;
+    animation-duration: .4s;
+    transition-timing-function: ease-in-out;
 }
 
 
@@ -106,4 +145,5 @@ nav img{
         transform: translateY(0);
      }
 }
+
 

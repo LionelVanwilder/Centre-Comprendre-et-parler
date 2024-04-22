@@ -9,7 +9,7 @@
                 </li>
                 <li>
                     <a href="tel: 02 770 04 40">
-                        <img src="../../../../icons/phone-solid-white.svg" alt="" class="icon-navinfo">
+                        <img src="../../../../icons/phone-solid.svg" alt="" class="icon-navinfo">
                         +32 2 770 04 40
                     </a>
                 </li>

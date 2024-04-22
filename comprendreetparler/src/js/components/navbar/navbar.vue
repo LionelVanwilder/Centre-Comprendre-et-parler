@@ -1,10 +1,16 @@
 <template>
     <nav class="main-nav">
-    <RouterLink to="/"><img :src="imagepath"></RouterLink>
+    <div class="navlogo-don">
+        <RouterLink to="/"><img :src="imagepath" class="logoimgnav"></RouterLink>
+        <NavButton></NavButton>
+        <BurgerNav></BurgerNav>
+    </div>
+    <div class="nav-links-container">
+        <NavLinks></NavLinks>
+        
+    </div>
     
-    <NavLinks></NavLinks>
-    <NavButton></NavButton>
-    <BurgerNav></BurgerNav>
+    
   </nav>
 </template>
 <script>
@@ -24,7 +30,7 @@
 
         data () {
         return {
-            imagepath: require('../../../../images/logonew.svg')
+            imagepath: require('../../../../images/logonew.png')
         }
 }
     }
