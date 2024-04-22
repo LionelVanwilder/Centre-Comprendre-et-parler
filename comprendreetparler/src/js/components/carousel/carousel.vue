@@ -16,8 +16,13 @@
         <a :href="'#slide-' + index" class="carousel__item" :class="'slide-' + index">
           <div class="container-news">
             <router-link  :to="item.path" class="news-card" :style="{ backgroundColor: item.color }">
-              <img :src="item.image">
               <span class="news-date" :style="{ backgroundColor: item.color }">{{ item.title }}</span>
+              <p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+              <div class="carousel__img-container">
+                <img :src="item.image">
+              </div>
+              
+              
             </router-link>
           </div>
         </a>

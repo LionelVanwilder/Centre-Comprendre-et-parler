@@ -11,7 +11,7 @@
     align-items: center;
     width: 100%;
     padding: 1rem 3rem;
-    padding-top: 0 !important;
+    padding-top: 0;
 
 }
 
@@ -144,6 +144,12 @@ nav img{
         opacity: 1;
         transform: translateY(0);
      }
+}
+
+@media all and (max-width: 1366px){
+    .navlogo-don{
+        padding-top: 1rem;
+    }
 }
 
 
