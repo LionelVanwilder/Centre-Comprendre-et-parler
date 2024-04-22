@@ -1,13 +1,22 @@
 .navinfo{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 0.8rem 4rem !important;
-    background-color: #FF4D00;
+    background-color: #ffffff;
+}
+
+.navinfo-img{
+    margin: 1rem 0;
+}
+
+.navinfo-row{
+    display: flex;
+    justify-content: space-between;
 }
 
 .navinfo a{
     font-size: 1rem;
-    color: #ffffff;
+    color: #222222
 }
 
 .navinfo a:hover{
@@ -26,7 +35,7 @@
 }
 
 .activelang{
-    color: #ffffff !important;
+    color: #222222 !important;
    text-decoration: underline;
    padding: .3rem;
    border-radius: 2px;

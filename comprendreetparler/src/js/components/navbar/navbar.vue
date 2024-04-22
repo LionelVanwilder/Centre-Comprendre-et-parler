@@ -1,6 +1,6 @@
 <template>
     <nav class="main-nav">
-    <RouterLink to="/"><img :src="imagepath"></RouterLink>
+    
     
     <NavLinks></NavLinks>
     <NavButton></NavButton>
