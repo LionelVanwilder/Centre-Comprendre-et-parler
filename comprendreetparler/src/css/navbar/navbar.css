@@ -1,4 +1,4 @@
-nav{
+.main-nav{
     display: flex;
     padding: 1rem 3rem;
     justify-content: space-between;
@@ -61,9 +61,9 @@ nav img{
     display: flex;
     flex-direction: column;
     min-width: 160px;
-    top: 30px;
-    background-color: #FF4D00;
-    border-radius: 6px;
+    top: 62px;
+    background-color: #ffffff;
+    border: 2px solid lightgray;
     z-index: 999;
     animation-duration: .6s;
     padding-right: 20px;
@@ -75,10 +75,10 @@ nav img{
 
 .dropdown a{
    white-space: nowrap;
-   text-transform: uppercase;
+   text-transform: capitalize;
    letter-spacing: 1px;
-   color: #ffffff;
-   font-size: 0.8rem;
+   color: #222222;
+   font-size: 0.9rem;
     cursor: pointer;
    
 }
@@ -99,7 +99,7 @@ nav img{
 @keyframes fadein{
     0% {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(-20px);
      }
      100% {
         opacity: 1;

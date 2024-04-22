@@ -1,8 +1,8 @@
 <template>
     <ul class="nav-links-ul">
         <li v-for="(item, index) in dropdowns" :key="index" class="nav-links-ul-li">
-            <router-link :to="item.path" @mouseover="toggle(index)" class="nav-hover">{{ item.title }}</router-link>
-            <ul class="dropdown fadein" v-if="activeDropdown === index"  @mouseleave="toggle(index)">
+            <router-link :to="item.path" @click="toggle(index)" class="nav-hover">{{ item.title }}</router-link>
+            <ul class="dropdown fadein" v-if="activeDropdown === index"  @click="toggle(index)">
                 <li v-for="(link, linkIndex) in item.links" :key="linkIndex"><router-link :to="link.url">{{ link.label }} </router-link></li>
             </ul>
         </li><br>
@@ -19,7 +19,7 @@
                 return[
                 { 
                     title: this.$t('navbar.links.program'), 
-                    path: '/Programmes',
+                    path: '',
                     
                     links: [
                         {label: this.$t('navbar.dropdown.program.education'), url: '/Programmes/EducationPrecoce'},
@@ -35,7 +35,7 @@
 
                 { 
                     title: this.$t('navbar.links.skills'),
-                    path: '/Competences', 
+                    path: '', 
                     
                     links: [
                         {label: this.$t('navbar.dropdown.skills.acc'), url: '/Competences/Accompagnements'},
@@ -64,7 +64,7 @@
 
                 { 
                     title: this.$t('navbar.links.doc'), 
-                    path: '/Programmes',
+                    path: '',
                     
                     links: [
                         {label:  this.$t('navbar.dropdown.doc.deafness'), url: '/Documentations/Surdite'},
@@ -75,7 +75,7 @@
 
                 { 
                     title: this.$t('navbar.links.activity'),
-                    path: '/Programmes', 
+                    path: '', 
                     
                     links: [
                         {label: this.$t('navbar.dropdown.activity.sign'), url: '/'},

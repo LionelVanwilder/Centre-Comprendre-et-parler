@@ -38,10 +38,9 @@
                     <li><a href="#" :class="{ 'activelang': $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</a></li>
                     <li><a href="#" :class="{ 'activelang': $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</a></li>
                     <li><a href="#"  :class="{ 'activelang': $i18n.locale === 'en' }" @click="$i18n.locale = 'en'">EN</a></li>
-                    <li><a href="#">LDS</a></li>
+                    <!--<a href="#" id="signbtn"><img src="../../../../icons/hands-asl-interpreting-solid.svg"></a>-->
+                </ul>
                
-                
-            </ul>
         </nav>
 </template>
 
