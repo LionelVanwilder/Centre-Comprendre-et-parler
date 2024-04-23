@@ -23,7 +23,7 @@
   <style scoped>
 
   .breadcrumb-container{
-    background-color: #ACD8E7;
+    background-color: #005387;
     padding: 1rem 2rem;
     margin: auto;
     width: 70%;
@@ -64,7 +64,7 @@
 
 .breadcrumb-first a{
   cursor: pointer;
-  color: #005387;
+  color: #ffffff;
 }
 
 

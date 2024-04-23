@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Education précoce</h2>
         <h4>Enfants de 0 à 3 ans à déficience auditive moyenne, sévère ou profonde, éventuellement associée à d'autres handicaps</h4>
@@ -28,6 +29,8 @@
         </p>
     </div>
 
+    </div>
+    
 </template>
 <script>
     import BreadCrumbCom from '../../breadcrumb.vue'

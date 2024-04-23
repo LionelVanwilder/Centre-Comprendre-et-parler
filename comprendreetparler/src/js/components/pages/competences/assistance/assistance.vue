@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Assistantes sociales et éducateurs</h2>
         <h3>Les assistantes sociales</h3>
@@ -114,6 +115,8 @@
         </p>
     </div>
 
+    </div>
+    
 </template>
 <script>
 

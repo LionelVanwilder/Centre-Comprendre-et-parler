@@ -46,7 +46,9 @@ export default{
     }
 </script>
 <style scoped>
-
+.breadcrumb-container{
+    margin-top: 2rem !important;
+}
 .don-grid-left h2 span, .don-grid-right h2 span{
     color: #005387 !important;
     font-weight: 700 !important;
@@ -55,7 +57,7 @@ export default{
         
         padding: 3rem;
         background-color: #005387;
-        margin: 2rem 6rem;
+        margin-top: 2rem !important;
         position: relative;
     }
 

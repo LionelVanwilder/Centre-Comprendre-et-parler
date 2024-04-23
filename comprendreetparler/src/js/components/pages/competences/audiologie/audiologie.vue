@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Audiologie</h2>
         <p>
@@ -26,6 +27,8 @@
         </p>
     </div>
 
+    </div>
+    
 </template>
 <script>
 

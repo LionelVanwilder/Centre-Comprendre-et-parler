@@ -1,6 +1,6 @@
 <template>
-
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Services</h2>
         <h3>Service d’appui à la formation professionnelle</h3>
@@ -17,6 +17,8 @@
         </p>
     </div>
 
+    </div>
+    
 
 </template>
 <script>

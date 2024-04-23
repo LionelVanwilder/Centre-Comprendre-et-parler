@@ -1,6 +1,6 @@
 <template>
-
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Intégration</h2>
         <span>
@@ -17,6 +17,8 @@
             auditive profonde l'indispensable soutien des interprètes en communication visuelle, jouant un rôle essentiel d'aide à la communication.
         </p>
     </div>
+    </div>
+    
 
 
 </template>

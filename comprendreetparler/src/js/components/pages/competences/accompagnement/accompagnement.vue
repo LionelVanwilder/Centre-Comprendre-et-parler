@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Accompagnements</h2>
         <h4>Enfants de 0 à 3 ans à déficience auditive moyenne, sévère ou profonde, éventuellement associée à d'autres handicaps</h4>
@@ -27,6 +28,8 @@
             Son objectif est également d'aider les parents à communiquer avec leur enfant et à adopter les attitudes propres à favoriser le développement de son langage.
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

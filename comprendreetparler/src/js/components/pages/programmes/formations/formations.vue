@@ -1,6 +1,6 @@
 <template>
-
-<BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+<div class="template-page-container">
+    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Formations extérieures</h2>
         <p>
@@ -13,6 +13,8 @@
              langues parlées dans leur famille ou à l’école.
         </p>
     </div>
+</div>
+
 
 
 </template>

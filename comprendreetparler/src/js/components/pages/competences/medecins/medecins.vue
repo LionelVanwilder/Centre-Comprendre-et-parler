@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Médecins - ORL</h2>
         <p>
@@ -33,6 +34,8 @@
             sphère ORL, afin de prévenir ou de remédier rapidement à toute détérioration de leur audition résiduelle.
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

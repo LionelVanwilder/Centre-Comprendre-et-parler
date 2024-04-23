@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Partenaires privilégiés</h2>
         <h3> Le Centre entretient des relations privilégiées,  avec les institutions et associations suivantes:</h3>
@@ -33,6 +34,8 @@
         </p>
     </div>
 
+    </div>
+    
 </template>
 <script>
 

@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Rayonnement du centre</h2>
         <p>
@@ -37,6 +38,8 @@
             <a href="" style="text-decoration: underline;">Le Prix Herman Houtman pour l’enfance en difficulté</a>
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

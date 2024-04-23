@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Logopédie</h2>
         <p>
@@ -39,6 +40,8 @@
              observations de développement linguistique courantes.
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

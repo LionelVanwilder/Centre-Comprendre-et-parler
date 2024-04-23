@@ -1,6 +1,6 @@
 <template>
-
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Implants cochléaires</h2>
         <span>
@@ -16,6 +16,8 @@
             maximale de leurs capacités de communication avec l’entourage et avec la société dans son ensemble
         </p>
     </div>
+    </div>
+    
 
 
 </template>

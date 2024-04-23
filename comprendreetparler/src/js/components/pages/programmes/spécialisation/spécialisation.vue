@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Spécialisation</h2>
         <h3>Spécialisé maternelles</h3>
@@ -70,6 +71,8 @@
             Le programme veille à améliorer les modalités de communication parlée et visuelle entre parents et enfants.
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

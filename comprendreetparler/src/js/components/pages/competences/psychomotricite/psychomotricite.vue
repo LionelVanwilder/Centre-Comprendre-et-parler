@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Psychomotricité</h2>
         <p>
@@ -32,6 +33,8 @@
             et les compétences linguistiques de l'enfant sourd, ainsi que de favoriser son épanouissement personnel et son autonomie.
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

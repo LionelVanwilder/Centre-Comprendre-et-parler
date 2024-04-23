@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Dépistage</h2>
         <p>
@@ -30,6 +31,8 @@
             la confirmation du diagnostic de surdité et la mise au point, en coordination étroite avec les hôpitaux et médecins extérieurs.
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

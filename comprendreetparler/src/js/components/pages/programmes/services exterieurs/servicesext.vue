@@ -1,6 +1,6 @@
 <template>
-
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Les services extérieurs</h2>
         <p>
@@ -17,6 +17,8 @@
             en coordination étroite avec les hôpitaux et médecins extérieurs.
         </p>
     </div>
+    </div>
+    
 </template>
 <script>
     

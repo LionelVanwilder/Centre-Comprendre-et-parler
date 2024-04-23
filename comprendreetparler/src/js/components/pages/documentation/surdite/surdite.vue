@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2 style="margin-bottom: 2rem;">Surdité</h2>
         
@@ -44,6 +45,8 @@
             <a href="https://www.signwriting.org/" target="_blank" style="text-decoration: underline;">SignWriting® Site</a>
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>
