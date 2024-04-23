@@ -71,8 +71,11 @@ export default{
 }
 
 .don-grid{
-    padding: 3rem;
-    margin: 2rem 6rem;
+    width: 70%;
+    padding: 3rem 0;
+    margin: auto;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 50px;
