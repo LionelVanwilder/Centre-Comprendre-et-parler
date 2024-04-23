@@ -1,6 +1,9 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
-    <NewsDetail :NewsDetail="NewsDetail"></NewsDetail>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+        <NewsDetail :NewsDetail="NewsDetail"></NewsDetail>
+    </div>
+    
 </template>
 <script>
     import NewsDetail from './NewsDetail.vue'

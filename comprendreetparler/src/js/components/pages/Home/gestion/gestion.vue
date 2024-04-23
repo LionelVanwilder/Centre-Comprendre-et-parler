@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
         <h2>Organes de gestion</h2>
         <p>
@@ -37,6 +38,8 @@
             Son rôle est de soutenir le Comité Exécutif dans sa tâche de gestion opérationnelle de l'ASBL.
         </p>
    </div>
+    </div>
+    
  </template>
  
  <script>

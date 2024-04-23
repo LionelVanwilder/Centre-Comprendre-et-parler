@@ -1,6 +1,6 @@
 <template>
-   
-   <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+   <div class="template-page-container">
+    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
         <h2>Missions et valeurs</h2>
         <h3>Missions générales</h3>
@@ -39,6 +39,8 @@
         </div>
         
    </div>
+   </div>
+   
  </template>
  
  <script>

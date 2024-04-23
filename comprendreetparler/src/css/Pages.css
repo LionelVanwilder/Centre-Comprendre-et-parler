@@ -1,5 +1,8 @@
 .Pages-container-content{
-    padding: 1rem 6rem;
+    padding: 3rem;
+    background-color: #ffffff;
+    width: 70%;
+    margin: auto;
 }
 
 .Pages-container-content h2{

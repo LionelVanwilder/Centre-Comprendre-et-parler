@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
         <h2>Le Centre "Comprendre et Parler"</h2>
         <p>
@@ -31,6 +32,8 @@
     
         
    </div>
+    </div>
+    
 </template>
 
 <script>

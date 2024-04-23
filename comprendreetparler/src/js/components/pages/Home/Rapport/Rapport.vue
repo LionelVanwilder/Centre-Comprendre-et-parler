@@ -1,5 +1,6 @@
 <template>
-     <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
         <h2>Rapport d'activités</h2>
         <div class="rapport-container" v-for="(item, index) in rapport" :key="index">
@@ -7,6 +8,8 @@
             <p>{{ item.content  }}</p>
         </div>
     </div>
+    </div>
+     
  </template>
  
  <script>

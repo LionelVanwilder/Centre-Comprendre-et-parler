@@ -1,5 +1,6 @@
 <template>
-   <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
    <div class="Pages-container-content">
         <h2>Satut et vision</h2>
         <h3>Statut</h3>
@@ -18,6 +19,8 @@
                 <p v-for="(item, index) in Paragraph" v-html="item.content" :key="index"></p>
             </div>
    </div>
+    </div>
+   
 </template>
 
 <script>

@@ -1,5 +1,6 @@
 <template>
-   <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
         <h2>Histoire du centre</h2>
         <p>
@@ -52,6 +53,8 @@
 
         </p>
    </div>
+    </div>
+   
  </template>
  
  <script>
