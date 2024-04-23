@@ -30,7 +30,7 @@
         </p>
 
         <h3>Nos moyens d'action: </h3>
-            <ol>
+            <ol class="program-action">
                 <li v-for="(item,index) in Action" :key="index">{{ item.content }}</li>
             </ol>
         </div>
