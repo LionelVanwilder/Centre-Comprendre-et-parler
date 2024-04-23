@@ -1,5 +1,6 @@
 <template>
-    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
         <h2>Autres Collaborations</h2>
         <p>
@@ -44,6 +45,8 @@
             web: <a href="#">www.fcra.be/</a><br>
         </p>
     </div>
+    </div>
+    
 
 </template>
 <script>

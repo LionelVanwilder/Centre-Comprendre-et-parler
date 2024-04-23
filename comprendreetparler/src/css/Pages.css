@@ -26,6 +26,18 @@
     color: #005387;
     font-weight: 600;
 }
+.template-page-container{
+    background-color: #f3f3f3;
+    padding: 4rem 0;
+}
+
+.Edu-container{
+    background-color:#ffffff;
+    width: 70%;
+    margin: auto !important;
+    margin-bottom: 2rem !important;
+    padding: 2rem !important;
+}
 
 @media all and (max-width: 600px){
     .Pages-container-content{

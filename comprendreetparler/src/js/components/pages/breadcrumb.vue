@@ -24,9 +24,13 @@
 
   .breadcrumb-container{
     background-color: #ACD8E7;
-    border-radius: 8px;
     padding: 1rem 2rem;
-    margin: 4rem;
+    margin: auto;
+    width: 70%;
+  }
+
+  .breadcrumb-container a{
+    font-size: 0.85rem;
   }
   
   ul {
