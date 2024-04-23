@@ -24,6 +24,7 @@ import "./css/pages/Home/vision/breadcrumb.css"
 import "./css/Pages.css"
 import "./css/pages/programmes/programmes.css"
 import "./css/pages/programmes/content.css"
+import "./css/pages/Home/organigrammes/organnigrammes.css"
 
 
 export default {
