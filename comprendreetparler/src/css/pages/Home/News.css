@@ -24,6 +24,19 @@
     place-items: center;
 }
 
+.card-radius{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.news-image-container{
+    margin: 1rem;
+}
+
+.card-radius img{
+    border-radius: 10px;
+}
+
 .news-card{
     display: flex;
     flex-direction: column;

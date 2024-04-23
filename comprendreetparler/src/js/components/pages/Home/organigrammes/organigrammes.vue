@@ -9,19 +9,97 @@
             d'activités multidisciplinaires selon les programmes et les services offerts
         </p>
 
-        <p>
+        <p class="orga-span">
             <span>La direction : </span>
         </p>
 
         <div class="card-grid-container">
             <div class="orga-card">
                 <div class="orga-card-image-container">
-                    <img src="../../../../../../images/banner.avif">
+                    <img src="../../../../../../images/organigrammes/brigitte.avif">
                 </div>
                 <div class="orga-card-content">
-
+                    <h4>Chantal Ligny</h4>
+                    <p>
+                        assure la direction<br> médicale
+                    </p>
                 </div>
             </div>
+
+            <div class="orga-card">
+                <div class="orga-card-image-container">
+                    <img src="../../../../../../images/organigrammes/brigitte.avif">
+                </div>
+                <div class="orga-card-content">
+                    <h4>Brigitte Charlier</h4>
+                    <p>
+                        assure la direction<br> opérationnelle
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="orga-span">
+                <span>Logopèdes, animateurs en langue des signes, puéricultrice:</span>
+        </p>
+        <div class="card-grid-container">
+            
+            <div class="orga-card">
+                <div class="orga-card-image-container">
+                    <img src="../../../../../../images/organigrammes/brigitte.avif">
+                </div>
+                <div class="orga-card-content">
+                    <h4>Cathy Van Vlierberghe</h4>
+                    <p>
+                        développement de la <br>communication et du langage
+                    </p>
+                </div>
+            </div>
+            <p>
+                L'équipe des logopèdes et animateurs en langue des signes est dirigée par Nathalie Balon, Cathy Van Vlierberghe
+            </p>
+        </div>
+
+        <p class="orga-span">
+                <span>Assistantes sociales:</span>
+        </p>
+        <div class="card-grid-container">
+            
+            <div class="orga-card">
+                <div class="orga-card-image-container">
+                    <img src="../../../../../../images/organigrammes/brigitte.avif">
+                </div>
+                <div class="orga-card-content">
+                    <h4>Anne Reubrecht</h4>
+                    <p>
+                        dirige l'équipe des assistantes<br>sociales et des éducateurs
+                    </p>
+                </div>
+            </div>
+            <p>
+                Accompagnement des familles d'enfant sourd et des jeunes adultes sourds, conseils et orientation dans leurs démarches, en axant les interventions de manière privilégiée sur l'autonomie.
+            </p>
+        </div>
+
+
+        <p class="orga-span">
+                <span>Psychologues et psychomotriciennes:</span>
+        </p>
+        <div class="card-grid-container">
+            
+            <div class="orga-card">
+                <div class="orga-card-image-container">
+                    <img src="../../../../../../images/organigrammes/brigitte.avif">
+                </div>
+                <div class="orga-card-content">
+                    <h4>Olivia Umbreit</h4>
+                    <p>
+                        dirige l'équipe des psychologues<br>et psychomotriciennes
+                    </p>
+                </div>
+            </div>
+            <p>
+                Développement des potentialités de l'enfant sourd afin de favoriser son épanouissement personnel et son autonomie.
+            </p>
         </div>
    </div>
     </div>
@@ -75,16 +153,7 @@
         margin: 0 .2rem;
     }
 
-    .card-grid-container{
-        width: 60%;
-        /*max-width: 1170px;*/
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 50px;
-        overflow: hidden;
-        margin: 2rem 0;
-
-    }
+    
 
     .photo-container{
         overflow: hidden;

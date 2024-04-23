@@ -3,12 +3,14 @@
         <h2 data-aos="fade-up" data-aos-duration="1000">{{ $t("news.title") }}</h2>
         <div class="container-news">
             <img src="../../../../../../icons/news.svg" class="icon-bloc-flex">
-            <article class="news-card" v-for="(item, index) in news" :key="index" 
+            <article class="news-card card-radius" v-for="(item, index) in news" :key="index" 
             data-aos="fade-up"
             data-aos-anchor="#aosanchor"
             data-aos-duration="1000">
+                <div class="news-image-container">
+                    <img :src="item.image">
+                </div>
                 
-                <img :src="item.image">
                 <p class="news-date" :style="{ backgroundColor: item.color }">{{ item.date }}</p>
                 <h3>{{ item.title }}</h3>
                 <p id="aosanchor" class="news-content">
