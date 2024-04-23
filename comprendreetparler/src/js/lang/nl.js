@@ -47,7 +47,7 @@ export default{
     },
 
     carousel: {
-        title: 'Ons andere paginas',
+        title: 'Onze andere pagina\'s',
     },
 
     navbar: {
