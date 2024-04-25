@@ -169,6 +169,13 @@ export default{
                 text1: 'Le programme Intégration veille à permettre aux enfants et adolescents dont la communication et le langage ont commencé à évoluer favorablement de continuer à améliorer leurs possibilités de compréhension et d\'expression orales.',
                 text2: 'Son objectif est de leur permettre de suivre l\'enseignement en intégration dans l\'enseignement ordinaire, premier stade de leur intégration sociale générale, en leur assurant des conditions adéquates de communication, y compris pour ceux à déficience auditive profonde l\'indispensable soutien des interprètes en communication visuelle, jouant un rôle essentiel d\'aide à la communication.',
             },
+
+            implants:{
+                title: "Implants cochléaires",
+                subtitle: "Enfants ou adultes porteurs d’un ou de deux implants cochléaires",
+                text1: "Pour les enfants avec Implants cochléaires, l'objectif du programme est de leur permettre de mieux développer leurs capacités de communication et de développement du langage, et améliorer ainsi leurs possibilités d'intégration au niveau scolaire et dans la société en général.",
+                text2: "L’objectif de ce programme est de permettre aux adultes totalement privés d’audition fonctionnelle, d’être accompagnés dans la pose d’un ou de deux implants cochléaires, de bénéficier de soutien et d’exercices de réhabilitation auditive via la prothèse cochléaire jusqu’à récupération maximale de leurs capacités de communication avec l’entourage et avec la société dans son ensemble"
+            }
         }
 
         

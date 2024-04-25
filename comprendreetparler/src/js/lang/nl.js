@@ -163,5 +163,12 @@ export default{
             text1: 'Het integratieprogramma heeft tot doel kinderen en adolescenten wier communicatie en taal gunstig zijn gaan evolueren, in staat te stellen hun mogelijkheden voor mondeling begrip en expressie te blijven verbeteren.',
             text2: 'Het doel is om hen in staat te stellen onderwijs te volgen in integratie met gewoon onderwijs, de eerste fase van hun algemene sociale integratie, door te zorgen voor adequate communicatievoorwaarden, inclusief voor degenen met diep gehoorverlies de onmisbare ondersteuning van visuele communicatietolken, die een essentiële rol spelen van communicatiehulp.',
         },
+
+        implants:{
+            title: "Cochleaire implantaten",
+            subtitle: "Kinderen of volwassenen met een of twee cochleaire implantaten",
+            text1: "Voor kinderen met cochleaire implantaten is het doel van het programma om hen in staat te stellen hun communicatie- en taalontwikkelingsvaardigheden beter te ontwikkelen, en zo hun integratiemogelijkheden op schoolniveau en in de samenleving in het algemeen verbeteren.",
+            text2: "Het doel van dit programma is om volwassenen die totaal geen functioneel gehoor hebben, te laten begeleiden bij de installatie van een of twee cochleaire implantaten, profiteren van ondersteuning en oefeningen voor het horen van revalidatie via de cochleaire prothese tot maximaal herstel van hun communicatievermogen met de entourage en met de samenleving als geheel"
+        }
     }
 }

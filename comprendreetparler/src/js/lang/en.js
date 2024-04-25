@@ -163,5 +163,12 @@ export default{
             text2: 'Its objective is to enable them to follow the teaching in integration in the ordinary education, first stage of their general social integration, ensuring adequate communication conditions, including for those with disabilities The European Commission has made a major contribution to the development of the European audiovisual industry.'
         },
 
+        implants:{
+            title: "Cochlear implants",
+            subtitle: "Children or adults with one or two cochlear implants",
+            text1: "For children with cochlear implants, the objective of the program is to enable them to better develop their communication and language development abilities, and thus improve their opportunities for integration at the school level and in society in general.",
+            text2: "The objective of this program is to allow adults totally deprived of functional hearing, to be accompanied in the installation of one or two cochlear implants, to benefit from support and exercises of hearing rehabilitation via the cochlear prosthesis until maximum recovery of their capacities of communication with the entourage and with the society as a whole"
+        }
+
     }
 }

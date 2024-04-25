@@ -2,19 +2,10 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Implants cochléaires</h2>
-        <span>
-            Enfants ou adultes porteurs d’un ou de deux implants cochléaires
-        </span>
-        <p>
-            Pour les enfants avec Implants cochléaires, l'objectif du programme est de leur permettre de mieux développer leurs capacités de communication 
-            et de développement du langage, et améliorer ainsi leurs possibilités d'intégration au niveau scolaire et dans la société en général.
-        </p>
-        <p>
-            L’objectif de ce programme est de permettre aux adultes totalement privés d’audition fonctionnelle, d’être accompagnés dans la pose d’un ou 
-            de deux implants cochléaires, de bénéficier de soutien et d’exercices de réhabilitation auditive via la prothèse cochléaire jusqu’à récupération 
-            maximale de leurs capacités de communication avec l’entourage et avec la société dans son ensemble
-        </p>
+        <h2>{{ $t("program.implants.title") }}</h2>
+        <span>{{ $t("program.implants.subtitle") }}</span>
+        <p>{{ $t("program.implants.text1") }}</p>
+        <p>{{ $t("program.implants.text2") }}</p>
     </div>
     </div>
     
