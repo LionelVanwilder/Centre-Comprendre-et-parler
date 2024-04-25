@@ -175,6 +175,14 @@ export default{
                 subtitle: "Enfants ou adultes porteurs d’un ou de deux implants cochléaires",
                 text1: "Pour les enfants avec Implants cochléaires, l'objectif du programme est de leur permettre de mieux développer leurs capacités de communication et de développement du langage, et améliorer ainsi leurs possibilités d'intégration au niveau scolaire et dans la société en général.",
                 text2: "L’objectif de ce programme est de permettre aux adultes totalement privés d’audition fonctionnelle, d’être accompagnés dans la pose d’un ou de deux implants cochléaires, de bénéficier de soutien et d’exercices de réhabilitation auditive via la prothèse cochléaire jusqu’à récupération maximale de leurs capacités de communication avec l’entourage et avec la société dans son ensemble"
+            },
+
+            services:{
+                title: "Services",
+                subtitle1: "Service d’appui à la formation professionnelle",
+                text1: "Pour les enfants avec Implants cochléaires, l'objectif du programme est de leur permettre de mieux développer leurs capacités de communication et de développement du langage, et améliorer ainsi leurs possibilités d'intégration au niveau scolaire et dans la société en général.",
+                subtitle2: "Service d’accompagnement pédagogique",
+                text2: "Le Service d’Accompagnement Pédagogique offre quant à lui de l’aide aux étudiants sourds inscrits dans une formation supérieure universitaire ou non-universitaire, sous forme de coordination de projet, accompagnement pédagogique, prises de notes, et interprétation des cours. Le suivi dans ce cadre est soumis à l’approbation préalable du projet de l’étudiant par les pouvoirs subsidiants (PHARE, AWIPH,..).",
             }
         }
 

@@ -2,19 +2,12 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Services</h2>
-        <h3>Service d’appui à la formation professionnelle</h3>
-        <p>
-            Pour les enfants avec Implants cochléaires, l'objectif du programme est de leur permettre de mieux développer leurs capacités de communication 
-            et de développement du langage, et améliorer ainsi leurs possibilités d'intégration au niveau scolaire et dans la société en général.
-        </p>
+        <h2>{{ $t("program.services.title") }}</h2>
+        <h3>{{ $t("program.services.subtitle1") }}</h3>
+        <p>{{ $t("program.services.text1") }}</p>
 
-        <h3>Service d’accompagnement pédagogique</h3>
-        <p>
-            Le Service d’Accompagnement Pédagogique offre quant à lui de l’aide aux étudiants sourds inscrits dans une formation supérieure universitaire 
-            ou non-universitaire, sous forme de coordination de projet, accompagnement pédagogique, prises de notes, et interprétation des cours. 
-            Le suivi dans ce cadre est soumis à l’approbation préalable du projet de l’étudiant par les pouvoirs subsidiants (PHARE, AWIPH,..).
-        </p>
+        <h3>{{ $t("program.services.subtitle2") }}</h3>
+        <p>{{ $t("program.services.text2") }}</p>
     </div>
 
     </div>

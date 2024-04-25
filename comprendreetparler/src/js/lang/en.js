@@ -168,6 +168,14 @@ export default{
             subtitle: "Children or adults with one or two cochlear implants",
             text1: "For children with cochlear implants, the objective of the program is to enable them to better develop their communication and language development abilities, and thus improve their opportunities for integration at the school level and in society in general.",
             text2: "The objective of this program is to allow adults totally deprived of functional hearing, to be accompanied in the installation of one or two cochlear implants, to benefit from support and exercises of hearing rehabilitation via the cochlear prosthesis until maximum recovery of their capacities of communication with the entourage and with the society as a whole"
+        },
+
+        services:{
+            title: "Services",
+            subtitle1: "Support service for vocational training",
+            text1: "For children with cochlear implants, the objective of the program is to enable them to better develop their communication and language development abilities, and thus improve their opportunities for integration at the school level and in society in general.",
+            subtitle2: "Educational support service",
+            text2: "The Pedagogical Support Service offers assistance to deaf students enrolled in university or non-university higher education, in the form of project coordination, pedagogical support, note taking, and course interpretation. Monitoring in this context is subject to prior approval of the student’s project by the subsidiary authorities (PHARE, AWIPH,..).",
         }
 
     }

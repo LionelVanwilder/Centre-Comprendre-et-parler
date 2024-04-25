@@ -169,6 +169,14 @@ export default{
             subtitle: "Kinderen of volwassenen met een of twee cochleaire implantaten",
             text1: "Voor kinderen met cochleaire implantaten is het doel van het programma om hen in staat te stellen hun communicatie- en taalontwikkelingsvaardigheden beter te ontwikkelen, en zo hun integratiemogelijkheden op schoolniveau en in de samenleving in het algemeen verbeteren.",
             text2: "Het doel van dit programma is om volwassenen die totaal geen functioneel gehoor hebben, te laten begeleiden bij de installatie van een of twee cochleaire implantaten, profiteren van ondersteuning en oefeningen voor het horen van revalidatie via de cochleaire prothese tot maximaal herstel van hun communicatievermogen met de entourage en met de samenleving als geheel"
+        },
+
+        services:{
+            title: "Diensten",
+            subtitle1: "Ondersteuningsdienst voor beroepsopleiding",
+            text1: "Voor kinderen met cochleaire implantaten is het doel van het programma om hen in staat te stellen hun communicatie- en taalontwikkelingsvaardigheden beter te ontwikkelen, en zo hun integratiemogelijkheden op schoolniveau en in de samenleving in het algemeen verbeteren.",
+            subtitle2: "Ondersteunende dienst voor onderwijs",
+            text2: "De Pedagogical Support Service biedt hulp aan dove studenten die zijn ingeschreven voor universitair of niet-universitair hoger onderwijs, in de vorm van projectcoördinatie, pedagogische ondersteuning, aantekeningen maken en cursusinterpretatie. Monitoring in deze context is onderworpen aan voorafgaande goedkeuring van het project van de student door de dochterautoriteiten (PHARE, AWIPH, ..).",
         }
     }
 }
