@@ -213,5 +213,13 @@ export default{
             text5: 'In collaboration with the whole multidisciplinary team, we follow the evolution of children by registering ourselves in the general mission of the Centre Comprendre et Parler.'
         }
 
+    },
+
+    mission:{
+        title: 'Missions and values',
+        subtitle: 'General missions',
+        intro: 'The general mission of the Centre Comprendre et Parler is to ensure the implementation of an individualized project for deaf children aiming to develop their potential and language skills to the maximum and to promote their personal development and autonomy. The center is based on collaboration between partners involved -child, family and professionals- on the consistency of the means implemented and the optimal use of technological means.',
+        subtitle2: 'Expanding missions',
+
     }
 }

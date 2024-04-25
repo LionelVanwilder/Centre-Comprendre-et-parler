@@ -222,6 +222,16 @@ export default{
                 text5: 'En collaboration avec toute l\'équipe multidisciplinaire, nous suivons l\'évolution des enfants en nous inscrivant dans la mission générale du Centre Comprendre et Parler.'
             }
 
+        },
+
+        mission:{
+            title: 'Missions et valeurs',
+            subtitle: 'Missions générales',
+            intro: 'La mission générale du Centre Comprendre et Parler est d\'assurer la mise en place d\'un projet individualisé pour l\'enfant sourd visant à développer au maximum ses potentialités et ses compétences linguistiques et à favoriser son épanouissement personnel et son autonomie.Le centre s\'appuie sur la collaboration entre partenaires impliqués -enfant, famille et professionnels- , sur la cohérence des moyens mis en œuvre et sur l’utilisation optimale des moyens technologiques.',
+
+            subtitle2: 'Missions élargies',
+            
+            
         }
 
         

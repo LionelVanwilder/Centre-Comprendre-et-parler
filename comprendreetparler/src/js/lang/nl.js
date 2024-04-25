@@ -212,5 +212,13 @@ export default{
             text4: 'Onze praktijk, onze ervaring en onze procedures worden zeer regelmatig verrijkt door onze ontmoetingen en samenwerkingen met andere teams en door verschillende trainingen en congressen.',
             text5: 'In samenwerking met het hele multidisciplinaire team volgen we de evolutie van kinderen door ons te registreren in de algemene missie van het Centre Comprendre et Parler.'
         }
+    },
+
+    mission:{
+        title: 'Missie en waarden',
+        subtitle: 'Algemene opdrachten',
+        intro: 'De algemene missie van het Centre Comprendre et Parler is ervoor te zorgen dat een geïndividualiseerd project voor dove kinderen wordt uitgevoerd om hun potentieel en taalvaardigheid maximaal te ontwikkelen en te bevorderen hun persoonlijke ontwikkeling en autonomie. Het centrum is gebaseerd op samenwerking tussen betrokken partners - kind, familie en professionals - op de consistentie van de geïmplementeerde middelen en het optimale gebruik van technologische middelen.',
+        subtitle2: 'Uitgebreide missies'
+        
     }
 }

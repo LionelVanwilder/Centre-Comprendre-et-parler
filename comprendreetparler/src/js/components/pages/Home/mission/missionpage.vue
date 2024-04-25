@@ -2,17 +2,11 @@
    <div class="template-page-container">
     <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
-        <h2>Missions et valeurs</h2>
-        <h3>Missions générales</h3>
-        <p>
-            La mission générale du Centre Comprendre et Parler est d'assurer la mise en place d'un projet 
-            individualisé pour l'enfant sourd visant à développer au maximum ses potentialités et ses compétences 
-            linguistiques et à favoriser son épanouissement personnel et son autonomie. <br>Le centre s'appuie sur 
-            la collaboration entre partenaires impliqués -enfant, famille et professionnels- , sur la cohérence 
-            des moyens mis en œuvre et sur l’utilisation optimale des moyens technologiques.
-        </p>
+        <h2>{{ $t("mission.title") }}</h2>
+        <h3>{{ $t("mission.subtitle") }}</h3>
+        <p>{{ $t("mission.intro") }}</p>
 
-        <h3>Missions élargies</h3>
+        <h3>{{ $t("mission.subtitle2") }}</h3>
         <p>
             A partir de la mission principale, les missions élargies du <strong>Centre Comprendre et Parler</strong> se déclinent comme suit:
         </p>
