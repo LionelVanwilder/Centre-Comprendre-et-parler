@@ -219,7 +219,8 @@ export default{
         subtitle: 'Algemene opdrachten',
         intro: 'De algemene missie van het Centre Comprendre et Parler is ervoor te zorgen dat een geïndividualiseerd project voor dove kinderen wordt uitgevoerd om hun potentieel en taalvaardigheid maximaal te ontwikkelen en te bevorderen hun persoonlijke ontwikkeling en autonomie. Het centrum is gebaseerd op samenwerking tussen betrokken partners - kind, familie en professionals - op de consistentie van de geïmplementeerde middelen en het optimale gebruik van technologische middelen.',
         subtitle2: 'Uitgebreide missies',
-        listintro: 'Uitgaande van de hoofdmissie zijn de uitgebreide missies van het Centre for Understanding and Speaking als volgt:'
+        listintro: 'Uitgaande van de hoofdmissie zijn de uitgebreide missies van het Centre for Understanding and Speaking als volgt:',
+        values: 'Waarden'
         
     }
 }

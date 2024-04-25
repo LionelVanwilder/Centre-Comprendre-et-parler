@@ -17,7 +17,7 @@
                         </li>
                     </ol>
                 
-            <h3>Valeurs</h3>
+            <h3>{{ $t("mission.values") }}</h3>
             <ol class="grid-list values">
                 <li>Management participatif</li>
                 <li>Place privilégiée des parents</li>

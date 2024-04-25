@@ -220,7 +220,8 @@ export default{
         subtitle: 'General missions',
         intro: 'The general mission of the Centre Comprendre et Parler is to ensure the implementation of an individualized project for deaf children aiming to develop their potential and language skills to the maximum and to promote their personal development and autonomy. The center is based on collaboration between partners involved -child, family and professionals- on the consistency of the means implemented and the optimal use of technological means.',
         subtitle2: 'Expanding missions',
-        listintro: 'Starting from the main mission, the expanded missions of the Centre for Understanding and Speaking are as follows:'
+        listintro: 'Starting from the main mission, the expanded missions of the Centre for Understanding and Speaking are as follows:',
+        values: 'Values'
 
     }
 }
