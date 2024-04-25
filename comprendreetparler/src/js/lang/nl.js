@@ -191,5 +191,17 @@ export default{
             text2: 'In het geval van een familiegeschiedenis van gehoorverlies of in het geval van neonatale elementen die een potentieel risico op gehoorverlies suggereren, het team van het Centrum zorgt voor de follow-up van het kind tot de diagnose doofheid of uitsluiting van een bepaald probleem.',
             text3: 'Jaarlijks worden ongeveer 3.000 baby\'s en jonge kinderen getest door het team. Het Centrum verwelkomt ook kinderen die worden gescreend in andere kraamzorgdiensten of via medisch overleg. In dit geval zorgt het audiomedische team voor de bevestiging van de diagnose van doofheid en ontwikkeling, in nauwe samenwerking met ziekenhuizen en externe artsen.'
         },
+    },
+
+    skills:{
+        acc:{
+            title: 'Begeleiding',
+            subtitle: 'Kinderen van 0 tot 3 jaar met matig, ernstig of diep gehoorverlies, mogelijk geassocieerd met andere handicaps',
+            text1: 'Dit Early Education-programma, ook wel Home-training genoemd, is voor kinderen van 0 tot 3 jaar met gemiddeld, ernstig of diep gehoorverlies, mogelijk geassocieerd met andere handicaps. Het programma (A1) heeft tot doel de communicatie en taal van het kind te ontwikkelen door zijn vermogen tot residueel gehoor en visuele perceptie van spraak en handmatige tekens maximaal te stimuleren.',
+            text2: 'Het doel is ook om ouders op psychologisch niveau te begeleiden, hen het gesproken of visuele communicatiemiddel te leren om hen autonoom te maken en in staat te stellen de taal van hun kind te ontwikkelen.',
+            span: 'Kinderen horen die in een huis wonen dat uitsluitend bestaat uit mensen met ernstig of diep gehoorverlies die met elkaar communiceren via gebarentaal.',
+            text3: 'Met betrekking tot het horen van kinderen die in een huis wonen dat uitsluitend bestaat uit personen met ernstig of diep gehoorverlies die met elkaar communiceren via gebarentaal, het programma (A2) heeft tot doel het normale gehoorvermogen van het kind te stimuleren en om hem heen de noodzakelijke voorwaarden te scheppen voor de ontwikkeling van zijn taal en spraak.',
+            text4: 'Het doel is ook om ouders te helpen communiceren met hun kind en een houding aan te nemen die de taalontwikkeling bevordert.'
+        }
     }
 }

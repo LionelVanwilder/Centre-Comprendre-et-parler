@@ -191,5 +191,17 @@ export default{
             text3: 'Each year, around 3,000 babies and young children are tested by the team. The Centre also welcomes children screened in other maternity services or through medical consultations. In this case, the audio-medical team ensures the confirmation of the diagnosis of deafness and the development, in close coordination with hospitals and external doctors.'
         }
 
+    },
+
+    skills:{
+        acc:{
+            title: 'Accompaniement',
+            subtitle: 'Children from 0 to 3 years with moderate, severe or profound hearing loss, possibly associated with other disabilities',
+            text1: 'This Early Education program also called Home training is for children from 0 to 3 years of age with medium, severe or deep hearing loss, possibly associated with other disabilities. The program (A1) aims to develop the communication and language of the child by stimulating to the maximum his abilities of residual hearing and visual perception of speech and manual signs.',
+            text2: 'Its objective is also to accompany parents on the psychological level, teach them the spoken or visual means of communication to make them autonomous and able to develop the language of their child.',
+            span: 'Hearing children living in a home composed solely of people with severe or profound hearing loss who communicate with each other through sign language.',
+            text3: 'With regard to hearing children living in a home composed solely of persons with severe or profound hearing loss who communicate with each other through sign language, the programme (A2) aims to stimulate the child’s normal hearing abilities and create around him the necessary conditions for the development of his language and speech.',
+            text4: 'Its goal is also to help parents communicate with their child and adopt attitudes that promote language development.'
+        }
     }
 }

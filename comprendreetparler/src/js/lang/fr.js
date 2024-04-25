@@ -197,6 +197,21 @@ export default{
                 text2: 'En cas d’antécédents familiaux de déficience auditive ou en cas d’éléments néo-nataux laissant présager un risque potentiel de perte auditive, l’équipe du Centre assure le follow-up de l’enfant jusqu’au diagnostic de surdité ou l’exclusion de tout problème particulier.',
                 text3: 'Chaque année, environ 3.000 bébés et jeunes enfants sont ainsi testés par l’équipe. Le Centre accueille également des enfants dépistés dans d’autres services de maternité ou via les consultations médicales. Dans ce cas, l’équipe audio-médicale assure la confirmation du diagnostic de surdité et la mise au point, en coordination étroite avec les hôpitaux et médecins extérieurs.'
             },
+
+            
+
+        },
+
+        skills:{
+            acc:{
+                title: 'Accompagnement',
+                subtitle: 'Enfants de 0 à 3 ans à déficience auditive moyenne, sévère ou profonde, éventuellement associée à d\'autres handicaps',
+                text1: 'Ce programme Education précoce appelé aussi Home training s\'adresse aux enfants de 0 à 3 ans à déficience auditive moyenne, sévère ou profonde, éventuellement associée à d\'autres handicaps. Le programme (A1) vise à développer la communication et le langage de l\'enfant en stimulant au maximum ses capacités d\'audition résiduelle et de perception visuelle de la parole et des signes manuels.',
+                text2: 'Son objectif est également d\'accompagner les parents sur le plan psychologique, leur apprendre les moyens de communication parlés ou visuels pour les rendre autonomes et aptes à développer le langage de leur enfant.',
+                span: 'Enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou profonde communiquant entre elles par la langue des signes.',
+                text3: 'En ce qui concerne les enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou profonde communiquant entre elles par la langue des signes, le programme (A2) vise à stimuler les capacités auditives normales de l\'enfant et à créer autour de lui les conditions nécessaires au développement de son langage et de sa parole.',
+                text4: 'Son objectif est également d\'aider les parents à communiquer avec leur enfant et à adopter les attitudes propres à favoriser le développement de son langage.'
+            }
         }
 
         
