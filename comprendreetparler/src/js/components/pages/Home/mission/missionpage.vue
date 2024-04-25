@@ -7,9 +7,7 @@
         <p>{{ $t("mission.intro") }}</p>
 
         <h3>{{ $t("mission.subtitle2") }}</h3>
-        <p>
-            A partir de la mission principale, les missions élargies du <strong>Centre Comprendre et Parler</strong> se déclinent comme suit:
-        </p>
+        <p>{{ $t("mission.listintro") }}</p>
 
         <div class="pages-paragraph">
                
