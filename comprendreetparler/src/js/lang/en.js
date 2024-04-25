@@ -146,7 +146,15 @@ export default{
 
     program:{
         heading: 'Programs and Specifics',
-        subheading: 'General presentation'
+        subheading: 'General presentation',
+
+        specialization:{
+            title: 'Specialization',
+            subtitle: 'Re-education coordinated with the teaching of «Integrated School» (Special Type 7 education with partial integration by close association with ordinary schools)',
+            kindertitle: 'Specialzed kindergartens',
+            kindercontent1: '',
+            
+        }
 
     }
 }
