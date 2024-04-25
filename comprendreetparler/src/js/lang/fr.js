@@ -154,6 +154,21 @@ export default{
         program:{
             heading: 'Programmes et spécificités',
             subheading: 'Présentation générale',
+
+            specialization:{
+                title: 'Spécialisation',
+                subtitle: 'Ré-éducation coordonnée avec l’enseignement de « l’Ecole Intégrée » (Enseignement spécial type 7 avec intégration partielle par association étroite avec écoles ordinaires)',
+                kindertitle: 'Spécialisée maternelles',
+                kindercontent1: '',
+    
+            },
+    
+            integration:{
+                title: 'Intégration',
+                subtitle: 'Ré-éducation coordonnée avec l’enseignement de « l’Ecole Intégrée » (Enseignement spécial type 7 avec intégration partielle par association étroite avec écoles ordinaires)',
+                text1: 'Le programme Intégration veille à permettre aux enfants et adolescents dont la communication et le langage ont commencé à évoluer favorablement de continuer à améliorer leurs possibilités de compréhension et d\'expression orales.',
+                text2: 'Son objectif est de leur permettre de suivre l\'enseignement en intégration dans l\'enseignement ordinaire, premier stade de leur intégration sociale générale, en leur assurant des conditions adéquates de communication, y compris pour ceux à déficience auditive profonde l\'indispensable soutien des interprètes en communication visuelle, jouant un rôle essentiel d\'aide à la communication.',
+            },
         }
 
         

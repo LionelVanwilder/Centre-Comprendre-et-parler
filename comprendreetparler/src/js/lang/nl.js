@@ -148,5 +148,20 @@ export default{
     program:{
         heading: 'Programma\'s en bijzonderheden',
         subheading: 'Algemene presentatie',
+
+        specialization:{
+            title: 'Specialisatie',
+            subtitle: 'Heropvoeding gecoördineerd met het onderwijs van « Integrated School » (Speciaal Type 7-onderwijs met gedeeltelijke integratie door nauwe samenwerking met gewone scholen)',
+            kindertitle: 'Gespecialiseerd kleuteronderwijs.',
+            kindercontent1: '',
+
+        },
+
+        integration:{
+            title: 'Integratie',
+            subtitle: 'Heropvoeding gecoördineerd met het onderwijs van « Integrated School » (Speciaal Type 7-onderwijs met gedeeltelijke integratie door nauwe samenwerking met gewone scholen)',
+            text1: 'Het integratieprogramma heeft tot doel kinderen en adolescenten wier communicatie en taal gunstig zijn gaan evolueren, in staat te stellen hun mogelijkheden voor mondeling begrip en expressie te blijven verbeteren.',
+            text2: 'Het doel is om hen in staat te stellen onderwijs te volgen in integratie met gewoon onderwijs, de eerste fase van hun algemene sociale integratie, door te zorgen voor adequate communicatievoorwaarden, inclusief voor degenen met diep gehoorverlies de onmisbare ondersteuning van visuele communicatietolken, die een essentiële rol spelen van communicatiehulp.',
+        },
     }
 }

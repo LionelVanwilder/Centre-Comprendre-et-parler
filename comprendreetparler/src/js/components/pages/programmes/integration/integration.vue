@@ -1,21 +1,11 @@
 <template>
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
-    <div class="Edu-container">
-        <h2>Intégration</h2>
-        <span>
-            Ré-éducation coordonnée avec l’enseignement de « l’Ecole Intégrée » (Enseignement spécial type 7 avec intégration partielle 
-            par association étroite avec écoles ordinaires)
-        </span>
-        <p>
-            Le programme Intégration  veille à permettre aux enfants et adolescents dont la communication et le langage ont commencé à 
-            évoluer favorablement de continuer à améliorer leurs possibilités de compréhension et d'expression orales.
-        </p>
-        <p>
-            Son objectif est de leur permettre de suivre l'enseignement en intégration dans l'enseignement ordinaire, premier stade de 
-            leur intégration sociale générale, en leur assurant des conditions adéquates de communication, y compris pour ceux à déficience 
-            auditive profonde l'indispensable soutien des interprètes en communication visuelle, jouant un rôle essentiel d'aide à la communication.
-        </p>
+        <div class="Edu-container">
+        <h2>{{ $t("program.integration.title") }}</h2>
+        <span>{{ $t("program.integration.subtitle") }}</span>
+        <p>{{ $t("program.integration.text1") }}</p>
+        <p>{{ $t("program.integration.text2") }}</p>
     </div>
     </div>
     

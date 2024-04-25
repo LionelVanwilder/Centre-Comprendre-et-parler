@@ -151,10 +151,17 @@ export default{
         specialization:{
             title: 'Specialization',
             subtitle: 'Re-education coordinated with the teaching of «Integrated School» (Special Type 7 education with partial integration by close association with ordinary schools)',
-            kindertitle: 'Specialzed kindergartens',
+            kindertitle: 'Specialized kindergartens',
             kindercontent1: '',
-            
-        }
+
+        },
+
+        integration:{
+            title: 'Integration',
+            subtitle: 'Re-education coordinated with the teaching of «Integrated School» (Special Type 7 education with partial integration by close association with ordinary schools)',
+            text1: 'The Integration program ensures that children and adolescents whose communication and language have begun to continue to improve their opportunities for oral comprehension and expression.',
+            text2: 'Its objective is to enable them to follow the teaching in integration in the ordinary education, first stage of their general social integration, ensuring adequate communication conditions, including for those with disabilities The European Commission has made a major contribution to the development of the European audiovisual industry.'
+        },
 
     }
 }
