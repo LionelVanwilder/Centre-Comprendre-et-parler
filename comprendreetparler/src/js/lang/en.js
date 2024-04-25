@@ -202,6 +202,16 @@ export default{
             span: 'Hearing children living in a home composed solely of people with severe or profound hearing loss who communicate with each other through sign language.',
             text3: 'With regard to hearing children living in a home composed solely of persons with severe or profound hearing loss who communicate with each other through sign language, the programme (A2) aims to stimulate the child’s normal hearing abilities and create around him the necessary conditions for the development of his language and speech.',
             text4: 'Its goal is also to help parents communicate with their child and adopt attitudes that promote language development.'
+        },
+
+        audio:{
+            title: 'Audiology',
+            text1: 'The audiology department of the center Comprendre et Parler ensures the assessment and development of hearing impairments, the adaptation of hearing aids, the programming of cochlear implants and audiological/ audioprosthetic follow-up of patients.',
+            text2: 'The team is composed of 5 pediatric audiologists whose respective specializations cover the entire spectrum of the activity (“conventional” hearing aids, cochlear implants, FM systems, communication aids, clinical audiology).',
+            text3: 'The pediatric specificity of the service makes it possible to select and adapt the most appropriate audiometric techniques to the age and abilities of the child. Hearing aids and implant processors are regulated with rigor and caution for children from an early age.',
+            text4: 'Our practice, our experience and our procedures are enriched very regularly by our meetings and collaborations with other teams and by different trainings and congresses.',
+            text5: 'In collaboration with the whole multidisciplinary team, we follow the evolution of children by registering ourselves in the general mission of the Centre Comprendre et Parler.'
         }
+
     }
 }

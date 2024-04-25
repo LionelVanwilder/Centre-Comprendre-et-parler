@@ -211,7 +211,17 @@ export default{
                 span: 'Enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou profonde communiquant entre elles par la langue des signes.',
                 text3: 'En ce qui concerne les enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou profonde communiquant entre elles par la langue des signes, le programme (A2) vise à stimuler les capacités auditives normales de l\'enfant et à créer autour de lui les conditions nécessaires au développement de son langage et de sa parole.',
                 text4: 'Son objectif est également d\'aider les parents à communiquer avec leur enfant et à adopter les attitudes propres à favoriser le développement de son langage.'
+            },
+
+            audio:{
+                title: 'Audiologie',
+                text1: 'Le service audiologie du centre Comprendre et Parler assure l’évaluation et la mise au point des déficiences auditives, l’adaptation des appareils auditifs, la programmation des implants cochléaires et le suivi audiologique / audioprothétique des patients.',
+                text2: 'L’équipe est composée de 5 audiologistes pédiatriques dont les spécialisations respectives couvrent l’ensemble du spectre de l’activité (appareils auditifs “conventionnels”, implants cochléaires, systèmes FM, aides techniques d’aide à la communication, audiologie clinique).',
+                text3: 'La spécificité pédiatrique du service permet de sélectionner et d\'adapter les techniques audiométriques les plus appropriées à l\'âge et aux capacités de l\'enfant. Les appareils auditifs et les processeurs implants sont réglés avec rigueur et prudence pour les enfants dès le plus jeune âge.',
+                text4: 'Notre pratique, notre expérience et nos procédures sont enrichies très régulièrement par nos rencontres et collaborations avec d\'autres équipes et par différentes formations et congrès.',
+                text5: 'En collaboration avec toute l\'équipe multidisciplinaire, nous suivons l\'évolution des enfants en nous inscrivant dans la mission générale du Centre Comprendre et Parler.'
             }
+
         }
 
         

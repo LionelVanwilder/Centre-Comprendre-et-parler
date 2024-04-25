@@ -2,29 +2,12 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Audiologie</h2>
-        <p>
-            Le service audiologie du centre Comprendre et Parler assure l’évaluation et la mise au point des déficiences auditives, 
-            l’adaptation des appareils auditifs, la programmation des implants cochléaires et le suivi audiologique / audioprothétique 
-            des patients.
-        </p>
-        <p>
-            L’équipe est composée de 5 audiologistes pédiatriques dont les spécialisations respectives couvrent l’ensemble du spectre de 
-            l’activité (appareils auditifs “conventionnels”, implants cochléaires, systèmes FM, aides techniques d’aide à la communication, 
-            audiologie clinique).
-        </p>
-        <p>
-            La spécificité pédiatrique du service permet de sélectionner et d'adapter les techniques audiométriques les plus appropriées à 
-            l'âge et aux capacités de l'enfant. Les appareils auditifs et les processeurs implants sont réglés avec rigueur et prudence pour les enfants dès le plus jeune âge.
-        </p>
-        <p>
-            Notre pratique, notre expérience et nos procédures sont enrichies très régulièrement par nos rencontres et collaborations avec 
-            d'autres équipes et par différentes formations et congrès.
-        </p>
-        <p>
-            En collaboration avec toute l'équipe multidisciplinaire, nous suivons l'évolution des enfants en nous inscrivant dans la mission 
-            générale du Centre Comprendre et Parler.
-        </p>
+        <h2>{{ $t("skills.audio.title") }}</h2>
+        <p>{{ $t("skills.audio.text1") }}</p>
+        <p>{{ $t("skills.audio.text2") }}</p>
+        <p>{{ $t("skills.audio.text3") }}</p>
+        <p>{{ $t("skills.audio.text4") }}</p>
+        <p>{{ $t("skills.audio.text5") }}</p>
     </div>
 
     </div>

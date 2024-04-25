@@ -202,6 +202,15 @@ export default{
             span: 'Kinderen horen die in een huis wonen dat uitsluitend bestaat uit mensen met ernstig of diep gehoorverlies die met elkaar communiceren via gebarentaal.',
             text3: 'Met betrekking tot het horen van kinderen die in een huis wonen dat uitsluitend bestaat uit personen met ernstig of diep gehoorverlies die met elkaar communiceren via gebarentaal, het programma (A2) heeft tot doel het normale gehoorvermogen van het kind te stimuleren en om hem heen de noodzakelijke voorwaarden te scheppen voor de ontwikkeling van zijn taal en spraak.',
             text4: 'Het doel is ook om ouders te helpen communiceren met hun kind en een houding aan te nemen die de taalontwikkeling bevordert.'
+        },
+
+        audio:{
+            title: 'Audiologie',
+            text1: 'De afdeling audiologie van het centrum Comprendre et Parler zorgt voor de beoordeling en ontwikkeling van gehoorstoornissen, de aanpassing van hoortoestellen, de programmering van cochleaire implantaten en audiologisch/ audioprosthetische follow-up van patiënten.',
+            text2: 'Het team bestaat uit 5 pediatrische audiologen waarvan de respectievelijke specialisaties het hele spectrum van de activiteit bestrijken (“ conventionele ” hoortoestellen, cochleaire implantaten, FM-systemen, communicatiehulpmiddelen, klinische audiologie).',
+            text3: 'De pediatrische specificiteit van de dienst maakt het mogelijk om de meest geschikte audiometrische technieken te selecteren en aan te passen aan de leeftijd en capaciteiten van het kind. Hoortoestellen en implantaatprocessors worden streng en voorzichtig geregeld voor kinderen vanaf jonge leeftijd.',
+            text4: 'Onze praktijk, onze ervaring en onze procedures worden zeer regelmatig verrijkt door onze ontmoetingen en samenwerkingen met andere teams en door verschillende trainingen en congressen.',
+            text5: 'In samenwerking met het hele multidisciplinaire team volgen we de evolutie van kinderen door ons te registreren in de algemene missie van het Centre Comprendre et Parler.'
         }
     }
 }
