@@ -2,16 +2,9 @@
 <div class="template-page-container">
     <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Formations extérieures</h2>
-        <p>
-            Le service Formations extérieures a pour but d’organiser des formations dans le domaine de la surdité ou encore celui de la méthode de « La langue en Mouvements ».
-        </p>
-        <p>
-            Le Centre organise ces formations à l’attention d’enseignants du réseau « ordinaire », de logopèdes, de puéricultrices, de soignants, de rééducateurs 
-            ou de toutes personnes impliquées de près ou de loin dans le domaine de la surdité. Il est également possible de suivre une formation de base ou une
-             post formation dans le domaine de la « Langue en mouvements », méthode dynamique d’ "éducation phonologique" pour enfants ou adultes exposés à plusieurs 
-             langues parlées dans leur famille ou à l’école.
-        </p>
+        <h2>{{ $t("program.formations.title") }}</h2>
+        <p>{{ $t("program.formations.text1") }}</p>
+        <p>{{ $t("program.formations.text2") }}</p>
     </div>
 </div>
 

@@ -177,6 +177,12 @@ export default{
             text1: "Voor kinderen met cochleaire implantaten is het doel van het programma om hen in staat te stellen hun communicatie- en taalontwikkelingsvaardigheden beter te ontwikkelen, en zo hun integratiemogelijkheden op schoolniveau en in de samenleving in het algemeen verbeteren.",
             subtitle2: "Ondersteunende dienst voor onderwijs",
             text2: "De Pedagogical Support Service biedt hulp aan dove studenten die zijn ingeschreven voor universitair of niet-universitair hoger onderwijs, in de vorm van projectcoördinatie, pedagogische ondersteuning, aantekeningen maken en cursusinterpretatie. Monitoring in deze context is onderworpen aan voorafgaande goedkeuring van het project van de student door de dochterautoriteiten (PHARE, AWIPH, ..).",
+        },
+
+        formations:{
+            title: 'Externe training',
+            text1: 'De afdeling Externe Training heeft tot doel trainingen te organiseren op het gebied van doofheid of de methode van « Language in Motion ».',
+            text2: 'Het Centrum organiseert deze trainingen voor leraren van het « gewone » netwerk, logopedisten, kinderverzorgers, verzorgers, revalidatiemedewerkers of iedereen die betrokken is op het gebied van doofheid. Het is ook mogelijk om een basistraining of een posttraining te volgen op het gebied van « Taal in bewegingen », dynamische methode van "fonologisch onderwijs" voor kinderen of volwassenen die worden blootgesteld aan verschillende talen die in hun familie of op school worden gesproken.'
         }
     }
 }

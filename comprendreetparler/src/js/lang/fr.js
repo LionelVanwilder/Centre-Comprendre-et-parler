@@ -183,6 +183,12 @@ export default{
                 text1: "Pour les enfants avec Implants cochléaires, l'objectif du programme est de leur permettre de mieux développer leurs capacités de communication et de développement du langage, et améliorer ainsi leurs possibilités d'intégration au niveau scolaire et dans la société en général.",
                 subtitle2: "Service d’accompagnement pédagogique",
                 text2: "Le Service d’Accompagnement Pédagogique offre quant à lui de l’aide aux étudiants sourds inscrits dans une formation supérieure universitaire ou non-universitaire, sous forme de coordination de projet, accompagnement pédagogique, prises de notes, et interprétation des cours. Le suivi dans ce cadre est soumis à l’approbation préalable du projet de l’étudiant par les pouvoirs subsidiants (PHARE, AWIPH,..).",
+            },
+
+            formations:{
+                title: 'Formations extérieures',
+                text1: 'Le service Formations extérieures a pour but d’organiser des formations dans le domaine de la surdité ou encore celui de la méthode de « La langue en Mouvements ».',
+                text2: 'Le Centre organise ces formations à l’attention d’enseignants du réseau « ordinaire », de logopèdes, de puéricultrices, de soignants, de rééducateurs ou de toutes personnes impliquées de près ou de loin dans le domaine de la surdité. Il est également possible de suivre une formation de base ou une post formation dans le domaine de la « Langue en mouvements », méthode dynamique d’ "éducation phonologique" pour enfants ou adultes exposés à plusieurs langues parlées dans leur famille ou à l’école.'
             }
         }
 

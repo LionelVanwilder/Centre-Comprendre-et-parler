@@ -176,6 +176,12 @@ export default{
             text1: "For children with cochlear implants, the objective of the program is to enable them to better develop their communication and language development abilities, and thus improve their opportunities for integration at the school level and in society in general.",
             subtitle2: "Educational support service",
             text2: "The Pedagogical Support Service offers assistance to deaf students enrolled in university or non-university higher education, in the form of project coordination, pedagogical support, note taking, and course interpretation. Monitoring in this context is subject to prior approval of the student’s project by the subsidiary authorities (PHARE, AWIPH,..).",
+        },
+
+        formations:{
+            title: 'External training',
+            text1: 'The External Training department aims to organize training in the field of deafness or the method of «Langues en mouvement».',
+            text2: 'The Center organizes these trainings for teachers of the «ordinary» network, speech therapists, childcare workers, caregivers, rehabilitation workers or anyone involved in the field of deafness. It is also possible to follow a basic training or a post training in the field of «Language in movements», dynamic method of "phonological education" for children or adults exposed to several languages spoken in their family or at school.'
         }
 
     }
