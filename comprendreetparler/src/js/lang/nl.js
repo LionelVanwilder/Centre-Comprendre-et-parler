@@ -183,6 +183,13 @@ export default{
             title: 'Externe training',
             text1: 'De afdeling Externe Training heeft tot doel trainingen te organiseren op het gebied van doofheid of de methode van « Language in Motion ».',
             text2: 'Het Centrum organiseert deze trainingen voor leraren van het « gewone » netwerk, logopedisten, kinderverzorgers, verzorgers, revalidatiemedewerkers of iedereen die betrokken is op het gebied van doofheid. Het is ook mogelijk om een basistraining of een posttraining te volgen op het gebied van « Taal in bewegingen », dynamische methode van "fonologisch onderwijs" voor kinderen of volwassenen die worden blootgesteld aan verschillende talen die in hun familie of op school worden gesproken.'
-        }
+        },
+
+        screening:{
+            title: 'Screening op doofheid',
+            text1: 'De afdeling Screening organiseert de beoordeling, ontwikkeling en diagnose van doofheid. Dit gebeurt ofwel tijdens het moederschap (CHIREC; Edith Cavell in Ukkel) of in het Centrum zelf.',
+            text2: 'In het geval van een familiegeschiedenis van gehoorverlies of in het geval van neonatale elementen die een potentieel risico op gehoorverlies suggereren, het team van het Centrum zorgt voor de follow-up van het kind tot de diagnose doofheid of uitsluiting van een bepaald probleem.',
+            text3: 'Jaarlijks worden ongeveer 3.000 baby\'s en jonge kinderen getest door het team. Het Centrum verwelkomt ook kinderen die worden gescreend in andere kraamzorgdiensten of via medisch overleg. In dit geval zorgt het audiomedische team voor de bevestiging van de diagnose van doofheid en ontwikkeling, in nauwe samenwerking met ziekenhuizen en externe artsen.'
+        },
     }
 }

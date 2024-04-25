@@ -182,6 +182,13 @@ export default{
             title: 'External training',
             text1: 'The External Training department aims to organize training in the field of deafness or the method of «Langues en mouvement».',
             text2: 'The Center organizes these trainings for teachers of the «ordinary» network, speech therapists, childcare workers, caregivers, rehabilitation workers or anyone involved in the field of deafness. It is also possible to follow a basic training or a post training in the field of «Language in movements», dynamic method of "phonological education" for children or adults exposed to several languages spoken in their family or at school.'
+        },
+
+        screening:{
+            title: 'Deafness screening',
+            text1: 'The Screening department organizes the assessment, development and diagnosis of deafness. This is done either in maternity (CHIREC; Edith Cavell in Uccle) or at the Centre itself.',
+            text2: 'In the case of a family history of hearing loss or in the case of neonatal elements that suggest a potential risk of hearing loss, the Centre’s team ensures the follow-up of the child until the diagnosis of deafness or the exclusion of any particular problem.',
+            text3: 'Each year, around 3,000 babies and young children are tested by the team. The Centre also welcomes children screened in other maternity services or through medical consultations. In this case, the audio-medical team ensures the confirmation of the diagnosis of deafness and the development, in close coordination with hospitals and external doctors.'
         }
 
     }

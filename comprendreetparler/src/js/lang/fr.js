@@ -189,7 +189,14 @@ export default{
                 title: 'Formations extérieures',
                 text1: 'Le service Formations extérieures a pour but d’organiser des formations dans le domaine de la surdité ou encore celui de la méthode de « La langue en Mouvements ».',
                 text2: 'Le Centre organise ces formations à l’attention d’enseignants du réseau « ordinaire », de logopèdes, de puéricultrices, de soignants, de rééducateurs ou de toutes personnes impliquées de près ou de loin dans le domaine de la surdité. Il est également possible de suivre une formation de base ou une post formation dans le domaine de la « Langue en mouvements », méthode dynamique d’ "éducation phonologique" pour enfants ou adultes exposés à plusieurs langues parlées dans leur famille ou à l’école.'
-            }
+            },
+
+            screening:{
+                title: 'Dépistage de la surdité',
+                text1: 'Le service Dépistage organise l’évaluation, la mise au point et le diagnostic de la surdité. Ceci se réalise soit en maternité (CHIREC ; Edith Cavell à Uccle), soit au Centre même.',
+                text2: 'En cas d’antécédents familiaux de déficience auditive ou en cas d’éléments néo-nataux laissant présager un risque potentiel de perte auditive, l’équipe du Centre assure le follow-up de l’enfant jusqu’au diagnostic de surdité ou l’exclusion de tout problème particulier.',
+                text3: 'Chaque année, environ 3.000 bébés et jeunes enfants sont ainsi testés par l’équipe. Le Centre accueille également des enfants dépistés dans d’autres services de maternité ou via les consultations médicales. Dans ce cas, l’équipe audio-médicale assure la confirmation du diagnostic de surdité et la mise au point, en coordination étroite avec les hôpitaux et médecins extérieurs.'
+            },
         }
 
         

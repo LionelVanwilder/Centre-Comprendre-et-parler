@@ -2,20 +2,10 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Le dépistage de la surdité</h2>
-        <p>
-            Le service Dépistage organise l’évaluation, la mise au point et le diagnostic de la surdité.  Ceci se réalise soit en maternité (CHIREC ; Edith Cavell à Uccle), 
-            soit au Centre même.
-        </p>
-        <p>
-            En cas d’antécédents familiaux de déficience auditive ou en cas d’éléments néo-nataux laissant présager un risque potentiel de perte auditive, l’équipe du 
-            Centre assure le follow-up de l’enfant jusqu’au diagnostic de surdité ou l’exclusion de tout problème particulier.
-        </p>
-        <p>
-            Chaque année, environ 3.000 bébés et jeunes enfants sont ainsi testés par l’équipe.  Le Centre accueille également des enfants dépistés dans d’autres services 
-            de maternité ou via les consultations médicales.  Dans ce cas, l’équipe audio-médicale assure la confirmation du diagnostic de surdité et la mise au point, 
-            en coordination étroite avec les hôpitaux et médecins extérieurs.
-        </p>
+        <h2>{{ $t("program.screening.title") }}</h2>
+        <p>{{ $t("program.screening.text1") }}</p>
+        <p>{{ $t("program.screening.text2") }}</p>
+        <p>{{ $t("program.screening.text3") }}</p>
     </div>
     </div>
 </template>
