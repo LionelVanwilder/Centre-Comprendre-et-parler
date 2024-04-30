@@ -12,7 +12,7 @@
     
     
   </nav>
-</template>hhh
+</template>
 <script>
 
     import NavLinks from './nav-links.vue'
