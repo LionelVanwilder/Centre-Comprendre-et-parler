@@ -5,7 +5,7 @@
         <h2>Rapport d'activités</h2>
         <div class="rapport-container" v-for="(item, index) in rapport" :key="index">
             <h3>{{ item.title }}</h3>
-            <p>{{ item.content  }}</p>
+            <p v-html="item.content"></p>
         </div>
     </div>
     </div>
