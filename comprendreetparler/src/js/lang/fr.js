@@ -206,12 +206,8 @@ export default{
         skills:{
             acc:{
                 title: 'Accompagnement',
-                subtitle: 'Enfants de 0 à 3 ans à déficience auditive moyenne, sévère ou profonde, éventuellement associée à d\'autres handicaps',
-                text1: 'Ce programme Education précoce appelé aussi Home training s\'adresse aux enfants de 0 à 3 ans à déficience auditive moyenne, sévère ou profonde, éventuellement associée à d\'autres handicaps. Le programme (A1) vise à développer la communication et le langage de l\'enfant en stimulant au maximum ses capacités d\'audition résiduelle et de perception visuelle de la parole et des signes manuels.',
-                text2: 'Son objectif est également d\'accompagner les parents sur le plan psychologique, leur apprendre les moyens de communication parlés ou visuels pour les rendre autonomes et aptes à développer le langage de leur enfant.',
-                span: 'Enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou profonde communiquant entre elles par la langue des signes.',
-                text3: 'En ce qui concerne les enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou profonde communiquant entre elles par la langue des signes, le programme (A2) vise à stimuler les capacités auditives normales de l\'enfant et à créer autour de lui les conditions nécessaires au développement de son langage et de sa parole.',
-                text4: 'Son objectif est également d\'aider les parents à communiquer avec leur enfant et à adopter les attitudes propres à favoriser le développement de son langage.'
+                subtitle: 'Service d\'Accompagnement Pédagogique',
+                text1: 'Le Service d’Accompagnement Pédagogique offre quant à lui de l’aide aux étudiants sourds inscrits dans une formation supérieure universitaire ou non-universitaire, sous forme de coordination de projet, accompagnement pédagogique, prises de notes, et interprétation des cours. Le suivi dans ce cadre est soumis à l’approbation préalable du projet de l’étudiant par les pouvoirs subsidiants. (PHARE, AWIPH,..).',
             },
 
             audio:{

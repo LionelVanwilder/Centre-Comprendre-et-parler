@@ -5,11 +5,6 @@
         <h2>{{ $t("skills.acc.title") }}</h2>
         <h4>{{ $t("skills.acc.subtitle") }}</h4>
         <p>{{ $t("skills.acc.text1") }}</p>
-        <p>{{ $t("skills.acc.text2") }}</p>
-
-        <span>{{ $t("skills.acc.span") }}</span>
-        <p>{{ $t("skills.acc.text3") }}</p>
-        <p>{{ $t("skills.acc.text4") }}</p>
     </div>
     </div>
     

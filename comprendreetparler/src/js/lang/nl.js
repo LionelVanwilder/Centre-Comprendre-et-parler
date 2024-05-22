@@ -197,12 +197,8 @@ export default{
     skills:{
         acc:{
             title: 'Begeleiding',
-            subtitle: 'Kinderen van 0 tot 3 jaar met matig, ernstig of diep gehoorverlies, mogelijk geassocieerd met andere handicaps',
-            text1: 'Dit Early Education-programma, ook wel Home-training genoemd, is voor kinderen van 0 tot 3 jaar met gemiddeld, ernstig of diep gehoorverlies, mogelijk geassocieerd met andere handicaps. Het programma (A1) heeft tot doel de communicatie en taal van het kind te ontwikkelen door zijn vermogen tot residueel gehoor en visuele perceptie van spraak en handmatige tekens maximaal te stimuleren.',
-            text2: 'Het doel is ook om ouders op psychologisch niveau te begeleiden, hen het gesproken of visuele communicatiemiddel te leren om hen autonoom te maken en in staat te stellen de taal van hun kind te ontwikkelen.',
-            span: 'Kinderen horen die in een huis wonen dat uitsluitend bestaat uit mensen met ernstig of diep gehoorverlies die met elkaar communiceren via gebarentaal.',
-            text3: 'Met betrekking tot het horen van kinderen die in een huis wonen dat uitsluitend bestaat uit personen met ernstig of diep gehoorverlies die met elkaar communiceren via gebarentaal, het programma (A2) heeft tot doel het normale gehoorvermogen van het kind te stimuleren en om hem heen de noodzakelijke voorwaarden te scheppen voor de ontwikkeling van zijn taal en spraak.',
-            text4: 'Het doel is ook om ouders te helpen communiceren met hun kind en een houding aan te nemen die de taalontwikkeling bevordert.'
+            subtitle: 'Pedagogische begeleidingsdienst',
+            text1: 'De Pedagogische begeleidingsdienst biedt hulp aan dove studenten die zijn ingeschreven voor universitair of niet-universitair hoger onderwijs, in de vorm van projectcoördinatie, pedagogische ondersteuning, aantekeningen maken en cursusinterpretatie. De monitoring in dit verband is afhankelijk van de voorafgaande goedkeuring van het project van de student door de hulpautoriteiten.',
         },
 
         audio:{
