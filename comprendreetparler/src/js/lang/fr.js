@@ -119,6 +119,7 @@ export default{
             terms: 'Conditions générales de vente',
             gdpr: 'RGPD',
             legal: 'Mentions légales',
+            rights: '© 2024 Centre Comprendre et Parler ASBL',
         },
 
 

@@ -33,7 +33,7 @@
         
     <div class="footer-footer">
         <div class="policy">
-            <a>© 1967 - 2024</a>
+            <a>{{ $t("footer.rights") }}</a>
         </div>
     </div>
 </template>

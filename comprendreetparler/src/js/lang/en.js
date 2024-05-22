@@ -114,6 +114,7 @@ export default{
         terms: 'General Conditions of Sales',
         gdpr: 'GDPR',
         legal: 'legal notice',
+        rights: '© 2024 Center Comprendre et Parler NPO',
     },
 
     donation: {

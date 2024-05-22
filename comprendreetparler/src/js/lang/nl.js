@@ -115,6 +115,7 @@ export default{
         terms: 'Algemene verkoopvoorwaarden',
         gdpr: 'AVG',
         legal: 'wettelijke vermeldingen',
+        rights: '© 2024 Centrum Comprendre et Parler VZW',
     },
 
     donation: {
