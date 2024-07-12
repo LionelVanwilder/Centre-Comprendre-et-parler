@@ -216,9 +216,18 @@ export default{
                 text2: 'L’équipe est composée de 5 audiologistes pédiatriques dont les spécialisations respectives couvrent l’ensemble du spectre de l’activité (appareils auditifs “conventionnels”, implants cochléaires, systèmes FM, aides techniques d’aide à la communication, audiologie clinique).',
                 text3: 'La spécificité pédiatrique du service permet de sélectionner et d\'adapter les techniques audiométriques les plus appropriées à l\'âge et aux capacités de l\'enfant. Les appareils auditifs et les processeurs implants sont réglés avec rigueur et prudence pour les enfants dès le plus jeune âge.',
                 text4: 'Notre pratique, notre expérience et nos procédures sont enrichies très régulièrement par nos rencontres et collaborations avec d\'autres équipes et par différentes formations et congrès.',
-                text5: 'En collaboration avec toute l\'équipe multidisciplinaire, nous suivons l\'évolution des enfants en nous inscrivant dans la mission générale du Centre Comprendre et Parler.'
-            }
+                text5: 'En collaboration avec toute l\'équipe multidisciplinaire, nous suivons l\'évolution des enfants en nous inscrivant dans la mission générale du Centre Comprendre et Parler.',
+            },
 
+            research:{
+                title: 'Formations, évaluations et recherches',
+                text1: 'Le Centre Comprendre et Parler a, depuis toujours, été à la pointe de la recherche dans le domaine de la surdité et de ses conséquences sur le développement des compétences des enfants sourds.',
+                text2: 'Intégrant dans son équipe des membres du corps académique et de recherche de l\'Université Libre de Bruxelles (ULB), des Hautes écoles (Institut Libre Marie Haps), et des membres du Bureau International d\'Audio-phonologie (BIAP), le Centre conduit ou participe à des recherches cliniques ou scientifiques dans son domaine d\'intervention, supervise des mémoires de fin d\'étude en logopédie, psychologie, psycholinguistique, audiologie, psychomotricité, et publie des articles scientifiques ou des ouvrages de référence sur l\'ensemble de la problématique liée à la surdité.',
+                text3: 'Le service des formations, évaluations et recherches a pour mission d’organiser des formations, soit internes, soit externes à l’attention d’enseignants du réseau « ordinaire », de logopèdes, de puéricultrices, de soignants, de rééducateurs ou de toute personne impliquée de près ou de loin dans l’accompagnement de l’enfant sourd. Il organise, en lien avec les universités, une activité de recherche et de publication scientifiques dans le domaine de la surdité.  Sa mission s’inscrit dans celle plus générale du Centre Comprendre et Parler qui vise à favoriser le développement de l’enfant sourd en s’appuyant sur la cohérences des moyens mis en œuvre et sur l’utilisation optimales de moyens technologiques.',
+                text4: 'Pour « 30 ans d\'action concertée Terrain-Recherche », le Centre a reçu le prix Houtman 1993 de l\'ONE (O. Périer, B. Charlier, J. Leybaert, C. Hage)'
+            }
+            
+           
         },
 
         mission:{
@@ -229,8 +238,10 @@ export default{
             listintro: 'A partir de la mission principale, les missions élargies du Centre Comprendre et Parler se déclinent comme suit:',
             values: 'Valeurs',
             
-            
-        }
+        
+        },
+
+        
 
         
       

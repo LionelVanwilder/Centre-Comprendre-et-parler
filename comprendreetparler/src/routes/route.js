@@ -36,7 +36,7 @@ import PartenairesPage from '../js/components/pages/collaborations/Partenaires/p
 import OtherCollabPage from '../js/components/pages/collaborations/OtherCollab/OtherCollab.vue'
 import RayonnementPage from '../js/components/pages/collaborations/Rayonnement/Rayonnement.vue'
 import SurditePage from '../js/components/pages/documentation/surdite/surdite.vue'
-
+import ResearchPage from '../js/components/pages/competences/recherche/recherche.vue'
 
 
 const router = createRouter({
@@ -181,6 +181,12 @@ const router = createRouter({
         path: '/Competences/Logopedie',
         name: 'LogopediePage',
         component: LogopediePage
+      },
+
+      {
+        path: '/Competences/Recherches',
+        name: 'ResearchPage',
+        component: ResearchPage
       },
 
       {

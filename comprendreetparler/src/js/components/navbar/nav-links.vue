@@ -41,7 +41,7 @@
                         {label: this.$t('navbar.dropdown.skills.acc'), url: '/Competences/Accompagnements'},
                         {label: this.$t('navbar.dropdown.skills.assistance'), url: '/Competences/AssistancesSociales'},
                         {label: this.$t('navbar.dropdown.skills.audio'), url: '/Competences/Audiologie'},
-                        {label: this.$t('navbar.dropdown.skills.research'), url: 'Instagram.com'},
+                        {label: this.$t('navbar.dropdown.skills.research'), url: '/Competences/Recherches'},
                         {label: this.$t('navbar.dropdown.skills.help'), url: 'Instagram.com'},
                         {label: this.$t('navbar.dropdown.skills.logo'), url: '/Competences/Logopedie'},
                         {label: this.$t('navbar.dropdown.skills.doctor'), url: '/Competences/Medecins'},
