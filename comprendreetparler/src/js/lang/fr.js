@@ -62,7 +62,7 @@ export default{
                 program: 'Programmes',
                 skills: 'Compétences',
                 collab: 'Collaborations',
-                doc: 'Documentations',
+                doc: 'SAFP / SAP',
                 activity: 'Activités'
             },
 

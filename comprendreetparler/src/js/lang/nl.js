@@ -56,7 +56,7 @@ export default{
             program: 'Programma\'s',
             skills: 'Vaardigheden',
             collab: 'Samenwerkingen',
-            doc: 'Documentatie',
+            doc: 'SAFP / SAP',
             activity: 'Activiteiten'
         },
 
