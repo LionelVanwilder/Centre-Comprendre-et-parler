@@ -56,7 +56,7 @@ export default{
             skills: 'Skills',
             collab: 'Collaborations',
             doc: 'SAFP / SAP',
-            activity: 'Activities'
+            activity: 'News'
         },
 
         dropdown:{
