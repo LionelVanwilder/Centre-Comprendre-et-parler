@@ -12,7 +12,7 @@
   </div>
   <main>
     <AboutUs></AboutUs>
-    <FlexRow></FlexRow>
+    <!--<FlexRow></FlexRow>-->
     <PatientGrid></PatientGrid>
     <BlocFlex></BlocFlex>
     <!--<SwiperApp></SwiperApp>-->
@@ -27,7 +27,6 @@
 import HomeBanner from '../../header/home-banner.vue'
 //import ButtonOrange from '../../header/button-orange.vue'
 import AboutUs from './aboutus.vue'
-import FlexRow from "./flex-row.vue"
 import PatientGrid from "./Patient.vue"
 import BlocFlex from "./bloc-flex.vue"
 import NewsSection from "./news/news.vue"
@@ -41,7 +40,6 @@ export default {
     HomeBanner,
     //ButtonOrange,
     AboutUs,
-    FlexRow,
     PatientGrid,
     BlocFlex,
     NewsSection,
