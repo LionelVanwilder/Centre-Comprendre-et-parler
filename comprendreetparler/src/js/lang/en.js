@@ -63,6 +63,9 @@ export default{
             program:{
                 education: 'Early education',
                 spec: 'Specialization',
+                ord: 'Children and young people enrolled in ordinary education',
+                spec2: 'Children and young people enrolled in special education',
+                sup: 'Young people in higher education',
                 integration: 'Integration',
                 implants: 'Cochlear implants',
                 services: 'Services',

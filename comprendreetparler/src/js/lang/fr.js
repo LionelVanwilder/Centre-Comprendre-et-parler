@@ -70,6 +70,9 @@ export default{
                 program:{
                     education: 'Education précoce',
                     spec: 'Spécialisation',
+                    ord: 'Enfants et jeunes scolarisés en enseignement ordinaire',
+                    spec2: 'Enfants et jeunes scolarisés en enseignement spécialisé',
+                    sup: 'Jeunes en enseignement supérieur',
                     integration: 'Intégration',
                     implants: 'Implants cochléaires',
                     services: 'Services',

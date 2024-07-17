@@ -64,6 +64,9 @@ export default{
             program:{
                 education: 'Vroege scholing',
                 spec: 'Specialisatie',
+                ord: 'Kinderen en jongeren ingeschreven in het gewoon onderwijs',
+                spec2: 'Kinderen en jongeren ingeschreven voor speciaal onderwijs',
+                sup: 'Jongeren in het hoger onderwijs',
                 integration: 'Integratie',
                 implants: 'Cochleaire implantaten',
                 services: 'Diensten',

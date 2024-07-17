@@ -24,6 +24,9 @@
                     links: [
                         {label: this.$t('navbar.dropdown.program.education'), url: '/Programmes/EducationPrecoce'},
                         {label: this.$t('navbar.dropdown.program.spec'), url: '/Programmes/Specialisation'},
+                        {label: this.$t('navbar.dropdown.program.ord'), url: '/Programmes/Specialisation'},
+                        {label: this.$t('navbar.dropdown.program.spec2'), url: '/Programmes/Specialisation'},
+                        {label: this.$t('navbar.dropdown.program.sup'), url: '/Programmes/Specialisation'},
                         {label: this.$t('navbar.dropdown.program.integration'), url: '/Programmes/Integration'},
                         {label: this.$t('navbar.dropdown.program.implants'), url: '/Programmes/ImplantsCochleaires'},
                         {label: this.$t('navbar.dropdown.program.services'), url: '/Programmes/Services'},
