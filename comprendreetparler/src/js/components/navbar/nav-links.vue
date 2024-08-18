@@ -76,7 +76,7 @@
                     ] 
                 },
 
-                { 
+                /*{ 
                     title: this.$t('navbar.links.activity'),
                     path: '', 
                     
@@ -88,7 +88,7 @@
                         {label: this.$t('navbar.dropdown.activity.other'), url: '/'},
                         {label: this.$t('navbar.dropdown.activity.job'), url: '/'}
                     ] 
-                }
+                }*/
                 ]
             }
 
