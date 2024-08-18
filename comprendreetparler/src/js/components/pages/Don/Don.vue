@@ -17,8 +17,8 @@
         </div>
         <div class="don-grid-right">
             <h2 v-html="$t('donation.gridright.title')"></h2>
-            <p v-html="$t('donation.gridright.info')"></p>
-            <p v-html="$t('donation.gridright.text')"></p>
+            <!--<p v-html="$t('donation.gridright.info')"></p>
+            <p v-html="$t('donation.gridright.text')"></p>-->
         </div>
     </div>
 </template>
