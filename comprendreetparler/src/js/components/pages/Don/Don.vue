@@ -17,6 +17,7 @@
         </div>
         <div class="don-grid-right">
             <h2 v-html="$t('donation.gridright.title')"></h2>
+            <DonForm></DonForm>
             <!--<p v-html="$t('donation.gridright.info')"></p>
             <p v-html="$t('donation.gridright.text')"></p>-->
         </div>
@@ -25,12 +26,14 @@
 <script>
 
 import BreadCrumbCom from '../breadcrumb.vue'
+import DonForm from '../Don/form'
 
 export default{
         name: 'DonPage',
 
         components: {
-            BreadCrumbCom
+            BreadCrumbCom,
+            DonForm
         },
 
         
