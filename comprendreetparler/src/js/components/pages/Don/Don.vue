@@ -76,9 +76,11 @@ export default{
     margin: auto;
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    /*display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    grid-gap: 50px;
+    grid-gap: 50px;*/
 }
 
 .don-grid p{
@@ -95,6 +97,10 @@ export default{
     text-decoration: underline;
     font-weight: 600 !important;
     transition: .3s ease-in-out;
+}
+
+.don-grid-left{
+    margin-bottom: 2rem;
 }
 
 .icon-bloc-flex{

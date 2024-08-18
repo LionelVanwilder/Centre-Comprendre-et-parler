@@ -127,13 +127,13 @@ export default{
         intro2: 'Elke schenking aan het Centrum voor een bedrag groter dan of gelijk aan 40 € zal het voorwerp uitmaken van een belastingcertificaat dat u in het eerste semester volgend zal worden toegezonden het jaar van uw donatie. Zo kunt u uw belastingaangifte correct invullen.',
 
         gridleft: {
-            title: 'U kunt een domiciliëring of een donatie <br> kiezen om op de rekening te storten <br><span style="color: #005387; font-weight: 700;">Be22 2100 4361 0747</span>',
+            title: 'U kunt een domiciliëringskies kiezen of donatie via <span style="color: #005387; font-weight: 700;">overschrijving</span>',
             info: 'Comprendre et Parler VZW<br>Oeverstraat 101<br> 1200 Brussel<br>IBAN : BE22 2100 4361 0747<br>BIC : GEBABEBB',
             text: 'Door te klikken op <span><router-link to="/Competences" style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">deze link</router-link></span>, u zult een bankoverschrijving vinden om te downloaden. <br> Gelieve in te vullen en door te sturen naar uw bank.'
         },
 
         gridright:{
-            title: 'U kunt een domiciliëring of een donatie <br> kiezen om op de rekening te storten <br><span style="color: #005387; font-weight: 700;">732-0239048-91</span>',
+            title: 'U kunt ervoor kiezen om te doen <br><span style="color: #005387; font-weight: 700;">donatie online</span>',
             info: 'Comprendre et Parler VZW<br>Oeverstraat 101<br> 1200 Brussel<br>IBAN : BE23 7320 2390 4891<br>BIC : CREGBEBB',
             text: 'Door te klikken op <span><router-link to="/Competences" style="color: #005387;text-decoration: underline;font-weight: 600 !important;transition: .3s ease-in-out;cursor: pointer;">deze link</router-link></span>, u zult een bankoverschrijving vinden om te downloaden. <br> Gelieve in te vullen en door te sturen naar uw bank.'
         }
