@@ -7,12 +7,12 @@
                 <li><router-link to="/Competences/Audiologie">Audiologie</router-link></li>
                 <!--<li><router-link to="/Competences/Depistage">Dépistage</router-link></li>-->
                 <li><router-link to="/Programmes/Services">Formations, évaluations <br>et recherche scientifique</router-link></li>
-                <li><router-link to="/Programmes/FormationsExterieures">Aides visuelles à la communication :<br> Interprétation, translittération et transcription</router-link></li>
+                <!--<li><router-link to="/Programmes/FormationsExterieures">Aides visuelles à la communication :<br> Interprétation, translittération et transcription</router-link></li>-->
                 <li><router-link to="/Competences/Logopedie">Logopédie</router-link></li>
                 <li><router-link to="/Competences/Medecins">Médecins – ORL</router-link></li>
-                <li><router-link to="/Programmes/ServicesExterieurs">Psychologie et neuropsychologie</router-link></li>
+                <!--<li><router-link to="/Programmes/ServicesExterieurs">Psychologie et neuropsychologie</router-link></li>-->
                 <li><router-link to="/Competences/Psychomotricite">Psychomotricité</router-link></li>
-                <li><router-link to="/Programmes/ServicesExterieurs">Services administratifs et financiers</router-link></li>
+               <!-- <li><router-link to="/Programmes/ServicesExterieurs">Services administratifs et financiers</router-link></li>-->
             </ul>
         </div>
         <div class="programmes-text">

@@ -24,9 +24,9 @@
                     links: [
                         {label: this.$t('navbar.dropdown.program.education'), url: '/Programmes/EducationPrecoce'},
                         {label: this.$t('navbar.dropdown.program.spec'), url: '/Programmes/Specialisation'},
-                        {label: this.$t('navbar.dropdown.program.ord'), url: '/Programmes/Specialisation'},
+                        /*{label: this.$t('navbar.dropdown.program.ord'), url: '/Programmes/Specialisation'},
                         {label: this.$t('navbar.dropdown.program.spec2'), url: '/Programmes/Specialisation'},
-                        {label: this.$t('navbar.dropdown.program.sup'), url: '/Programmes/Specialisation'},
+                        {label: this.$t('navbar.dropdown.program.sup'), url: '/Programmes/Specialisation'},*/
                         {label: this.$t('navbar.dropdown.program.integration'), url: '/Programmes/Integration'},
                         {label: this.$t('navbar.dropdown.program.implants'), url: '/Programmes/ImplantsCochleaires'},
                         {label: this.$t('navbar.dropdown.program.services'), url: '/Programmes/Services'},
@@ -45,12 +45,12 @@
                         {label: this.$t('navbar.dropdown.skills.assistance'), url: '/Competences/AssistancesSociales'},
                         {label: this.$t('navbar.dropdown.skills.audio'), url: '/Competences/Audiologie'},
                         {label: this.$t('navbar.dropdown.skills.research'), url: '/Competences/Recherches'},
-                        {label: this.$t('navbar.dropdown.skills.help'), url: 'Instagram.com'},
+                        /*{label: this.$t('navbar.dropdown.skills.help'), url: 'Instagram.com'},*/
                         {label: this.$t('navbar.dropdown.skills.logo'), url: '/Competences/Logopedie'},
                         {label: this.$t('navbar.dropdown.skills.doctor'), url: '/Competences/Medecins'},
-                        {label: this.$t('navbar.dropdown.skills.psychology'), url: 'Instagram.com'},
+                        /*{label: this.$t('navbar.dropdown.skills.psychology'), url: 'Instagram.com'},*/
                         {label: this.$t('navbar.dropdown.skills.psychomotor'), url: '/Competences/Psychomotricite'},
-                        {label: this.$t('navbar.dropdown.skills.financial'), url: 'Instagram.com'}
+                        /*{label: this.$t('navbar.dropdown.skills.financial'), url: 'Instagram.com'}*/
                     ] 
                 },
 
