@@ -3,25 +3,25 @@
         <h2 data-aos="fade-up" data-aos-duration="1000">{{ $t("news.title") }}</h2>
         <div class="container-news">
             <img src="../../../../../../icons/news.svg" class="icon-bloc-flex">
-            <!--<article class="news-card card-radius" v-for="(item, index) in news" :key="index" 
+            <article class="news-card card-radius" v-for="card in news" :key="card.id" 
             data-aos="fade-up"
             data-aos-anchor="#aosanchor"
             data-aos-duration="1000">
-                <div class="news-image-container">
+                <!--<div class="news-image-container">
                     <img :src="item.image">
-                </div>
+                </div>-->
                 
-                <p class="news-date">{{ item.date }}</p>
-                <h3>{{ item.title }}</h3>
-                <p id="aosanchor" class="news-content">
+                <p class="news-date">{{ formatDate(card.date) }}</p>
+                <h3>{{ card.title }}</h3>
+                <!--<p id="aosanchor" class="news-content">
                     {{ item.content }}
-                </p>
-                <router-link :to="`/Actualites/${formatTitleForUrl(item.title)}`">→ Lire plus</router-link>
+                </p>-->
+                <router-link :to="`/Actualites/${formatTitleForUrl(card.title)}`">→ Lire plus</router-link>
 
-            </article>-->
-            <ul>
+            </article>
+            <!--<ul>
                 <li v-for="card in news" :key="card.id">{{ card.title }}</li>
-            </ul>
+            </ul>-->
         </div>
     </div>
 </template>
@@ -82,7 +82,8 @@ export default {
         async function getNews() {
             const { data, error } = await supabase
                 .from('news')
-                .select();
+                .select()
+                .order('date', { ascending: false });
             
             if (error) {
                 console.error('Error fetching news:', error);
@@ -96,6 +97,12 @@ export default {
             getNews();
         });
 
+        const formatDate = (date) => {
+            const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+            return new Date(date).toLocaleDateString('fr-FR', options);
+        };
+
+
         // Fonction pour formater le titre pour l'URL (si nécessaire)
         const formatTitleForUrl = (title) => {
             return title.replace(/\s+/g, '-').toLowerCase();
@@ -104,7 +111,8 @@ export default {
         // Retournez les variables et méthodes utilisées dans le template
         return {
             news,
-            formatTitleForUrl
+            formatTitleForUrl,
+            formatDate
         };
     }
     
