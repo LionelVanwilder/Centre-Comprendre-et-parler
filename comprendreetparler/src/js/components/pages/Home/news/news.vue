@@ -26,7 +26,7 @@
 <script>
 export default {
     name: 'NewsSection',
-    data() {
+    /*data() {
         return {
             news: [
                 {
@@ -65,6 +65,6 @@ export default {
             // Replace spaces with dashes and convert to lowercase
             return title.replace(/\s+/g, '-').toLowerCase();
         }
-    }
+    }*/
 }
 </script>
