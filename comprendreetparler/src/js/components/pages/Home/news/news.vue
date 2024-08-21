@@ -3,7 +3,7 @@
         <h2 data-aos="fade-up" data-aos-duration="1000">{{ $t("news.title") }}</h2>
         <div class="container-news">
             <img src="../../../../../../icons/news.svg" class="icon-bloc-flex">
-            <article class="news-card card-radius" v-for="(item, index) in news" :key="index" 
+            <!--<article class="news-card card-radius" v-for="(item, index) in news" :key="index" 
             data-aos="fade-up"
             data-aos-anchor="#aosanchor"
             data-aos-duration="1000">
@@ -11,22 +11,37 @@
                     <img :src="item.image">
                 </div>
                 
-                <p class="news-date" :style="{ backgroundColor: item.color }">{{ item.date }}</p>
+                <p class="news-date">{{ item.date }}</p>
                 <h3>{{ item.title }}</h3>
                 <p id="aosanchor" class="news-content">
                     {{ item.content }}
                 </p>
                 <router-link :to="`/Actualites/${formatTitleForUrl(item.title)}`">→ Lire plus</router-link>
 
-            </article>
+            </article>-->
+            <ul>
+                <li v-for="card in news" :key="card.id">{{ card.title }}</li>
+            </ul>
         </div>
     </div>
 </template>
 
 <script>
+import { supabase } from '../../../../../lib/supabaseClient';
+import { ref, onMounted } from 'vue'; // Importez ref et onMounted depuis 'vue'
+const news = ref([])
+
+async function getNews() {
+  const { data } = await supabase.from('news').select()
+  news.value = data
+}
+
+onMounted(() => {
+  getNews()
+})
 export default {
     name: 'NewsSection',
-    /*data() {
+   /* data() {
         return {
             news: [
                 {
@@ -58,13 +73,40 @@ export default {
                 }
             ]
         }
-    },
-    methods: {
-        // Method to format the title for URL
-        formatTitleForUrl(title) {
-            // Replace spaces with dashes and convert to lowercase
-            return title.replace(/\s+/g, '-').toLowerCase();
+    },*/
+    setup() {
+        // Créez une variable réactive pour les actualités
+        const news = ref([]);
+
+        // Fonction pour récupérer les actualités depuis Supabase
+        async function getNews() {
+            const { data, error } = await supabase
+                .from('news')
+                .select();
+            
+            if (error) {
+                console.error('Error fetching news:', error);
+            } else {
+                news.value = data;
+            }
         }
-    }*/
+
+        // Appel de la fonction lorsque le composant est monté
+        onMounted(() => {
+            getNews();
+        });
+
+        // Fonction pour formater le titre pour l'URL (si nécessaire)
+        const formatTitleForUrl = (title) => {
+            return title.replace(/\s+/g, '-').toLowerCase();
+        };
+
+        // Retournez les variables et méthodes utilisées dans le template
+        return {
+            news,
+            formatTitleForUrl
+        };
+    }
+    
 }
 </script>
