@@ -13,6 +13,7 @@
                         +32 2 770 04 40
                     </a>
                 </li>
+                <li><router-link to="/">Contact</router-link></li>
             </ul>
             <!--<ul class="navinfo-media">
                 <li>
@@ -31,6 +32,8 @@
                     </a>
                 </li>
             </ul>-->
+            
+            
             <ul class="langnavinfo">
                 <!--<li v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale"><a>{{ locale }}</a></li>-->
                 
