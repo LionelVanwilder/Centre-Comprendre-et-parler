@@ -6,6 +6,7 @@ import en from "./en.js"
 const messages = {fr,nl,en}
 
 const i18n = createI18n({
+  legacy: false,
     locale: 'fr',
     messages
   })
