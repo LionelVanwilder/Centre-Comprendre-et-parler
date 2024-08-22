@@ -25,7 +25,7 @@ import AssistancePage from '../js/components/pages/competences/assistance/assist
 import NewsPage1 from '../js/components/pages/Home/news/News1.vue'
 import NewsPage2 from '../js/components/pages/Home/news/news2.vue'
 import NewsPage3 from '../js/components/pages/Home/news/news3.vue'
-//import NewsDetail from './js/components/pages/Home/news/NewsDetail.vue'
+import NewsDetail from '../js/components/pages/Home/news/NewsDetail.vue'
 import NewsSection from "../js/components/pages/Home/news/news.vue"
 import AudiologiePage from '../js/components/pages/competences/audiologie/audiologie.vue'
 import DepistageCompetence from '../js/components/pages/competences/depistage/depistage.vue'
@@ -263,23 +263,23 @@ const router = createRouter({
         path: '/Contact',
         name: 'ContactPage',
         component: ContactPage
-      }
+      },
 
      /* {
         path: '/Actualités',
         name: 'NewsSection',
         component: NewsSection,
         props: true
-      },
+      },*/
 
 
       {
-        path: '/Actualités/:id',
+        path: '/:idActualités',
         name: 'NewsDetail',
         component: NewsDetail,
         props: true
       }
-*/
+
 
       
       // Autres routes...

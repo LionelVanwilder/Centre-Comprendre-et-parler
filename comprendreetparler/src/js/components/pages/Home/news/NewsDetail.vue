@@ -1,34 +1,14 @@
 <template>
     <div class="Edu-container">
-        <div class="Newsdetail-container" v-for="(detail, index) in NewsDetail" :key="index">
-            <p class="news-date" :style="{ backgroundColor: detail.color }">{{ detail.date }}</p>
-            <h1>{{ detail.title }}</h1>
-            
-            <div class="image-wrapper">
-                <img :src="detail.image" alt="">
-            </div>
-            <ShareMedia></ShareMedia>
-            <p class="detail-paragraph">{{ detail.content }}</p>
-            
-        </div>
+        
     </div>
 </template>
 <script>
-    import ShareMedia from '@/js/components/pages/Home/news/share.vue'
+   
     
     export default{
         name: 'NewsDetail',
 
-        components: {
-            ShareMedia,
-        },
-
-        props: {
-            NewsDetail: {
-                type: Array,
-                required: true
-            }
-        }
     }
 </script>
 <style scoped>

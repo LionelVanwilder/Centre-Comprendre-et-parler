@@ -16,7 +16,7 @@
                 <!--<p id="aosanchor" class="news-content">
                     {{ item.content }}
                 </p>-->
-                <router-link :to="`/Actualites/${formatTitleForUrl(getTitle(card))}`">→ Lire plus</router-link>
+                <router-link to="">→ Lire plus</router-link>
 
             </article>
         </div>
