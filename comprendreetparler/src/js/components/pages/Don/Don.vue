@@ -13,7 +13,7 @@
         <div class="don-grid-left">
             <h2 v-html="$t('donation.gridleft.title')"></h2>
             <p v-html="$t('donation.gridleft.info')"></p>
-            <p v-html="$t('donation.gridleft.text')"></p>
+           <!-- <p v-html="$t('donation.gridleft.text')"></p>-->
         </div>
         <div class="don-grid-right">
             <h2 v-html="$t('donation.gridright.title')"></h2>

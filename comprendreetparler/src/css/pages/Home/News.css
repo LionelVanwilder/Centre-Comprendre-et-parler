@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #EBEBEB;
     margin: 6rem 3rem;
+    position: relative;
 }
 
 #news h2{

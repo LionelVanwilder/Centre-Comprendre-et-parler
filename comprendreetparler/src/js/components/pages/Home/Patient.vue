@@ -32,4 +32,8 @@
 .patient-content p{
     text-align: justify;
 }
+
+.content-wrapper{
+    position: relative;
+}
 </style>

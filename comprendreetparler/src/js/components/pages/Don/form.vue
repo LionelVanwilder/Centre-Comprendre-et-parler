@@ -206,7 +206,7 @@
 }
 
 #formdon h3 {
-  background-color: #0056b3;
+  background-color: #005387;
   padding: 2rem;
   color: #ffffff;
 }
@@ -245,8 +245,8 @@ form {
 }
 
 .don-option.active {
-  border-color: #0056b3;
-  background-color: #0056b3;
+  border-color: #005387;
+  background-color: #005387;
   color: #fff;
 }
 
@@ -274,7 +274,7 @@ button,
 input[type="submit"] {
   margin-top: 2rem;
   padding: 1rem 2rem;
-  background-color: #0056b3;
+  background-color: #005387;
   color: #fff;
   border: none;
   border-radius: 0; /* Assurez-vous que border-radius est défini à 0 */
@@ -285,7 +285,7 @@ input[type="submit"] {
 
 button:hover,
 input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #005387;
   color: #ffffff;
   border: none; /* Assurez-vous qu'il n'y a pas de bordure au survol */
 }

@@ -115,3 +115,8 @@
        }*/
     }
 </script>
+<style scoped>
+.bloc-flex{
+    position: relative;
+}
+</style>
