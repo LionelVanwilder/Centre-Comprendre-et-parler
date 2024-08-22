@@ -274,7 +274,7 @@ const router = createRouter({
 
 
       {
-        path: '/:idActualités',
+        path: '/:id',
         name: 'NewsDetail',
         component: NewsDetail,
         props: true

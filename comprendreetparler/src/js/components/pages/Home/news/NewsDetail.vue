@@ -1,20 +1,89 @@
 <template>
     <div class="Edu-container">
-        
+      <div v-if="article" class="news-detail">
+        <p class="news-date">{{ formatDate(article.date) }}</p>
+        <h2>{{ getTitle(article) }}</h2> <!-- Appel à getTitle -->
+        <p>{{ getContent(article) }}</p>
+      </div>
+      <div v-else>
+        <p>Loading...</p>
+      </div>
     </div>
-</template>
-<script>
-   
-    
-    export default{
-        name: 'NewsDetail',
-
+  </template>
+  
+  <script>
+  import { ref, onMounted } from 'vue';
+  import { useRoute } from 'vue-router';
+  import { supabase } from '@/lib/supabaseClient';
+  import { useI18n } from 'vue-i18n';
+  
+  export default {
+    name: 'NewsDetail',
+    setup() {
+      const route = useRoute();
+      const article = ref(null);
+      const { locale } = useI18n();
+  
+      const fetchArticle = async () => {
+        const { data, error } = await supabase
+          .from('news')
+          .select('*')
+          .eq('id', route.params.id) // Récupérer l'article en fonction de l'ID
+          .single(); // Récupérer un seul enregistrement
+  
+        if (error) {
+          console.error('Error fetching article:', error);
+        } else {
+          article.value = data;
+        }
+      };
+  
+      onMounted(() => {
+        fetchArticle();
+      });
+  
+      const formatDate = (date) => {
+        const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+        return new Date(date).toLocaleDateString('fr-FR', options);
+      };
+  
+      const getTitle = (article) => {
+        const currentLang = locale.value;
+        switch (currentLang) {
+          case 'en':
+            return article.title_en || article.title; // Titre en anglais ou fallback
+          case 'nl':
+            return article.title_nl || article.title; // Titre en néerlandais ou fallback
+          default:
+            return article.title; // Titre par défaut (français)
+        }
+      };
+      const getContent = (article) => {
+        const currentLang = locale.value;
+        switch (currentLang) {
+          case 'en':
+            return article.content_en || article.content; // Titre en anglais ou fallback
+          case 'nl':
+            return article.content_nl || article.content; // Titre en néerlandais ou fallback
+          default:
+            return article.content; // Titre par défaut (français)
+        }
+      };
+  
+      return {
+        article,
+        formatDate,
+        getTitle,
+        getContent
+      };
     }
-</script>
-<style scoped>
-
-    .news-date{
+  };
+  </script>
+  
+  <style scoped>
+  .news-date{
         color: #ffffff !important;
+        width: 40%;
         
     }
     .Newsdetail-container{
@@ -159,4 +228,5 @@
     }
     }
 
-</style>
+  </style>
+  
