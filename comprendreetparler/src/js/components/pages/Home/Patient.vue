@@ -1,7 +1,7 @@
 <template>
     <div class="image-text-row patient-section" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
         <div class="image-wrapper">
-            <img src="../../../../../images/banner.avif" alt="">
+            <img src="../../../../../images/patient.webp" alt="">
         </div>
         <div class="content-wrapper">
             <div class="content-wrapper-content patient-content"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
