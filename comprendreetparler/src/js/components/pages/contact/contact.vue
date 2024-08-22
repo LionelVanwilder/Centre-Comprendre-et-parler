@@ -1,44 +1,44 @@
 <template>
 <div class="Edu-container">
-    <h2>Infos pratiques</h2>
+    <h2>{{ $t("Navinfo.infos") }}</h2>
     <div class="info-container">
-        <h3>Horaires du centre</h3>
+        <h3>{{ $t("Contact.schedule") }}</h3>
     <div class="hours-container">
         <div class="hours-content">
-            <p class="day">Lundi</p>
-            <p class="hours">08:30 - 17:00</p>
+            <p class="day">{{ $t("Contact.Mon") }}</p>
+            <p class="hours">{{ $t("Contact.open") }}</p>
         </div>
         <div class="hours-content">
-            <p class="day">Mardi</p>
-            <p class="hours">08:30 - 17:00</p>
+            <p class="day">{{ $t("Contact.tue") }}</p>
+            <p class="hours">{{ $t("Contact.open") }}</p>
         </div>
         <div class="hours-content">
-            <p class="day">Mercredi</p>
-            <p class="hours">08:30 - 17:00</p>
+            <p class="day">{{ $t("Contact.wed") }}</p>
+            <p class="hours">{{ $t("Contact.open") }}</p>
         </div>
         <div class="hours-content">
-            <p class="day">jeudi</p>
-            <p class="hours">08:30 - 17:00</p>
+            <p class="day">{{ $t("Contact.thu") }}</p>
+            <p class="hours">{{ $t("Contact.open") }}</p>
         </div>
         <div class="hours-content">
-            <p class="day">Vendredi</p>
-            <p class="hours">08:30 - 17:00</p>
+            <p class="day">{{ $t("Contact.fri") }}</p>
+            <p class="hours">{{ $t("Contact.open") }}</p>
         </div>
         <div class="hours-content">
-            <p class="day">Samedi</p>
-            <p class="hours">Fermé</p>
+            <p class="day">{{ $t("Contact.sat") }}</p>
+            <p class="hours">{{ $t("Contact.close") }}</p>
         </div>
         <div class="hours-content">
-            <p class="day">Dimanche</p>
-            <p class="hours">Fermé</p>
+            <p class="day">{{ $t("Contact.sun") }}</p>
+            <p class="hours">{{ $t("Contact.close") }}</p>
         </div>
     </div>
 
     <div class="infos-container">
-        <h3>Comment se rendre au centre?</h3>
-        <p>- 7 minutes à pied de l'arret Alma</p>
-        <p>- Accessible en voiture</p>
-        <p>- Parking disponible</p>
+        <h3>{{ $t("Contact.route") }}</h3>
+        <p>- {{ $t("Contact.metro") }}</p>
+        <p>- {{ $t("Contact.car") }}</p>
+        <p>- {{ $t("Contact.park") }}</p>
         <div id="map-container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.9935774640335!2d4.4445771999999995!3d50.849803200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3dc9b63dbd941%3A0xeb71a7aeb16468!2sCentre%20Comprendre%20et%20Parler%20asbl%20%2F%20vzw!5e0!3m2!1sfr!2sbe!4v1724327349489!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -46,7 +46,7 @@
         <ul>
             <li>E-mail : <a href="#" mailto="#"> adresseMail@outlook.com</a></li>
             <li>Tél. +32 2 770 04 40</li>
-            <li>Linkedin: <a href="https://be.linkedin.com/company/comprendre-et-parler" class="linkedinlink">Centre Comprendre et Parler asbl</a></li>
+            <li>Linkedin: <a href="https://be.linkedin.com/company/comprendre-et-parler" class="linkedinlink" target="_blank">Centre Comprendre et Parler asbl</a></li>
         </ul>
     </div>
     </div>
@@ -94,6 +94,43 @@ h2{
     color: #005387;
     font-weight: 600;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px){
+    .hours-container{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    iframe{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .hours-container{
+        width: 60vw;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .Edu-container{
+        margin: 3rem auto !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .Edu-container{
+        padding: 2rem 0 !important;
+        width: 80%;
+    }
+
+    .hours-container{
+        width: 100%;
+    }
 }
 
 </style>

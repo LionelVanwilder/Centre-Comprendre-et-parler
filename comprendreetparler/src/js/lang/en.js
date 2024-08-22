@@ -10,6 +10,23 @@ export default{
         infos: 'Practical infos'
     },
 
+    Contact: {
+        schedule: 'Opening hours',
+        Mon: 'Monday',
+        tue: 'Tuesday',
+        wed: 'Wednesday',
+        thu: 'Thursday',
+         fri: 'Friday',
+        sat: 'Saturday',
+        sun: 'Sunday',
+        open: '08:30am - 5:00pm',
+        close: 'Closed',
+        route: 'How to get to the center?',
+        metro: '7 minutes of the metro Alma',
+        car: 'Accessible by car',
+        park: 'Parking available'
+    },
+
     Aboutus: {
 
         title: 'Who are we?',

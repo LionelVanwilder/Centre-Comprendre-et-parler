@@ -10,6 +10,23 @@ export default{
         infos: 'Praktische info'
     },
 
+    Contact: {
+        schedule: 'Openingstijden',
+        Mon: 'Maandag',
+        tue: 'Dinsdag',
+        wed: 'Woensdag',
+        thu: 'Donderdag',
+        fri: 'Vrijdag',
+        sat: 'Zaterdag',
+        sun: 'Zondag',
+        open: '08:30 - 17:00',
+        close: 'Gesloten',
+        route: 'Hoe kom je bij ons?',
+        metro: '7 minuten van de metro Alma',
+        car: 'bereikbaar met de auto',
+        park: 'parkeerplaats beschikbaar'
+    },
+
     Aboutus: {
 
         title: 'Wie zijn we?',

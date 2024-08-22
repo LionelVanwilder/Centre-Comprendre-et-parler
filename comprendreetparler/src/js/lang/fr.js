@@ -12,6 +12,23 @@ export default{
         Navinfo: {
             infos: 'Infos pratiques'
         },
+
+        Contact: {
+            schedule: 'Horaires du centre',
+            Mon: 'Lundi',
+            tue: 'Mardi',
+            wed: 'Mercredi',
+            thu: 'Jeudi',
+            fri: 'Vendredi',
+            sat: 'Samedi',
+            sun: 'Dimanche',
+            open: '08:30 - 17:00',
+            close: 'Fermé',
+            route: 'Comment se rendre au centre?',
+            metro: '7 minutes à pied de l\'arret Alma',
+            car: 'Accessible en voiture',
+            park: 'Parking disponible'
+        },
        
 
         Aboutus: {
