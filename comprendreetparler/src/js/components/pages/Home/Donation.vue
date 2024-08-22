@@ -23,7 +23,7 @@
 
         data(){
             return{
-                imagepath: require('/images/donation.avif')
+                imagepath: require('/images/don (2).jpg')
             }
         }
     }
