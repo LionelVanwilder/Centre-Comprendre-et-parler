@@ -6,6 +6,10 @@ export default{
 
     },
 
+    Navinfo: {
+        infos: 'Practical infos'
+    },
+
     Aboutus: {
 
         title: 'Who are we?',

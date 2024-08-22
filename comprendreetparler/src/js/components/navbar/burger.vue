@@ -29,7 +29,7 @@
                         +32 2 770 04 40
                     </a>
                 </li>
-                
+                <li><router-link to="/Contact">{{ $t("Navinfo.infos") }}</router-link></li>
             <ul class="burger-languages">
                     <li><a href="#" :class="{ 'activelangburger' : $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</a></li>
                     <li><a href="#" :class="{ 'activelangburger' : $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</a></li>

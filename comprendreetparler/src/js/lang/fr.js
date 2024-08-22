@@ -8,7 +8,10 @@ export default{
             
 
         },
-
+        
+        Navinfo: {
+            infos: 'Infos pratiques'
+        },
        
 
         Aboutus: {

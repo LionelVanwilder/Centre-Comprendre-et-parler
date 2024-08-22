@@ -37,6 +37,7 @@ import OtherCollabPage from '../js/components/pages/collaborations/OtherCollab/O
 import RayonnementPage from '../js/components/pages/collaborations/Rayonnement/Rayonnement.vue'
 import SurditePage from '../js/components/pages/documentation/surdite/surdite.vue'
 import ResearchPage from '../js/components/pages/competences/recherche/recherche.vue'
+import ContactPage from '../js/components/pages/contact/contact.vue'
 
 
 const router = createRouter({
@@ -256,6 +257,12 @@ const router = createRouter({
         path: '/Actualites/:title',
         name: 'NewsPage3',
         component: NewsPage3
+      },
+
+      {
+        path: '/Contact',
+        name: 'ContactPage',
+        component: ContactPage
       }
 
      /* {

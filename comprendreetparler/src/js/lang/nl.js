@@ -6,6 +6,10 @@ export default{
        
     },
 
+    Navinfo: {
+        infos: 'Praktische info'
+    },
+
     Aboutus: {
 
         title: 'Wie zijn we?',
