@@ -64,7 +64,8 @@ export default{
 
     homedonation: {
         title: 'Hoe kunt <br> u ons steunen?',
-        button: 'Doe een donatie'
+        button: 'Doe een donatie',
+        content: 'Uw genereusheid kan een groot verschil maken. Door een donatie te doen aan onze VZW steunt u actief onze projecten en helpt u de levens van vele mensen te verbeteren. Elke bijdrage, groot of klein, speelt een essentiële rol in het bereiken van onze doelstellingen en het vervullen van onze missie.'
     },
 
     carousel: {

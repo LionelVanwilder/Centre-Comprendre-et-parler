@@ -63,7 +63,8 @@ export default{
 
     homedonation: {
         title: 'How can <br>  u support us?',
-        button: 'Make a donation'
+        button: 'Make a donation',
+        content: 'Your generosity can make a real difference. By choosing to donate to our non-profit organization, you actively support our projects and help improve the lives of many people. Every contribution, whether small or large, plays a crucial role in achieving our goals and fulfilling our mission.'
     },
 
     carousel: {

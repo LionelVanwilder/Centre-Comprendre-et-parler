@@ -69,6 +69,7 @@ export default{
         homedonation: {
             title: 'Comment nous<br>soutenir?',
             button: 'Faire un don',
+            content: 'Votre générosité peut faire une réelle différence. En choisissant de faire un don à notre ASBL, vous soutenez activement nos projets et contribuez à améliorer la vie de nombreuses personnes. Chaque contribution, qu\'elle soit petite ou grande, joue un rôle essentiel dans la réalisation de nos objectifs et l\'accomplissement de notre mission.'
         },
 
         carousel: {
