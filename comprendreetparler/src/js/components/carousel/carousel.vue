@@ -81,21 +81,7 @@ export default {
           path: '/Programmes'
         },
 
-        {
-          title: this.$t('navbar.links.activity'),
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/activity.avif'),
-          color: '#FF9F1C',
-          path: '/Programmes'
-        },
-
-        {
-          title: this.$t('navbar.navbutton'),
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/donation2.avif'),
-          color: '#2364AA',
-          path: '/Don'
-        },
+      
         ]
       }
   },
