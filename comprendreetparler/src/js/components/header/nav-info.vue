@@ -14,7 +14,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="navinfo-media">
+            <!--<ul class="navinfo-media">
                 <li>
                     <a href="#">
                         <img src="../../../../icons/media/facebook-f.svg" alt="" class="icon-navinfo">
@@ -30,7 +30,7 @@
                         <img src="../../../../icons/media/linkedin.svg" alt="" class="icon-navinfo">
                     </a>
                 </li>
-            </ul>
+            </ul>-->
             <ul class="langnavinfo">
                 <!--<li v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale"><a>{{ locale }}</a></li>-->
                 
