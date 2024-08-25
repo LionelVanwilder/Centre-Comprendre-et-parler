@@ -121,9 +121,18 @@
 }
 
 @media all and (max-width: 769px){
-    
+    #news{
+        padding: 2rem;
+    }
+
     #news h2{
         font-size: 1.7rem;
+    }
+    .container-news{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .news-card{
+        width: inherit;
     }
 }
 @media all and (max-width: 475px){
