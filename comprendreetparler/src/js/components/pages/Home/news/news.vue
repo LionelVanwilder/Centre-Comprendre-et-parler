@@ -37,10 +37,10 @@ export default {
 
         const getNews = async () => {
             try {
-                // Récupérez les titres dans toutes les langues
+        
                 const { data, error } = await supabase
                     .from('news')
-                    .select('*') // Récupère toutes les colonnes
+                    .select('*') 
                     .order('date', { ascending: false });
 
                 if (error) {
