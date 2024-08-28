@@ -1,0 +1,24 @@
+.Edu-container h2{
+    font-size: 1.8rem;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    color: #005387;
+}
+
+.Edu-container h3{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    font-weight: 600;
+    color: #444444;
+    margin-bottom: 2rem;
+}
+
+.Edu-container p{
+    margin: 2rem 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+
+

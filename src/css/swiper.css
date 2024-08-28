@@ -1,0 +1,13 @@
+.swiper {
+    
+    width: 80% !important;
+  }
+
+  .swiper-slide{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    background-color: #ffffff !important;
+    box-shadow: 6px 6px 6px #E4E4E4 !important;
+  }

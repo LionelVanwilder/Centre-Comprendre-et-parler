@@ -1,0 +1,42 @@
+button{
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+    /*background-color: #FF4D00;*/
+    background-color: #9e9e9e;
+    border-radius: 8px;
+    /*border: 2px solid #FF4D00;*/
+    border: 2px solid #9e9e9e;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: transparent;
+    /*border: 2px solid #FF4D00;
+    color: #FF4D00;*/
+    border: 2px solid #9e9e9e;
+    color: #9e9e9e;
+    transition: all .2s ease-out;
+}
+
+.navbuttoncomp{
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+    /*background-color: #FF4D00;
+    border: 2px solid #FF4D00;*/
+    background-color: #005387;
+    border: 2px solid #005387;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbuttoncomp:hover{
+    background-color: transparent;
+    /*border: 2px solid #FF4D00;
+    color: #FF4D00;*/
+    border: 2px solid #005387;
+    color: #005387;
+    transition: all .2s ease-out;
+}
