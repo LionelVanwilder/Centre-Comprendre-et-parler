@@ -11,7 +11,7 @@
       :items-to-show="1"
       :transition="500"
       :breakpoints="breakpoints"
-    >
+      >
       <slide v-for="(item, index) in pages" :key="index">
         <a :href="'#slide-' + index" class="carousel__item" :class="'slide-' + index">
           <div class="container-news">
