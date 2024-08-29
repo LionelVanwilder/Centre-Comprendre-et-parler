@@ -1,5 +1,6 @@
 <template>
-<BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
+    <div class="template-page-container">
+        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
 <div class="Edu-container">
     
         <img src="../../../../../icons/Donation.svg" class="icon-bloc-flex">
@@ -22,6 +23,8 @@
             <p v-html="$t('donation.gridright.text')"></p>-->
         </div>
     </div>
+    </div>
+
 </template>
 <script>
 
@@ -49,6 +52,13 @@ export default{
     }
 </script>
 <style scoped>
+
+.template-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .breadcrumb-container{
     margin-top: 2rem !important;
 }
@@ -76,11 +86,13 @@ export default{
 .don-grid{
     width: 70%;
     padding: 3rem 0;
-    margin: auto;
+   
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     /*display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 50px;*/
@@ -110,6 +122,13 @@ export default{
     right: 30px;
 }
 
+@media all and (max-width: 769px){
+    .don-grid{
+        width: 80%;
+        padding: 2rem;
+    }
+}
+
 @media all and (max-width: 600px){
 
     .Edu-container{
@@ -125,11 +144,12 @@ export default{
     }
 
     .don-grid{
-        padding: 3rem 2rem;
         margin: 2rem 4rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 90%;
+        padding: 2rem;
     }
 
     .don-grid h2{
@@ -171,8 +191,15 @@ export default{
     }
 
     .don-grid{
-        padding: 3rem 2rem;
+       padding: 2rem 1rem;
         margin: 2rem 2rem;
+    }
+    #formdon{
+        width: 90%;
+    }
+
+    .don-options{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 </style>

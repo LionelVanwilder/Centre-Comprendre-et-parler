@@ -42,13 +42,35 @@
     padding: 2rem !important;
 }
 
+@media all and (max-width: 769px){
+    .Edu-container{
+        width: 80%;
+    }
+
+    .Pages-container-content{
+        width: 80%;
+    }
+
+    .breadcrumb-container{
+        width: 80% !important;
+    }
+}
+
 @media all and (max-width: 600px){
     .Pages-container-content{
-        padding: 1rem 4rem;
+        width: 90%;
     }
 
     .Pages-container-content h2{
         font-size: 1.5rem;
+    }
+
+    .Edu-container{
+        width: 90%;
+
+    }
+    .breadcrumb-container{
+        width: 90% !important;
     }
 }
 
@@ -56,6 +78,10 @@
     .Pages-container-content{
         padding: 1rem 2rem;
     }
+
+   .breadcrumb-container{
+    margin-bottom: 0 !important;
+   }
 }
 
 @media all and (max-width: 376px){

@@ -1,14 +1,17 @@
 <template>
+  <div class="template-page-container">
     <div class="Edu-container">
       <div v-if="article" class="news-detail">
         <p class="news-date">{{ formatDate(article.date) }}</p>
-        <h2>{{ getTitle(article) }}</h2> <!-- Appel à getTitle -->
+        <h2>{{ getTitle(article) }}</h2>
         <p>{{ getContent(article) }}</p>
       </div>
       <div v-else>
         <p>Loading...</p>
       </div>
     </div>
+  </div>
+    
   </template>
   
   <script>
@@ -28,8 +31,8 @@
         const { data, error } = await supabase
           .from('news')
           .select('*')
-          .eq('id', route.params.id) // Récupérer l'article en fonction de l'ID
-          .single(); // Récupérer un seul enregistrement
+          .eq('id', route.params.id) 
+          .single(); 
   
         if (error) {
           console.error('Error fetching article:', error);
@@ -51,22 +54,22 @@
         const currentLang = locale.value;
         switch (currentLang) {
           case 'en':
-            return article.title_en || article.title; // Titre en anglais ou fallback
+            return article.title_en || article.title; 
           case 'nl':
-            return article.title_nl || article.title; // Titre en néerlandais ou fallback
+            return article.title_nl || article.title; 
           default:
-            return article.title; // Titre par défaut (français)
+            return article.title; 
         }
       };
       const getContent = (article) => {
         const currentLang = locale.value;
         switch (currentLang) {
           case 'en':
-            return article.content_en || article.content; // Titre en anglais ou fallback
+            return article.content_en || article.content; 
           case 'nl':
-            return article.content_nl || article.content; // Titre en néerlandais ou fallback
+            return article.content_nl || article.content; 
           default:
-            return article.content; // Titre par défaut (français)
+            return article.content; 
         }
       };
   

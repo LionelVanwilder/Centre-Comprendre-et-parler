@@ -5,7 +5,7 @@
       <h3 v-if="currentStep === 3">Paiement</h3>
   
       <form @submit.prevent="submitForm">
-        <!-- Étape 1 : Sélection du montant -->
+      
         <div v-if="currentStep === 1">
           <div class="don-options">
             <div
@@ -31,7 +31,7 @@
           <button type="button" @click="goToPersonalInfo">Suivant</button>
         </div>
   
-        <!-- Étape 2 : Informations personnelles -->
+ 
         <div v-if="currentStep === 2">
           <input
             type="text"
@@ -73,9 +73,9 @@
           <button type="button" @click="goToPayment" id="nextpay">Suivant</button>
         </div>
   
-        <!-- Étape 3 : Paiement -->
+       
         <div v-if="currentStep === 3">
-          <!-- Ajoutez ici les champs de paiement, par exemple : -->
+         
           <input
             type="text"
             id="cardNumber"
@@ -121,7 +121,7 @@
         options: [5, 10, 15, 20, 30, 50],
         selectedAmount: null,
         customAmount: '',
-        currentStep: 1, // Étape actuelle : 1 = montant, 2 = infos personnelles, 3 = paiement
+        currentStep: 1,
         personalInfo: {
           firstName: '',
           lastName: '',
@@ -145,13 +145,13 @@
     methods: {
       selectAmount(amount) {
         this.selectedAmount = amount;
-        this.customAmount = ''; // Clear custom input when a preset option is selected
+        this.customAmount = ''; 
       },
       clearSelectedAmount() {
         this.selectedAmount = null;
       },
       isNumberKey(event) {
-        // Prevents input of any non-numeric characters and decimals
+        
         const charCode = event.which ? event.which : event.keyCode;
         if (charCode > 31 && (charCode < 48 || charCode > 57)) {
           event.preventDefault();
@@ -170,10 +170,10 @@
           return;
         }
   
-        this.currentStep = 2; // Passer à l'étape des informations personnelles
+        this.currentStep = 2; 
       },
       goBack() {
-        this.currentStep = 1; // Retour à l'étape de sélection du montant
+        this.currentStep = 1; 
       },
       goToPayment() {
         if (!this.personalInfo.firstName || !this.personalInfo.lastName || !this.personalInfo.email || !this.personalInfo.phone || !this.personalInfo.nationalId) {
@@ -181,10 +181,10 @@
           return;
         }
   
-        this.currentStep = 3; // Passer à l'étape de paiement
+        this.currentStep = 3; 
       },
       goBackToPersonalInfo() {
-        this.currentStep = 2; // Retour à l'étape des informations personnelles
+        this.currentStep = 2; 
       },
       submitForm() {
         if (!this.payment.cardNumber || !this.payment.expiryDate || !this.payment.cvv || !this.payment.billingAddress) {
@@ -192,7 +192,7 @@
           return;
         }
   
-        // Soumettez le formulaire ou effectuez d'autres actions ici
+        
         alert(`Vous avez sélectionné un montant de ${this.finalAmount}€\nInformations personnelles : ${JSON.stringify(this.personalInfo)}\nDétails du paiement : ${JSON.stringify(this.payment)}`);
       },
     },
@@ -202,7 +202,7 @@
   <style scoped>
  #formdon {
   margin: 2rem 0;
-  width: 50%;
+  
 }
 
 #formdon h3 {
@@ -268,8 +268,8 @@ input[type="number"] {
   border: none;
 }
 
-/* Styles communs pour tous les boutons */
-/* Styles communs pour tous les boutons */
+
+
 button,
 input[type="submit"] {
   margin-top: 2rem;
@@ -277,7 +277,7 @@ input[type="submit"] {
   background-color: #005387;
   color: #fff;
   border: none;
-  border-radius: 0; /* Assurez-vous que border-radius est défini à 0 */
+  border-radius: 0; 
   cursor: pointer;
   font-size: 1rem;
   
@@ -287,13 +287,23 @@ button:hover,
 input[type="submit"]:hover {
   background-color: #005387;
   color: #ffffff;
-  border: none; /* Assurez-vous qu'il n'y a pas de bordure au survol */
+  border: none;
 }
 
 #paybtn, #nextpay{
     margin-left: 1rem;
 }
 
+
+@media all and (max-width: 476px){
+  form{
+    padding: 1.5rem;
+  }
+
+  .don-options{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 
 
