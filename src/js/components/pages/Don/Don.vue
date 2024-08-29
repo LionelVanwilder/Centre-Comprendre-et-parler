@@ -198,8 +198,6 @@ export default{
         width: 90%;
     }
 
-    .don-options{
-        grid-template-columns: repeat(2, 1fr);
-    }
+   
 }
 </style>
