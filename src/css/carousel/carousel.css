@@ -206,8 +206,27 @@
 .slide-5{
     border: 3px solid #2364AA !important;
 }
+@media all and (max-width: 1300px) {
 
+    .carousel-container{
+        max-width: 90vw;
+        margin: auto;
+    }
+    
+}
 
+@media all and (max-width: 1025px) {
+
+    .carousel-container{
+        max-width: 85vw;
+        margin: auto;
+    }
+
+    .carousel-container .align-title{
+        padding: 0;
+    }
+    
+}
 @media all and (max-width: 769px){
     .carousel__prev,
     .carousel__next{
