@@ -87,6 +87,7 @@
   .news-date{
         color: #ffffff !important;
         width: 40%;
+        background-color: #005387;
         
     }
     .Newsdetail-container{
