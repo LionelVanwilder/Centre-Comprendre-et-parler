@@ -114,10 +114,20 @@
     }
 }
 
+@media all and (max-width: 1300px){
+    #news{
+        padding: 2rem 3rem;
+    }
+
+    
+}
+
 @media all and (max-width: 769px){
     #news h2{
         font-size: 2rem;
     }
+
+    
 }
 
 @media all and (max-width: 769px){
