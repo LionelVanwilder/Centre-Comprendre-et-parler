@@ -37,7 +37,7 @@
 </script>
 <style scoped>
 
-    @media all and (max-width: 1366px){
+    @media all and (max-width: 1023px){
         .navbuttoncomp{
             display: none;
         }

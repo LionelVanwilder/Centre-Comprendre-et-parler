@@ -200,7 +200,7 @@
         top: .1rem;
     }
 
-    @media all and (max-width: 1366px){
+    @media all and (max-width: 1023px){
         .sidenav{
             display: block;
         }
