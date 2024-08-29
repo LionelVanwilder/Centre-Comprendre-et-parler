@@ -33,7 +33,7 @@ export default{
 
         Aboutus: {
 
-            title: 'Qui sommes-nous???',
+            title: 'Qui sommes-nous???!',
             intro: 'Le Centre Comprendre et Parler est une ASBL fondée en 1965 par le Docteur Olivier Périer et des parents d\'enfants sourds ou malentendants soucieux d\'offrir à leurs enfants une éducation de haut niveau. Son statut est celui de “Centre de Réadaptation Fonctionnelle”, "Service d’Accompagnement Pédagogique", "Centre d’Orientation Spécialisé".',
             button: 'En savoir plus →'
 
