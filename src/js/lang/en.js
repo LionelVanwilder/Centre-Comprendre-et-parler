@@ -180,8 +180,16 @@ export default{
             title: 'Specialization',
             subtitle: 'Re-education coordinated with the teaching of «Integrated School» (Special Type 7 education with partial integration by close association with ordinary schools)',
             kindertitle: 'Specialized kindergartens',
-            kindercontent1: '',
-
+            kinderintro: 'This Specialized Preschool Program provides special education for preschool children (B1) with hearing impairment, whose communication and language development are not yet sufficient to follow the partially integrated education offered.',
+            list1: 'Through the close association of the "École Intégrée" with a regular school for hearing children (preschool and primary levels B1 and B2)',
+            list2: 'Through cooperation with several regular schools for hearing children (secondary level B3).',
+            goal: 'The goal is to develop and improve their oral communication skills, both in understanding and verbal expression, while using sign language communication for those with weaker oral communication abilities.',
+            Primarytitle: 'Specialized Primary Education',
+            Primaryintro: 'The Specialized Primary Education Program provides special education for primary school children (B2) with hearing impairment, whose communication and language development are not yet sufficient to follow the partially integrated education offered.',
+            suptitle: 'High school and university',
+            supintro: 'The Specialized Secondary/Higher Education Program provides special education for secondary and higher education students (B3) with hearing impairment, whose communication and language development are not yet sufficient to follow the partially integrated education offered.',
+            supgoal1: 'The program aims to develop and improve their oral communication skills, both in understanding and verbal expression, while using sign language communication for those with weaker oral communication abilities.',
+            supgoal2: 'The goal is also to prepare adolescents with hearing impairment (B3) to integrate into society and to enable them to freely choose how much of themselves they wish to dedicate to this integration and how much to the deaf community.'
         },
 
         integration:{

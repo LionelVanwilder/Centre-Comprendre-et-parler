@@ -186,7 +186,17 @@ export default{
                 title: 'Spécialisation',
                 subtitle: 'Ré-éducation coordonnée avec l’enseignement de « l’Ecole Intégrée » (Enseignement spécial type 7 avec intégration partielle par association étroite avec écoles ordinaires)',
                 kindertitle: 'Spécialisée maternelles',
-                kindercontent1: '',
+                kinderintro: 'Ce programme Spécialisé Maternelles veille à assurer un enseignement spécial aux enfants de maternelles (B1), à audition déficiente et dont la communication et le développement langagier ne sont pas encore suffisants pour leur permettre de suivre l\'enseignement en intégration partielle offerte:',
+                list1: 'Par l\'association étroite de l\' « École Intégrée » avec une école ordinaire d\'entendants (niveaux maternels et primaires B1 et B2 )',
+                list2: 'par coopération avec plusieurs écoles ordinaires d\'entendants (niveau secondaire B3).',
+                goal: 'Son objectif est de développer et améliorer leurs capacités de communication orale tant sur le versant compréhension qu\'expression de la parole, tout en utilisant avec ceux dont les aptitudes à la communication orale sont plus faibles les moyens de communication par signes qui leur sont nécessaires.',
+                Primarytitle: 'Spécialisé primaires',
+                Primaryintro: 'Le programme Spécialisé Primaires veille à assurer un enseignement spécial aux enfants de primaires (B2), à audition déficiente et dont la communication et le développement langagier ne sont pas encore suffisants pour leur permettre de suivre l\'enseignement en intégration partielle offerte:',
+                suptitle: 'Secondaire et supérieur',
+                supintro: 'Le programme Spécialisé Secondaire/Supérieur  veille à assurer un enseignement spécial aux enfants de Secondaire et Supérieur (B3), à audition déficiente et dont la communication et le développement langagier ne sont pas encore suffisants pour leur permettre de suivre l\'enseignement en intégration partielle offerte:',
+                supgoal1: ' Le programme vise à développer et améliorer leurs capacités de communication parlée tant sur le versant compréhension qu\'expression de la parole, tout en utilisant avec ceux dont les aptitudes à la communication orale sont plus faibles les moyens de communication par signes qui leur sont nécessaires.',
+                supgoal2: 'Son objectif est également de préparer les adolescents à audition déficiente (B3) à s\'intégrer à l\'ensemble de la société et à pouvoir librement choisir quelle part d\'eux-mêmes ils souhaitent consacrer à cette intégration et quelle part ils veulent consacrer à la communauté des sourds.',
+                
     
             },
     

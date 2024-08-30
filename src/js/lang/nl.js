@@ -180,9 +180,18 @@ export default{
         specialization:{
             title: 'Specialisatie',
             subtitle: 'Heropvoeding gecoördineerd met het onderwijs van « Integrated School » (Speciaal Type 7-onderwijs met gedeeltelijke integratie door nauwe samenwerking met gewone scholen)',
-            kindertitle: 'Gespecialiseerd kleuteronderwijs.',
-            kindercontent1: '',
-
+            kindertitle: 'Gespecialiseerd kleuteronderwijs',
+            kinderintro: 'Dit gespecialiseerde programma voor kleuters zorgt voor speciaal onderwijs voor kleuters (B1) met gehoorverlies, wiens communicatie en taalontwikkeling nog niet voldoende zijn om het gedeeltelijk integratieonderwijs te volgen.',
+            list1: 'Door de nauwe samenwerking van de "École Intégrée" met een reguliere school voor horenden (kleuter- en basisschoolniveaus B1 en B2)',
+            list2: 'Door samenwerking met verschillende reguliere scholen voor horenden (secundair niveau B3).',
+            goal: 'Het doel is om hun mondelinge communicatievaardigheden te ontwikkelen en te verbeteren, zowel op het gebied van begrip als spraakexpressie, terwijl voor degenen met zwakkere mondelinge communicatievaardigheden de noodzakelijke gebarentaalcommunicatie wordt gebruikt.',
+            Primarytitle: 'Gespecialiseerd basisonderwijs',
+            Primaryintro: 'Het gespecialiseerde programma voor basisonderwijs zorgt voor speciaal onderwijs voor basisschoolkinderen (B2) met gehoorverlies, wiens communicatie en taalontwikkeling nog niet voldoende zijn om het gedeeltelijk integratieonderwijs te volgen.',
+            suptitle: 'Secundair & Hogere',
+            supintro: 'Het gespecialiseerde programma voor Secundair/Hoger onderwijs zorgt voor speciaal onderwijs voor leerlingen in het secundair en hoger onderwijs (B3) met gehoorverlies, wiens communicatie en taalontwikkeling nog niet voldoende zijn om het gedeeltelijk integratieonderwijs te volgen.',
+            supgoal1: 'Het programma heeft tot doel hun mondelinge communicatievaardigheden te ontwikkelen en te verbeteren, zowel op het gebied van begrip als spraakexpressie, terwijl voor degenen met zwakkere mondelinge communicatievaardigheden de noodzakelijke gebarentaalcommunicatie wordt gebruikt.',
+            supgoal2: 'Het doel is ook om adolescenten met gehoorverlies (B3) voor te bereiden op integratie in de samenleving en hen in staat te stellen vrij te kiezen hoeveel van zichzelf ze willen bijdragen aan deze integratie en hoeveel ze willen besteden aan de doven gemeenschap.',
+            
         },
 
         integration:{

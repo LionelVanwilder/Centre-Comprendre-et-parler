@@ -2,73 +2,51 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Spécialisation</h2>
-        <h3>Spécialisé maternelles</h3>
-        <span>
-            Ré-éducation coordonnée avec l’enseignement de « l’Ecole Intégrée » (Enseignement spécial type 7 avec intégration partielle par 
-            association étroite avec écoles ordinaires)
-        </span>
+        <h2>{{ $t('program.specialization.title') }}</h2>
+        <h3>{{ $t('program.specialization.kindertitle') }}</h3>
+        <span>{{ $t('program.specialization.subtitle') }}</span>
         <p>
-            Ce programme Spécialisé Maternelles veille à assurer un enseignement spécial aux enfants de maternelles (B1), à audition déficiente et 
-            dont la communication et le développement langagier ne sont pas encore suffisants pour leur permettre de suivre l'enseignement en 
-            intégration partielle offerte:
+            {{ $t('program.specialization.kinderintro') }}
         </p>
         <ol>
-            <li>Par l'association étroite de l' « École Intégrée » avec une école ordinaire d'entendants (niveaux maternels et primaires B1 et B2 )</li>
-            <li>par coopération avec plusieurs écoles ordinaires d'entendants (niveau secondaire B3).</li>
+            <li>{{ $t('program.specialization.list1') }}</li>
+            <li>{{ $t('program.specialization.list2') }}</li>
         </ol>
         <p>
-            Son objectif est de développer et améliorer leurs capacités de communication orale tant sur le versant compréhension qu'expression de la parole, 
-            tout en utilisant avec ceux dont les aptitudes à la communication orale sont plus faibles les moyens de communication par signes qui leur sont 
-            nécessaires.
-        </p>
-        <p>
-            Le programme vise à améliorer les modalités de communication parlée et visuelle entre parents et enfants.
+            {{ $t('program.specialization.goal') }} 
         </p>
 
-        <h3>Spécialisé primaires</h3>
+        <h3>{{ $t('program.specialization.Primarytitle') }} </h3>
         <span>
-            Ré-éducation coordonnée avec l’enseignement de « l’Ecole Intégrée » (Enseignement spécial type 7 avec intégration partielle par association étroite avec 
-            écoles ordinaires)
+            {{ $t('program.specialization.subtitle') }}
         </span>
         <p>
-            Le programme Spécialisé Primaires veille à assurer un enseignement spécial aux enfants de primaires (B2), à audition déficiente et dont la communication 
-            et le développement langagier ne sont pas encore suffisants pour leur permettre de suivre l'enseignement en intégration partielle offerte:
+            {{ $t('program.specialization.Primaryintro') }} 
         </p>
         <ol>
-            <li>par l'association étroite de l' « École Intégrée » avec une école ordinaire d'entendants (niveaux maternels et primaires B1 et B2 )</li>
-            <li>par coopération avec plusieurs écoles ordinaires d'entendants (niveau secondaire B3).</li>
+            <li>{{ $t('program.specialization.list1') }}</li>
+            <li>{{ $t('program.specialization.list2') }}</li>
         </ol>
         <p>
-            Son objectif est de développer et améliorer leurs capacités de communication orale tant sur le versant compréhension qu'expression de la parole, tout 
-            en utilisant avec ceux dont les aptitudes à la communication orale sont plus faibles les moyens de communication par signes qui leur sont nécessaires.
-        </p>
-        <p>
-            Le programme vise à améliorer les modalités de communication parlée et visuelle entre parents et enfants.
+            {{ $t('program.specialization.goal') }} 
         </p>
 
-        <h3>Secondaire et supérieur</h3>
+        <h3>{{ $t('program.specialization.suptitle') }} </h3>
         <span>
-            Ré-éducation coordonnée avec l’enseignement de « l’Ecole Intégrée » (Enseignement spécial type 7 avec intégration partielle par association étroite avec écoles ordinaires)
+            {{ $t('program.specialization.subtitle') }}
         </span>
         <p>
-            Le programme Spécialisé Secondaire/Supérieur  veille à assurer un enseignement spécial aux enfants de Secondaire et Supérieur (B3), à audition déficiente et dont 
-            la communication et le développement langagier ne sont pas encore suffisants pour leur permettre de suivre l'enseignement en intégration partielle offerte:
+            {{ $t('program.specialization.supintro') }}
         </p>
         <ol>
-            <li>par l'association étroite de l' « École Intégrée » avec une école ordinaire d'entendants (niveaux maternels et primaires B1 et B2 )</li>
-            <li>par coopération avec plusieurs écoles ordinaires d'entendants (niveau secondaire B3).</li>
+            <li>{{ $t('program.specialization.list1') }}</li>
+            <li>{{ $t('program.specialization.list2') }}</li>
         </ol>
         <p>
-            Le programme vise à développer et améliorer leurs capacités de communication parlée tant sur le versant compréhension qu'expression de la parole, 
-            tout en utilisant avec ceux dont les aptitudes à la communication orale sont plus faibles les moyens de communication par signes qui leur sont nécessaires.
+            {{ $t('program.specialization.supgoal1') }}
         </p>
         <p>
-            Son objectif est également de préparer les adolescents à audition déficiente (B3) à s'intégrer à l'ensemble de la société et à pouvoir librement choisir 
-            quelle part d'eux-mêmes ils souhaitent consacrer à cette intégration et quelle part ils veulent consacrer à la communauté des sourds.
-        </p>
-        <p>
-            Le programme veille à améliorer les modalités de communication parlée et visuelle entre parents et enfants.
+            
         </p>
     </div>
     </div>
