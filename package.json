@@ -42,6 +42,7 @@
   ],
   "dependencies": {
     "@supabase/supabase-js": "^2.45.1",
+    "@vueuse/head": "^2.0.0",
     "axios": "^1.6.8",
     "vue-carousel": "^0.18.0",
     "vue-i18n": "^9.12.1",
