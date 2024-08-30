@@ -44,7 +44,7 @@
         </div>
         <h3>Contact</h3>
         <ul>
-            <li>E-mail : <a href="mailto:philippine.dedonnea@ccpasbl.be" class="mailcontact"> philippine.dedonnea@ccpasbl.be</a></li>
+            <li>E-mail : <a href="mailto:info@ccpasbl.be" class="mailcontact"> info@ccpasbl.be</a></li>
             <li>Tél. +32 2 770 04 40</li>
             <li>Linkedin: <a href="https://be.linkedin.com/company/comprendre-et-parler" class="linkedinlink" target="_blank">Centre Comprendre et Parler asbl</a></li>
             <li>Fb: <a href="https://www.facebook.com/CentreComprendreEtParlerAsbl/?locale=fr_FR" target="_blank" class="fblink">Centre Comprendre et Parler ASBL Facebook</a></li>
