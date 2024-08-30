@@ -15,7 +15,6 @@
     <!--<FlexRow></FlexRow>-->
     <PatientGrid></PatientGrid>
     <BlocFlex></BlocFlex>
-    <!--<SwiperApp></SwiperApp>-->
     <NewsSection></NewsSection>
     <DonationSection></DonationSection>
     <CarouselApp></CarouselApp>
