@@ -191,7 +191,7 @@ export default{
             supintro: 'Het gespecialiseerde programma voor Secundair/Hoger onderwijs zorgt voor speciaal onderwijs voor leerlingen in het secundair en hoger onderwijs (B3) met gehoorverlies, wiens communicatie en taalontwikkeling nog niet voldoende zijn om het gedeeltelijk integratieonderwijs te volgen.',
             supgoal1: 'Het programma heeft tot doel hun mondelinge communicatievaardigheden te ontwikkelen en te verbeteren, zowel op het gebied van begrip als spraakexpressie, terwijl voor degenen met zwakkere mondelinge communicatievaardigheden de noodzakelijke gebarentaalcommunicatie wordt gebruikt.',
             supgoal2: 'Het doel is ook om adolescenten met gehoorverlies (B3) voor te bereiden op integratie in de samenleving en hen in staat te stellen vrij te kiezen hoeveel van zichzelf ze willen bijdragen aan deze integratie en hoeveel ze willen besteden aan de doven gemeenschap.',
-            
+
         },
 
         integration:{
@@ -236,6 +236,17 @@ export default{
             subtitle: 'Pedagogische begeleidingsdienst',
             text1: 'De Pedagogische begeleidingsdienst biedt hulp aan dove studenten die zijn ingeschreven voor universitair of niet-universitair hoger onderwijs, in de vorm van projectcoördinatie, pedagogische ondersteuning, aantekeningen maken en cursusinterpretatie. De monitoring in dit verband is afhankelijk van de voorafgaande goedkeuring van het project van de student door de hulpautoriteiten.',
         },
+
+        assistance: {
+            title: 'Maatschappelijk werkers en opvoeders',
+            assubtitle: 'De maatschappelijk werkers',
+            ascontent1: 'De sociale dienst richt zich enerzijds op de ouders van jonge kinderen, anderzijds op adolescenten en jonge volwassenen met gehoorverlies. Naast de technische aspecten van sociale hulp voor de stappen bij sociale instanties en specifieke hulp aan gezinnen met bijzondere sociaal-economische moeilijkheden, nemen de maatschappelijk werkers deel aan het eigenlijke revalidatieproces. Ze werken samen met de psychologen voor bepaalde systeemtherapieën en in het algemeen voor de actie bij ouders om hun betrokkenheid en deelname aan het revalidatieproces te waarborgen. Ze ondersteunen ook kinderen en adolescenten om hun zelfstandigheid te bevorderen en om hen te helpen hun persoonlijke en relationele moeilijkheden te overwinnen en de isolatie te doorbreken die voortvloeit uit hun communicatieproblemen. Naast directe individuele hulp zien we de interventie van maatschappelijk werkers in een langetermijnperspectief, zowel op het gebied van sociale rechten als op het eigenlijke revalidatieproces.',
+            ascontent2: 'De maatschappelijk werker (MW) heeft als taak om dove kinderen en hun families en dove jongvolwassenen te ondersteunen, te adviseren en hen te begeleiden bij hun stappen, met bijzondere aandacht voor autonomie. Deze taak maakt deel uit van de bredere missie van het centrum Comprendre et Parler, dat erop gericht is de potenties en taalvaardigheden van dove kinderen te ontwikkelen, evenals hun persoonlijke ontwikkeling en autonomie te bevorderen door middel van samenwerking tussen de betrokken partners, kind, gezin en professionals.',
+            edutitle: 'De opvoeders',
+            educontent1: 'De rol van een opvoeder is om door middel van groepsactiviteiten of individuele begeleiding een leefomgeving te creëren die bevorderlijk is voor de harmonieuze ontwikkeling van het dove kind. Deze taak maakt deel uit van de bredere missie van het centrum Comprendre et Parler, dat erop gericht is de potenties en taalvaardigheden van dove kinderen te ontwikkelen, evenals hun persoonlijke ontwikkeling en autonomie te bevorderen.',
+            educontent2: 'De opvoeder ontwerpt, organiseert, begeleidt en evalueert educatieve activiteiten die de algemene ontwikkeling van een kind onder zijn verantwoordelijkheid bevorderen. De opvoeder neemt deel aan het begeleiden en evalueren van individuele of groepsactiviteiten en draagt bij aan het creëren van een stimulerende leeromgeving.'
+        },
+        
 
         audio:{
             title: 'Audiologie',

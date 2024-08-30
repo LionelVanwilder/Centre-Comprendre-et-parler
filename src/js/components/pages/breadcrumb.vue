@@ -92,9 +92,7 @@
         margin: 4rem 1rem;
       }
 
-      .breadcrumb-first a{
-        font-size: 0.9rem;
-      }
+      
     }
 
 

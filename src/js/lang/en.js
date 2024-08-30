@@ -236,6 +236,17 @@ export default{
             text1: 'The Pedagogical Support Service offers assistance to deaf students enrolled in university or non-university higher education, in the form of project coordination, pedagogical support, note taking, and course interpretation. The monitoring in this context is subject to the prior approval of the student’s project by the subsidiary authorities. (PHARE, AWIPH,..).',
         },
 
+        assistance: {
+            title: 'Social Workers and Educators',
+            assubtitle: 'The Social Workers',
+            ascontent1: 'The social service is aimed at both the parents of young children and adolescents and young adults with hearing impairments. In addition to the technical aspects of social assistance for dealings with social agencies and specific assistance to families with particular socio-economic difficulties, social workers participate in the rehabilitation process itself. They collaborate with psychologists for certain systemic therapies and, more generally, with the action directed at parents to ensure their involvement and participation in the rehabilitation process. They also intervene with children and adolescents to support their independence and help them overcome their personal and relational difficulties and to break the isolation resulting from their communication difficulties. Beyond immediate individual help, we view the intervention of social workers within a long-term perspective, both in terms of social rights and in the actual rehabilitation process.',
+            ascontent2: 'The social worker (SW) is responsible for supporting the families of deaf children and young deaf adults, advising and guiding them in their steps, with a particular focus on autonomy. This mission is part of the broader mission of the Comprendre et Parler center, which aims to develop the potential and linguistic skills of the deaf child, as well as to foster their personal development and autonomy through collaboration between the involved partners: child, family, and professionals.',
+            edutitle: 'The Educators',
+            educontent1: 'The role of an educator is to create, through group activities or individual care, a living environment conducive to the harmonious development of the deaf child. This mission is part of the broader mission of the Comprendre et Parler center, which aims to develop the potential and linguistic skills of the deaf child, as well as to foster their personal development and autonomy.',
+            educontent2: 'The educator designs, organizes, facilitates, and evaluates educational activities that promote the overall development of a child under their responsibility. The educator participates in facilitating and evaluating individual or group activities and contributes to creating a stimulating environment for learning.'
+        },
+        
+
         audio:{
             title: 'Audiology',
             text1: 'The audiology department of the center Comprendre et Parler ensures the assessment and development of hearing impairments, the adaptation of hearing aids, the programming of cochlear implants and audiological/ audioprosthetic follow-up of patients.',

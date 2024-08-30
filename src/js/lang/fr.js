@@ -196,7 +196,7 @@ export default{
                 supintro: 'Le programme Spécialisé Secondaire/Supérieur  veille à assurer un enseignement spécial aux enfants de Secondaire et Supérieur (B3), à audition déficiente et dont la communication et le développement langagier ne sont pas encore suffisants pour leur permettre de suivre l\'enseignement en intégration partielle offerte:',
                 supgoal1: ' Le programme vise à développer et améliorer leurs capacités de communication parlée tant sur le versant compréhension qu\'expression de la parole, tout en utilisant avec ceux dont les aptitudes à la communication orale sont plus faibles les moyens de communication par signes qui leur sont nécessaires.',
                 supgoal2: 'Son objectif est également de préparer les adolescents à audition déficiente (B3) à s\'intégrer à l\'ensemble de la société et à pouvoir librement choisir quelle part d\'eux-mêmes ils souhaitent consacrer à cette intégration et quelle part ils veulent consacrer à la communauté des sourds.',
-                
+
     
             },
     
@@ -244,6 +244,16 @@ export default{
                 title: 'Accompagnement',
                 subtitle: 'Service d\'Accompagnement Pédagogique',
                 text1: 'Le Service d’Accompagnement Pédagogique offre quant à lui de l’aide aux étudiants sourds inscrits dans une formation supérieure universitaire ou non-universitaire, sous forme de coordination de projet, accompagnement pédagogique, prises de notes, et interprétation des cours. Le suivi dans ce cadre est soumis à l’approbation préalable du projet de l’étudiant par les pouvoirs subsidiants. (PHARE, AWIPH,..).',
+            },
+
+            assistance:{
+                title: 'Assistantes sociales et éducateurs',
+                assubtitle: 'Les assistantes sociales',
+                ascontent1: 'Le service d\'aide sociale s\'adresse d\'une part aux parents des jeunes enfants, d\'autre part aux adolescents et jeunes adultes  à audition déficiente. Outre les aspects techniques de l\'aide sociale pour les démarches auprès des organismes sociaux et l\'aide spécifique aux familles en difficultés socio-économiques particulières, les assistantes sociales participent au processus de rééducation proprement dit. Elles collaborent avec les psychologues pour certaines thérapies systémiques et de manière plus générale à l\'action auprès des parents pour assurer leur implication et leur participation au processus de rééducation. Elles interviennent également auprès des enfants et adolescents pour les soutenir dans leur autonomie, et pour les aider à surmonter leurs difficultés personnelles et relationnelles et à rompre l\'isolement consécutif à leurs difficultés de communication. Au-delà d\'une aide individuelle immédiate, nous inscrivons l\'intervention des assistantes sociales dans une perspective à long terme, aussi bien au niveau des droits sociaux, qu\'au niveau du processus de réadaptation proprement dit.',
+                ascontent2: 'L\'assistant(e) social(e) (AS) a donc pour mission de soutenir les familles d\'enfant sourd et les jeunes adultes sourds, de les conseiller et les orienter dans leurs démarches, en axant les interventions de manière privilégiée sur l\'autonomie. Cette mission s\'inscrit dans celle plus générale du centre Comprendre et Parler qui vise à développer les potentialités et les compétences linguistiques de l\'enfant sourd, ainsi que de favoriser son épanouissement personnel et son autonomie en s\'appuyant sur la collaboration entre partenaires impliqués, enfant, famille, professionnels.',
+                edutitle: 'Les éducateurs',
+                educontent1: ' Le rôle d\'un éducateur consiste à créer, au travers d\'animations en groupe ou lors des prises en charge individuelles, un milieu de vie propice au développement harmonieux de l\'enfant sourd.  Cette mission s\'inscrit dans celle plus générale du centre Comprendre et Parler qui vise à développer les potentialités et les compétences linguistiques de l\'enfant sourd, ainsi que de favoriser son épanouissement personnel et son autonomie.',
+                educontent2: ' L’éducateur conçoit, organise, anime et évalue les activités éducatives favorisant le développement général d\'un enfant placé sous sa responsabilité.  L\'éducateur participe à l’animation et à l’évaluation des activités individuelles ou de groupes et contribue à la création d’un climat stimulant pour l’apprentissage.'
             },
 
             audio:{
