@@ -245,5 +245,13 @@ export default{
         listintro: 'Starting from the main mission, the expanded missions of the Centre for Understanding and Speaking are as follows:',
         values: 'Values'
 
+    },
+
+    AboutPage:{
+        title: 'The Center',
+        content1: 'The Center "Comprendre et Parler" is a non-profit organization founded in 1965 by Dr. Olivier Périer and parents of deaf or hard of hearing children, eager to provide their children with a high-level education. <br>Its status is that of a "Functional Rehabilitation Center", "Educational Support Service", "Specialized Orientation Center".',
+        content2: 'The Centre currently welcomes no less than 600 children of all ages and from all socio-economic or cultural backgrounds. <br>A motivated team of 110 people with multidisciplinary skills provides support to the children and their families.',
+        subtitle1: 'Our team',
+        content3: 'Our team of professionals, including doctors, audiologists, speech therapists, psychologists, psychomotor therapists, social workers, activity leaders, and sign language interpreters, works closely with the families. <br><br>Together, we create individualized programs to foster the development of language and communication, well-being, and the autonomy of each child.'
     }
 }

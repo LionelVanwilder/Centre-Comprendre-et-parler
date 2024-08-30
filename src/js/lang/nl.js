@@ -244,5 +244,14 @@ export default{
         listintro: 'Uitgaande van de hoofdmissie zijn de uitgebreide missies van het Centre for Understanding and Speaking als volgt:',
         values: 'Waarden'
         
+    },
+
+    AboutPage:{
+        title: 'Het Centrum',
+        content1: 'Het Centrum "Comprendre et Parler" is een vzw opgericht in 1965 door dokter Olivier Périer en ouders van dove of slechthorende kinderen die hun kinderen een hoogstaand onderwijs wilden bieden. <br>De organisatie heeft de status van "Revalidatiecentrum", "Onderwijsondersteuningsdienst", "Gespecialiseerd Oriëntatiecentrum".',
+        content2: 'Het Centrum verwelkomt momenteel niet minder dan 600 kinderen van alle leeftijden en uit alle socio-economische of culturele achtergronden. <br>Een gemotiveerd team van 110 personen met multidisciplinaire vaardigheden zorgt voor de begeleiding van de kinderen en hun families.',
+        subtitle1: 'Onze team',
+        content3: 'Ons team van professionals, waaronder artsen, audiologen, logopedisten, psychologen, psychomotorische therapeuten, maatschappelijk werkers, animatoren en gebarentolken, werkt nauw samen met de families. <br><br>Samen stellen we geïndividualiseerde programma\'s op om de taal- en communicatieve ontwikkeling, het welzijn en de autonomie van elk kind te bevorderen.'
+
     }
 }
