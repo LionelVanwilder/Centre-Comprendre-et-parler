@@ -42,6 +42,7 @@ export default{
 
     patient: {
         title: 'Who Are <br> Our Patients?',
+        content: 'The Center "Comprendre et Parler" welcomes deaf or hard of hearing children, offering specialized support for their language and communication development. Patients benefit from tailored therapies aimed at improving their understanding and verbal expression, as well as their social integration. The Centre is committed to providing personalized solutions to help each child thrive and better interact with their environment.'
     },
 
     blocflex: {

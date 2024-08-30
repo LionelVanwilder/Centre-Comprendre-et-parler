@@ -60,6 +60,7 @@ export default{
 
         patient: {
             title: 'Qui sont <br> nos Patients?',
+            content: 'Le Centre Comprendre et Parler accueille des enfants sourds ou malentendants, offrant un soutien spécialisé pour leur développement du langage et de la communication. Les patients bénéficient de thérapies adaptées, visant à améliorer leur compréhension et expression orale, ainsi que leur intégration sociale. Le centre s\'engage à fournir des solutions personnalisées pour aider chaque enfant à s’épanouir pleinement et à mieux interagir avec son environnement.'
         },
 
         news: {

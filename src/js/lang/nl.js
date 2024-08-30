@@ -42,6 +42,7 @@ export default{
 
     patient: {
         title: 'Wie zijn <br> onze patiënten?',
+        content: 'Het centrum "Comprendre et Parler" verwelkomt dove of slechthorende kinderen en biedt gespecialiseerde ondersteuning voor hun taal- en communicatieontwikkeling. De patiënten profiteren van aangepaste therapieën die gericht zijn op het verbeteren van hun begrip en mondelinge uitdrukking, evenals hun sociale integratie. Het centrum zet zich in om gepersonaliseerde oplossingen te bieden om elk kind te helpen volledig te bloeien en beter te communiceren met zijn omgeving.'
     },
 
     blocflex: {

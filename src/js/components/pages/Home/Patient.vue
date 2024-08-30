@@ -7,9 +7,7 @@
             <div class="content-wrapper-content patient-content"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
                 <img :src="iconpath" alt="" class="icon-bloc-flex">
                 <h2 v-html="$t('patient.title')"></h2>
-                <p>
-                    Le Centre Comprendre et Parler accueille des enfants sourds ou malentendants, offrant un soutien spécialisé pour leur développement du langage et de la communication. Les patients bénéficient de thérapies adaptées, visant à améliorer leur compréhension et expression orale, ainsi que leur intégration sociale. Le centre s'engage à fournir des solutions personnalisées pour aider chaque enfant à s’épanouir pleinement et à mieux interagir avec son environnement.
-                </p>
+                <p>{{ $t('patient.content') }}</p>
             </div>
         </div>
     </div>
