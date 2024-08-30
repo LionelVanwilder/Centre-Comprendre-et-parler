@@ -28,7 +28,7 @@
                         {label: this.$t('navbar.dropdown.program.spec2'), url: '/Programmes/Specialisation'},
                         {label: this.$t('navbar.dropdown.program.sup'), url: '/Programmes/Specialisation'},*/
                         {label: this.$t('navbar.dropdown.program.integration'), url: '/Programmes/Integration'},
-                        {label: this.$t('navbar.dropdown.program.implants'), url: '/Programmes/ImplantsCochleaires'},
+                        /*{label: this.$t('navbar.dropdown.program.implants'), url: '/Programmes/ImplantsCochleaires'},*/
                         {label: this.$t('navbar.dropdown.program.services'), url: '/Programmes/Services'},
                         {label: this.$t('navbar.dropdown.program.formations'), url: '/Programmes/FormationsExterieures'},
                         {label: this.$t('navbar.dropdown.program.screening'), url: '/Programmes/Depistage'},
@@ -71,8 +71,8 @@
                     
                     links: [
                         {label:  this.$t('navbar.dropdown.doc.deafness'), url: '/Documentations/Surdite'},
-                        {label: this.$t('navbar.dropdown.doc.post'), url: 'Instagram.com'},
-                        {label: this.$t('navbar.dropdown.doc.link'), url: '/'}
+                        /*{label: this.$t('navbar.dropdown.doc.post'), url: 'Instagram.com'},
+                        {label: this.$t('navbar.dropdown.doc.link'), url: '/'}*/
                     ] 
                 },
 

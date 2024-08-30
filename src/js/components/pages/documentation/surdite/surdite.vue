@@ -63,7 +63,7 @@ export default{
         data(){
             return{
                 breadcrumbs: [
-                { to: '', label: 'Documentations' },
+                { to: '', label: 'SAFP / SAP' },
                 { to: '/Documentations/Surdite', label: 'Surdité' }
                 ]
             }
