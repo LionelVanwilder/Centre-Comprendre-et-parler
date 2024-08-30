@@ -29,7 +29,7 @@
                         +32 2 770 04 40
                     </a>
                 </li>
-                <li><router-link to="/Contact">{{ $t("Navinfo.infos") }}</router-link></li>
+                <li><router-link to="/Contact" @click="goToInfosAndCloseMenu">{{ $t("Navinfo.infos") }}</router-link></li>
             <ul class="burger-languages">
                     <li><button :class="{ 'activelangburger' : $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</button></li>
                     <li><button :class="{ 'activelangburger' : $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</button></li>
@@ -73,7 +73,13 @@
 
         CloseBurger(){
             this.displayMenu = false;
-        }
+        },
+
+        goToInfosAndCloseMenu() {
+      
+      this.$router.push('/Contact');
+      this.CloseBurger();
+    }
     }
     }
 </script>
