@@ -7,8 +7,8 @@
         <p>
             {{ $t('skills.logo.content2') }}
         </p>
-        <p>
-            {{ $t('skills.logo.content3') }}
+        <p v-html="$t('skills.logo.content3')">
+            
         </p>
     </div>
     </div>
