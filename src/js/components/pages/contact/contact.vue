@@ -44,9 +44,10 @@
         </div>
         <h3>Contact</h3>
         <ul>
-            <li>E-mail : <a href="#" mailto="#"> adresseMail@outlook.com</a></li>
+            <li>E-mail : <a href="mailto:philippine.dedonnea@ccpasbl.be" class="mailcontact"> philippine.dedonnea@ccpasbl.be</a></li>
             <li>Tél. +32 2 770 04 40</li>
             <li>Linkedin: <a href="https://be.linkedin.com/company/comprendre-et-parler" class="linkedinlink" target="_blank">Centre Comprendre et Parler asbl</a></li>
+            <li>Fb: <a href="https://www.facebook.com/CentreComprendreEtParlerAsbl/?locale=fr_FR" target="_blank" class="fblink">Centre Comprendre et Parler ASBL Facebook</a></li>
         </ul>
     </div>
     </div>
@@ -90,7 +91,7 @@ h2{
     margin: 1rem 0;
 }
 
-.linkedinlink{
+.linkedinlink, .mailcontact, .fblink{
     color: #005387;
     font-weight: 600;
     text-decoration: underline;

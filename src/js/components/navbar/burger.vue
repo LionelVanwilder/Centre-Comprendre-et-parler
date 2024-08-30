@@ -31,10 +31,10 @@
                 </li>
                 <li><router-link to="/Contact">{{ $t("Navinfo.infos") }}</router-link></li>
             <ul class="burger-languages">
-                    <li><a href="#" :class="{ 'activelangburger' : $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</a></li>
-                    <li><a href="#" :class="{ 'activelangburger' : $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</a></li>
-                    <li><a href="#"  :class="{ 'activelangburger' : $i18n.locale === 'en' }" @click="$i18n.locale = 'en'">EN</a></li>
-                    <li><a href="#">LDS</a></li>
+                    <li><button :class="{ 'activelangburger' : $i18n.locale === 'fr' }" @click="$i18n.locale = 'fr'">FR</button></li>
+                    <li><button :class="{ 'activelangburger' : $i18n.locale === 'nl' }" @click="$i18n.locale = 'nl'">NL</button></li>
+                    <li><button :class="{ 'activelangburger' : $i18n.locale === 'en' }" @click="$i18n.locale = 'en'">EN</button></li>
+                    <li><button>LDS</button></li>
             </ul>
 
             </ul>
@@ -81,8 +81,17 @@
 
 <style>
 
+    .burger-languages li button{
+    text-transform: uppercase;
+    padding: .5rem;
+    font-size: 0.88rem;
+    background-color: #005387;
+    border: inherit;
+    color: #ffffff;
+    }
+
     .activelangburger{
-        background-color: #FF4D00;
+        background-color: #FF4D00 !important;
         padding: .5rem;
         border-radius: 3px;
     }

@@ -21,14 +21,20 @@
     margin: 0 0.5rem !important;
 }
 
-.langnavinfo li a{
+.langnavinfo li button{
     text-transform: uppercase;
+    padding: .3rem;
+    font-size: 0.88rem;
+    border-radius: inherit;
+    background-color: inherit;
+    border: inherit;
+    color: #222222;
 }
 
 .activelang{
     color: #FF4D00 !important;
    text-decoration: underline;
-   padding: .3rem;
+   font-weight: 600;
    border-radius: 2px;
 }
 
