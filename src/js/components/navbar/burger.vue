@@ -14,7 +14,7 @@
                     <CompetencesShow :CloseBurger="CloseBurger"></CompetencesShow>
                     <CollaborationsShow :CloseBurger="CloseBurger"></CollaborationsShow>
                     <DocumentationsShow :CloseBurger="CloseBurger"></DocumentationsShow>
-                    <ActivitesShow></ActivitesShow>
+                    
             </ul>
             <ul class="burger-info">
                 <li>
@@ -46,7 +46,7 @@
     import CompetencesShow from './Showdropdown/CompetencesShow.vue'
     import CollaborationsShow from './Showdropdown/CollaborationsShow.vue'
     import DocumentationsShow from './Showdropdown/DocumentationShow.vue'
-    import ActivitesShow from './Showdropdown/ActivitesShow.vue'
+   
 
     export default{
         name: 'BurgerNav',
@@ -56,7 +56,7 @@
             CompetencesShow,
             CollaborationsShow,
             DocumentationsShow,
-            ActivitesShow
+            
         },
 
         data(){

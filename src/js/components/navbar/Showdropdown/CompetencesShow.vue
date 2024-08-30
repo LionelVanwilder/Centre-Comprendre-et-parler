@@ -6,12 +6,9 @@
         <li><router-link to="/Competences/Audiologie" @click="selectItemAndCloseBurger('Audiologie')">{{ this.$t('navbar.dropdown.skills.audio') }}</router-link></li>
         <!--<li><router-link to="/Competences/Depistage" @click="selectItemAndCloseBurger('Dépistage')">Dépistage</router-link></li>-->
         <li><router-link to="/Competences/Recherches" @click="selectItemAndCloseBurger('Recherches')">{{ this.$t('navbar.dropdown.skills.research') }}</router-link></li>
-        <li><router-link to="/">{{ this.$t('navbar.dropdown.skills.help') }}</router-link></li>
         <li><router-link to="/Competences/Logopedie" @click="selectItemAndCloseBurger('Logopédie')">{{ this.$t('navbar.dropdown.skills.logo') }}</router-link></li>
         <li><router-link to="/Competences/Medecins" @click="selectItemAndCloseBurger('Médecins')">{{ this.$t('navbar.dropdown.skills.doctor') }}</router-link></li>
-        <li><router-link to="/">{{ this.$t('navbar.dropdown.skills.psychology') }}</router-link></li>
         <li><router-link to="/Competences/Psychomotricite" @click="selectItemAndCloseBurger('Psychomotricite')">{{ this.$t('navbar.dropdown.skills.psychomotor') }}</router-link></li>
-        <li><router-link to="/">{{ this.$t('navbar.dropdown.skills.financial') }}</router-link></li>
     </ul>
 </template>
 <script>
