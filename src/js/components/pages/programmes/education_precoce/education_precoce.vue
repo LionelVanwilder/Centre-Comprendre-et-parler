@@ -2,30 +2,23 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Education précoce</h2>
-        <h4>Enfants de 0 à 3 ans à déficience auditive moyenne, sévère ou profonde, éventuellement associée à d'autres handicaps</h4>
+        <h2>{{ $t('Education.title') }}</h2>
+        <h4>{{ $t('Education.subtitle') }}</h4>
         <p>
-            Ce programme Education précoce appelé aussi Home training s'adresse aux enfants de 0 à 3 ans à déficience auditive moyenne, 
-            sévère ou profonde, éventuellement associée à d'autres handicaps. Le programme (A1) vise à développer la communication et le 
-            langage de l'enfant en stimulant au maximum ses capacités d'audition résiduelle et de perception visuelle de la parole et des 
-            signes manuels.
+            {{ $t('Education.text1') }}
         </p>
         <p>
-            Son objectif est également d'accompagner les parents sur le plan psychologique, leur apprendre les moyens de communication parlés 
-            ou visuels pour les rendre autonomes et aptes à développer le langage de leur enfant.
+            {{ $t('Education.text2') }}
         </p>
 
         <span>
-            Enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou profonde communiquant 
-            entre elles par la langue des signes.
+            {{ $t('Education.span1') }}
         </span>
         <p>
-            En ce qui concerne les enfants entendants vivant dans un foyer composé uniquement de personnes atteintes de déficience auditive sévère ou 
-            profonde communiquant entre elles par la langue des signes, le programme (A2) vise à stimuler les capacités auditives normales de l'enfant 
-            et à créer autour de lui les conditions nécessaires au développement de son langage et de sa parole.
+            {{ $t('Education.text3') }}
         </p>
         <p>
-            Son objectif est également d'aider les parents à communiquer avec leur enfant et à adopter les attitudes propres à favoriser le développement de son langage.
+            {{ $t('Education.text4') }}
         </p>
     </div>
 

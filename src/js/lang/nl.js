@@ -255,5 +255,15 @@ export default{
         subtitle1: 'Onze team',
         content3: 'Ons team van professionals, waaronder artsen, audiologen, logopedisten, psychologen, psychomotorische therapeuten, maatschappelijk werkers, animatoren en gebarentolken, werkt nauw samen met de families. <br><br>Samen stellen we geïndividualiseerde programma\'s op om de taal- en communicatieve ontwikkeling, het welzijn en de autonomie van elk kind te bevorderen.'
 
+    },
+
+    Education:{
+        title: 'Vroegtijdige educatie',
+        subtitle: 'Kinderen van 0 tot 3 jaar met een matig, ernstig of diep gehoorverlies, eventueel in combinatie met andere handicaps',
+        text1: 'Dit programma voor vroegtijdige educatie, ook wel Home training genoemd, is gericht op kinderen van 0 tot 3 jaar met een matig, ernstig of diep gehoorverlies, eventueel in combinatie met andere handicaps. Het programma (A1) heeft tot doel de communicatie en taalontwikkeling van het kind te bevorderen door zijn resterende gehoor- en visuele waarnemingsvermogen van spraak en manuele gebaren maximaal te stimuleren.',
+        text2: 'Het doel is ook om ouders psychologisch te ondersteunen, hen de gesproken of visuele communicatiemethoden te leren, zodat zij zelfstandig kunnen worden en in staat zijn om de taalontwikkeling van hun kind te bevorderen.',
+        span1: 'Hoorbare kinderen die opgroeien in een huishouden met alleen mensen met ernstige of diepe gehoorverlies die met elkaar communiceren via de gebarentaal.',
+        text3: 'Wat betreft de horende kinderen die opgroeien in een huishouden met alleen mensen met ernstige of diepe gehoorverlies die met elkaar communiceren via de gebarentaal, heeft het programma (A2) tot doel de normale auditieve vermogens van het kind te stimuleren en de omstandigheden te creëren die nodig zijn voor de ontwikkeling van zijn taal en spraak.',
+        text4: 'Het doel is ook om ouders te helpen communiceren met hun kind en de houdingen aan te nemen die bevorderlijk zijn voor de taalontwikkeling van hun kind.'
     }
 }

@@ -255,5 +255,15 @@ export default{
         content2: 'The Centre currently welcomes no less than 600 children of all ages and from all socio-economic or cultural backgrounds. <br>A motivated team of 110 people with multidisciplinary skills provides support to the children and their families.',
         subtitle1: 'Our team',
         content3: 'Our team of professionals, including doctors, audiologists, speech therapists, psychologists, psychomotor therapists, social workers, activity leaders, and sign language interpreters, works closely with the families. <br><br>Together, we create individualized programs to foster the development of language and communication, well-being, and the autonomy of each child.'
+    },
+
+    Education:{
+        title: 'Early education',
+        subtitle: 'Children from 0 to 3 years old with moderate, severe, or profound hearing impairment, possibly combined with other disabilities',
+        text1: 'This Early Education program, also called Home Training, is intended for children from 0 to 3 years old with moderate, severe, or profound hearing impairment, possibly combined with other disabilities. The program (A1) aims to develop the child\'s communication and language by maximizing the stimulation of their residual hearing and visual perception of speech and manual signs.',
+        text2: 'Its goal is also to support parents psychologically, teach them spoken or visual communication methods, and make them independent and capable of fostering their child\'s language development.',
+        span1: 'Hearing children living in a household consisting only of individuals with severe or profound hearing impairment who communicate with each other using sign language.',
+        text3: 'Regarding hearing children living in a household consisting only of individuals with severe or profound hearing impairment who communicate with each other using sign language, the program (A2) aims to stimulate the child\'s normal auditory abilities and create the conditions necessary for the development of their language and speech.',
+        text4: 'Its goal is also to help parents communicate with their child and adopt the attitudes that promote their child\'s language development.'
     }
 }
