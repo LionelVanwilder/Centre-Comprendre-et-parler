@@ -32,7 +32,6 @@
                         {label: this.$t('navbar.dropdown.program.services'), url: '/Programmes/Services'},
                         {label: this.$t('navbar.dropdown.program.formations'), url: '/Programmes/FormationsExterieures'},
                         {label: this.$t('navbar.dropdown.program.screening'), url: '/Programmes/Depistage'},
-                        {label: this.$t('navbar.dropdown.program.external'), url: '/Programmes/ServicesExterieurs'}
                     ] 
                 },
 
