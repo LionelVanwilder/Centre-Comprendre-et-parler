@@ -263,6 +263,14 @@ export default{
             text3: 'The training, evaluation, and research service is responsible for organizing training sessions, either internally or externally, for teachers in the “regular” school network, speech therapists, nursery nurses, caregivers, rehabilitators, or anyone closely or remotely involved in supporting deaf children. It organizes, in collaboration with universities, research activities and scientific publications in the field of deafness. Its mission is part of the broader mission of the Comprendre et Parler Center, which aims to promote the development of deaf children by ensuring coherence in the means implemented and the optimal use of technological resources.'
         },
 
+        logo: {
+            title: 'Speech Therapy',
+            content1: 'Individual and collective speech therapy plays a crucial role. Teaching children who hear little or poorly to understand a speaker, to speak, and to develop the fundamental cognitive mechanisms of language is a challenging and long-term task.<br> The daily sessions necessary to achieve the goal of linguistic communication require great efforts from the speech therapists... and especially from the children.<br> To motivate the children to accept these efforts, the speech therapists must constantly offer new communication activities, which require the preparation of attractive and frequently renewed materials (educational games, pictures, pictograms, miniature objects and characters, etc.).',
+            content2: 'It is mainly the speech therapy teams that make these efforts and that particularly deserve credit for their results, serving as a reference model for many Belgian and foreign centers. The role of speech therapists is also to contribute, through appropriate parental guidance, to ensuring that parents are, at all ages, the key players in the linguistic development of their deaf or hard-of-hearing child.',
+            content3: 'Sign language is integrated into the support process and even into linguistic rehabilitation when necessary.<br> In practice, this involves the integration of sign language users into the interdisciplinary team.<br> Deaf facilitators fulfill this role by organizing sign language communication workshops that are part of various rehabilitation programs, or through individual sessions focused on training specific skills (memory, phonological analysis, conceptualization, general knowledge, etc.).<br> Parents are also invited to become familiar with sign language and to acquire vocabulary in this language, which can be used in combination with Cued Speech (LPC) depending on the project in place.<br> This approach allows children to become familiar with this language in a positive and enjoyable way. Linguistic skill transfers between spoken languages and sign languages are common observations in linguistic development.'
+        },
+        
+
     },
 
    
