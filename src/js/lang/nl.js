@@ -255,7 +255,15 @@ export default{
             text3: 'De pediatrische specificiteit van de dienst maakt het mogelijk om de meest geschikte audiometrische technieken te selecteren en aan te passen aan de leeftijd en capaciteiten van het kind. Hoortoestellen en implantaatprocessors worden streng en voorzichtig geregeld voor kinderen vanaf jonge leeftijd.',
             text4: 'Onze praktijk, onze ervaring en onze procedures worden zeer regelmatig verrijkt door onze ontmoetingen en samenwerkingen met andere teams en door verschillende trainingen en congressen.',
             text5: 'In samenwerking met het hele multidisciplinaire team volgen we de evolutie van kinderen door ons te registreren in de algemene missie van het Centre Comprendre et Parler.'
+        },
+
+        research: {
+            title: 'Opleidingen, Evaluaties en Onderzoek',
+            text1: 'Het Centrum Comprendre et Parler is altijd toonaangevend geweest op het gebied van onderzoek naar doofheid en de impact ervan op de ontwikkeling van de vaardigheden van dove kinderen.',
+            text2: 'Met in zijn team leden van de academische en onderzoeksgemeenschap van de Université Libre de Bruxelles (ULB), de Hogescholen (Institut Libre Marie Haps), en leden van het Internationaal Bureau voor Audiofonologie (BIAP), voert het Centrum klinisch of wetenschappelijk onderzoek uit of neemt deel aan onderzoek in zijn interventiegebied, begeleidt eindverhandelingen in logopedie, psychologie, psycholinguïstiek, audiologie, psychomotoriek, en publiceert wetenschappelijke artikelen of standaardwerken over het volledige probleem van doofheid.',
+            text3: 'De dienst voor opleidingen, evaluaties en onderzoek heeft als missie het organiseren van trainingen, intern of extern, voor leerkrachten van het "reguliere" netwerk, logopedisten, kinderverzorgsters, verzorgers, therapeuten of iedereen die nauw of zijdelings betrokken is bij de begeleiding van dove kinderen. Het organiseert, in samenwerking met universiteiten, onderzoeksactiviteiten en wetenschappelijke publicaties op het gebied van doofheid. Deze missie maakt deel uit van de bredere missie van het Centrum Comprendre et Parler, dat streeft naar de ontwikkeling van dove kinderen door te zorgen voor consistentie in de gebruikte middelen en het optimaal gebruik van technologische middelen.'
         }
+        
     },
 
     mission:{

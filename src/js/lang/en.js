@@ -254,9 +254,19 @@ export default{
             text3: 'The pediatric specificity of the service makes it possible to select and adapt the most appropriate audiometric techniques to the age and abilities of the child. Hearing aids and implant processors are regulated with rigor and caution for children from an early age.',
             text4: 'Our practice, our experience and our procedures are enriched very regularly by our meetings and collaborations with other teams and by different trainings and congresses.',
             text5: 'In collaboration with the whole multidisciplinary team, we follow the evolution of children by registering ourselves in the general mission of the Centre Comprendre et Parler.'
-        }
+        },
+
+        research: {
+            title: 'Training, Evaluations, and Research',
+            text1: 'The Comprendre et Parler Center has always been at the forefront of research in the field of deafness and its impact on the development of deaf children\'s skills.',
+            text2: 'Incorporating members of the academic and research staff from the Université Libre de Bruxelles (ULB), the Haute Écoles (Institut Libre Marie Haps), and members of the International Bureau of Audio-Phonology (BIAP), the Center conducts or participates in clinical or scientific research in its field of intervention, supervises dissertations in speech therapy, psychology, psycholinguistics, audiology, psychomotricity, and publishes scientific articles or reference books on the entire issue related to deafness.',
+            text3: 'The training, evaluation, and research service is responsible for organizing training sessions, either internally or externally, for teachers in the “regular” school network, speech therapists, nursery nurses, caregivers, rehabilitators, or anyone closely or remotely involved in supporting deaf children. It organizes, in collaboration with universities, research activities and scientific publications in the field of deafness. Its mission is part of the broader mission of the Comprendre et Parler Center, which aims to promote the development of deaf children by ensuring coherence in the means implemented and the optimal use of technological resources.'
+        },
 
     },
+
+   
+    
 
     mission:{
         title: 'Missions and values',
