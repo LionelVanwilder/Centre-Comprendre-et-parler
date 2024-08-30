@@ -57,7 +57,23 @@ const router = createRouter({
       {
         path: '/',
         name: 'HomePage',
-        component: HomePage
+        component: HomePage,
+
+        meta: {
+          title: 'Accueil | CCPL',
+          metaTags: [
+            {
+              name: 'description',
+              content: 'Bienvenue sur le site du Centre Comprendre et Parler ASBL (CCP), une organisation dédiée à l\'accompagnement des enfants sourds et malentendants. Découvrez nos services, nos programmes de soutien et nos initiatives pour améliorer la qualité de vie de nos patients.',
+            },
+
+            {
+              name: 'keywords',
+              content: 'Centre Comprendre et Parler, ASBL, CCPL, enfans, Centre, sourds, patients'
+            }
+
+          ]
+        }
       },
 
       {
@@ -284,8 +300,60 @@ const router = createRouter({
 
 
       
-      // Autres routes...
+      
     ]
   });
+
+
+
+
+
+  
+// script pour ajouter les balises meta dynamiquement 
+
+  router.beforeEach((to, from, next) => {
+  
+  const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);
+
+ 
+  const nearestWithMeta = to.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
+
+  const previousNearestWithMeta = from.matched.slice().reverse().find(r => r.meta && r.meta.metaTags);
+
+  
+  if(nearestWithTitle) {
+    document.title = nearestWithTitle.meta.title;
+  } else if(previousNearestWithMeta) {
+    document.title = previousNearestWithMeta.meta.title;
+  }
+
+ 
+  Array.from(document.querySelectorAll('[data-vue-router-controlled]')).map(el => el.parentNode.removeChild(el));
+
+  
+  if(!nearestWithMeta) return next();
+
+  
+  nearestWithMeta.meta.metaTags.map(tagDef => {
+    const tag = document.createElement('meta');
+
+    Object.keys(tagDef).forEach(key => {
+      tag.setAttribute(key, tagDef[key]);
+    });
+
+   
+    tag.setAttribute('data-vue-router-controlled', '');
+
+    return tag;
+  })
+  
+  .forEach(tag => document.head.appendChild(tag));
+
+  next();
+});
+
+
+
+
 
   export default router

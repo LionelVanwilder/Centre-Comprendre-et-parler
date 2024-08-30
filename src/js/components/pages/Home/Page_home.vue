@@ -32,6 +32,7 @@ import BlocFlex from "./bloc-flex.vue"
 import NewsSection from "./news/news.vue"
 import DonationSection from "./Donation.vue"
 import CarouselApp from "../../carousel/carousel.vue"
+
 //import NavButton from "../../navbar/button.vue"
     
 export default {
