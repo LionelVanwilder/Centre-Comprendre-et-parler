@@ -139,7 +139,7 @@ export default{
 
     footer: {
         follow: 'Volg ons',
-        terms: 'Algemene verkoopvoorwaarden',
+        terms: 'Privacybeleid',
         gdpr: 'AVG',
         legal: 'wettelijke vermeldingen',
         rights: '© 2024 Centrum Comprendre et Parler VZW',

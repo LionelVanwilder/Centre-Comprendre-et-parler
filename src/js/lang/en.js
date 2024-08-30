@@ -138,7 +138,7 @@ export default{
 
     footer: {
         follow: 'Follow us',
-        terms: 'General Conditions of Sales',
+        terms: 'Privacy Policy',
         gdpr: 'GDPR',
         legal: 'legal notice',
         rights: '© 2024 Center Comprendre et Parler NPO',

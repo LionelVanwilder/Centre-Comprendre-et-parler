@@ -142,7 +142,7 @@ export default{
 
         footer: {
             follow: 'Suivez nous',
-            terms: 'Conditions générales de vente',
+            terms: 'Politique de confidentialité',
             gdpr: 'RGPD',
             legal: 'Mentions légales',
             rights: '© 2024 Centre Comprendre et Parler ASBL',
