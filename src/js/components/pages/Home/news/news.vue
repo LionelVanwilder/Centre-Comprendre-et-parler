@@ -16,7 +16,7 @@
                 <!--<p id="aosanchor" class="news-content">
                     {{ item.content }}
                 </p>-->
-                <router-link :to="`/${card.id}`">→ Lire plus</router-link>
+                <router-link :to="`/${card.id}`">→ {{ $t('news.button') }}</router-link>
 
 
             </article>

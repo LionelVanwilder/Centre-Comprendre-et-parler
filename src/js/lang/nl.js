@@ -61,6 +61,7 @@ export default{
 
     news: {
         title: 'Nieuws',
+        button: 'Lees meer'
     },
 
     homedonation: {

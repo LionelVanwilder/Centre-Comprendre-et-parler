@@ -59,7 +59,8 @@ export default{
     },
 
     news: {
-        title: 'News'
+        title: 'News',
+        button: 'Read more'
     },
 
     homedonation: {
