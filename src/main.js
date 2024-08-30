@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './routes/route.js'
 import { createMetaManager } from 'vue-meta';
 import axios from 'axios';
+import { createHead } from '@vueuse/head';
 import i18n from './js/lang/lang.js';
 
 
@@ -57,5 +58,5 @@ export default {
 
   
 
-createApp(App).use(router).use(createMetaManager()).use(i18n).mount('#app');
+createApp(App).use(router).use(createHead()).use(createMetaManager()).use(i18n).mount('#app');
 
