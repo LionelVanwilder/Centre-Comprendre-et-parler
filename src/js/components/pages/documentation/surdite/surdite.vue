@@ -27,7 +27,6 @@
         <p>
             <span>LPC</span><br>
             <a href="http://www.lpcbelgique.be/" target="_blank" style="text-decoration: underline;">Association LPC Belgique</a><br>
-            <a href="www.alpc.asso.fr" target="_blank" style="text-decoration: underline;">Association nationale pour la promotion et le développement de la Langue française Parlée Complétée</a><br>
             <a href="https://fr.wikipedia.org/wiki/Langage_parl%C3%A9_compl%C3%A9t%C3%A9" target="_blank" style="text-decoration: underline;">Wikipédia: Langage parlé complété</a><br>
             <a href="http://membres.multimania.fr/riane/LPC/LPC-Charlier.html" target="_blank" style="text-decoration: underline;">Les Sourds Ont la Parole</a><br>
             <a href="http://www.lpcbelgique.be/" target="_blank" style="text-decoration: underline;">Les habiletés phonologiques chez des enfants sourds prélecteurs</a><br>
