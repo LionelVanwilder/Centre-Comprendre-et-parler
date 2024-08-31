@@ -31,15 +31,16 @@
             BreadCrumbCom
         },
 
-        data(){
-                return{
+        
 
-                    breadcrumbs: [
-                        {to: '/', label: 'Accueil'},
-                        {to: '/Quisommesnous', label: 'Qui sommes nous ?'},
-                    ]
-                }
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/Quisommesnous', label: this.$t('Aboutus.title') }
+            ];
+        }
+    }
     }
 </script>
 <style scoped>
