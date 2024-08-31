@@ -8,8 +8,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="tel: 02 770 04 40">
-                        <img src="../../../../icons/phone-solid.svg" alt="" class="icon-navinfo">
+                    <a href="tel:027700440">
+                        <img src="../../../../icons/phone-solid.svg" alt="icone telephone" class="icon-navinfo">
                         +32 2 770 04 40
                     </a>
                 </li>
