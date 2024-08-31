@@ -368,7 +368,7 @@ export default{
             content3: 'Le Comité Exécutif gère l’institution dans tous ses volets organisationnels et de soutien de l’activité au quotidien. Il répartit les missions des personnes travaillant pour le Centre.Le CE émet vers le CA des recommandations qu\'il juge nécessaire à la bonne gestion du Centre afin qu\'il remplisse les missions qui lui sont allouées.',
             content4: 'Font partie du Comité Exécutif : Alain Baudichau, Président,   Brigitte Charlier, Directrice, Dr Chantal Ligny,  Médecin Directeur',
             span4: 'CD : ',
-            content5: 'Le Conseil de Direction est constitué des responsables des équipes professionnelles:  Logopèdes / Animateurs en langue des signes, Interprètes, Psychologues / Psychomotriciens, Audiologues / Audiciens, Assistants sociaux et de l\'équipe Finances / Administration / Logistique.<br> Son rôle est de soutenir le Comité Exécutif dans sa tâche de gestion opérationnelle de l\'ASBL.'
+            content5: 'Le Conseil de Direction est constitué des responsables des équipes professionnelles:  Logopèdes / Animateurs en langue des signes, Interprètes, Psychologues / Psychomotriciens, Audiologues / Audiciens, Assistants sociaux et de l\'équipe Finances / Administration / Logistique. Son rôle est de soutenir le Comité Exécutif dans sa tâche de gestion opérationnelle de l\'ASBL.'
         },
 
         

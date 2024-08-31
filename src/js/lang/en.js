@@ -363,7 +363,7 @@ export default{
         content3: 'The Executive Committee manages the institution in all its organizational and day-to-day operational aspects. It allocates the missions of the people working for the Center. The EC makes recommendations to the BoD, deemed necessary for the proper management of the Center, to fulfill its assigned missions.',
         content4: 'Members of the Executive Committee: Alain Baudichau, President, Brigitte Charlier, Director, Dr. Chantal Ligny, Medical Director',
         span4: 'MB:',
-        content5: 'The Management Board is made up of the heads of the professional teams: Speech Therapists / Sign Language Facilitators, Interpreters, Psychologists / Psychomotor Therapists, Audiologists / Hearing Aid Specialists, Social Workers, and the Finance / Administration / Logistics team.<br> Its role is to support the Executive Committee in its task of operational management of the non-profit organization.'
+        content5: 'The Management Board is made up of the heads of the professional teams: Speech Therapists / Sign Language Facilitators, Interpreters, Psychologists / Psychomotor Therapists, Audiologists / Hearing Aid Specialists, Social Workers, and the Finance / Administration / Logistics team. Its role is to support the Executive Committee in its task of operational management of the non-profit organization.'
     },
     
 

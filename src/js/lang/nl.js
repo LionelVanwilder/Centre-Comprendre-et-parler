@@ -361,7 +361,7 @@ export default{
         content3: 'Het Uitvoerend Comité beheert de organisatie in al haar organisatorische en dagelijkse ondersteunende aspecten. Het verdeelt de taken van de mensen die voor het Centrum werken. Het ET doet aanbevelingen aan de Raad van Bestuur die het noodzakelijk acht voor een goed beheer van het Centrum zodat het de toegewezen taken kan uitvoeren.',
         content4: 'De leden van het Uitvoerend Comité zijn: Alain Baudichau, Voorzitter, Brigitte Charlier, Directrice, Dr. Chantal Ligny, Medisch Directeur',
         span4: 'CD:',
-        content5: 'De Directieraad bestaat uit de verantwoordelijken van de professionele teams: Logopedisten / Gebarentaalbegeleiders, Tolkvertalers, Psychologen / Psychomotorische therapeuten, Audiologen / Audiciens, Maatschappelijk werkers en het Financiën / Administratie / Logistiek team.<br> Hun rol is om het Uitvoerend Comité te ondersteunen in zijn taak van operationeel beheer van de vzw.'
+        content5: 'De Directieraad bestaat uit de verantwoordelijken van de professionele teams: Logopedisten / Gebarentaalbegeleiders, Tolkvertalers, Psychologen / Psychomotorische therapeuten, Audiologen / Audiciens, Maatschappelijk werkers en het Financiën / Administratie / Logistiek team. Hun rol is om het Uitvoerend Comité te ondersteunen in zijn taak van operationeel beheer van de vzw.'
     },
     
 
