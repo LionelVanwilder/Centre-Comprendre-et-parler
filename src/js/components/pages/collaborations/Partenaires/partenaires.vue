@@ -12,7 +12,7 @@
             Fax : 02/772.62.88<br>
             e-mail : secretariat@ecoleintegree.be<br>
             web: www.ecoleintegree.be<br>
-            <a href="" style="text-decoration: underline;">Lien sur Google Maps</a>
+            <a href="https://www.google.com/maps/place/L'ecole+Int%C3%A9gr%C3%A9e/@50.8498093,4.4445605,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3dc9b6249b8e1:0x8e7a5923a3180e96!8m2!3d50.8498093!4d4.4445605!16s%2Fg%2F1td714pt?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: underline;">Google Maps</a>
         </p>
         
         <p>
@@ -21,7 +21,7 @@
             Tel : 02/763.04.35<br>
             Fax : 02/771.98.09<br>
             e-mail : <a href="mailto:lui-nous@swing.be">lui-nous@swing.be</a><br>
-            <a href="" style="text-decoration: underline;">Lien sur Google Maps</a>
+            <a href="https://www.google.com/maps/@50.837554,4.416085,16z?hl=en-GB&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: underline;">Google Maps</a>
         </p>
 
         <p>
@@ -30,7 +30,7 @@
             Tel: 02/772.60.22<br>
             Fax : 02/772.60.22<br>
             e-mail : <a href="mailto: creche.crescendo@skynet.be"> creche.crescendo@skynet.be</a><br>
-            <a href="" style="text-decoration: underline;">Lien sur Google Maps</a>
+            <a href="https://www.google.com/maps/place/Crescendo+Asbl/@50.8492924,4.4198335,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3dca616494f99:0xefa5d9112dd8a927!8m2!3d50.8492924!4d4.4224084!16s%2Fg%2F1td1_f4n?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: underline;">Google Maps</a>
         </p>
     </div>
 
