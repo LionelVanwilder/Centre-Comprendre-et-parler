@@ -363,6 +363,21 @@ export default{
         span4: 'CD:',
         content5: 'De Directieraad bestaat uit de verantwoordelijken van de professionele teams: Logopedisten / Gebarentaalbegeleiders, Tolkvertalers, Psychologen / Psychomotorische therapeuten, Audiologen / Audiciens, Maatschappelijk werkers en het Financiën / Administratie / Logistiek team. Hun rol is om het Uitvoerend Comité te ondersteunen in zijn taak van operationeel beheer van de vzw.'
     },
+
+    history: {
+        title: 'Geschiedenis van het Centrum',
+        intro: 'Bezorgde ouders die hun dove of slechthorende kinderen onderwijs van hoog niveau wilden bieden, richtten in 1965 op initiatief van dokter Olivier Périer het Centrum Comprendre et Parler op.',
+        subtitle1: '1965-1980',
+        content1: 'Tijdens de eerste 15 jaar van zijn bestaan heeft het Centrum uitsluitend audio-orale methoden gebruikt, gebaseerd op het gebruik van het resterende gehoor en het liplezen. Het heeft vooral geïnvesteerd in de verbo-tonale methode van P. Guberina, die zeer effectief bleek te zijn voor de ontwikkeling van de stem, articulatie en spraakmelodie. In zijn beginjaren besteedde het Centrum bijzondere aandacht aan de ontwikkeling van prothetische aanpassingstechnieken, aangezien deze werden beschouwd als een essentieel onderdeel van het revalidatieproces: de vooruitgang van de afgelopen jaren op dit gebied heeft in belangrijke mate bijgedragen aan de algemene verbetering van de resultaten van het revalidatieproces.',
+        subtitle2: '1980 - Heden',
+        content2_1: 'Vanaf 1980 leidde de opgedane ervaring en de verwijzing naar de evolutie van methoden wereldwijd het team ertoe om aanvullende communicatiemethoden die beroep doen op het visuele aspect, te integreren in de eerder gebruikte audio-orale methoden.',
+        content2_2: 'Enerzijds werd het Gesproken Gesproken Taal (LPC), een ingenieus systeem dat het liplezen verduidelijkt en aanvult, geïntroduceerd, en anderzijds het Gelijktekende Frans (FS), dat gebruikmaakt van gebaren uit de doventaal ter aanvulling op de gesproken taal.',
+        content2_3: 'De introductie van LPC en FS zorgde voor een echte vooruitgang in de communicatie en de verwerving van de fundamentele mechanismen van de gesproken taal, terwijl het de basis legde voor latere toegang tot de gebarentaal van de doven gemeenschap.',
+        content2_4: 'De combinatie van deze twee technieken in de vorm van Volledig Gesproken en Gecodeerd Frans FCSC betekende het einde van FS. FCSC is een creatie van ouders die de voordelen wilden combineren van een volledige waarneming van de spraak via LPC en de mogelijkheid tot gemakkelijke en natuurlijke expressie op jonge leeftijd van hun kind door middel van gebaren uit de doventaal. FCSC vormt een internationaal erkende waardevolle bijdrage aan de methodologie van onderwijs voor kinderen met gehoorproblemen. Veel dove kinderen hebben hiervan geprofiteerd (zie rubriek Documentatie/Publicaties).',
+        content2_5: 'De recente technologische vooruitgang, en met name de opkomst van de effectieve cochleaire implantaten sinds de jaren \'90, heeft opnieuw geleid tot een aanpassing van de praktijken. LPC blijft een aanvullend hulpmiddel bij cochleaire implantaten om het kind toegang te geven tot fijne fonologische precisie in alle omstandigheden (bijv. in lawaaiige situaties). Gebaren worden nog steeds gebruikt tijdens de eerste interacties om de ouder-kind interactie te stimuleren. Ze vinden ook plaats in aangemoedigde contacten met leden van de dovengemeenschap die deze taal delen.',
+        content2_6: 'De opkomst van cochleaire implantaten had ook een onverwacht effect. Zodra de audio-prothetische ondersteuning zeer effectief werd, werden de bijkomende moeilijkheden bij sommige dove kinderen en adolescenten duidelijker zichtbaar: "dys"-stoornissen (dysfasie, dyslexie, dyscalculie, geheugenproblemen, aandachtstekorten, visuele integratiestoornissen, leesbegripsproblemen), of zelfs bijkomende handicaps. De toekomstige uitdagingen zullen zijn om evaluatie-instrumenten te ontwikkelen voor deze bijkomende problemen bij gehoorverlies en om wetenschappelijk gevalideerde revalidatieroutes of aangepaste praktijken aan te bieden.'
+    },
+    
     
 
     AboutPage:{

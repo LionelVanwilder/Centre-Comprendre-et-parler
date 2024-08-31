@@ -365,6 +365,21 @@ export default{
         span4: 'MB:',
         content5: 'The Management Board is made up of the heads of the professional teams: Speech Therapists / Sign Language Facilitators, Interpreters, Psychologists / Psychomotor Therapists, Audiologists / Hearing Aid Specialists, Social Workers, and the Finance / Administration / Logistics team. Its role is to support the Executive Committee in its task of operational management of the non-profit organization.'
     },
+
+    history: {
+        title: 'History of the Center',
+        intro: 'In 1965, parents concerned with providing their deaf or hard-of-hearing children with a high-level education founded the Centre Comprendre et Parler, initiated by Dr. Olivier Périer.',
+        subtitle1: '1965-1980',
+        content1: 'During the first 15 years of its existence, the Center exclusively used audio-oral methods based on the use of residual hearing and lip reading. It particularly invested in P. Guberina’s verbo-tonal method, which proved very effective for the development of voice, articulation, and speech melody. In its early years, the Center paid particular attention to the development of prosthetic adaptation techniques, considering them an essential part of the rehabilitation process: recent advances in this field have significantly contributed to the overall improvement of rehabilitation outcomes.',
+        subtitle2: '1980 - Today',
+        content2_1: 'Starting in 1980, the experience gained and the reference to the evolution of methods worldwide led the team to integrate additional communication tools involving the visual sphere alongside the previous audio-oral methods.',
+        content2_2: 'On the one hand, the Cued Speech (LPC) system, an ingenious method that clarifies and supplements lip reading, and on the other, Signed French (FS), which uses signs from the deaf language in addition to speech.',
+        content2_3: 'The introduction of LPC and FS allowed a true leap forward in communication and the acquisition of fundamental mechanisms of oral language, while laying the foundation for later access to the sign language of the deaf community.',
+        content2_4: 'The combination of these two techniques in the form of Fully Signed and Coded French (FCSC) marked the abandonment of FS. FCSC is a creation of parents who wanted to combine the advantages of a complete perception of speech via LPC with the ease and natural expression of their child at a young age through the use of signs from sign language. FCSC constitutes an internationally recognized valuable contribution to the methodology of educating hearing-impaired children. Many deaf children have benefited from it (see the Documentation/Publications section).',
+        content2_5: 'Recent technological advances, particularly the advent of effective cochlear implants since the 1990s, have again led to modifications in practice. LPC remains a complementary tool to cochlear implants to give the child access to fine phonological precision under all circumstances (e.g., in noisy environments). Signs are still used during the early exchanges to stimulate parent-child interaction. They also play a role during encouraged contacts with members of the deaf community who share this language.',
+        content2_6: 'The emergence of cochlear implants also had an unexpected effect. Once the prosthetic support became highly effective, the concomitant difficulties presented by some deaf children and adolescents became more apparent: "dys" disorders (dysphasia, dyslexia, dyscalculia, memory problems, attention deficits, visual integration difficulties, reading comprehension issues), or even associated disabilities. Future challenges will involve developing evaluation tools for these concomitant disorders with hearing loss and offering rehabilitation paths validated by scientific evidence or adjusted practices.'
+    },
+    
     
 
     AboutPage:{
