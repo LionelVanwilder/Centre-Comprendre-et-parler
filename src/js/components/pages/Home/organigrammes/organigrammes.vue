@@ -3,6 +3,7 @@
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
         <h2>Organnigramme</h2>
+        <p>*** CETTE PAGE EST EN CONSTRUCTION EN ATTENTE DE PHOTOS ***</p>
         <h3>Les organisations professionnelles</h3>
         <p>
             Le Centre est structuré en interne en équipes professionnelles ayant chacune des compétences s'exerçant dans les différents domaines 
