@@ -1,5 +1,6 @@
 <template>
   <div class="template-page-container">
+    <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
       <div v-if="article" class="news-detail">
         <p class="news-date">{{ formatDate(article.date) }}</p>
@@ -19,9 +20,24 @@
   import { useRoute } from 'vue-router';
   import { supabase } from '@/lib/supabaseClient';
   import { useI18n } from 'vue-i18n';
+  import BreadCrumbCom from '../../breadcrumb.vue'
   
   export default {
     name: 'NewsDetail',
+
+    components: {
+        BreadCrumbCom,
+    },
+
+    computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '', label: this.$t('news.title') }
+            ];
+        }
+    },
+
     setup() {
       const route = useRoute();
       const article = ref(null);
