@@ -4,107 +4,120 @@
     <div class="Edu-container">
       <div v-if="article" class="news-detail">
         <p class="news-date">{{ formatDate(article.date) }}</p>
-        <h2>{{ getTitle(article) }}</h2>
-        <p>{{ getContent(article) }}</p>
+        <h2 class="titlecontent">{{ getTitle(article) }}</h2>
+        <div v-html="getContent(article)" class="articlecontent"></div>
       </div>
       <div v-else>
         <p>Loading...</p>
       </div>
     </div>
   </div>
-    
-  </template>
-  
-  <script>
-  import { ref, onMounted } from 'vue';
-  import { useRoute } from 'vue-router';
-  import { supabase } from '@/lib/supabaseClient';
-  import { useI18n } from 'vue-i18n';
-  import BreadCrumbCom from '../../breadcrumb.vue'
-  
-  export default {
-    name: 'NewsDetail',
+</template>
 
-    components: {
-        BreadCrumbCom,
-    },
+<script>
+import { ref, onMounted } from 'vue';
+import { useRoute } from 'vue-router';
+import { supabase } from '@/lib/supabaseClient';
+import { useI18n } from 'vue-i18n';
+import BreadCrumbCom from '../../breadcrumb.vue'
 
-    computed: {
-        breadcrumbs() {
-            return [
-                { to: '/', label: this.$t('breadcrumbs.home') },
-                { to: '', label: this.$t('news.title') }
-            ];
-        }
-    },
+export default {
+  name: 'NewsDetail',
 
-    setup() {
-      const route = useRoute();
-      const article = ref(null);
-      const { locale } = useI18n();
-  
-      const fetchArticle = async () => {
-        const { data, error } = await supabase
-          .from('news')
-          .select('*')
-          .eq('id', route.params.id) 
-          .single(); 
-  
-        if (error) {
-          console.error('Error fetching article:', error);
-        } else {
-          article.value = data;
-        }
-      };
-  
-      onMounted(() => {
-        fetchArticle();
-      });
-  
-      const formatDate = (date) => {
-        const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
-        return new Date(date).toLocaleDateString('fr-FR', options);
-      };
-  
-      const getTitle = (article) => {
-        const currentLang = locale.value;
-        switch (currentLang) {
-          case 'en':
-            return article.title_en || article.title; 
-          case 'nl':
-            return article.title_nl || article.title; 
-          default:
-            return article.title; 
-        }
-      };
-      const getContent = (article) => {
-        const currentLang = locale.value;
-        switch (currentLang) {
-          case 'en':
-            return article.content_en || article.content; 
-          case 'nl':
-            return article.content_nl || article.content; 
-          default:
-            return article.content; 
-        }
-      };
-  
-      return {
-        article,
-        formatDate,
-        getTitle,
-        getContent
-      };
+  components: {
+    BreadCrumbCom,
+  },
+
+  computed: {
+    breadcrumbs() {
+      return [
+        { to: '/', label: this.$t('breadcrumbs.home') },
+        { to: '', label: this.$t('news.title') }
+      ];
     }
-  };
+  },
+
+  setup() {
+    const route = useRoute();
+    const article = ref(null);
+    const { locale } = useI18n();
+
+    const fetchArticle = async () => {
+      const { data, error } = await supabase
+        .from('news')
+        .select('*')
+        .eq('id', route.params.id) 
+        .single(); 
+
+      if (error) {
+        console.error('Error fetching article:', error);
+      } else {
+        article.value = data;
+      }
+    };
+
+    onMounted(() => {
+      fetchArticle();
+    });
+
+    const formatDate = (date) => {
+      const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+      return new Date(date).toLocaleDateString('fr-FR', options);
+    };
+
+    const formatContent = (content) => {
+      return content.replace(/\n/g, '<br>');
+    };
+
+    const getTitle = (article) => {
+      const currentLang = locale.value;
+      switch (currentLang) {
+        case 'en':
+          return article.title_en || article.title; 
+        case 'nl':
+          return article.title_nl || article.title; 
+        default:
+          return article.title; 
+      }
+    };
+
+    const getContent = (article) => {
+      const currentLang = locale.value;
+      let content = '';
+      switch (currentLang) {
+        case 'en':
+          content = article.content_en || article.content; 
+          break;
+        case 'nl':
+          content = article.content_nl || article.content; 
+          break;
+        default:
+          content = article.content; 
+      }
+      return formatContent(content);
+    };
+
+    return {
+      article,
+      formatDate,
+      getTitle,
+      getContent
+    };
+  }
+};
   </script>
   
   <style scoped>
   .news-date{
         color: #ffffff !important;
-        width: 40%;
+        width: 50%;
         background-color: #005387;
+        margin: 2rem;
         
+    }
+
+    .titlecontent{
+      padding: 0 2rem;
     }
     .Newsdetail-container{
         display: flex;
@@ -130,11 +143,18 @@
         text-align: center;
     }
 
+   
     .detail-paragraph{
         color: #222222;
         width: 70%;
 
 
+    }
+
+    .articlecontent{
+     padding: 2rem;
+      line-height: 1.5;
+      text-align: justify;
     }
 
     .detail-paragraph::first-letter{
@@ -218,6 +238,14 @@
         .Edu-container p{
             letter-spacing: 0.5px;
         }
+
+        .titlecontent, .articlecontent{
+          padding: 1rem;
+        }
+
+        .news-date{
+          margin: 2rem 1rem;
+        }
     }
 
     @media all and (max-width: 426px){
@@ -247,6 +275,22 @@
         width: 90%;
     }
     }
+
+    .titlecontent, .articlecontent{
+          padding: 0.6rem;
+        }
+
+        .news-date{
+          margin: 1rem 0.6rem;
+        }
+
+        h2{
+          font-size: 1.5rem !important;
+        }
+
+        .titlecontent{
+          line-height: 1.3;
+        }
 
   </style>
   
