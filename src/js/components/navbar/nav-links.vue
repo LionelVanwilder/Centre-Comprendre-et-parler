@@ -69,7 +69,7 @@
                     path: '',
                     
                     links: [
-                        {label:  this.$t('navbar.dropdown.doc.deafness'), url: '/Documentations/Surdite'},
+                        {label:  this.$t('navbar.dropdown.doc.deafness'), url: '/SAFP/Surdite'},
                         /*{label: this.$t('navbar.dropdown.doc.post'), url: 'Instagram.com'},
                         {label: this.$t('navbar.dropdown.doc.link'), url: '/'}*/
                     ] 

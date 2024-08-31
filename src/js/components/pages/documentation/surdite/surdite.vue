@@ -2,16 +2,14 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2 style="margin-bottom: 2rem;">Surdité</h2>
+        <h2 style="margin-bottom: 2rem;">{{ $t('SAFP.title') }}</h2>
         
         <p>
-            <span >Recommandations du BIAP, Bureau International d’AudioPhonologie</span><br>
-            Le BIAP est le Bureau International d'Audiophonologie dont la mission est d'édicter des recommandations dans le domaine de 
-            l'audio-phonologie (développement du langage, aides techniques et audiologique, développement cognitivo-linguistique, 
-            guidance parentale, handicaps associés...)
+            <span >{{ $t('SAFP.subtitle') }}</span><br>
+            {{ $t('SAFP.content1') }}
         </p>
-        <p>Lien: 
-            <a href="http://www.biap.org/fr/recommandations" target="_blank" style="text-decoration: underline;">Recommandation du BIAP</a>
+        <p>
+            {{ $t('SAFP.link1') }}<a href="http://www.biap.org/fr/recommandations" target="_blank" style="text-decoration: underline;">Recommandation du BIAP</a>
         </p>
         <p>
             CHU Sart Tilman – ENT dept - 4000 Liège<br>
@@ -19,13 +17,8 @@
             Fax : 04/366.75.25<br>
             e-mail : <a href="mailto:laurentchp.demanez@chu.ulg.ac.be">laurentchp.demanez@chu.ulg.ac.be</a>
         </p>
-        
         <p>
-            <span>Intégration scolaire</span><br>
-            <a href="" target="_blank" style="text-decoration: underline;">Guide - Pdf</a>
-        </p>
-        <p>
-            <span>Moyens visuels de communication - Langue des signes </span><br>
+            <span>{{ $t('SAFP.span1') }}</span><br>
             <a href="https://www.lsfb.be/" target="_blank" style="text-decoration: underline;">Langue des signes de Belgique francophone</a><br>
             <a href="https://www.cfls.be/" target="_blank" style="text-decoration: underline;">Centre Francophone de la Langue des Signes</a><br>
             <a href="http://www.mariehaps.be/recherche-scientifique/profils/" target="_blank" style="text-decoration: underline;">Institut libre Marie Haps</a><br>
@@ -41,7 +34,7 @@
             <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022096599925390" target="_blank" style="text-decoration: underline;">Phonology Acquired through the Eyes and Spelling in Deaf Children</a><br>
         </p>
         <p>
-            <span>Ecrire les langues des signes</span><br>
+            <span>{{ $t('SAFP.span2') }}</span><br>
             <a href="https://www.signwriting.org/" target="_blank" style="text-decoration: underline;">SignWriting® Site</a>
         </p>
     </div>
@@ -64,7 +57,7 @@ export default{
             return{
                 breadcrumbs: [
                 { to: '', label: 'SAFP / SAP' },
-                { to: '/Documentations/Surdite', label: 'Surdité' }
+                { to: '/SAFP/Surdite', label: 'Surdité' }
                 ]
             }
         }
@@ -113,6 +106,12 @@ export default{
         height: 1rem;
         width: 1rem;
         margin: 0 .2rem;
+    }
+
+    a{
+        color: #005387;
+        font-weight: 600;
+        text-decoration: underline;
     }
 
     @media all and (max-width: 769px){

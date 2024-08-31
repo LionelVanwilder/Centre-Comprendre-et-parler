@@ -237,7 +237,7 @@ const router = createRouter({
       },
 
       {
-        path: '/Documentations/Surdite',
+        path: '/SAFP/Surdite',
         name: 'SurditePage',
         component: SurditePage
       },

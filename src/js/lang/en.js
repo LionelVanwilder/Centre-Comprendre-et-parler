@@ -308,7 +308,19 @@ export default{
             span3: 'In Brussels, nearly one in two children is born to a non-Belgian mother at birth. Therefore, their first language is not the language of instruction...',
             span4: 'Honorary Awards:',
             span5: 'The Herman Houtman Prize for Children in Difficulty'
-        }
+        },
+
+        
+        
+    },
+
+    SAFP: {
+        title: 'Deafness',
+        subtitle: 'Recommendations from the BIAP, International Bureau of Audio-Phonology',
+        content1: 'The BIAP is the International Bureau of Audio-Phonology, whose mission is to issue recommendations in the field of audio-phonology (language development, technical and audiological aids, cognitive-linguistic development, parental guidance, associated disabilities...)',
+        link1: 'Link: ',
+        span1: 'Visual Means of Communication - Sign Language',
+        span2: 'Writing Sign Languages'
     },
 
     

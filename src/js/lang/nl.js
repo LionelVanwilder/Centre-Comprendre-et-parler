@@ -306,7 +306,19 @@ export default{
             span3: 'In Brussel wordt bijna één op de twee kinderen geboren uit een niet-Belgische moeder bij de geboorte. Hun eerste taal is dus niet de onderwijstaal...',
             span4: 'Ereprijzen:',
             span5: 'De Herman Houtman Prijs voor kinderen in moeilijkheden'
-        }
+        },
+
+        
+        
+    },
+
+    SAFP: {
+        title: 'Doofheid',
+        subtitle: 'Aanbevelingen van het BIAP, Internationaal Bureau voor Audiophonologie',
+        content1: 'Het BIAP is het Internationaal Bureau voor Audiophonologie, met als missie het uitvaardigen van aanbevelingen op het gebied van audiophonologie (taalontwikkeling, technische en audiologische hulpmiddelen, cognitief-linguïstische ontwikkeling, ouderbegeleiding, geassocieerde handicaps...)',
+        link1: 'Link: ',
+        span1: 'Visuele communicatiemiddelen - Gebarentaal',
+        span2: 'Gebarentalen Schrijven'
     },
 
     

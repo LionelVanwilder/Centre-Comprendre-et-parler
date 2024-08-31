@@ -322,6 +322,16 @@ export default{
 
         },
 
+        SAFP:{
+                title: 'Surdité',
+                subtitle: 'Recommandations du BIAP, Bureau International d’AudioPhonologie',
+                content1: ' Le BIAP est le Bureau International d\'Audiophonologie dont la mission est d\'édicter des recommandations dans le domaine de l\'audio-phonologie (développement du langage, aides techniques et audiologique, développement cognitivo-linguistique, guidance parentale, handicaps associés...)',
+                link1: 'Lien: ',
+                span1: 'Moyens visuels de communication - Langue des signes ',
+                span2: 'Ecrire les langues des signes'
+
+        },
+
         mission:{
             title: 'Missions et valeurs',
             subtitle: 'Missions générales',
