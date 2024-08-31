@@ -285,13 +285,20 @@ export default{
             content4: 'The role of the psychomotor therapist lies in paying attention to bodily manifestations and their meanings, as well as establishing a bodily dialogue.',
             content5: 'The psychomotor therapist supports the child in establishing instrumental benchmarks and in building their bodily and psychological unity, in order to lay the solid foundations necessary for learning and the child\'s harmonious development. This mission is in line with the broader mission of the Centre Comprendre et Parler, which aims to develop the potential and linguistic skills of deaf children, as well as to promote their personal development and autonomy.',
         }
+
+        
         
         
         
 
     },
 
-   
+    collab: {
+        partner: {
+            title: 'Preferred Partners',
+            subtitle: 'The Centre maintains privileged relationships with the following institutions and associations:',
+        }
+    },
     
 
     mission:{

@@ -2,8 +2,8 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Partenaires privilégiés</h2>
-        <h3> Le Centre entretient des relations privilégiées,  avec les institutions et associations suivantes:</h3>
+        <h2>{{ $t('collab.partner.title') }}</h2>
+        <h3>{{ $t('collab.partner.subtitle') }} </h3>
         
         <p>
             <span>Ecole intégrée</span><br>

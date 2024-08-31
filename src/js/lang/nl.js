@@ -291,6 +291,14 @@ export default{
         
     },
 
+    collab: {
+        partner: {
+            title: 'Voorkeurs Partners',
+            subtitle: 'Het Centrum onderhoudt bevoorrechte relaties met de volgende instellingen en verenigingen:',
+        }
+    },
+    
+
     mission:{
         title: 'Missie en waarden',
         subtitle: 'Algemene opdrachten',

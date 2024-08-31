@@ -295,10 +295,20 @@ export default{
                 content3: 'Le rôle du psychomotricien est de chercher à modifier l’attitude de l’enfant sourd par rapport à son corps pour tenter d’établir, de rétablir, de maintenir et d’enrichir ses rapports avec lui-même, avec autrui et avec son environnement. Le champ d’application comprend pour l’essentiel les troubles qui s’expriment par des perturbations psychomotrices d’une part, et ceux pour lesquels l’approche du corps paraît la seule possible ou la meilleure à un moment précis d’autre part.',
                 content4: 'Le rôle du psychomotricien réside dans l’attention qu’il porte aux manifestations corporelles et à leurs significations, ainsi que dans l’établissement d’un dialogue corporel.',
                 content5: ' Le psychomotricien soutient l’enfant dans la mise en place des repères instrumentaux ainsi que dans la construction de son unité corporelle et psychique, afin d’établir des bases solides indispensables aux apprentissages et au développement harmonieux de l’enfant.  Cette mission s\'inscrit dans celle plus générale du centre Comprendre et Parler qui vise à développer les potentialités et les compétences linguistiques de l\'enfant sourd, ainsi que de favoriser son épanouissement personnel et son autonomie.',
-                
+
             }
             
            
+        },
+
+        collab:{
+
+            partner:{
+                title: 'Partenaires privilégiés',
+                subtitle: 'Le Centre entretient des relations privilégiées,  avec les institutions et associations suivantes:',
+                
+            }
+
         },
 
         mission:{
