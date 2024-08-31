@@ -103,7 +103,7 @@ export default{
                 acc: 'Begeleiding',
                 assistance: 'Sociale bijstand',
                 audio: 'Audiologie',
-                research: 'Training, evaluaties en onderzoek',
+                research: 'Onderzoeks',
                 help: 'Visuele hulpmiddelen voor communicatie',
                 logo: 'Logopedie',
                 doctor: 'Artsen - KNO',
@@ -235,7 +235,22 @@ export default{
         },
     },
 
-    skills:{
+    skills: {
+        title: "Vaardigheden",
+        content1: "De verschillende vaardigheden van de professionals van het Centrum Comprendre et Parler integreren op een multidisciplinaire manier rond het geïndividualiseerde project van het dove kind. Dit project heeft als doel de mogelijkheden en taalkundige vaardigheden van het dove kind te ontwikkelen, evenals zijn persoonlijke groei en autonomie te bevorderen door te steunen op de samenwerking met de betrokken partners, zoals het kind, de familie en de professionals, op de coherentie van de ingezette middelen en op de technologische vooruitgang.",
+        
+        span1: "De logopedist",
+        content2: " heeft de taak om de ontwikkeling van communicatie en taal van het dove kind te bevorderen, met een nadruk op de verwerving van de Franse taal. De gebarentaalbegeleider heeft de taak om de taalkundige en communicatieve vaardigheden uit te breiden naar die van de gebarentaal.",
+        
+        span2: "De maatschappelijk werker",
+        content3: " heeft de taak om de families van dove kinderen en dove jonge volwassenen te ondersteunen, hen te adviseren en te begeleiden bij hun procedures, met een nadruk op autonomie.",
+        
+        span3: "De psycholoog",
+        content4: " zorgt voor de naleving van ethische waarden en vertrouwelijkheid. In zijn werk streeft hij er vooral naar om het kind als onderwerp in zijn project te beschouwen, in partnerschap met de gezinnen. De psycholoog heeft de taak om de mogelijkheden van het dove kind maximaal te ontwikkelen en zijn persoonlijke groei en autonomie te bevorderen.",
+        
+        span4: "Het medische team",
+        content5: ", bestaande uit de directeur-arts, verschillende KNO-artsen gespecialiseerd in revalidatie en een kinderarts, verzorgt de consultaties, evaluaties, afstemming en klinische opvolging. Dit team coördineert zich met het team van audiologen/audiometristen voor de hoorapparatuur.",
+        
         acc:{
             title: 'Begeleiding',
             subtitle: 'Pedagogische begeleidingsdienst',

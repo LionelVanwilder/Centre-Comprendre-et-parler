@@ -102,7 +102,7 @@ export default{
                 acc: 'Accompaniement',
                 assistance: 'Social assistance',
                 audio: 'Audiology',
-                research: 'Training, evaluations and research',
+                research: 'Researchs',
                 help: 'Visual aids to communication',
                 logo: 'Speech therapy',
                 doctor: 'Doctors - ENT',
@@ -236,7 +236,23 @@ export default{
 
     },
 
-    skills:{
+    skills: {
+        title: "Skills",
+        content1: "The various skills of the professionals at the Centre Comprendre et Parler integrate in a multidisciplinary way around the individualized project for the deaf child. This project aims to develop the potential and linguistic abilities of the deaf child, as well as to promote their personal growth and autonomy by relying on collaboration with the involved partners, including the child, family, and professionals, the coherence of the implemented measures, and technological progress.",
+        
+        span1: "The speech therapist",
+        content2: " is responsible for promoting the development of communication and language for the deaf child, with an emphasis on acquiring French. The sign language instructor is tasked with extending linguistic and communication skills to include sign language.",
+        
+        span2: "The social worker",
+        content3: " is responsible for supporting the families of deaf children and deaf young adults, advising and guiding them in their processes, with a focus on autonomy.",
+        
+        span3: "The psychologist",
+        content4: " ensures adherence to ethical values and confidentiality. In their work, they aim to consider the child as the subject of their project in partnership with the families. The psychologist's mission is to maximize the potential of the deaf child and to promote their personal growth and autonomy.",
+        
+        span4: "The medical team",
+        content5: ", consisting of the medical director, several ENT specialists in rehabilitation, and a pediatrician, handles consultations, assessments, evaluations, and clinical follow-ups. This team coordinates with the audiologists/audiometrists for the hearing aid aspect.",
+        
+
         acc:{
             title: 'Accompaniement',
             subtitle: 'Educational Support Service',

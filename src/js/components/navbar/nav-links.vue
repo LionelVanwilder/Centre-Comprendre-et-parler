@@ -44,12 +44,12 @@
                         {label: this.$t('navbar.dropdown.skills.assistance'), url: '/Competences/AssistancesSociales'},
                         {label: this.$t('navbar.dropdown.skills.audio'), url: '/Competences/Audiologie'},
                         {label: this.$t('navbar.dropdown.skills.research'), url: '/Competences/Recherches'},
-                        /*{label: this.$t('navbar.dropdown.skills.help'), url: 'Instagram.com'},*/
+                        
                         {label: this.$t('navbar.dropdown.skills.logo'), url: '/Competences/Logopedie'},
                         {label: this.$t('navbar.dropdown.skills.doctor'), url: '/Competences/Medecins'},
-                        /*{label: this.$t('navbar.dropdown.skills.psychology'), url: 'Instagram.com'},*/
+                        
                         {label: this.$t('navbar.dropdown.skills.psychomotor'), url: '/Competences/Psychomotricite'},
-                        /*{label: this.$t('navbar.dropdown.skills.financial'), url: 'Instagram.com'}*/
+                       
                     ] 
                 },
 

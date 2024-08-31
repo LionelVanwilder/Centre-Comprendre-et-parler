@@ -108,7 +108,7 @@ export default{
                     acc: 'Accompagnements',
                     assistance: 'Assistance sociale',
                     audio: 'Audiologie',
-                    research: 'Formations, évaluation et recherche',
+                    research: 'Recherches',
                     help: 'Aides visuelles à la communication',
                     logo: 'Logopédie',
                     doctor: 'Médecins - ORL',
@@ -186,7 +186,7 @@ export default{
             content3: 'Dès que le jeune en a la possibilité, il est intégré dans l’enseignement ordinaire, en collaboration avec l’équipe professionnelle.',
             subtitle1: 'Nos moyens d\'action: ',
             content4: 'Nos moyens d\'action pour soutenir les enfants présentant des troubles auditifs reposent sur plusieurs axes. Le dépistage auditif, notamment en maternité, permet une identification précoce des déficiences auditives, suivie d\'un diagnostic et d\'une mise au point pour évaluer la gravité et les besoins spécifiques. Pour les enfants atteints de surdité profonde, les implants cochléaires offrent une solution technologique permettant une meilleure intégration auditive. Un accompagnement multidisciplinaire, en collaboration étroite avec les familles et l\'enfant lui-même, assure une prise en charge globale. Pour les tout-jeunes enfants, un suivi à domicile est mis en place afin de faciliter leur développement dès le plus jeune âge. Concernant l\'intégration scolaire, un suivi est prévu à tous les niveaux, des maternelles jusqu\'aux cycles primaires, secondaires et supérieurs, que ce soit dans l\'enseignement ordinaire ou dans des écoles spécialisées de type 7, comme l\'École Intégrée. En parallèle, un suivi logopédique spécialisé est assuré pour développer les compétences langagières et communicationnelles des enfants, en fonction de leurs besoins spécifiques.',
-            
+
 
             specialization:{
                 title: 'Spécialisation',
@@ -246,6 +246,22 @@ export default{
         },
 
         skills:{
+            title: 'Compétences',
+            content1: ' Les différentes compétences des professionnels du Centre Comprendre et Parler s’intègrent de manière multidisciplinaire autour du projet individualisé de l’enfant sourd. Ce projet vise à développer les potentialités et les aptitudes linguistiques de l\'enfant sourd, ainsi que de favoriser son épanouissement personnel et son autonomie en s\'appuyant sur la collaboration avec les partenaires impliqués, enfant, famille, professionnels, sur la cohérence des moyens mis en œuvre et sur les progrès technologiques.',
+            
+            span1: 'Le logopède',
+            content2: ' a pour mission de favoriser le développement de la communication et du langage de l\'enfant sourd, en privilégiant l\'acquisition de la langue française. L’animateur en langue des signes a pour mission d’étendre les compétences linguistiques et de communication à celles de la langue des signes.',
+
+            span2: 'L\'assistant(e) social(e) (AS)',
+            content3: ' a pour mission de soutenir les familles d\'enfant sourd et les jeunes adultes sourds, de les conseiller et les orienter dans leurs démarches, en axant les interventions de manière privilégiée sur l\'autonomie.',
+
+            span3: 'Le psychologue',
+            content4: ' veille au respect des valeurs éthiques et de confidentialité. Dans son travail, il vise avant tout à considérer l\'enfant comme sujet dans son projet en partenariat avec les familles. Le psychologue a pour mission de développer au maximum les potentialités de l\'enfant sourd et à favoriser son épanouissement personnel et son autonomie.',
+
+            span4: 'L\'équipe médicale',
+            content5: ', composée du médecin directeur, de plusieurs médecins ORL spécialistes en réadaptation et d\'une pédiatre, assurent les consultations, bilans, mises au point et suivis cliniques. Cette équipe se coordonne avec l\'équipe des audiologues/audiciens pour le volet de l\'appareillage.',
+
+            
             acc:{
                 title: 'Accompagnement',
                 subtitle: 'Service d\'Accompagnement Pédagogique',
