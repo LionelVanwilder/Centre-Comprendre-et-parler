@@ -51,7 +51,7 @@ export default{
         data(){
             return{
                 breadcrumbs: [
-                { to: '/', label: 'Collaborations' },
+                { to: '', label: 'Collaborations' },
                 { to: '/Collaborations/Partenaires', label: 'Partenaires privilégiés' }
                 ]
             }
