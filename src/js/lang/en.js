@@ -166,7 +166,7 @@ export default{
 
         legalpage: {
             title: "Legal Notices",
-            content1: "Center Understand and Speak ASBL",
+            content1: "Center Comprendre et Parler NPO",
             content2: "Registered Office: Rue de la Rive, 101, 1200 Brussels",
             content3: "Company Number: BE 0408181443",
             content4: "E-mail: ",

@@ -167,7 +167,7 @@ export default{
 
         legalpage: {
             title: "Wettelijke vermeldingen",
-            content1: "Centrum Begrijpen en Praten vzw",
+            content1: "Centrum Comprendre et Parler vzw",
             content2: "Maatschappelijke zetel: Ruedes Rivestraat, 101, 1200 Brussel",
             content3: "Ondernemingsnummer: BE 0408181443",
             content4: "E-mail: ",
