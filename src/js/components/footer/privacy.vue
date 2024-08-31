@@ -10,7 +10,7 @@
 </template>
 <script>
 
-import BreadCrumbCom from "../breadcrumb.vue"
+import BreadCrumbCom from '../../breadcrumb.vue'
 
 export default{
         name: 'PrivacyPage',
