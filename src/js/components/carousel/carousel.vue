@@ -70,7 +70,7 @@ export default {
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
           image: require('../../../../images/collaboration.avif'),
           color: '#29bf12',
-          path: '/Programmes'
+          path: '/Collaborations/Partenaires'
         },
 
         {
@@ -78,7 +78,7 @@ export default {
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
           image: require('../../../../images/documentation.avif'),
           color: '#E71D36',
-          path: '/Programmes'
+          path: '/SAFP/Surdite'
         },
 
       
