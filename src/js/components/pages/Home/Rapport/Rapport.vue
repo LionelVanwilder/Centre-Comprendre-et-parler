@@ -72,13 +72,19 @@
 
             ],
 
-            breadcrumbs: [
-                        {to: '/', label: 'Accueil'},
-                        {to: '/RapportdActivités', label: 'Rapport d\'activités'},
-                    ]
+           
         }
 
         },
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/RapportdActivités', label: this.$t('blocflex.cards.activity') }
+            ];
+        }
+    }
  
  }
  </script>

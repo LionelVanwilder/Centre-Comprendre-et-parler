@@ -118,12 +118,13 @@
         BreadCrumbCom
     },
 
-    data(){
-        return{
-            breadcrumbs: [
-                        {to: '/', label: 'Accueil'},
-                        {to: '/Organigrammes', label: 'Organigrammes'},
-                    ]
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/Organigrammes', label: this.$t('blocflex.cards.organ') }
+            ];
         }
     }
  

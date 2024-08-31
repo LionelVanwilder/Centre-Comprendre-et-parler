@@ -49,15 +49,16 @@
         BreadCrumbCom
      },
 
- data(){
-        return{
-            
-            breadcrumbs: [
-                        {to: '/', label: 'Accueil'},
-                        {to: '/Mission', label: 'Missions et valeurs'},
-                    ]
+
+
+     computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/Mission', label: this.$t('blocflex.cards.mission') }
+            ];
         }
-     }
+    }
  
  }
  </script>

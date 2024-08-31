@@ -42,12 +42,13 @@
         BreadCrumbCom
     },
 
-    data(){
-        return{
-            breadcrumbs: [
-                        {to: '/', label: 'Accueil'},
-                        {to: '/Histoire', label: 'Histoire'},
-                    ]
+
+    computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/Histoire', label: this.$t('blocflex.cards.history') }
+            ];
         }
     }
  

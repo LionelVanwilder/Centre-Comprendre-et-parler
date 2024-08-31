@@ -33,14 +33,15 @@
     components: {
         BreadCrumbCom
     },
-    data(){
-                return{
-                    breadcrumbs: [
-                        {to: '/', label: 'Accueil'},
-                        {to: '/Vision', label: 'Statut et vision'},
-                    ]
-                }
-            }
+   
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/Vision', label: this.$t('blocflex.cards.vision') }
+            ];
+        }
+    }
 
     }
 </script>

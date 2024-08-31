@@ -44,12 +44,13 @@
         BreadCrumbCom,
     },
 
-    data(){
-        return{
-            breadcrumbs: [
-                        {to: '/', label: 'Accueil'},
-                        {to: '/OrganesdeGestion', label: 'Organe de gestion'},
-                    ]
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/OrganesdeGestion', label: this.$t('blocflex.cards.gestion') }
+            ];
         }
     }
  
