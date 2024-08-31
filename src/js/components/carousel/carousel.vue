@@ -61,7 +61,7 @@ export default {
         {
           title: this.$t('navbar.links.skills'),
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/news/covid.avif'),
+          image: require('../../../../images/competence.avif'),
           color: '#004FFF',
           path: '/Competences'
         },
@@ -88,53 +88,7 @@ export default {
 
   data() {
     return {
-     /* pages: [
-        {
-          title: 'Programmes',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/program.avif'),
-          color: '#EA3788',
-          path: '/Programmes'
-        },
-        {
-          title: 'Compétences',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/news/covid.avif'),
-          color: '#004FFF',
-          path: '/Competences'
-        },
-        {
-          title: 'collaboration',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/collaboration.avif'),
-          color: '#29bf12',
-          path: '/Programmes'
-        },
-
-        {
-          title: 'documentation',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/documentation.avif'),
-          color: '#E71D36',
-          path: '/Programmes'
-        },
-
-        {
-          title: 'activités',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/activity.avif'),
-          color: '#FF9F1C',
-          path: '/Programmes'
-        },
-
-        {
-          title: 'nous soutenir',
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-          image: require('../../../../images/donation2.avif'),
-          color: '#2364AA',
-          path: '/Don'
-        },
-      ],*/
+    
 
       breakpoints: {
         475: {

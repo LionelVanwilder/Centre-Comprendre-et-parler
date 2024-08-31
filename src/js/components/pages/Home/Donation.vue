@@ -3,7 +3,7 @@
         <img src="../../../../../icons/Donation.svg" class="icon-bloc-flex">
         <div class="donation-row">
             <div class="donation-image-wrapper">
-                <img :src="imagepath" accesskey="">
+                <img :src="imagepath" accesskey="" alt="Soutenir le Centre Comprendre et Parler">
             </div>
             <div class="donation-content-wrapper">
                 
@@ -23,7 +23,7 @@
 
         data(){
             return{
-                imagepath: require('/images/don (2).jpg')
+                imagepath: require('/images/don.webp')
             }
         }
     }
