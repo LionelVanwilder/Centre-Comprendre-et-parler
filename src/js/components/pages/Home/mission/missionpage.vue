@@ -12,21 +12,24 @@
         <div class="pages-paragraph">
                
                     <ol>
-                        <li v-for="(item, index) in missions" :key="index">
-                            {{ item.content }}
-                        </li>
+                        <li>{{ $t('mission.misslist1') }}</li>
+                        <li>{{ $t('mission.misslist2') }}</li>
+                        <li>{{ $t('mission.misslist3') }}</li>
+                        <li>{{ $t('mission.misslist4') }}</li>
+                        <li>{{ $t('mission.misslist5') }}</li>
+                        <li>{{ $t('mission.misslist6') }}</li>
                     </ol>
                 
             <h3>{{ $t("mission.values") }}</h3>
             <ol class="grid-list values">
-                <li>Management participatif</li>
-                <li>Place privilégiée des parents</li>
-                <li>Ethique</li>
-                <li>Confidentialité</li>
-                <li>Liberté d’expression</li>
-                <li>Valorisation de la langue des signes</li>
-                <li>Formation</li>
-                <li>Développement personnel</li>
+                <li>{{ $t('mission.valueslist1') }}</li>
+                <li>{{ $t('mission.valueslist2') }}</li>
+                <li>{{ $t('mission.valueslist3') }}</li>
+                <li>{{ $t('mission.valueslist4') }}</li>
+                <li>{{ $t('mission.valueslist5') }}</li>
+                <li>{{ $t('mission.valueslist6') }}</li>
+                <li>{{ $t('mission.valueslist7') }}</li>
+                <li>{{ $t('mission.valueslist8') }}</li>
             </ol>
         </div>
         
@@ -48,15 +51,7 @@
 
  data(){
         return{
-            missions: [
-                {content: 'Assurer l\'intégration optimale des progrès technologiques dans la mise en œuvre des interventions (programmes et services dans différents domaines d\'activités)'},
-                {content: ' Chez l\'enfant sourd ou malentendant, assurer le dépistage, la mise au point et l\'évaluation de toute compétence nécessaire au développement de ses potentialités'},
-                {content: 'Chez l\'enfant entendant ayant des parents sourds, assurer la mise en place d\'un projet individualisé entre 0 et 6 ans, suivant les mêmes modalités et objectifs que pour l\'enfant sourd décrits dans la mission générale'},
-                {content: 'Chez l\'adulte sourd ou malentendant, de même que chez l\' enfants sourd, assurer un appareillage prothétique conventionnel de qualité ou accompagner l\'implantation cochléaire en visant l\'établissement ou la récupération d\'une utilisation fonctionnelle optimale des capacités auditives et une qualité de communication avec l\'entourage'},
-                {content: 'Assurer des formations dans le domaine de la surdité ou de l\'accompagnement des partenaires ou collaborateurs de l\'association. '},
-                {content: 'Assurer des formations dans le domaine de la perception de la parole et/ou de la Langue en Mouvements'}
-            ],
-
+            
             breadcrumbs: [
                         {to: '/', label: 'Accueil'},
                         {to: '/Mission', label: 'Missions et valeurs'},

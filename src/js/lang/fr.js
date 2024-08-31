@@ -339,6 +339,21 @@ export default{
             subtitle2: 'Missions élargies',
             listintro: 'A partir de la mission principale, les missions élargies du Centre Comprendre et Parler se déclinent comme suit:',
             values: 'Valeurs',
+            misslist1: 'Assurer l\'intégration optimale des progrès technologiques dans la mise en œuvre des interventions (programmes et services dans différents domaines d\'activités)',
+            misslist2: ' Chez l\'enfant sourd ou malentendant, assurer le dépistage, la mise au point et l\'évaluation de toute compétence nécessaire au développement de ses potentialités',
+            misslist3: 'Chez l\'enfant entendant ayant des parents sourds, assurer la mise en place d\'un projet individualisé entre 0 et 6 ans, suivant les mêmes modalités et objectifs que pour l\'enfant sourd décrits dans la mission générale',
+            misslist4: 'Chez l\'adulte sourd ou malentendant, de même que chez l\' enfants sourd, assurer un appareillage prothétique conventionnel de qualité ou accompagner l\'implantation cochléaire en visant l\'établissement ou la récupération d\'une utilisation fonctionnelle optimale des capacités auditives et une qualité de communication avec l\'entourage',
+            misslist5: 'Assurer des formations dans le domaine de la surdité ou de l\'accompagnement des partenaires ou collaborateurs de l\'association.',
+            misslist6: 'Assurer des formations dans le domaine de la perception de la parole et/ou de la Langue en Mouvements',
+
+            valueslist1: 'Management participatif',
+            valueslist2: 'Place privilégiée des parents',
+            valueslist3: 'Ethique',
+            valueslist4: 'Confidentialité',
+            valueslist5: 'Liberté d’expression',
+            valueslist6: 'Valorisation de la langue des signes',
+            valueslist7: 'Formation',
+            valueslist8: 'Développement personnel'
             
         
         },

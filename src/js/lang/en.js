@@ -333,7 +333,23 @@ export default{
         intro: 'The general mission of the Centre Comprendre et Parler is to ensure the implementation of an individualized project for deaf children aiming to develop their potential and language skills to the maximum and to promote their personal development and autonomy. The center is based on collaboration between partners involved -child, family and professionals- on the consistency of the means implemented and the optimal use of technological means.',
         subtitle2: 'Expanding missions',
         listintro: 'Starting from the main mission, the expanded missions of the Centre for Understanding and Speaking are as follows:',
-        values: 'Values'
+        values: 'Values',
+        misslist1: 'Ensure the optimal integration of technological advances in the implementation of interventions (programs and services in different fields of activity)',
+        misslist2: 'For deaf or hard of hearing children, ensure the screening, fine-tuning, and evaluation of all necessary skills for the development of their potential',
+        misslist3: 'For hearing children with deaf parents, ensure the establishment of an individualized project between 0 and 6 years old, following the same modalities and objectives as for the deaf child described in the general mission',
+        misslist4: 'For deaf or hard of hearing adults, as well as deaf children, ensure high-quality conventional prosthetic equipment or support for cochlear implantation, aiming at achieving or restoring an optimal functional use of auditory capabilities and good communication with those around them',
+        misslist5: 'Provide training in the field of deafness or support for the association\'s partners or collaborators',
+        misslist6: 'Provide training in the field of speech perception and/or Sign Language',
+
+        valueslist1: 'Participatory management',
+        valueslist2: 'Privileged role of parents',
+        valueslist3: 'Ethics',
+        valueslist4: 'Confidentiality',
+        valueslist5: 'Freedom of expression',
+        valueslist6: 'Appreciation of sign language',
+        valueslist7: 'Training',
+        valueslist8: 'Personal development'
+
 
     },
 

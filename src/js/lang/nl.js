@@ -331,7 +331,23 @@ export default{
         intro: 'De algemene missie van het Centre Comprendre et Parler is ervoor te zorgen dat een geïndividualiseerd project voor dove kinderen wordt uitgevoerd om hun potentieel en taalvaardigheid maximaal te ontwikkelen en te bevorderen hun persoonlijke ontwikkeling en autonomie. Het centrum is gebaseerd op samenwerking tussen betrokken partners - kind, familie en professionals - op de consistentie van de geïmplementeerde middelen en het optimale gebruik van technologische middelen.',
         subtitle2: 'Uitgebreide missies',
         listintro: 'Uitgaande van de hoofdmissie zijn de uitgebreide missies van het Centre for Understanding and Speaking als volgt:',
-        values: 'Waarden'
+        values: 'Waarden',
+        misslist1: 'Zorgen voor de optimale integratie van technologische vooruitgang in de uitvoering van interventies (programma\'s en diensten in verschillende activiteitsgebieden)',
+        misslist2: 'Bij dove of slechthorende kinderen zorgen voor screening, afstemming en evaluatie van elke vaardigheid die nodig is voor de ontwikkeling van hun potentieel',
+        misslist3: 'Bij horende kinderen met dove ouders zorgen voor de opzet van een individueel project tussen 0 en 6 jaar, volgens dezelfde modaliteiten en doelstellingen als voor het dove kind beschreven in de algemene missie',
+        misslist4: 'Bij dove of slechthorende volwassenen, evenals bij dove kinderen, zorgen voor kwalitatief hoogwaardig conventioneel prothetisch hoorapparatuur of cochleaire implantaten begeleiden om een optimale functionele benutting van auditieve vaardigheden te bereiken of te herstellen en een goede communicatie met de omgeving te waarborgen',
+        misslist5: 'Opleidingen aanbieden op het gebied van doofheid of begeleiding van de partners of medewerkers van de vereniging',
+        misslist6: 'Opleidingen aanbieden op het gebied van spraakperceptie en/of Gebarentaal',
+
+        valueslist1: 'Participatief management',
+        valueslist2: 'Bevoorrechte plaats van ouders',
+        valueslist3: 'Ethiek',
+        valueslist4: 'Vertrouwelijkheid',
+        valueslist5: 'Vrijheid van meningsuiting',
+        valueslist6: 'Waardering van gebarentaal',
+        valueslist7: 'Opleiding',
+        valueslist8: 'Persoonlijke ontwikkeling'
+
         
     },
 
