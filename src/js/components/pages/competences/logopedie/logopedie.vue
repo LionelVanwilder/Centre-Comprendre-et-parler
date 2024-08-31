@@ -26,14 +26,14 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '/Competences', label: 'Compétences' },
-                { to: '/Competences/Logopedie', label: 'Logopédie' }
-                ]
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Competences', label: this.$t('navbar.links.skills') },
+                { to: '/Competences/Logopedie', label: this.$t('navbar.dropdown.skills.logo') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>

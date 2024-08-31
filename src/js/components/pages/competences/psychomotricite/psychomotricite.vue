@@ -34,14 +34,15 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '/Competences', label: 'Compétences' },
-                { to: '/Competences/Psychomotricite', label: 'Psychomotricité' }
-                ]
-            }
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Competences', label: this.$t('navbar.links.skills') },
+                { to: '/Competences/Psychomotricite', label: this.$t('navbar.dropdown.skills.psychomotor') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>

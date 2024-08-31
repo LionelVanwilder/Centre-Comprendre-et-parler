@@ -32,15 +32,14 @@ export default{
         components: {
             BreadCrumbCom,
         },
-
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '/Competences', label: 'Compétences' },
-                { to: '/Competences/AssistancesSociales', label: 'Assistances sociales' }
-                ]
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Competences', label: this.$t('navbar.links.skills') },
+                { to: '/Competences/AssistancesSociales', label: this.$t('navbar.dropdown.skills.assistance') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>

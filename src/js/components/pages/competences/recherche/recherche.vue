@@ -22,14 +22,15 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '/Competences', label: 'Compétences' },
-                { to: '/Competences/Recherches', label: 'Recherches' }
-                ]
-            }
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Competences', label: this.$t('navbar.links.skills') },
+                { to: '/Competences/Recherches', label: this.$t('navbar.dropdown.skills.research') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>

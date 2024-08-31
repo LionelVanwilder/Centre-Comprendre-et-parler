@@ -24,14 +24,14 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '/Competences', label: 'Compétences' },
-                { to: '/Competences/Audiologie', label: 'Audiologie' }
-                ]
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Competences', label: this.$t('navbar.links.skills') },
+                { to: '/Competences/Audiologie', label: this.$t('navbar.dropdown.skills.audio') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>

@@ -29,14 +29,15 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '/Competences', label: 'Compétences' },
-                { to: '/Competences/Medecins', label: 'Médecins - ORL' }
-                ]
-            }
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Competences', label: this.$t('navbar.links.skills') },
+                { to: '/Competences/Medecins', label: this.$t('navbar.dropdown.skills.doctor') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>
