@@ -19,14 +19,14 @@
             BreadCrumbCom
         },
 
-        data(){
-                return{
-                    breadcrumbs: [
-                        {to: '/Programmes', label: 'Programmes'},
-                        {to: '/Programmes/Depistage', label: 'Dépistage de la surdité'},
-                    ]
-                }
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Programmes', label: this.$t('navbar.links.program') },
+                { to: '/Programmes/Depistage', label: this.$t('navbar.dropdown.program.screening') }
+            ];
+        }
+    }
     }
 </script>
 <style scoped>

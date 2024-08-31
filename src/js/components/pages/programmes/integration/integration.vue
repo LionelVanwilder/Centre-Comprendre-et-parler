@@ -22,14 +22,14 @@
             BreadCrumbCom
         },
 
-        data(){
-                return{
-                    breadcrumbs: [
-                        {to: '/Programmes', label: 'Programmes'},
-                        {to: '/Programmes/Integration', label: 'Intégration'},
-                    ]
-                }
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Programmes', label: this.$t('navbar.links.program') },
+                { to: '/Programmes/Integration', label: this.$t('navbar.dropdown.program.integration') }
+            ];
+        }
+    }
     }
 </script>
 <style scoped>

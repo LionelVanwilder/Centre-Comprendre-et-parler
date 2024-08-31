@@ -64,14 +64,14 @@ export default{
             BreadCrumbCom
         },
 
-        data(){
-                return{
-                    breadcrumbs: [
-                        {to: '/Programmes', label: 'Programmes'},
-                        {to: '/Programmes/Specialisation', label: 'Spécialisation'},
-                    ]
-                }
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Programmes', label: this.$t('navbar.links.program') },
+                { to: '/Programmes/Specialisation', label: this.$t('navbar.dropdown.program.spec') }
+            ];
+        }
+    }
     }
 </script>
 <style scoped>

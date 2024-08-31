@@ -36,14 +36,16 @@
                 BreadCrumbCom
             },
 
-            data(){
-                return{
-                    breadcrumbs: [
-                        {to: '/Programmes', label: 'Programmes'},
-                        {to: '/Programmes/EducationPrecoce', label: 'Education précoce'},
-                    ]
-                }
-            }
+    
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Programmes', label: this.$t('navbar.links.program') },
+                { to: '/Programmes/EducationPrecoce', label: this.$t('navbar.dropdown.program.education') }
+            ];
+        }
+    }
         }
 </script>
 <style scoped>

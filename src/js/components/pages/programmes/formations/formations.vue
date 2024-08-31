@@ -21,14 +21,14 @@
             BreadCrumbCom,
         },
 
-        data(){
-                return{
-                    breadcrumbs: [
-                        {to: '/Programmes', label: 'Programmes'},
-                        {to: '/Programmes/FormationsExterieures', label: 'Formations extérieures'},
-                    ]
-                }
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Programmes', label: this.$t('navbar.links.program') },
+                { to: '/Programmes/FormationsExterieures', label: this.$t('navbar.dropdown.program.formations') }
+            ];
+        }
+    }
     }
 </script>
 <style scoped>

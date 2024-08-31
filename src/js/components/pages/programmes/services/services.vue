@@ -24,14 +24,14 @@
             BreadCrumbCom
         },
 
-        data(){
-                return{
-                    breadcrumbs: [
-                        {to: '/Programmes', label: 'Programmes'},
-                        {to: '/Programmes/Services', label: 'Services'},
-                    ]
-                }
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/Programmes', label: this.$t('navbar.links.program') },
+                { to: '/Programmes/Services', label: this.$t('navbar.dropdown.program.services') }
+            ];
+        }
+    }
     }
 </script>
 <style scoped>
