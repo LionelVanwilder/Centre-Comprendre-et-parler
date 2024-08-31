@@ -745,7 +745,23 @@ const router = createRouter({
       {
         path: '/Privacy',
         name: PrivacyPage,
-        component: PrivacyPage
+        component: PrivacyPage,
+
+        meta: {
+          title: 'Politique de confidentialité | CCPL',
+          metaTags: [
+            {
+              name: 'description',
+              content: 'politique de confidentialité du Centre Comprendre et Parler',
+            },
+
+            {
+              name: 'keywords',
+              content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients, don'
+            }
+
+          ]
+        }
       }
 
       
