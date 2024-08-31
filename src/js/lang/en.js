@@ -169,7 +169,7 @@ export default{
             content1: "Center Understand and Speak ASBL",
             content2: "Registered Office: Rue de la Rive, 101, 1200 Brussels",
             content3: "Company Number: BE 0408181443",
-            content4: "E-mail: info@ccpasbl.be",
+            content4: "E-mail: ",
             content5: "Telephone: +32 2 770.04.40",
             content6: "Postal Address: Comprendre et Parler NPO - Rue de la Rive, 101, 1200 Brussels"
         }

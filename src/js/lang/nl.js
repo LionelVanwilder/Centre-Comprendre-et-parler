@@ -170,7 +170,7 @@ export default{
             content1: "Centrum Begrijpen en Praten vzw",
             content2: "Maatschappelijke zetel: Ruedes Rivestraat, 101, 1200 Brussel",
             content3: "Ondernemingsnummer: BE 0408181443",
-            content4: "E-mail: info@ccpasbl.be",
+            content4: "E-mail: ",
             content5: "Telefoon: +32 2 770.04.40",
             content6: "Postadres: Comprendre et Parler vzw - Ruedes Rivestraat, 101, 1200 Brussel"
         }

@@ -8,7 +8,7 @@
     <p>{{ $t('footer.legalpage.content1') }}</p>
       <p>{{ $t('footer.legalpage.content2') }}</p>
       <p>{{ $t('footer.legalpage.content3') }}</p>
-      <p>{{ $t('footer.legalpage.content4') }}</p>
+      <p>{{ $t('footer.legalpage.content4') }}info@ccpasbl.be </p>
       <p>{{ $t('footer.legalpage.content5') }}</p>
       <p>{{ $t('footer.legalpage.content6') }}</p>
     </div>
