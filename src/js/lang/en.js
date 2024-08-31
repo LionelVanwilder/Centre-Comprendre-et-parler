@@ -171,7 +171,7 @@ export default{
             content3: "Company Number: BE 0408181443",
             content4: "E-mail: info@ccpasbl.be",
             content5: "Telephone: +32 2 770.04.40",
-            content6: "Postal Address: Understand and Speak ASBL – Rue de la Rive, 101, 1200 Brussels"
+            content6: "Postal Address: Understand and Speak ASBL - Rue de la Rive, 101, 1200 Brussels"
         }
         
         

@@ -176,7 +176,7 @@ export default{
                 content3: 'Numéro d\'entreprise: BE 0408181443',
                 content4: 'E-mail: info@ccpasbl.be ',
                 content5: 'Téléphone: +32 2 770.04.40',
-                content6: 'Courrier: Comprendre et Parler asbl – Rue de la Rive, 101 à 1200 Bruxelles'
+                content6: 'Courrier: Comprendre et Parler asbl - Rue de la Rive, 101 à 1200 Bruxelles'
 
             }
         },
