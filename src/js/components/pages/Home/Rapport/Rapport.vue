@@ -3,6 +3,7 @@
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
         <h2>Rapport d'activités</h2>
+        <p>*** CETTE PAGE EST EN CONSTRUCTION EN ATTENTE DE CONTENU ***</p>
         <div class="rapport-container" v-for="(item, index) in rapport" :key="index">
             <h3>{{ item.title }}</h3>
             <p v-html="item.content"></p>
