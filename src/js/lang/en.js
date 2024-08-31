@@ -162,7 +162,18 @@ export default{
             content4: "The processing of personal data related to this site is subject to Belgian law (Law of December 8, 1992, on the protection of privacy with regard to the processing of personal data, amended by the law of December 11, 1998, transposing Directive 95/46/EC of October 24, 1995, of the European Parliament and the Council concerning the protection of individuals with regard to the processing of personal data and the free movement of such data).<br><br>This privacy contract is valid for all pages hosted on www.ccpasbl.be. It is not valid for pages hosted by other organizations to which we may refer and whose privacy contracts may differ.",
             title5: "SECURITY OF COLLECTED INFORMATION",
             content5: "Once the data is received, Comprendre et Parler commits to doing its best to ensure the security of its systems.<br><br>We take all necessary measures to ensure that this information is processed securely. However, no data transmission over the Internet can be guaranteed to be 100% secure. Therefore, although efforts are made to protect your personal data, we cannot guarantee 100% the security of the information transmitted to us."
+        },
+
+        legalpage: {
+            title: "Legal Notices",
+            content1: "Center Understand and Speak ASBL",
+            content2: "Registered Office: Rue de la Rive, 101, 1200 Brussels",
+            content3: "Company Number: BE 0408181443",
+            content4: "E-mail: info@ccpasbl.be",
+            content5: "Telephone: +32 2 770.04.40",
+            content6: "Postal Address: Understand and Speak ASBL – Rue de la Rive, 101, 1200 Brussels"
         }
+        
         
     },
 

@@ -167,6 +167,17 @@ export default{
                 content5: 'Une fois les données reçues, Comprendre et Parler s’engage à faire de son mieux pour assurer la sécurité de ses systèmes.<br><br>Nous prenons toutes les mesures nécessaires pour que ces informations soient traitées de manière sûre. Toutefois, aucune transmission de données sur Internet ne peut être garantie à 100 %. Par conséquent, même si des efforts sont entrepris pour protéger vos données personnelles, nous ne pouvons pas garantir à 100 % la sécurité des informations qui nous sont transmises.',
                 
 
+            },
+
+            legalpage:{
+                title: 'Mentions légales',
+                content1: 'Centre Comprendre et Parler asbl',
+                content2: 'Siège social: Rue de la Rive, 101 à 1200 Bruxelles',
+                content3: 'Numéro d\'entreprise: BE 0408181443',
+                content4: 'E-mail: info@ccpasbl.be ',
+                content5: 'Téléphone: +32 2 770.04.40',
+                content6: 'Courrier: Comprendre et Parler asbl – Rue de la Rive, 101 à 1200 Bruxelles'
+
             }
         },
 

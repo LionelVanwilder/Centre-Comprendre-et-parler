@@ -36,6 +36,7 @@ import SurditePage from '../js/components/pages/documentation/surdite/surdite.vu
 import ResearchPage from '../js/components/pages/competences/recherche/recherche.vue'
 import ContactPage from '../js/components/pages/contact/contact.vue'
 import PrivacyPage from '../js/components/footer/privacy.vue'
+import LegalPage from '../js/components/footer/legal.vue'
 
 
 const router = createRouter({
@@ -753,6 +754,28 @@ const router = createRouter({
             {
               name: 'description',
               content: 'politique de confidentialité du Centre Comprendre et Parler',
+            },
+
+            {
+              name: 'keywords',
+              content: 'Centre Comprendre et Parler, ASBL, CCPL, enfants, Centre, sourds, patients, don'
+            }
+
+          ]
+        }
+      },
+
+      {
+        path: '/Legal',
+        name: LegalPage,
+        component: LegalPage,
+
+        meta: {
+          title: 'Mentions légales | CCPL',
+          metaTags: [
+            {
+              name: 'description',
+              content: 'Mentions légales du Centre Comprendre et Parler',
             },
 
             {

@@ -2,19 +2,15 @@
     <div class="template-page-container">
     <div class="Edu-container">
         <p>
-            <span>{{ $t('footer.privacy.title1') }}</span>
+            <span>{{ $t('footer.legalpage.title') }}</span>
         </p>
 
-        <p v-html="$t('footer.privacy.content1')"></p>
-
-        <p><span>{{ $t('footer.privacy.title2') }}</span></p>
-        <p v-html="$t('footer.privacy.content2')"></p>
-        <p><span>{{ $t('footer.privacy.title3') }}</span></p>
-        <p v-html="$t('footer.privacy.content3')"></p>
-        <p><span>{{ $t('footer.privacy.title4') }}</span></p>
-        <p v-html="$t('footer.privacy.content4')"></p>
-        <p><span>{{ $t('footer.privacy.title5') }}</span></p>
-        <p v-html="$t('footer.privacy.content5')"></p>
+        <p v-html="$t('footer.legalpage.content1')"></p>
+        <p v-html="$t('footer.legalpage.content2')"></p>
+        <p v-html="$t('footer.legalpage.content3')"></p>
+        <p v-html="$t('footer.legalpage.content4')"></p>
+        <p v-html="$t('footer.legalpage.content5')"></p>
+        <p v-html="$t('footer.legalpage.content6')"></p>
     </div>
     </div>
     
@@ -25,7 +21,7 @@
 
 
 export default{
-        name: 'PrivacyPage',
+        name: 'LegalPage',
 
         
 

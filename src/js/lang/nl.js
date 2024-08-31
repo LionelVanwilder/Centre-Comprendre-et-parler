@@ -163,7 +163,18 @@ export default{
             content4: "De verwerking van persoonsgegevens met betrekking tot deze site valt onder de Belgische wet (Wet van 8 december 1992 betreffende de bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens, gewijzigd door de wet van 11 december 1998 ter omzetting van richtlijn 95/46/EG van 24 oktober 1995 van het Europees Parlement en de Raad betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en het vrije verkeer van die gegevens).<br><br>Dit privacycontract is geldig voor alle pagina's gehost op www.ccpasbl.be. Het is niet van toepassing op pagina's die door andere organisaties worden gehost waarnaar we kunnen verwijzen en waarvan de privacycontracten anders kunnen zijn.",
             title5: "BEVEILIGING VAN VERZAMELDE INFORMATIE",
             content5: "Zodra de gegevens zijn ontvangen, verbindt Comprendre et Parler zich ertoe zijn best te doen om de veiligheid van zijn systemen te waarborgen.<br><br>We nemen alle nodige maatregelen om ervoor te zorgen dat deze informatie veilig wordt verwerkt. Geen enkele gegevensoverdracht via internet kan echter voor 100% worden gegarandeerd. Hoewel er inspanningen worden geleverd om uw persoonlijke gegevens te beschermen, kunnen we daarom niet 100% de veiligheid garanderen van de informatie die naar ons wordt verzonden."
+        },
+
+        legalpage: {
+            title: "Wettelijke vermeldingen",
+            content1: "Centrum Begrijpen en Praten vzw",
+            content2: "Maatschappelijke zetel: Ruedes Rivestraat, 101, 1200 Brussel",
+            content3: "Ondernemingsnummer: BE 0408181443",
+            content4: "E-mail: info@ccpasbl.be",
+            content5: "Telefoon: +32 2 770.04.40",
+            content6: "Postadres: Begrijpen en Praten vzw – Ruedes Rivestraat, 101, 1200 Brussel"
         }
+        
         
     },
 

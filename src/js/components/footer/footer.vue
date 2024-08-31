@@ -25,7 +25,7 @@
             <ul>
                 <li><router-link to="/Privacy">{{ $t("footer.terms") }}</router-link></li>
                 <!--<li><a href="#">{{ $t("footer.gdpr") }}</a></li>-->
-                <li><a href="#">{{ $t("footer.legal") }}</a></li>
+                <li><router-link to="/Legal">{{ $t("footer.legal") }}</router-link></li>
                 <!--<li><a href="#">Cookies</a></li>-->
             </ul>
         </div>
