@@ -60,7 +60,7 @@ export default{
             visionintro: 'Découvrez le statut et la vision du Centre Comprendre et Parler',
             missionintro: 'Découvrez les missions et les valeurs de notre ASBL',
             gestionintro: 'Découvrez l\'organe de gestion du Centre',
-            organintro: 'Découvrez notre équipe à travers l\'organnigramme de l\'ASBL',
+            organintro: 'Découvrez notre équipe à travers l\'organigramme de l\'ASBL',
             activityintro: 'Nos rapports d\'activités répertioriés par année',
             historyintro: 'Découvrez l\'histoire du Centre depuis sa création en 1965'
         },
