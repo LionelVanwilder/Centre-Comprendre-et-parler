@@ -113,6 +113,7 @@ export default{
         font-weight: 600;
         text-decoration: underline;
     }
+    
 
     @media all and (max-width: 769px){
     .Edu-container{
