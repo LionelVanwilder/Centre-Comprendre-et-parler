@@ -52,14 +52,14 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '', label: 'Collaborations' },
-                { to: '/Collaborations/Autrescollaborations', label: 'Autres collaborations' }
-                ]
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '', label: this.$t('navbar.links.collab') },
+                { to: '/Collaborations/Autrescollaborations', label: this.$t('navbar.dropdown.collab.other') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>

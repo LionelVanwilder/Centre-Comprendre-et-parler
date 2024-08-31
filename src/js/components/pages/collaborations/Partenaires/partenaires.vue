@@ -48,14 +48,14 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '', label: 'Collaborations' },
-                { to: '/Collaborations/Partenaires', label: 'Partenaires privilégiés' }
-                ]
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '', label: this.$t('navbar.links.collab') },
+                { to: '/Collaborations/Partenaires', label: this.$t('navbar.dropdown.collab.partner') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>

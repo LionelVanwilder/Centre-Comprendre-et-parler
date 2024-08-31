@@ -43,14 +43,14 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '', label: 'Collaborations' },
-                { to: '/Collaborations/Rayonnement', label: 'Rayonnement du centre' }
-                ]
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '', label: this.$t('navbar.links.collab') },
+                { to: '/Collaborations/Rayonnement', label: this.$t('navbar.dropdown.collab.influence') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>
