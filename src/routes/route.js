@@ -35,6 +35,7 @@ import RayonnementPage from '../js/components/pages/collaborations/Rayonnement/R
 import SurditePage from '../js/components/pages/documentation/surdite/surdite.vue'
 import ResearchPage from '../js/components/pages/competences/recherche/recherche.vue'
 import ContactPage from '../js/components/pages/contact/contact.vue'
+import PrivacyPage from '../js/components/footer/privacy.vue'
 
 
 const router = createRouter({
@@ -738,8 +739,14 @@ const router = createRouter({
 
           ]
         }
-      }
+      },
 
+
+      {
+        path: '/Privacy',
+        name: PrivacyPage,
+        component: PrivacyPage
+      }
 
       
       
