@@ -55,7 +55,7 @@ export default{
         data(){
             return{
                 breadcrumbs: [
-                { to: '/', label: 'Collaborations' },
+                { to: '', label: 'Collaborations' },
                 { to: '/Collaborations/Autrescollaborations', label: 'Autres collaborations' }
                 ]
             }
@@ -110,6 +110,7 @@ export default{
         font-weight: 600;
         text-decoration: underline;
     }
+    
 
     @media all and (max-width: 769px){
     .Edu-container{
