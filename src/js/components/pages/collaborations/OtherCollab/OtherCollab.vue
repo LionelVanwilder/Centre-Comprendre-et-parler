@@ -2,47 +2,39 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Autres Collaborations</h2>
+        <h2>{{ $t('navbar.dropdown.collab.other') }}</h2>
         <p>
             <span>Musées royaux</span><br>
-            web: <a href="#">fine-arts-museum.be</a><br>
-            FB: <a href="#">LangueDesSignesMuseeSurMesure</a>
+            web: <a href="https://fine-arts-museum.be/en" target="_blank">fine-arts-museum.be</a><br>
+            FB: <a href="https://www.facebook.com/LangueDesSignesMuseeSurMesure/?locale=fr_FR" target="_blank">LangueDesSignesMuseeSurMesure</a>
         </p>
         <p>
             <span>ULB Laboratoire Cognition Langage et Développement</span><br>
-            web: <a href="#">crcn.ulb.ac.be</a><br>
+            web: <a href="https://crcn.ulb.ac.be/" target="_blank">crcn.ulb.ac.be</a><br>
         </p>
         <p>
             <span>HUDERF (Hôpital Universitaire des Enfants Reine Fabiola)</span><br>
-            web: <a href="#">www.huderf.be</a><br>
+            web: <a href="https://www.huderf.be/fr">www.huderf.be</a><br>
         </p>
         <p>
             <span>Hôpital Erasme</span><br>
-            web: <a href="#">www.erasme.ulb.ac.be</a><br>
-        </p>
-        <p>
-            <span>Groupe Espas : Echange, Surdité, Projets, Assistants Sociaux</span><br>
-            web: <a href="#"> www.pmbenblc.herb.be</a><br>
+            web: <a href="https://www.erasme.be/en" target="_blank">www.erasme.ulb.ac.be</a><br>
         </p>
         <p>
             <span>Bureau International d’AudioPhonologie</span><br>
-            web: <a href="#">www.biap.org/</a><br>
+            web: <a href="https://www.biap.org/fr/" target="_blank">www.biap.org/</a><br>
         </p>
         <p>
             <span>CEFES : Centre d'Etudes et de formation pour l'Education Spécialisée</span><br>
-            web: <a href="#">www.ulb.ac.be</a><br>
-        </p>
-        <p>
-            <span>TOBOGGAN : Stages de vacances de 2,5 à 14 ans</span><br>
-            web: <a href="#">www.tobogganasbl.be/</a><br>
+            web: <a href="https://www.ulb.be/" target="_blank">www.ulb.ac.be</a><br>
         </p>
         <p>
             <span>Plateau 96</span><br>
-            web: <a href="#">www.plateau96.be/</a><br>
+            web: <a href="https://www.plateau96.be/" target="_blank">www.plateau96.be/</a><br>
         </p>
         <p>
             <span>Fédération des Centres de Réadaptation Ambulatoire</span><br>
-            web: <a href="#">www.fcra.be/</a><br>
+            web: <a href="https://www.fcra.be/" target="_blank">www.fcra.be/</a><br>
         </p>
     </div>
     </div>
@@ -111,6 +103,12 @@ export default{
         height: 1rem;
         width: 1rem;
         margin: 0 .2rem;
+    }
+
+    a{
+        color: #005387;
+        font-weight: 600;
+        text-decoration: underline;
     }
 
     @media all and (max-width: 769px){
