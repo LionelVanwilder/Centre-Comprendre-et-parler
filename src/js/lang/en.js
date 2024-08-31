@@ -297,8 +297,22 @@ export default{
         partner: {
             title: 'Preferred Partners',
             subtitle: 'The Centre maintains privileged relationships with the following institutions and associations:',
+        },
+
+        ray: {
+            title: 'Centre Influence',
+            span1: 'Conference of June 1 and 2, 2012:',
+            content1: 'On June 1st and 2nd, 2012, the team from the Centre Comprendre et Parler organized a conference at the Université Libre de Bruxelles (ULB) on the theme of "The Multidisciplinary Support of the Deaf Child: A Dynamic in Motion," attended by nearly 400 people.',
+            span2: 'Press Articles',
+            content3: '"Contrary to what we might think, studies show that 2nd or 3rd generation students do not speak better and often even less well than the generation before them."',
+            span3: 'In Brussels, nearly one in two children is born to a non-Belgian mother at birth. Therefore, their first language is not the language of instruction...',
+            span4: 'Honorary Awards:',
+            span5: 'The Herman Houtman Prize for Children in Difficulty'
         }
     },
+
+    
+    
     
 
     mission:{

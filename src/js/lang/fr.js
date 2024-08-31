@@ -306,7 +306,18 @@ export default{
             partner:{
                 title: 'Partenaires privilégiés',
                 subtitle: 'Le Centre entretient des relations privilégiées,  avec les institutions et associations suivantes:',
-                
+
+            },
+
+            ray:{
+                title: 'Rayonnement du centre',
+                span1: 'Colloque des 1° et 2 juin 2012:',
+                content1: 'Les 1ers et 2 juin 2012, l\'équipe du Centre Comprendre et Parler a organisé à l\'Université Libre de Bruxelles ULB un colloque sur le thème de "L\'accompagnement multidisciplinaire de l\'enfant sourd, une dynamique en mouvement" auquel ont participé près de 400 personnes.',
+                span2:'Articles presse',
+                content3: '"Contrairement à ce que nous pourrions penser, des études témoignent que les élèves de 2e ou 3e génération ne parlent pas mieux et même souvent moins bien que la génération qui les précède."',
+                span3: 'A Bruxelles, près d’un enfant sur deux naît d’une mère non-belge à l’accouchement. Leur langue première n’est donc pas la langue de l’enseignement...',
+                span4: 'Prix honorifiques:',
+                span5: 'Le Prix Herman Houtman pour l’enfance en difficulté'
             }
 
         },

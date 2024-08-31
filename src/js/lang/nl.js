@@ -295,8 +295,22 @@ export default{
         partner: {
             title: 'Voorkeurs Partners',
             subtitle: 'Het Centrum onderhoudt bevoorrechte relaties met de volgende instellingen en verenigingen:',
+        },
+
+        ray: {
+            title: 'Straling van het centrum',
+            span1: 'Colloquium van 1 en 2 juni 2012:',
+            content1: 'Op 1 en 2 juni 2012 organiseerde het team van het Centrum Comprendre et Parler een colloquium aan de Université Libre de Bruxelles (ULB) met als thema "De multidisciplinaire begeleiding van het dove kind: een dynamiek in beweging", bijgewoond door bijna 400 personen.',
+            span2: 'Krantartikelen',
+            content3: '"In tegenstelling tot wat we zouden denken, tonen studies aan dat leerlingen van de tweede of derde generatie niet beter en zelfs vaak slechter spreken dan de generatie voor hen."',
+            span3: 'In Brussel wordt bijna één op de twee kinderen geboren uit een niet-Belgische moeder bij de geboorte. Hun eerste taal is dus niet de onderwijstaal...',
+            span4: 'Ereprijzen:',
+            span5: 'De Herman Houtman Prijs voor kinderen in moeilijkheden'
         }
     },
+
+    
+    
     
 
     mission:{

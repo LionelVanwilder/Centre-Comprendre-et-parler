@@ -2,40 +2,30 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        <h2>Rayonnement du centre</h2>
+        <h2>{{ $t('collab.ray.title') }}</h2>
         <p>
-            <span>Colloque des 1° et 2 juin 2012:</span><br>
-            Les 1ers et 2 juin 2012, l'équipe du Centre Comprendre et Parler a organisé à l'Université Libre de Bruxelles 
-            ULB un colloque sur le thème de "L'accompagnement multidisciplinaire de l'enfant sourd, une dynamique en mouvement" 
-            auquel ont participé près de 400 personnes.
+            <span>{{ $t('collab.ray.span1') }}</span><br>
+            {{ $t('collab.ray.content1') }}
         </p>
         <p>
-            <span>Articles presse</span><br>
-            La Libre.be: <a href="" style="text-decoration: underline;">Acquérir le français plus facilement</a>. (Article du 30 juillet 2012)
+            <span>{{ $t('collab.ray.span2') }}</span><br>
+            La Libre.be: 
+            <a href="https://www.lalibre.be/belgique/2012/07/30/acquerir-le-francais-plus-facilement-KL6CINOBEVAQREIBNHERAOLGKI/" target="_blank" style="text-decoration: underline;">Acquérir le français plus facilement</a>. (Article du 30 juillet 2012)
         </p>
         <p style="font-style: italic;">
-            "Contrairement à ce que nous pourrions penser, des études témoignent que les élèves de 2e ou 3e génération ne parlent pas mieux 
-            et même souvent moins bien que la génération qui les précède."
+            {{ $t('collab.ray.content3') }}
         </p>
         <p>
             <span style="color: #222222">
-                A Bruxelles, près d’un enfant sur deux naît d’une mère non-belge à l’accouchement. Leur langue première n’est donc pas la langue 
-                de l’enseignement...
+                {{ $t('collab.ray.span3') }}
             </span>
         </p>
-        <p>
+        <p class="reward">
             <span>
-                Publications:
+                {{ $t('collab.ray.span4') }}
             </span>
-            <br>
-            <a href="" style="text-decoration: underline;">Publications des membres du Centre</a>
-        </p>
-        <p>
-            <span>
-                Prix honorifiques:
-            </span>
-            <br>
-            <a href="" style="text-decoration: underline;">Le Prix Herman Houtman pour l’enfance en difficulté</a>
+            <br><br>
+            {{ $t('collab.ray.span5') }}
         </p>
     </div>
     </div>
@@ -81,6 +71,11 @@ export default{
     margin: 2rem 0;
     line-height: 1.5;
     letter-spacing: 1px;
+    }
+
+    .reward{
+        font-weight: 600;
+        color: #005387;
     }
 
     span{
