@@ -5,12 +5,12 @@
             <span>{{ $t('footer.legalpage.title') }}</span>
         </p>
 
-        <p v-html="$t('footer.legalpage.content1')"></p>
-        <p v-html="$t('footer.legalpage.content2')"></p>
-        <p v-html="$t('footer.legalpage.content3')"></p>
-        <p v-html="$t('footer.legalpage.content4')"></p>
-        <p v-html="$t('footer.legalpage.content5')"></p>
-        <p v-html="$t('footer.legalpage.content6')"></p>
+    <p>{{ $t('footer.legalpage.content1') }}</p>
+      <p>{{ $t('footer.legalpage.content2') }}</p>
+      <p>{{ $t('footer.legalpage.content3') }}</p>
+      <p>{{ $t('footer.legalpage.content4') }}</p>
+      <p>{{ $t('footer.legalpage.content5') }}</p>
+      <p>{{ $t('footer.legalpage.content6') }}</p>
     </div>
     </div>
     
