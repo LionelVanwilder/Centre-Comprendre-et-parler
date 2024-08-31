@@ -181,6 +181,12 @@ export default{
         program:{
             heading: 'Programmes et spécificités',
             subheading: 'Présentation générale',
+            content1: 'Le Centre Comprendre et Parler, grâce à une équipe dotée de compétences multidisciplinaires, offre une série de programmes et services dans différents domaines d\'activités. Ces services sont différenciés en fonction de l\'âge de l\'enfant ou de la personne malentendante, toujours dans le cadre d\'un projet individualisé.',
+            content2: 'L\'implication la plus importante possible est demandée aux parents en tant que partenaires privilégiés du développement de la communication et des acquisitions linguistiques.',
+            content3: 'Dès que le jeune en a la possibilité, il est intégré dans l’enseignement ordinaire, en collaboration avec l’équipe professionnelle.',
+            subtitle1: 'Nos moyens d\'action: ',
+            content4: 'Nos moyens d\'action pour soutenir les enfants présentant des troubles auditifs reposent sur plusieurs axes. Le dépistage auditif, notamment en maternité, permet une identification précoce des déficiences auditives, suivie d\'un diagnostic et d\'une mise au point pour évaluer la gravité et les besoins spécifiques. Pour les enfants atteints de surdité profonde, les implants cochléaires offrent une solution technologique permettant une meilleure intégration auditive. Un accompagnement multidisciplinaire, en collaboration étroite avec les familles et l\'enfant lui-même, assure une prise en charge globale. Pour les tout-jeunes enfants, un suivi à domicile est mis en place afin de faciliter leur développement dès le plus jeune âge. Concernant l\'intégration scolaire, un suivi est prévu à tous les niveaux, des maternelles jusqu\'aux cycles primaires, secondaires et supérieurs, que ce soit dans l\'enseignement ordinaire ou dans des écoles spécialisées de type 7, comme l\'École Intégrée. En parallèle, un suivi logopédique spécialisé est assuré pour développer les compétences langagières et communicationnelles des enfants, en fonction de leurs besoins spécifiques.',
+            
 
             specialization:{
                 title: 'Spécialisation',

@@ -176,6 +176,11 @@ export default{
     program:{
         heading: 'Programma\'s en bijzonderheden',
         subheading: 'Algemene presentatie',
+        content1: "Het Centrum Comprendre et Parler biedt, dankzij een team met multidisciplinaire vaardigheden, een reeks programma's en diensten op verschillende gebieden. Deze diensten worden gedifferentieerd op basis van de leeftijd van het kind of de slechthorende persoon, altijd binnen het kader van een geïndividualiseerd project.",
+        content2: "De meest mogelijke betrokkenheid wordt van de ouders vereist als bevoorrechte partners in de ontwikkeling van communicatie en taalverwervingen.",
+        content3: "Zodra de jongere de mogelijkheid heeft, wordt hij of zij geïntegreerd in regulier onderwijs, in samenwerking met het professionele team.",
+        subtitle1: "Onze middelen van actie: ",
+        content4: "Onze middelen van actie ter ondersteuning van kinderen met gehoorproblemen zijn gebaseerd op verschillende pijlers. Gehoorscreening, vooral in de kraamafdeling, maakt vroege identificatie van gehoorstoornissen mogelijk, gevolgd door diagnose en beoordeling om de ernst en specifieke behoeften te evalueren. Voor kinderen met diepe doofheid bieden cochleaire implantaten een technologische oplossing voor een betere auditieve integratie. Multidisciplinaire ondersteuning, in nauwe samenwerking met gezinnen en het kind zelf, zorgt voor een alomvattende zorg. Voor zeer jonge kinderen wordt er thuisfollow-up geregeld om hun ontwikkeling vanaf jonge leeftijd te vergemakkelijken. Wat betreft schoolintegratie wordt er toezicht gehouden op alle niveaus, van kleuteronderwijs tot basisschool, middelbare school en hoger onderwijs, zowel in regulier onderwijs als in gespecialiseerde scholen zoals École Intégrée. Parallel daaraan wordt gespecialiseerde logopedische follow-up geboden om de taal- en communicatievaardigheden van de kinderen te ontwikkelen, afhankelijk van hun specifieke behoeften.",
 
         specialization:{
             title: 'Specialisatie',

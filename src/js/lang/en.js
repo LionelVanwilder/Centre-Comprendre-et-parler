@@ -175,6 +175,13 @@ export default{
     program:{
         heading: 'Programs and Specifics',
         subheading: 'General presentation',
+        content1: "The Centre Comprendre et Parler, thanks to a team with multidisciplinary skills, offers a range of programs and services in various fields of activity. These services are differentiated based on the age of the child or the hearing-impaired person, always within the framework of an individualized project.",
+        content2: "The most important possible involvement is required from parents as privileged partners in the development of communication and linguistic acquisitions.",
+        content3: "As soon as the young person has the opportunity, they are integrated into regular education, in collaboration with the professional team.",
+        subtitle1: "Our means of action: ",
+        content4: "Our means of action to support children with hearing impairments rely on several axes. Hearing screening, particularly in maternity wards, allows for early identification of hearing deficiencies, followed by diagnosis and assessment to evaluate the severity and specific needs. For children with profound deafness, cochlear implants provide a technological solution for better auditory integration. Multidisciplinary support, in close collaboration with families and the child, ensures comprehensive care. For very young children, home follow-up is implemented to facilitate their development from an early age. Regarding school integration, monitoring is provided at all levels, from preschool to primary, secondary, and higher education, whether in regular education or in specialized schools such as École Intégrée. In parallel, specialized speech therapy follow-up is provided to develop the children's linguistic and communication skills, according to their specific needs.",
+        
+        
 
         specialization:{
             title: 'Specialization',
