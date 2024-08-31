@@ -55,7 +55,15 @@ export default{
             activity: 'Activity report',
             history: 'History',
             more: '→ Learn more'
-        }
+        },
+
+        visionintro: "Discover the status and vision of the Centre Comprendre et Parler",
+        missionintro: "Discover the missions and values of our non-profit organization",
+        gestionintro: "Discover the management body of the Centre",
+        organintro: "Discover our team through the organizational chart of the non-profit",
+        activityintro: "Our activity reports listed by year",
+        historyintro: "Discover the history of the Center since its creation in 1965"
+
     },
 
     news: {
@@ -251,7 +259,7 @@ export default{
         
         span4: "The medical team",
         content5: ", consisting of the medical director, several ENT specialists in rehabilitation, and a pediatrician, handles consultations, assessments, evaluations, and clinical follow-ups. This team coordinates with the audiologists/audiometrists for the hearing aid aspect.",
-        
+
 
         acc:{
             title: 'Accompaniement',

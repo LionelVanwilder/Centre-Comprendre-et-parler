@@ -56,7 +56,15 @@ export default{
             history: 'Geschiedenis',
             more: '→ Kom meer te weten'
             
-        }
+        },
+
+        visionintro: "Ontdek de status en visie van het Centre Comprendre et Parler",
+        missionintro: "Ontdek de missies en waarden van onze vzw",
+        gestionintro: "Ontdek het bestuursorgaan van het Centrum",
+        organintro: "Ontdek ons team via het organigram van de vzw",
+        activityintro: "Onze activiteitenrapporten gerangschikt per jaar",
+        historyintro: "Ontdek de geschiedenis van het Centrum sinds de oprichting in 1965"
+
     },
 
     news: {
@@ -250,7 +258,7 @@ export default{
         
         span4: "Het medische team",
         content5: ", bestaande uit de directeur-arts, verschillende KNO-artsen gespecialiseerd in revalidatie en een kinderarts, verzorgt de consultaties, evaluaties, afstemming en klinische opvolging. Dit team coördineert zich met het team van audiologen/audiometristen voor de hoorapparatuur.",
-        
+
         acc:{
             title: 'Begeleiding',
             subtitle: 'Pedagogische begeleidingsdienst',

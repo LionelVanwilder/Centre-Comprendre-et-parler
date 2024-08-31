@@ -55,7 +55,14 @@ export default{
                 activity: 'Rapport d\'activités',
                 history: 'Histoire',
                 more: '→ Voir plus'
-            }
+            },
+
+            visionintro: 'Découvrez le statut et la vision du Centre Comprendre et Parler',
+            missionintro: 'Découvrez les missions et les valeurs de notre ASBL',
+            gestionintro: 'Découvrez l\'organe de gestion du Centre',
+            organintro: 'Découvrez notre équipe à travers l\'organnigramme de l\'ASBL',
+            activityintro: 'Nos rapports d\'activités répertioriés par année',
+            historyintro: 'Découvrez l\'histoire du Centre depuis sa création en 1965'
         },
 
         patient: {
@@ -261,7 +268,7 @@ export default{
             span4: 'L\'équipe médicale',
             content5: ', composée du médecin directeur, de plusieurs médecins ORL spécialistes en réadaptation et d\'une pédiatre, assurent les consultations, bilans, mises au point et suivis cliniques. Cette équipe se coordonne avec l\'équipe des audiologues/audiciens pour le volet de l\'appareillage.',
 
-            
+
             acc:{
                 title: 'Accompagnement',
                 subtitle: 'Service d\'Accompagnement Pédagogique',

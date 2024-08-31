@@ -24,42 +24,42 @@
                             {
                                 source: require('../../../../../icons/vision.svg'),
                                 title: this.$t('blocflex.cards.vision'),
-                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                                content: this.$t('blocflex.visionintro'),
                                 url:'/Vision',
                             },
 
                             {
                                 source: require('../../../../../icons/mission.svg'),
                                 title: this.$t('blocflex.cards.mission'),
-                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                                content: this.$t('blocflex.missionintro'),
                                 url:'/Mission',
                             },
 
                             {
                                 source: require('../../../../../icons/gestion.svg'),
                                 title: this.$t('blocflex.cards.gestion'),
-                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                                content: this.$t('blocflex.gestionintro'),
                                 url:'/OrganesdeGestion',
                             },
 
                             {
                                 source: require('../../../../../icons/hierarchy.svg'),
                                 title: this.$t('blocflex.cards.organ'),
-                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                                content: this.$t('blocflex.organintro'),
                                 url:'/Organigrammes',
                             },
 
                             {
                                 source: require('../../../../../icons/report.svg'),
                                 title: this.$t('blocflex.cards.activity'),
-                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                                content: this.$t('blocflex.activityintro'),
                                 url:'/RapportdActivités',
                             },
 
                             {
                                 source: require('../../../../../icons/history.svg'),
                                 title: this.$t('blocflex.cards.history'),
-                                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+                                content: this.$t('blocflex.historyintro'),
                                 url:'/Histoire',
                             },
                 ]
