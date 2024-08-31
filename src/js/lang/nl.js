@@ -351,6 +351,20 @@ export default{
         
     },
 
+    gestion: {
+        title: 'Beheersorganen',
+        span1: 'AV:',
+        content1: 'De Algemene Vergadering brengt de leden samen om beslissingen goed te keuren die met name onder de volgende categorieën vallen: statutenwijzigingen, ouders en personeelsleden maken deel uit van de algemene vergadering. Ze kiest de leden van de Raad van Bestuur, keurt de rekeningen en budgetten goed.',
+        span2: 'RB:',
+        content2: 'Het beheer van de vzw valt onder de bevoegdheid van de Raad van Bestuur. Dit omvat alle handelingen die de vereniging in staat stellen dagelijks te functioneren: personeelsbeheer of vrijwilligersbeheer, organisatie van activiteiten van de vereniging, zoeken naar subsidies en fondsen, relaties met de overheid, leveranciers, begunstigden van diensten, enz...',
+        span3: 'ET:',
+        content3: 'Het Uitvoerend Comité beheert de organisatie in al haar organisatorische en dagelijkse ondersteunende aspecten. Het verdeelt de taken van de mensen die voor het Centrum werken. Het ET doet aanbevelingen aan de Raad van Bestuur die het noodzakelijk acht voor een goed beheer van het Centrum zodat het de toegewezen taken kan uitvoeren.',
+        content4: 'De leden van het Uitvoerend Comité zijn: Alain Baudichau, Voorzitter, Brigitte Charlier, Directrice, Dr. Chantal Ligny, Medisch Directeur',
+        span4: 'CD:',
+        content5: 'De Directieraad bestaat uit de verantwoordelijken van de professionele teams: Logopedisten / Gebarentaalbegeleiders, Tolkvertalers, Psychologen / Psychomotorische therapeuten, Audiologen / Audiciens, Maatschappelijk werkers en het Financiën / Administratie / Logistiek team.<br> Hun rol is om het Uitvoerend Comité te ondersteunen in zijn taak van operationeel beheer van de vzw.'
+    },
+    
+
     AboutPage:{
         title: 'Het Centrum',
         content1: 'Het Centrum "Comprendre et Parler" is een vzw opgericht in 1965 door dokter Olivier Périer en ouders van dove of slechthorende kinderen die hun kinderen een hoogstaand onderwijs wilden bieden. <br>De organisatie heeft de status van "Revalidatiecentrum", "Onderwijsondersteuningsdienst", "Gespecialiseerd Oriëntatiecentrum".',

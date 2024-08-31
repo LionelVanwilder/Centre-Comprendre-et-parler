@@ -2,40 +2,32 @@
     <div class="template-page-container">
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Pages-container-content">
-        <h2>Organes de gestion</h2>
+        <h2>{{ $t('gestion.title') }}</h2>
         <p>
-            <span>AG : </span> L’Assemblée Générale réunit les membres pour approuver les décisions qui tombent notamment dans les catégories suivantes 
-            : Modifications de statuts, des parents et des membres du personnel font partie de l'assemblée générale. <br>Elle élit les membres du Conseil d’Administration, 
-            elle approuve les comptes et des budgets
+            <span>{{ $t('gestion.span1') }}</span> 
+            {{ $t('gestion.content1') }}
         </p>
 
         <p>
-            <span>CA : </span> La gestion de l’ASBL relève de la compétence du Conseil d’Administration. Elle comprend l’ensemble des actes permettant à l’association de 
-            vivre au quotidien: gestion du personnel ou des volontaires, organisation des activités de l’association, recherche de subsides et de fonds, relations 
-            avec les autorités publiques, les fournisseurs, les bénéficiaires de services; etc...<br>
-            <span style="text-decoration: underline; cursor: pointer;">Listes des administrateurs (pdf)</span>
+            <span>{{ $t('gestion.span2') }}</span>
+            {{ $t('gestion.content2') }}
+            <br>
+           
         </p>
         <p>
-            <span>CE : </span> Le Comité Exécutif gère l’institution dans tous ses volets organisationnels et de soutien de l’activité au quotidien. 
-            Il répartit les missions des personnes travaillant pour le Centre.<br> 
-            Le CE émet vers le CA des recommandations qu'il juge nécessaire à la bonne gestion du Centre afin qu'il remplisse les missions qui lui sont allouées.
+            <span>{{ $t('gestion.span3') }}</span> 
+            {{ $t('gestion.content3') }}
         </p>
 
         
         
 
-        <p> Font partie du Comité Exécutif : Alain Baudichau, Président,   Brigitte Charlier, Directrice, Dr Chantal Ligny,  Médecin Directeur</p>
+        <p> {{ $t('gestion.content4') }}</p>
         
-        <div class="gestion-grid-container">
-           <img src="../../../../../../images/banner.avif">
-           <img src="../../../../../../images/banner.avif">
-           <img src="../../../../../../images/banner.avif">
-        </div>
 
         <p>
-            <span>CD : </span> Le Conseil de Direction est constitué des responsables des équipes professionnelles:  Logopèdes / Animateurs en langue des signes, 
-            Interprètes, Psychologues / Psychomotriciens, Audiologues / Audiciens, Assistants sociaux et de l'équipe Finances / Administration / Logistique.<br> 
-            Son rôle est de soutenir le Comité Exécutif dans sa tâche de gestion opérationnelle de l'ASBL.
+            <span>{{ $t('gestion.span4') }}</span> 
+            {{ $t('gestion.content5') }}
         </p>
    </div>
     </div>

@@ -358,6 +358,19 @@ export default{
         
         },
 
+        gestion:{
+            title: 'Organes de gestion',
+            span1: 'AG : ',
+            content1: 'L’Assemblée Générale réunit les membres pour approuver les décisions qui tombent notamment dans les catégories suivantes : Modifications de statuts, des parents et des membres du personnel font partie de l\'assemblée générale. Elle élit les membres du Conseil d’Administration, elle approuve les comptes et des budgets',
+            span2: 'CA : ',
+            content2: 'La gestion de l’ASBL relève de la compétence du Conseil d’Administration. Elle comprend l’ensemble des actes permettant à l’association de vivre au quotidien: gestion du personnel ou des volontaires, organisation des activités de l’association, recherche de subsides et de fonds, relations avec les autorités publiques, les fournisseurs, les bénéficiaires de services; etc...',
+            span3: 'CE : ',
+            content3: 'Le Comité Exécutif gère l’institution dans tous ses volets organisationnels et de soutien de l’activité au quotidien. Il répartit les missions des personnes travaillant pour le Centre.Le CE émet vers le CA des recommandations qu\'il juge nécessaire à la bonne gestion du Centre afin qu\'il remplisse les missions qui lui sont allouées.',
+            content4: 'Font partie du Comité Exécutif : Alain Baudichau, Président,   Brigitte Charlier, Directrice, Dr Chantal Ligny,  Médecin Directeur',
+            span4: 'CD : ',
+            content5: 'Le Conseil de Direction est constitué des responsables des équipes professionnelles:  Logopèdes / Animateurs en langue des signes, Interprètes, Psychologues / Psychomotriciens, Audiologues / Audiciens, Assistants sociaux et de l\'équipe Finances / Administration / Logistique.<br> Son rôle est de soutenir le Comité Exécutif dans sa tâche de gestion opérationnelle de l\'ASBL.'
+        },
+
         
         AboutPage:{
             title: 'Le Centre',

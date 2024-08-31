@@ -353,6 +353,20 @@ export default{
 
     },
 
+    gestion: {
+        title: 'Management Bodies',
+        span1: 'GA:',
+        content1: 'The General Assembly brings together members to approve decisions, particularly in the following categories: Statute modifications, parents, and staff members are part of the General Assembly. It elects the members of the Board of Directors, approves the accounts and budgets.',
+        span2: 'BoD:',
+        content2: 'The management of the non-profit organization falls under the competence of the Board of Directors. It includes all actions enabling the association to operate daily: staff or volunteer management, organization of the association’s activities, search for subsidies and funds, relations with public authorities, suppliers, service beneficiaries, etc...',
+        span3: 'EC:',
+        content3: 'The Executive Committee manages the institution in all its organizational and day-to-day operational aspects. It allocates the missions of the people working for the Center. The EC makes recommendations to the BoD, deemed necessary for the proper management of the Center, to fulfill its assigned missions.',
+        content4: 'Members of the Executive Committee: Alain Baudichau, President, Brigitte Charlier, Director, Dr. Chantal Ligny, Medical Director',
+        span4: 'MB:',
+        content5: 'The Management Board is made up of the heads of the professional teams: Speech Therapists / Sign Language Facilitators, Interpreters, Psychologists / Psychomotor Therapists, Audiologists / Hearing Aid Specialists, Social Workers, and the Finance / Administration / Logistics team.<br> Its role is to support the Executive Committee in its task of operational management of the non-profit organization.'
+    },
+    
+
     AboutPage:{
         title: 'The Center',
         content1: 'The Center "Comprendre et Parler" is a non-profit organization founded in 1965 by Dr. Olivier Périer and parents of deaf or hard of hearing children, eager to provide their children with a high-level education. <br>Its status is that of a "Functional Rehabilitation Center", "Educational Support Service", "Specialized Orientation Center".',
