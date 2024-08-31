@@ -53,14 +53,14 @@ export default{
             BreadCrumbCom,
         },
 
-        data(){
-            return{
-                breadcrumbs: [
-                { to: '', label: 'SAFP / SAP' },
-                { to: '/SAFP/Surdite', label: 'Surdité' }
-                ]
-            }
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '', label: this.$t('navbar.links.doc') },
+                { to: '/SAFP/Surdite', label: this.$t('navbar.dropdown.doc.deafness') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>
