@@ -41,14 +41,16 @@ export default{
 
         
 
-        data(){
-            return{
-                breadcrumbs: [
-                    {to: '/', label: this.$t('breadcrumbs.home')},
-                    {to: '/Don', label: this.$t('breadcrumbs.donation')}
-                ]
-            }
+       
+
+        computed: {
+        breadcrumbs() {
+            return [
+                { to: '/', label: this.$t('breadcrumbs.home') },
+                { to: '/Don', label: this.$t('breadcrumbs.donation') }
+            ];
         }
+    }
     }
 </script>
 <style scoped>
