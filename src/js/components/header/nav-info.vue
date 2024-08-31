@@ -3,7 +3,7 @@
             <ul>
                 <li>
                     <a target="_blank" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c3dc9b63dbd941:0xeb71a7aeb16468?sa=X&ved=2ahUKEwjjutrVudGEAxWIm_0HHfJLDe8Q4kB6BAgOEAA">
-                        <img src="../../../../icons/location-dot-solid-white.svg" alt="" class="icon-navinfo">
+                        <img src="../../../../icons/location-dot-solid-white.svg" alt="icone localisation" class="icon-navinfo">
                         {{ $t("banner.adress") }}
                     </a>
                 </li>
