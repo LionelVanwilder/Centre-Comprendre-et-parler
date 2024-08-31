@@ -153,6 +153,21 @@ export default{
             gdpr: 'RGPD',
             legal: 'Mentions légales',
             rights: '© 2024 Centre Comprendre et Parler ASBL',
+
+            privacy:{
+                title1: 'POLITIQUE DE CONFIDENTIALITÉ',
+                content1: 'Lors de votre visite sur notre site, vous pouvez être amené à partager des informations de manière volontaire et en toute connaissance de cause, par exemple en envoyant des messages ou questions sur ce site.<br><br>Ces données sont utilisées pour vous informer, vous contacter ultérieurement ainsi que pour réaliser des statistiques afin d’améliorer le contenu de notre site. Si dans le futur, vous ne souhaitez pas recevoir de courriers postaux et/ou électroniques de la part de notre association, contactez-nous via le formulaire de contact.',
+                title2: 'UTILISATION DES DONNÉES',
+                content2: 'Ces données sont uniquement collectées dans le cadre de nos activités spécifiques, comme les mailings, lettres de dons, etc.<br><br>Vous pouvez à tout moment demander une copie de vos données personnelles. De plus, vous avez toujours le droit de vous opposer à leur utilisation. Vous pouvez également nous demander de modifier vos données personnelles.',
+                title3: 'TRAITEMENTS DES DONNEES',
+                content3: 'Vos données personnelles sont conservées dans notre base de données uniquement en cas d’inscription ou lorsque que vous faites une demande d’envoi d’informations ou du rapport annuel.<br><br>Comprendre et Parler asbl s’engage à ne pas partager ces informations avec d’autres organisations à des fins commerciales ou autres, ni à les communiquer à des bases de données commerciales.',
+                title4: 'CADRE LEGAL',
+                content4: 'Les traitements de données à caractère personnel relatifs à ce site sont soumis à la loi belge (Loi du 8 décembre 1992 relative à la protection de la vie privée à l’égard des traitements de données à caractère personnel, modifiée par la loi du 11 décembre 1998 transposant la directive 95/46/CE du 24 octobre 1995 du Parlement européen et du Conseil relative à la protection des personnes physiques à l’égard du traitement de données à caractère personnel et à la libre circulation de ces données).<br><br>Ce contrat de confidentialité est valable pour toutes les pages hébergées sur www.ccpasbl.be. Il n’est pas valable pour les pages hébergées par d’autres organisations auxquelles nous pourrions faire référence et dont les contrats de confidentialité peuvent être différents.',
+                title5: 'SÉCURITÉ DES INFORMATIONS RECUEILLIES ',
+                content5: 'Une fois les données reçues, Comprendre et Parler s’engage à faire de son mieux pour assurer la sécurité de ses systèmes.<br><br>Nous prenons toutes les mesures nécessaires pour que ces informations soient traitées de manière sûre. Toutefois, aucune transmission de données sur Internet ne peut être garantie à 100 %. Par conséquent, même si des efforts sont entrepris pour protéger vos données personnelles, nous ne pouvons pas garantir à 100 % la sécurité des informations qui nous sont transmises.',
+                
+
+            }
         },
 
 
@@ -467,7 +482,8 @@ export default{
                 paybtn: 'Payer'
 
 
-        }
+        },
+
         
       
 }

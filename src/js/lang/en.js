@@ -150,6 +150,20 @@ export default{
         gdpr: 'GDPR',
         legal: 'legal notice',
         rights: '© 2024 Center Comprendre et Parler NPO',
+
+        privacy: {
+            title1: "PRIVACY POLICY",
+            content1: "During your visit to our site, you may voluntarily and knowingly share information, for example by sending messages or questions on this site.<br><br>This data is used to inform you, contact you later, and to generate statistics in order to improve the content of our site. If in the future you no longer wish to receive postal and/or electronic mail from our association, please contact us via the contact form.",
+            title2: "USE OF DATA",
+            content2: "This data is collected solely in the context of our specific activities, such as mailings, donation letters, etc.<br><br>You may request a copy of your personal data at any time. In addition, you always have the right to object to its use. You can also ask us to modify your personal data.",
+            title3: "DATA PROCESSING",
+            content3: "Your personal data is stored in our database only in the event of registration or when you request information or the annual report.<br><br>Comprendre et Parler ASBL commits not to share this information with other organizations for commercial or other purposes, nor to communicate it to commercial databases.",
+            title4: "LEGAL FRAMEWORK",
+            content4: "The processing of personal data related to this site is subject to Belgian law (Law of December 8, 1992, on the protection of privacy with regard to the processing of personal data, amended by the law of December 11, 1998, transposing Directive 95/46/EC of October 24, 1995, of the European Parliament and the Council concerning the protection of individuals with regard to the processing of personal data and the free movement of such data).<br><br>This privacy contract is valid for all pages hosted on www.ccpasbl.be. It is not valid for pages hosted by other organizations to which we may refer and whose privacy contracts may differ.",
+            title5: "SECURITY OF COLLECTED INFORMATION",
+            content5: "Once the data is received, Comprendre et Parler commits to doing its best to ensure the security of its systems.<br><br>We take all necessary measures to ensure that this information is processed securely. However, no data transmission over the Internet can be guaranteed to be 100% secure. Therefore, although efforts are made to protect your personal data, we cannot guarantee 100% the security of the information transmitted to us."
+        }
+        
     },
 
     donation: {

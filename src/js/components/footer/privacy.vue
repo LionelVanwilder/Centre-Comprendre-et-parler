@@ -1,8 +1,20 @@
 <template>
     <div class="template-page-container">
-        <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
     <div class="Edu-container">
-        
+        <p>
+            <span>{{ $t('footer.privacy.title1') }}</span>
+        </p>
+
+        <p v-html="$t('footer.privacy.content1')"></p>
+
+        <p><span>{{ $t('footer.privacy.title2') }}</span></p>
+        <p v-html="$t('footer.privacy.content2')"></p>
+        <p><span>{{ $t('footer.privacy.title3') }}</span></p>
+        <p v-html="$t('footer.privacy.content3')"></p>
+        <p><span>{{ $t('footer.privacy.title4') }}</span></p>
+        <p v-html="$t('footer.privacy.content4')"></p>
+        <p><span>{{ $t('footer.privacy.title5') }}</span></p>
+        <p v-html="$t('footer.privacy.content5')"></p>
     </div>
     </div>
     
@@ -10,23 +22,14 @@
 </template>
 <script>
 
-import BreadCrumbCom from '../../breadcrumb.vue'
+
 
 export default{
         name: 'PrivacyPage',
 
-        components: {
-            BreadCrumbCom,
-        },
+        
 
-        computed: {
-        breadcrumbs() {
-            return [
-                { to: '', label: this.$t('navbar.links.collab') },
-                { to: '/Collaborations/Autrescollaborations', label: this.$t('navbar.dropdown.collab.other') }
-            ];
-        }
-    }
+       
     }
 </script>
 <style scoped>

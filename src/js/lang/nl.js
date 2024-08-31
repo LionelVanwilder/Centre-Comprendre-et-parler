@@ -151,6 +151,20 @@ export default{
         gdpr: 'AVG',
         legal: 'wettelijke vermeldingen',
         rights: '© 2024 Centrum Comprendre et Parler VZW',
+
+        privacy: {
+            title1: "PRIVACYBELEID",
+            content1: "Tijdens uw bezoek aan onze site kunt u vrijwillig en bewust informatie verstrekken, bijvoorbeeld door berichten of vragen op deze site te versturen.<br><br>Deze gegevens worden gebruikt om u te informeren, u later te contacteren en om statistieken op te stellen om de inhoud van onze site te verbeteren. Als u in de toekomst geen post of e-mails meer van onze vereniging wilt ontvangen, kunt u contact met ons opnemen via het contactformulier.",
+            title2: "GEBRUIK VAN GEGEVENS",
+            content2: "Deze gegevens worden uitsluitend verzameld in het kader van onze specifieke activiteiten, zoals mailings, donatiebrieven, enz.<br><br>U kunt op elk moment een kopie van uw persoonlijke gegevens opvragen. Bovendien heeft u altijd het recht om bezwaar te maken tegen het gebruik ervan. U kunt ons ook vragen om uw persoonlijke gegevens te wijzigen.",
+            title3: "VERWERKING VAN GEGEVENS",
+            content3: "Uw persoonlijke gegevens worden alleen in onze database opgeslagen in het geval van een inschrijving of wanneer u informatie of het jaarverslag aanvraagt.<br><br>Comprendre et Parler asbl verbindt zich ertoe deze informatie niet te delen met andere organisaties voor commerciële of andere doeleinden, noch om deze te verstrekken aan commerciële databases.",
+            title4: "WETTELIJK KADER",
+            content4: "De verwerking van persoonsgegevens met betrekking tot deze site valt onder de Belgische wet (Wet van 8 december 1992 betreffende de bescherming van de persoonlijke levenssfeer ten opzichte van de verwerking van persoonsgegevens, gewijzigd door de wet van 11 december 1998 ter omzetting van richtlijn 95/46/EG van 24 oktober 1995 van het Europees Parlement en de Raad betreffende de bescherming van natuurlijke personen in verband met de verwerking van persoonsgegevens en het vrije verkeer van die gegevens).<br><br>Dit privacycontract is geldig voor alle pagina's gehost op www.ccpasbl.be. Het is niet van toepassing op pagina's die door andere organisaties worden gehost waarnaar we kunnen verwijzen en waarvan de privacycontracten anders kunnen zijn.",
+            title5: "BEVEILIGING VAN VERZAMELDE INFORMATIE",
+            content5: "Zodra de gegevens zijn ontvangen, verbindt Comprendre et Parler zich ertoe zijn best te doen om de veiligheid van zijn systemen te waarborgen.<br><br>We nemen alle nodige maatregelen om ervoor te zorgen dat deze informatie veilig wordt verwerkt. Geen enkele gegevensoverdracht via internet kan echter voor 100% worden gegarandeerd. Hoewel er inspanningen worden geleverd om uw persoonlijke gegevens te beschermen, kunnen we daarom niet 100% de veiligheid garanderen van de informatie die naar ons wordt verzonden."
+        }
+        
     },
 
     donation: {

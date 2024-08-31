@@ -23,7 +23,7 @@
     
         <div class="privacy">
             <ul>
-                <li><a href="#">{{ $t("footer.terms") }}</a></li>
+                <li><router-link to="/Privacy">{{ $t("footer.terms") }}</router-link></li>
                 <!--<li><a href="#">{{ $t("footer.gdpr") }}</a></li>-->
                 <li><a href="#">{{ $t("footer.legal") }}</a></li>
                 <!--<li><a href="#">Cookies</a></li>-->
@@ -39,6 +39,8 @@
 </template>
 
 <script>
+
+
     export default{
         name: 'FooterApp'
     }
