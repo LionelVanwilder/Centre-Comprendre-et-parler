@@ -443,6 +443,26 @@ export default{
         content6: '<span>Pilot Projects: </span><br>notable projects include: collaboration with the specialized nursery Crescendo, increasing involvement of deaf professionals in the team, language therapies based on sign language, interpretation in foreign languages, educational support for young deaf students, support for projects distant from specialized infrastructures...',
         content7: '<span>Scientific Research and Development: </span><br>the Centre is in constant search of the most effective methods and techniques to initiate, improve, or restore communication and create the necessary conditions for linguistic development. It strives to gather the necessary conditions for the development of a language or communication system that allows the child not only to communicate but also to think, develop intellectually and emotionally, read and write... The Centre is involved in several university research programs.',
         content8: '<span>Bilingualism: </span><br>while prioritizing the development of spoken communication, the Centre also aims to prepare the children under its care to one day become bilingual, i.e., mastering both the French language and sign language in both comprehension and expression. The appreciation of sign language and regular contact with deaf individuals, in this context, are major driving factors.'
-    }
+    },
+
+    form: {
+        selecttitle: "Choose an amount",
+        infotitle: "Personal Information",
+        paytitle: "Payment",
+    
+        amount: "Custom Amount",
+        nextbtn: "Next",
+        backbtn: "Back",
+        firstname: "First Name",
+        name: "Last Name",
+        phone: "Phone",
+        idnumber: "National Register Number",
+    
+        cardnumber: "Card Number",
+        date: "Expiration Date (MM/YY)",
+        address: "Billing Address",
+    
+        paybtn: "Pay"
+      }
     
 }

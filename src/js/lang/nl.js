@@ -439,6 +439,28 @@ export default{
         content6: '<span>Pilootprojecten: </span><br>opmerkelijke projecten zijn: samenwerking met het gespecialiseerde kinderdagverblijf Crescendo, groeiende betrokkenheid van dove professionals in het team, taatherapieën gebaseerd op gebarentaal, vertaling in vreemde talen, pedagogische ondersteuning voor dove studenten, ondersteuning van projecten buiten de gespecialiseerde infrastructuren...',
         content7: '<span>Wetenschappelijk onderzoek en ontwikkeling: </span><br>het centrum zoekt constant naar de meest effectieve methoden en technieken om communicatie op gang te brengen, te verbeteren of te herstellen, en de voorwaarden te creëren voor taalontwikkeling. Het probeert de nodige voorwaarden te creëren voor de ontwikkeling van een taal of communicatiesysteem waarmee het kind niet alleen kan communiceren, maar ook kan denken, intellectueel en emotioneel kan ontwikkelen, lezen en schrijven... Het centrum is betrokken bij verschillende universitaire onderzoeksprogramma\'s.',
         content8: '<span>Tweetaligheid: </span><br>terwijl het centrum de ontwikkeling van gesproken communicatie bevordert, bereidt het ook de kinderen voor die het onder zijn hoede heeft, om indien gewenst tweetalig te worden, d.w.z. zowel de Franse taal als de gebarentaal te beheersen, zowel in begrip als in expressie. De waardering van gebarentaal en het regelmatige contact met dove mensen in deze context zijn belangrijke hefboomfactoren.'
-    }
+    },
+
     
-}
+        form: {
+          selecttitle: "Kies een bedrag",
+          infotitle: "Persoonlijke informatie",
+          paytitle: "Betaling",
+      
+          amount: "Aangepast bedrag",
+          nextbtn: "Volgende",
+          backbtn: "Terug",
+          firstname: "Voornaam",
+          name: "Achternaam",
+          phone: "Telefoon",
+          idnumber: "Rijksregisternummer",
+      
+          cardnumber: "Kaartnummer",
+          date: "Vervaldatum (MM/JJ)",
+          address: "Factuuradres",
+      
+          paybtn: "Betalen"
+        }
+      }
+      
+    

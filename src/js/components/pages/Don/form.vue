@@ -1,10 +1,10 @@
 <template>
     <div id="formdon">
-      <h3 v-if="currentStep === 1">Choisissez un montant</h3>
-      <h3 v-if="currentStep === 2">Informations personnelles</h3>
-      <h3 v-if="currentStep === 3">Paiement</h3>
+      <h3 v-if="currentStep === 1">{{ $t('form.selecttitle') }}</h3>
+      <h3 v-if="currentStep === 2">{{ $t('form.infotitle') }}</h3>
+      <h3 v-if="currentStep === 3">{{ $t('form.paytitle') }}</h3>
   
-      <form @submit.prevent="submitForm">
+      <form @submit.prevent="submitForm" method="get">
       
         <div v-if="currentStep === 1">
           <div class="don-options">
@@ -20,7 +20,7 @@
           <input
             type="number"
             name="montantperso"
-            placeholder="Montant personnalisé"
+            :placeholder="this.$t('form.amount')"
             v-model="customAmount"
             @input="clearSelectedAmount"
             min="1"
@@ -28,7 +28,7 @@
             @keypress="isNumberKey"
           />
           <input type="hidden" id="montant" name="montant" :value="finalAmount" />
-          <button type="button" @click="goToPersonalInfo">Suivant</button>
+          <button type="button" @click="goToPersonalInfo">{{ $t('form.nextbtn') }}</button>
         </div>
   
  
@@ -36,14 +36,14 @@
           <input
             type="text"
             id="firstName"
-            placeholder="Prénom"
+            :placeholder="this.$t('form.firstname')"
             v-model="personalInfo.firstName"
             required
           />
           <input
             type="text"
             id="lastName"
-            placeholder="Nom"
+            :placeholder="this.$t('form.name')"
             v-model="personalInfo.lastName"
             required
           />
@@ -57,20 +57,20 @@
           <input
             type="tel"
             id="phone"
-            placeholder="Téléphone"
+            :placeholder="this.$t('form.phone')"
             v-model="personalInfo.phone"
             required
           />
           <input
             type="text"
             id="nationalId"
-            placeholder="Numéro de registre national"
+            :placeholder="this.$t('form.idnumber')"
             v-model="personalInfo.nationalId"
             required
           />
           <input type="hidden" id="montant" name="montant" :value="finalAmount" />
-          <button type="button" @click="goBack">Retour</button>
-          <button type="button" @click="goToPayment" id="nextpay">Suivant</button>
+          <button type="button" @click="goBack">{{ $t('form.backbtn') }}</button>
+          <button type="button" @click="goToPayment" id="nextpay">{{ $t('form.nextbtn') }}</button>
         </div>
   
        
@@ -79,14 +79,14 @@
           <input
             type="text"
             id="cardNumber"
-            placeholder="Numéro de carte"
+            :placeholder="this.$t('form.cardnumber')"
             v-model="payment.cardNumber"
             required
           />
           <input
             type="text"
             id="expiryDate"
-            placeholder="Date d'expiration (MM/AA)"
+            :placeholder="this.$t('form.date')"
             v-model="payment.expiryDate"
             required
           />
@@ -100,13 +100,13 @@
           <input
             type="text"
             id="billingAddress"
-            placeholder="Adresse de facturation"
+            :placeholder="this.$t('form.address')"
             v-model="payment.billingAddress"
             required
           />
           <input type="hidden" id="montant" name="montant" :value="finalAmount" />
-          <button type="button" @click="goBackToPersonalInfo">Retour</button>
-          <input type="submit" value="Payer" id="paybtn"/>
+          <button type="button" @click="goBackToPersonalInfo">{{ $t('form.backbtn') }}</button>
+          <input type="submit" :value="this.$t('form.paybtn')" id="paybtn" :disabled="isDisabled"/>
         </div>
       </form>
     </div>
@@ -134,7 +134,9 @@
           expiryDate: '',
           cvv: '',
           billingAddress: ''
-        }
+        },
+
+        isDisabled: true 
       };
     },
     computed: {
@@ -200,6 +202,10 @@
   </script>
   
   <style scoped>
+
+#paybtn{
+  cursor: not-allowed !important;
+}
  #formdon {
   margin: 2rem 0;
   

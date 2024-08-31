@@ -445,6 +445,28 @@ export default{
             content2_4: 'La combinaison de ces deux techniques sous forme de Français Complet Signé et Codé FCSC a signé l\'abandon du FS. Le FCSC est une création de parents qui avaient la volonté de cumuler les avantages d\'une perception complète de la parole via le LPC et les possibilités d\'expression aisée et naturelle en bas âge de leur enfant via l\'utilisation de signes de la langue des signes. Le FCSC constitue une contribution de valeur internationalement reconnue à la méthodologie de l\'éducation des enfants à audition déficiente. De nombreux enfants sourds en ont bénéficié (voir rubrique Documentation/Publications).',
             content2_5: 'Les récents progrès technologiques, et notamment l\'avènement de l\'implant cochléaire performant depuis les années \'90 ont à nouveau- conduit à une modification des pratiques. Le LPC reste un outil complémentaire à l\'implant cochléaire afin de permettre à l\'enfant un accès à la précision phonologique fine, en toutes circonstances (ex: en situation de bruit). Les signes sont encore utilisés lors des premiers échanges aux fins de stimuler l\'interaction parents-enfants. Ils prennent parallèlement place lors de contacts encouragés avec les membres de la communauté des sourds qui partagent cette langue.',
             content2_6: ' L\'émergence des implants cochléaires a également eu un effet inattendu. Une fois l\'apport audio-prothétique rendu très performant, sont mieux apparus au grand jour les difficultés concommittantes présentées par certains enfants et adolescents sourds: troubles "dys" (dysphasie, dyslexie, dyscalculie, troubles de la mémoire, troubles de l\'attention, troubles de l\'intégration visuelle, difficultés de compréhension en lecture), voire handicaps associés. Les prochains défis pour le futur seront de développer des outils d\'évaluation de ces troubles concommitants à la déficience auditive et de proposer des pistes de rééducation validées scientifiquement ou par les pratiques ajustées.'
+        },
+
+        form:{
+                selecttitle: 'Choisissez un montant',
+                infotitle: 'Informations personnelles',
+                paytitle: 'Paiement',
+
+                amount: 'Montant personnalisé',
+                nextbtn: 'Suivant',
+                backbtn: 'Retour',
+                firstname: 'Prénom',
+                name: 'Nom',
+                phone: 'Téléphone',
+                idnumber: 'Numéro de registre national',
+
+                cardnumber: 'Numéro de carte',
+                date: 'Date d\'expiration (MM/AA)',
+                address: 'Adresse de facturation',
+
+                paybtn: 'Payer'
+
+
         }
         
       
