@@ -1,5 +1,6 @@
 <template>
-    <div class="footer-row">
+    <div class="footer-container">
+        <div class="footer-row">
         <div>
             <h4>Contact</h4>
             <ul>
@@ -36,6 +37,8 @@
             <p>{{ $t("footer.rights") }}</p>
         </div>
     </div>
+    </div>
+    
 </template>
 
 <script>

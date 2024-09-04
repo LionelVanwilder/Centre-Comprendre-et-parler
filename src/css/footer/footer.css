@@ -1,12 +1,23 @@
 footer{
     background-color: #005387;
-    padding: 5rem 6rem;
+    
     padding-bottom: 0 !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     bottom: 0;
-    border-top: 2px solid #005387;
+    /*border-top: 2px solid #005387;*/
+    position: relative;
+}
+
+.footer-container{
+    padding: 5rem 6rem;
+}
+
+#wave-footer{
+    position: absolute;
+    top: 0;
+    left:0;
 }
 
 .media-footer{
@@ -68,7 +79,9 @@ footer h4{
 }
 
 @media all and (max-width: 600px){
-    footer{
+   
+
+    .footer-container{
         padding: 5rem 2rem;
     }
 }
@@ -79,7 +92,9 @@ footer h4{
         display: flex;
         flex-direction: column;
     }
-    footer{
+    
+
+    .footer-container{
         padding: 5rem 2rem;
     }
 }
