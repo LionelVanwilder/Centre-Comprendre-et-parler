@@ -27,42 +27,42 @@
             bloc(){
                 return[
                             {
-                                source: require('../../../../../icons/vision.svg'),
+                                source: require('../../../../../icons/visionnew.svg'),
                                 title: this.$t('blocflex.cards.vision'),
                                 content: this.$t('blocflex.visionintro'),
                                 url:'/Vision',
                             },
 
                             {
-                                source: require('../../../../../icons/mission.svg'),
+                                source: require('../../../../../icons/missionnew.svg'),
                                 title: this.$t('blocflex.cards.mission'),
                                 content: this.$t('blocflex.missionintro'),
                                 url:'/Mission',
                             },
 
                             {
-                                source: require('../../../../../icons/gestion.svg'),
+                                source: require('../../../../../icons/gestionnew.svg'),
                                 title: this.$t('blocflex.cards.gestion'),
                                 content: this.$t('blocflex.gestionintro'),
                                 url:'/OrganesdeGestion',
                             },
 
                             {
-                                source: require('../../../../../icons/hierarchy.svg'),
+                                source: require('../../../../../icons/hierarchynew.svg'),
                                 title: this.$t('blocflex.cards.organ'),
                                 content: this.$t('blocflex.organintro'),
                                 url:'/Organigrammes',
                             },
 
                             {
-                                source: require('../../../../../icons/report.svg'),
+                                source: require('../../../../../icons/reportnew.svg'),
                                 title: this.$t('blocflex.cards.activity'),
                                 content: this.$t('blocflex.activityintro'),
                                 url:'/RapportdActivités',
                             },
 
                             {
-                                source: require('../../../../../icons/history.svg'),
+                                source: require('../../../../../icons/historynew.svg'),
                                 title: this.$t('blocflex.cards.history'),
                                 content: this.$t('blocflex.historyintro'),
                                 url:'/Histoire',

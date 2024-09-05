@@ -3,7 +3,7 @@
         <BreadCrumbCom :breadcrumbs="breadcrumbs"></BreadCrumbCom>
 <div class="Edu-container">
     
-        <img src="../../../../../icons/Donation.svg" class="icon-bloc-flex">
+        <img src="../../../../../icons/DonationNEW.svg" class="icon-bloc-flex">
     
     <h2>{{ $t("donation.title") }}</h2>
     <p>{{ $t("donation.intro") }}</p>

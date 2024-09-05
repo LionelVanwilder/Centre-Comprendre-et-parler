@@ -19,7 +19,7 @@
 
         data(){
             return{
-                iconpath: require('/images/child.svg'),
+                iconpath: require('/images/childnew.svg'),
             }
         }
     }

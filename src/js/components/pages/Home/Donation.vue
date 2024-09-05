@@ -1,6 +1,6 @@
 <template>
     <div class="donation-container"  data-aos="fade-up" data-aos-duration="1000">
-        <img src="../../../../../icons/Donation.svg" class="icon-bloc-flex">
+        <img src="../../../../../icons/DonationNEW.svg" class="icon-bloc-flex">
         <div class="donation-row">
             <div class="donation-image-wrapper">
                 <img :src="imagepath" accesskey="" alt="Soutenir le Centre Comprendre et Parler">
