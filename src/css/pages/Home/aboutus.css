@@ -12,12 +12,13 @@
 
 
 .aboutus h2{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #444444;
     margin-bottom: 4rem;
-    font-weight: 600;
-    letter-spacing: 1.2px;
     text-transform: uppercase;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .aboutus p{

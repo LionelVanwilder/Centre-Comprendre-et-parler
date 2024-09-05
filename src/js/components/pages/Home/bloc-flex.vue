@@ -1,8 +1,5 @@
 <template>
     <div class="blocflex-container-container">
-        <svg version="1.1" viewBox="0 0 1440 222">
-            <path fill="#fff" d="M0,64l80,16c80,16,240,48,400,48s320-32,480-32s320,32,400,48l80,16V0h-80c-80,0-240,0-400,0S640,0,480,0S160,0,80,0H0V64z"/>
-        </svg>
         <div class="bloc-flex-container">
        
 
