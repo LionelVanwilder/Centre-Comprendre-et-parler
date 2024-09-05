@@ -1,7 +1,7 @@
 <template>
     <div class="sidenav" :class="{ 'open': displayMenu }" id="sidenav">
         <button class="OpenMenu" @click="toggleMenu" aria-label="Name">
-            <img src="../../../../icons/bars-solid.svg">
+            <img src="../../../../icons/burger-icon.svg">
         </button>
         <div class="menu-container animation-menu " v-if="displayMenu">
             <div class="burger-close-btn">
@@ -235,7 +235,7 @@
      
 
     .OpenMenu{
-        background-color: #FF4D00;
+       background-color: #ffffff;
         border: none;
     }
 
