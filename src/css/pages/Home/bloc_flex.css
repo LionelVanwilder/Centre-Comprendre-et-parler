@@ -54,13 +54,15 @@
     margin-top: auto;
     text-align: left;
     width: auto;
-    padding: 0.7rem 0;
+    padding: 0.7rem;
     cursor: pointer;
-    color: #222222;
+    color: #ffffff;
+    border-radius: 6px;
     font-weight: 500;
     letter-spacing: 1.5px;
     transition: transform .3s ease-in-out;
     display: inline-block;
+    background-color: #005387;
 }
 
 .bloc-flex a:hover{

@@ -91,8 +91,12 @@
     margin-top: auto;
     letter-spacing: 1.5px;
     cursor: pointer;
-    color: #222222;
+    color: #ffffff;
     transition: transform .3s ease-in-out;
+    background-color: #005387;
+    padding: 0.7rem;
+    border-radius: 6px;
+    margin-top: 1.3rem;
 }
 
 .news-card a:hover{

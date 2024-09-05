@@ -63,7 +63,8 @@
 }
 
 .donation-row .donation-content-wrapper a{
-    padding: 1rem;
+    padding: 0.7rem;
+    border-radius: 6px;
     background-color: #FF4D00;
     color: #ffffff;
     margin-top: 2rem;
