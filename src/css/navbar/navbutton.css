@@ -30,6 +30,7 @@ button:hover{
     border: 2px solid #005387;
     color: #ffffff;
     font-weight: 500;
+    border-radius: 6px;
 }
 
 .navbuttoncomp:hover{
