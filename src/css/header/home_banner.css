@@ -16,7 +16,8 @@
     color: #ffffff;
     animation-duration: 1s;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 1.3;
 }
 
 .button-banner-container{
