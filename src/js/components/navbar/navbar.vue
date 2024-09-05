@@ -30,7 +30,7 @@
 
         data () {
         return {
-            imagepath: require('../../../../images/logonew.png')
+            imagepath: require('../../../../images/logotypo.svg')
         }
 }
     }

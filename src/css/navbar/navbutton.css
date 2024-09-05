@@ -26,8 +26,8 @@ button:hover{
     cursor: pointer;
     /*background-color: #FF4D00;
     border: 2px solid #FF4D00;*/
-    background-color: #005387;
-    border: 2px solid #005387;
+    background-color: #991653;
+    border: 2px solid #991653;
     color: #ffffff;
     font-weight: 500;
     border-radius: 6px;
@@ -37,7 +37,7 @@ button:hover{
     background-color: transparent;
     /*border: 2px solid #FF4D00;
     color: #FF4D00;*/
-    border: 2px solid #005387;
-    color: #005387;
+    border: 2px solid #991653;
+    color: #991653;
     transition: all .2s ease-out;
 }

@@ -1,7 +1,7 @@
 <template>
     <ul class="nav-links-ul">
         <li v-for="(item, index) in dropdowns" :key="index" class="nav-links-ul-li">
-            <router-link :to="item.path" @click="toggle(index)" class="nav-hover">{{ item.title }}</router-link>
+            <router-link :to="item.path" @click="toggle(index)" class="nav-hover" :class="['nav-hover', { 'active': activeDropdown === index }]">{{ item.title }}</router-link>
             <ul class="dropdown fadein" v-if="activeDropdown === index"  @click="toggle(index)">
                 <li v-for="(link, linkIndex) in item.links" :key="linkIndex"><router-link :to="link.url">{{ link.label }} </router-link></li>
             </ul>

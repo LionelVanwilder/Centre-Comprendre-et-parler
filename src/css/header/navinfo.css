@@ -25,16 +25,18 @@
     text-transform: uppercase;
     padding: .3rem;
     font-size: 0.88rem;
-    border-radius: inherit;
+    border-radius: 5px;
     background-color: inherit;
     border: inherit;
     color: #005387;
 }
 
 .activelang{
-    color: #FF4D00 !important;
+    color: #ffffff !important;
     font-weight: 500;
     border-radius: 2px;
+    background-color: #991653 !important;
+    border-radius: 5px !important;
 }
 
 
