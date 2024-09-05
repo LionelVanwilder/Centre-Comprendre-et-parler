@@ -93,7 +93,7 @@
 
 @media screen and (max-width: 600px){
     .donation-row .donation-content-wrapper span {
-        font-size: 1.7rem;
+        font-size: 2rem;
         
     }
 }
@@ -112,7 +112,7 @@
     }
 
     .donation-row .donation-content-wrapper span{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .donation-row .donation-content-wrapper{

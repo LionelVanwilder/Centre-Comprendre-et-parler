@@ -31,8 +31,12 @@
 }
 
 .aboutus a{
-    color: #222222;
+    color: #ffffff;
     letter-spacing: 1.2px;
+    background-color: #005387;
+    padding: 0.7rem;
+    border: 1px solid #005387;
+    border-radius: 6px;
 }
 
 .aboutus a:hover{
@@ -52,7 +56,7 @@
     }
 
     .aboutus h2{
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
     .aboutus p{
         width: 80%;
@@ -66,7 +70,7 @@
         padding-right: 2rem;
     }
     .aboutus h2{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 }
 
@@ -98,7 +102,7 @@
     }
 
     .aboutus h2{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         text-align: center;
     }
 
