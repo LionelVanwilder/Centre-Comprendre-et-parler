@@ -1,6 +1,7 @@
 <template>
     <div id="news" data-aos="fade-up" data-aos-duration="1000">
         <h2 data-aos="fade-up" data-aos-duration="1000">{{ $t("news.title") }}</h2>
+        <img data-aos="fade-up" data-aos-duration="1000" src="../../../../../../images/underline2.svg" class="icon-line" alt="ligne enfants">
         <div class="container-news">
             <img src="../../../../../../icons/newsnew.svg" class="icon-bloc-flex">
             <article class="news-card card-radius" v-for="card in news" :key="card.id" 

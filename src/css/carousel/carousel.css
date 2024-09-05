@@ -11,6 +11,9 @@
 
 .carousel-container .align-title{
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .carousel-container span{
     font-size: 1.3rem;
@@ -28,7 +31,6 @@
 .carousel-container h2{
     font-size: 2.8rem;
     color: #444444;
-    margin-bottom: 4rem;
     text-transform: uppercase;
     font-family: "Nerko One", cursive;
     font-weight: 400;
