@@ -10,6 +10,12 @@
     padding: 0 3rem;
 }
 
+#homebanner-container{
+    position: relative;
+}
+
+
+
 
 .home-banner h1{
     font-size: 3rem;

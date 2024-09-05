@@ -7,6 +7,7 @@
             <div class="content-wrapper-content patient-content"  data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
                 <img :src="iconpath" alt="" class="icon-bloc-flex">
                 <h2 v-html="$t('patient.title')"></h2>
+                <img src="../../../../../images/underline2.svg" class="icon-line" alt="ligne enfants">
                 <p>{{ $t('patient.content') }}</p>
             </div>
         </div>
