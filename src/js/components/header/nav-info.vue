@@ -13,7 +13,7 @@
                         +32 2 770 04 40
                     </a>
                 </li>
-                <li><router-link to="/Contact">{{ $t("Navinfo.infos") }}</router-link></li>
+                <li><router-link to="/Contact" id="infosbutton">{{ $t("Navinfo.infos") }}</router-link></li>
             </ul>
             <!--<ul class="navinfo-media">
                 <li>

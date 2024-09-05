@@ -15,6 +15,22 @@
     
 }
 
+#infosbutton:hover{
+    background-color: #991653;
+    color: #ffffff;
+    transition: .1s ease-out;
+}
+
+
+#infosbutton{
+    background-color: #ffffff;
+    color: #991653;
+    text-decoration: inherit;
+    border: 1px solid #991653;
+    transition: .1s ease-out;
+    padding: .3rem;
+    border-radius: 5px;
+}
 
 
 .langnavinfo li{
