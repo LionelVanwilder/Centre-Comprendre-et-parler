@@ -97,7 +97,8 @@
     }
 
     .activelangburger{
-        background-color: #FF4D00 !important;
+        background-color: #ffffff !important;
+        color: #005387 !important;
         padding: .5rem;
         border-radius: 3px;
     }
