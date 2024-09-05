@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="blob-homebanner">
         <h1 class="fade-appear">
         <span class="special-font">{{ $t("banner.centre") }}</span>
         <br>
