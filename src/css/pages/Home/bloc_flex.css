@@ -7,7 +7,10 @@
 
 .blocflex-container-container{
     margin: 6rem 0;
-    background-color: #005387;
+    background: url('../../../../images/blocflexbg.svg'), #005387;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bloc-flex-container h2{
@@ -103,13 +106,20 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
     .grid-bloc-flex{
         grid-template-columns: 1fr;
     }
 
     .bloc-flex-container h2{
         font-size: 2rem;
+    }
+
+    .blocflex-container-container{
+        background: url('../../../../images/blocflexbgmobile.svg'), #005387;
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     }
 }
 
