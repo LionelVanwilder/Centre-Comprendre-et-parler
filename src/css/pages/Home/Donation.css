@@ -45,11 +45,10 @@
 }
 
 .donation-row .donation-content-wrapper span{
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -93,7 +92,7 @@
 
 @media screen and (max-width: 600px){
     .donation-row .donation-content-wrapper span {
-        font-size: 2rem;
+        font-size: 1.7rem;
         
     }
 }
@@ -112,7 +111,7 @@
     }
 
     .donation-row .donation-content-wrapper span{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .donation-row .donation-content-wrapper{

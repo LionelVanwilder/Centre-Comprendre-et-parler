@@ -29,11 +29,10 @@
 }
 
 .carousel-container h2{
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: #444444;
     text-transform: uppercase;
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -249,7 +248,7 @@
    
 
     .carousel-container h2{
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 }
 
@@ -260,7 +259,7 @@
     }
 
     .carousel-container h2{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
 }
@@ -271,6 +270,6 @@
     }
 
     .carousel-container h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
