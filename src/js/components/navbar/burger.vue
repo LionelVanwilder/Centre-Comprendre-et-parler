@@ -168,6 +168,8 @@
     .CloseMenu{
         position: absolute;
         right: 0;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
     }
 
     .menu-container{
