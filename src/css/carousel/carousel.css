@@ -28,6 +28,17 @@
    
 }
 
+.carousel-date{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: .3rem .6rem;
+    background-color: #005387;
+    font-size: 0.86rem;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+}
+
 .carousel-container h2{
     font-size: 2.5rem;
     color: #444444;

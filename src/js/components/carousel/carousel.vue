@@ -15,8 +15,8 @@
       <slide v-for="(item, index) in pages" :key="index">
         <a :href="'#slide-' + index" class="carousel__item" :class="'slide-' + index">
           <div class="container-news">
-            <router-link  :to="item.path" class="news-card" :style="{ backgroundColor: item.color }">
-              <span class="news-date" :style="{ backgroundColor: item.color }">{{ item.title }}</span>
+            <router-link  :to="item.path" class="news-card carousel-card" :style="{ backgroundColor: item.color }">
+              <span class="carousel-date" :style="{ backgroundColor: item.color }">{{ item.title }}</span>
               <div class="carousel__img-container">
                 <img :src="item.image">
               </div>

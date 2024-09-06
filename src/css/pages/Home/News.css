@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   background-color: #EBF5FF;
+   background-color: #ffffff;
     position: relative;
     margin: 6rem 3rem;
     
@@ -34,11 +34,10 @@
 
 .news-image-container{
     margin: 1rem;
+    position: relative;
 }
 
-.card-radius img{
-    border-radius: 10px;
-}
+
 
 .news-card{
     display: flex;
@@ -74,14 +73,14 @@
 
 .news-date{
     
-    margin-top: 2rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
     padding: .3rem .6rem;
     background-color: #005387;
     font-size: 0.86rem;
     color: #ffffff;
     letter-spacing: 1.2px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
 }
 
 .news-card a{
