@@ -7,13 +7,13 @@
             data-aos="fade-up"
             data-aos-anchor="#aosanchor"
             data-aos-duration="1000">
-                <div class="news-image-container">
-                    <p class="news-date">{{ formatDate(card.date) }}</p>
+                <!--<div class="news-image-container">
+                    
                     <img :src="getImagePath(card.image)" alt="News Image">
 
-                </div>
+                </div>-->
                 
-                
+                <p class="news-date">{{ formatDate(card.date) }}</p>
                 <h3>{{ getTitle(card) }}</h3>
                 <!--<p id="aosanchor" class="news-content">
                     {{ item.content }}
@@ -64,14 +64,6 @@ export default {
             return new Date(date).toLocaleDateString('fr-FR', options);
         };
 
-        const getImagePath = (imageName) => {
-            try {
-                return require(`../../../../../../images/${imageName}`);
-            } catch (e) {
-                console.error("Image not found:", e);
-                return '';
-            }
-        };
         const formatTitleForUrl = (title) => {
             return title.replace(/\s+/g, '-').toLowerCase();
         };
@@ -94,7 +86,6 @@ export default {
             formatTitleForUrl,
             formatDate,
             getTitle,
-            getImagePath
         };
     }
 }

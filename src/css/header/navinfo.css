@@ -16,7 +16,7 @@
 }
 
 #infosbutton:hover{
-    background-color: #991653;
+    background-color: #A90F4A;
     color: #ffffff;
     transition: .1s ease-out;
 }
@@ -24,12 +24,11 @@
 
 #infosbutton{
     background-color: #ffffff;
-    color: #991653;
+    color: #A90F4A;
     text-decoration: inherit;
-    border: 1px solid #991653;
+    border: 1px solid #A90F4A;
     transition: .1s ease-out;
     padding: .3rem;
-    border-radius: 5px;
 }
 
 
@@ -48,10 +47,10 @@
 }
 
 .activelang{
-    color: #ffffff !important;
+    color: #A90F4A !important;
+    text-decoration: underline;
     font-weight: 500;
     border-radius: 2px;
-    background-color: #991653 !important;
     border-radius: 5px !important;
 }
 

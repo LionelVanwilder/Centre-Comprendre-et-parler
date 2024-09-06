@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   background-color: #ffffff;
+   background-color: #EBEBEB;
     position: relative;
     margin: 6rem 3rem;
     
@@ -34,7 +34,6 @@
 
 .news-image-container{
     margin: 1rem;
-    position: relative;
 }
 
 
@@ -72,15 +71,19 @@
 }
 
 .news-date{
-    
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     padding: .3rem .6rem;
     background-color: #005387;
     font-size: 0.86rem;
     color: #ffffff;
     letter-spacing: 1.2px;
-    position: absolute;
-    left: 5px;
-    top: 5px;
+    padding: .3rem .6rem;
+    background-color: #005387;
+    font-size: 0.86rem;
+    color: #ffffff;
+    letter-spacing: 1.2px;
 }
 
 .news-card a{
