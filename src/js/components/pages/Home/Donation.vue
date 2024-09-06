@@ -8,7 +8,6 @@
             <div class="donation-content-wrapper">
                 
                 <span v-html="$t('homedonation.title')"></span>
-                <img src="../../../../../images/underline3.svg" class="icon-line" alt="ligne enfants">
                 
                 <p>
                     {{ $t("homedonation.content") }}

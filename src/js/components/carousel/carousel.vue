@@ -5,7 +5,6 @@
               >
               <div class="align-title">
                 <h2>{{ $t("carousel.title") }}</h2>
-                <img data-aos="fade-up" data-aos-duration="1000" src="../../../../images/underline.svg" class="icon-line" alt="ligne enfants">
               </div>
               
     <carousel 

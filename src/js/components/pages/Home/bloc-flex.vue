@@ -4,7 +4,6 @@
        
 
         <h2>{{ $t("blocflex.title") }}</h2>
-        <img src="../../../../../images/underline3.svg" class="icon-line" alt="ligne enfants">
         <div class="grid-bloc-flex">
             <div class="bloc-flex" v-for="(item, index) in bloc" :key="index" data-aos="fade-up" data-aos-duration="1000">
                 <img :src="item.source" class="icon-bloc-flex">
