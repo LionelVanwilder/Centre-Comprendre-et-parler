@@ -6,8 +6,6 @@ import axios from 'axios';
 import { createHead } from '@vueuse/head';
 import i18n from './js/lang/lang.js';
 
-
-
 import "./css/settings.css"
 import "./css/navbar/navbar.css"
 import "./css/navbar/navbutton.css"
@@ -28,35 +26,38 @@ import "./css/pages/programmes/programmes.css"
 import "./css/pages/programmes/content.css"
 import "./css/pages/Home/organigrammes/organnigrammes.css"
 
+// Création de l'application Vue
+const app = createApp(App);
 
-export default {
+// Définition de données pour la récupération d'actualités
+app.mixin({
   data() {
-      return {
-          actualites: []
-      };
+    return {
+      actualites: []
+    };
   },
   mounted() {
-      this.fetchactualites();
+    this.fetchactualites();
+    // Déclenche l'événement 'render-event' lorsque l'application est montée
+    document.dispatchEvent(new Event('render-event'));
   },
   methods: {
-      async fetchactualites() {
-          try {
-              const response = await axios.get('/actualites');
-              this.actualites = response.data;
-          } catch (error) {
-              console.error('Error fetching actualites:', error);
-          }
+    async fetchactualites() {
+      try {
+        const response = await axios.get('/actualites');
+        this.actualites = response.data;
+      } catch (error) {
+        console.error('Error fetching actualites:', error);
       }
+    }
   }
-};
+});
 
+// Utilisation des plugins
+app.use(router);
+app.use(createHead());
+app.use(createMetaManager());
+app.use(i18n);
 
-
-
-  
-  
-
-  
-
-createApp(App).use(router).use(createHead()).use(createMetaManager()).use(i18n).mount('#app');
-
+// Montre l'application sur l'élément avec l'ID 'app'
+app.mount('#app');
