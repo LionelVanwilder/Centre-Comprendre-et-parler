@@ -21,6 +21,12 @@ export default {
   NavBar
  },
 
+ mounted() {
+    this.$nextTick(() => {
+      window.dispatchEvent(new Event('render-event'));
+    });
+  }
+
   
 }
 
