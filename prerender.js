@@ -4,7 +4,6 @@ const path = require('path');
 
 const routes = [
   '/',
-  '/about',
   '/contact',
   '/Vision',
   '/Mission',
