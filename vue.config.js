@@ -1,27 +1,18 @@
-const { defineConfig } = require('@vue/cli-service');
-const PrerenderSPAPlugin = require('prerender-spa-plugin');
+const PrerenderPlugin = require('prerender-spa-plugin');
 const path = require('path');
-const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+const Renderer = PrerenderPlugin.PuppeteerRenderer;
 
-module.exports = defineConfig({
-  transpileDependencies: true,
-  publicPath: '/',
-  configureWebpack: config => {
-    if (process.env.NODE_ENV === 'production') {
-      return {
-        plugins: [
-          new PrerenderSPAPlugin({
-            staticDir: path.join(__dirname, 'dist'),
-            routes: [
-              '/' // Pré-rendre uniquement la page d'accueil
-            ],
-            renderer: new Renderer({
-              headless: true,
-              renderAfterDocumentEvent: 'render-event',
-            }),
-          }),
-        ],
-      };
-    }
+module.exports = {
+  configureWebpack: {
+    plugins: [
+      new PrerenderPlugin({
+        staticDir: path.join(__dirname, 'dist'),
+        routes: ['/'],
+        renderer: new Renderer({
+          headless: true,
+          renderAfterDocumentEvent: 'render-event',
+        }),
+      }),
+    ],
   },
-});
+};

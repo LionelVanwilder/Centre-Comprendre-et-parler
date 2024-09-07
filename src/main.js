@@ -37,9 +37,6 @@ export default {
   },
   mounted() {
       this.fetchactualites();
-      this.$nextTick(() => {
-        window.dispatchEvent(new Event('render-event'));
-      });
   },
   methods: {
       async fetchactualites() {
