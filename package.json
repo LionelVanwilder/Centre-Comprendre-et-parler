@@ -45,6 +45,7 @@
     "@supabase/supabase-js": "^2.45.1",
     "@vueuse/head": "^2.0.0",
     "axios": "^1.6.8",
+    "puppeteer": "^23.3.0",
     "vue-carousel": "^0.18.0",
     "vue-i18n": "^9.12.1",
     "vue-meta": "^3.0.0-alpha.2",
