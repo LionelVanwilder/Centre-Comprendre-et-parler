@@ -44,15 +44,19 @@ const routes = [
   const page = await browser.newPage();
 
   for (const route of routes) {
-    const url = `http://localhost:8080${route}`; // Change l'URL de base si nécessaire
-    await page.goto(url, { waitUntil: 'networkidle2' });
-    const content = await page.content();
-    
-    // Crée un fichier HTML pour chaque route
-    fs.writeFileSync(
-      path.join(__dirname, 'dist', `${route === '/' ? 'index' : route.slice(1)}.html`),
-      content
-    );
+    try {
+      const url = `http://localhost:8080${route}`;
+      console.log(`Pré-rendu de ${url}`);
+      await page.goto(url, { waitUntil: 'networkidle2' });
+      const content = await page.content();
+
+      const filePath = path.join(__dirname, 'dist', `${route === '/' ? 'index' : route.slice(1)}.html`);
+      fs.writeFileSync(filePath, content);
+
+      console.log(`Page pré-rendue : ${filePath}`);
+    } catch (error) {
+      console.error(`Erreur lors du pré-rendu de ${route}:`, error);
+    }
   }
 
   await browser.close();
